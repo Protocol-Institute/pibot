@@ -39,16 +39,29 @@ STATE_PATH   = Path(__file__).parent.parent / "data" / "sig_pages_state.json"
 SLEEP_SECS   = 0.6   # polite crawl delay
 
 SIG_CONFIG = {
-    "sigfpt":    {"display": "SIGFPT",    "path": "/sigs/sigfpt/"},
-    "mrg":       {"display": "MRG",       "path": "/sigs/mrg/"},
-    "sigpfb":    {"display": "SIGPfB",    "path": "/sigs/sigpfb/"},
-    "protfisig": {"display": "ProtFiSIG", "path": "/sigs/protfisig/"},
-    "sigpsy":    {"display": "SIGPSY",    "path": "/sigs/sigpsy/"},
-    "drg":       {"display": "DRG",       "path": "/sigs/drg/"},
-    "prg":       {"display": "PRG",       "path": "/sigs/prg/"},
+    "sigfpt":    {"display": "SIGFPT",    "path": "/research-groups/sigfpt/"},
+    "mrg":       {"display": "MRG",       "path": "/research-groups/mrg/"},
+    "sigpfb":    {"display": "SIGPfB",    "path": "/research-groups/sigpfb/"},
+    "protfisig": {"display": "ProtFiSIG", "path": "/research-groups/protfisig/"},
+    "sigpsy":    {"display": "SIGPSY",    "path": "/research-groups/sigpsy/"},
+    "drg":       {"display": "DRG",       "path": "/research-groups/drg/"},
+    "prg":       {"display": "PRG",       "path": "/research-groups/prg/"},
 }
 
-MEETING_URL_RE = re.compile(r"^/sigs/[^/]+/\d{4}-\d{2}-\d{2}-")
+# Pages moved from /sigs/ to /research-groups/ on 2026-10-10 (/sigs/* 301s).
+# Both prefixes are accepted so a cached or not-yet-regenerated page still parses.
+MEETING_URL_RE = re.compile(r"^/(?:research-groups|sigs)/[^/]+/\d{4}-\d{2}-\d{2}-")
+
+
+def legacy_key(url: str) -> str:
+    """State-file key and Pinecone vector id basis for a meeting page URL.
+
+    Vector ids are hash(url). Keying on the pre-rename /sigs/ form keeps every
+    existing id stable across the move, so pages are not re-embedded under new
+    ids with the old vectors left behind as duplicates. The vector metadata
+    still carries the live URL.
+    """
+    return url.replace("/research-groups/", "/sigs/", 1)
 
 
 # ── HTTP ──────────────────────────────────────────────────────────────────────
@@ -241,7 +254,7 @@ def run(sig_filter: str | None = None, dry_run: bool = False, force: bool = Fals
             time.sleep(SLEEP_SECS)
 
             chash   = content_hash(html)
-            prev    = state.get(url, {})
+            prev    = state.get(legacy_key(url), {})
             changed = (prev.get("hash") != chash)
 
             if not changed and not force:
@@ -258,14 +271,14 @@ def run(sig_filter: str | None = None, dry_run: bool = False, force: bool = Fals
 
             if not dry_run:
                 vectors = embed_chunks([parsed["text"]], vc)
-                vec_id  = chunk_id(url)  # stable ID: hash of URL
+                vec_id  = chunk_id(legacy_key(url))  # stable ID: hash of the pre-rename URL
                 meta = {k: v for k, v in parsed.items() if k != "text"}
                 meta["text"] = parsed["text"][:1000]
                 idx.upsert(
                     vectors=[{"id": vec_id, "values": vectors[0], "metadata": meta}],
                     namespace=NAMESPACE,
                 )
-                state[url] = {"hash": chash, "date": parsed["meeting_date"], "title": parsed["meeting_title"]}
+                state[legacy_key(url)] = {"hash": chash, "date": parsed["meeting_date"], "title": parsed["meeting_title"]}
                 save_state(state)
 
             if not prev:

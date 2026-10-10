@@ -211,7 +211,7 @@ WEBSITE_BRANCH = "c3po/auto-sig-pages"
 # was aborting every website-push attempt since the first one after c3po#1
 # merged (2026-08-07 daemon.log). generate_monitoring_page.py still writes
 # the file to WEBSITE_DIR for local viewing; git just never touches it.
-WEBSITE_PATHS  = ["sigs/"]
+WEBSITE_PATHS  = ["research-groups/"]   # was "sigs/" — renamed 2026-10-10
 
 # Files the daemon must never auto-commit: narrative/session-authored docs, not
 # routine state. Session work commits these explicitly, with a human in the loop.
@@ -329,7 +329,7 @@ def push_website_if_changed() -> bool | None:
     on the next cycle instead of waiting out the full interval.
 
     The website project sometimes makes its own presentation/formatting edits
-    directly in sigs/*/index.html. A direct push from here would lump those
+    directly in research-groups/*/index.html. A direct push from here would lump those
     in with an automated regeneration and could get them overwritten on the
     next cycle with no chance for review. Opening a PR instead lets the
     website side evaluate and merge each update on their own terms. This is a

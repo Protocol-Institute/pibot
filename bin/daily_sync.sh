@@ -56,9 +56,9 @@ echo "$LOG_PREFIX generate_monitoring_page.py done"
 
 # ── 8. Conditional website push ───────────────────────────────────────────────
 cd "$WEBSITE_DIR"
-if [[ -n "$(git status --porcelain sigs/ sigs.html monitoring.html 2>/dev/null)" ]]; then
+if [[ -n "$(git status --porcelain research-groups/ sigs.html monitoring.html 2>/dev/null)" ]]; then
     echo "$LOG_PREFIX Website has changes — committing and pushing..."
-    git add sigs/ sigs.html monitoring.html
+    git add research-groups/ sigs.html monitoring.html
     git commit -m "Auto: SIG pages + monitoring dashboard updated $(date '+%Y-%m-%d')"
     git push
     echo "$LOG_PREFIX Website push done"

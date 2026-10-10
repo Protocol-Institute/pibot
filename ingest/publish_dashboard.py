@@ -145,7 +145,7 @@ PATROL_MANIFEST = [
     {
         "source":    "SIG meeting pages",
         "namespace": "sig",
-        "targets":   "protocol-institute.org/sigs/ (published meeting pages)",
+        "targets":   "protocol-institute.org/research-groups/ (published meeting pages)",
         "cadence":   "Manual (after website deploy)",
         "script":    "sync_sig_pages",
         "status":    "active",

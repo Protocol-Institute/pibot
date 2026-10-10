@@ -24,7 +24,7 @@ from utils import meeting_ready, snowflake_date, MEETING_GRACE_DAYS, inline_mark
 
 MEETINGS_DIR = Path(__file__).parent.parent / "data" / "sigs" / "meetings"
 WEBSITE_DIR  = Path(__file__).parent.parent.parent / "website"
-SIGS_OUT_DIR = WEBSITE_DIR / "sigs"
+SIGS_OUT_DIR = WEBSITE_DIR / "research-groups"   # was "sigs" — renamed 2026-10-10
 
 GUILD_ID = "1082444651946049567"
 
@@ -131,7 +131,7 @@ def link_label(url: str, domain: str) -> str:
 
 
 def find_detail_href(sig_dir: Path, slug: str, date: str) -> str | None:
-    """Return the /sigs/<slug>/<dir> href if update_sig_pages.py has already
+    """Return the /research-groups/<slug>/<dir> href if update_sig_pages.py has already
     built a detail page for this meeting (dir name starts with its date).
 
     Without this, regenerating the archive list here would blow away the
@@ -140,7 +140,7 @@ def find_detail_href(sig_dir: Path, slug: str, date: str) -> str | None:
     if not date or date == "unknown" or not sig_dir.exists():
         return None
     match = next((d for d in sig_dir.iterdir() if d.is_dir() and d.name.startswith(date)), None)
-    return f"/sigs/{slug}/{match.name}" if match else None
+    return f"/research-groups/{slug}/{match.name}" if match else None
 
 
 def nav_html(depth: int = 1) -> str:
@@ -296,7 +296,7 @@ def generate_sig_page(sig_key: str, meetings: list[dict]) -> str:
         <p>{html_escape(description)}</p>
         {f'<p>{html_escape(description_extra)}</p>' if description_extra else ''}
         <p class="sig-meta">Led by {html_escape(lead)} &mdash; {html_escape(schedule)}</p>
-        <p style="margin-top:1rem"><a href="../sigs.html" class="back-link">&#8592; All Special Interest Groups</a></p>
+        <p style="margin-top:1rem"><a href="../sigs.html" class="back-link">&#8592; All Research Groups</a></p>
       </div>
 
       <h2 class="section-label">Meeting Archive &mdash; {total} session{'' if total == 1 else 's'}{f', {dated} dated' if dated < total else ''}</h2>
@@ -455,7 +455,7 @@ def main():
             index_html = html.replace('href="../assets/', 'href="/assets/') \
                              .replace('href="../css/', 'href="/css/') \
                              .replace('href="../js/', 'href="/js/') \
-                             .replace('href="../sigs.html"', 'href="/sigs"') \
+                             .replace('href="../sigs.html"', 'href="/research-groups"') \
                              .replace('href="../', 'href="/')
             out_index.write_text(index_html)
         print(f"    → {out_index}")
@@ -467,7 +467,7 @@ def main():
         sigs_html_path.write_text(updated)
         print(f"  → {sigs_html_path}")
     elif not args.no_index:
-        print("\nSkipping sigs.html (not found — website uses sigs/index.html)")
+        print("\nSkipping sigs.html (not found — website uses research-groups/index.html)")
 
     print("\nDone.")
 
