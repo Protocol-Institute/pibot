@@ -186,10 +186,10 @@ three other bots, but confirm in each codebase before starting).
 
 | Item | PIBot | Ribbonfarm oracle (vgr_zirp) | MoV oracle | Humboldt chat |
 |---|---|---|---|---|
-| 0 Probe + A/B harness | done | — | — | — |
-| 1 Date in user message | done | — | — | — |
-| 2 Streaming | done | — | — | — |
-| 3 Sonnet 5.5, thinking off | done | — | — | — |
+| 0 Probe + A/B harness | done | — | done (`bin/probe.py`, 2026-10-10) | — |
+| 1 Date in user message | done | — | done (with the excerpts-in-system cache fix: warm answer $0.14 → $0.03) | — |
+| 2 Streaming | done | — | done (first words ~2.4 s) | — |
+| 3 Sonnet 5.5, thinking off | done | — | done (A/B: 9.6 s vs 23.8 s median, cost flat) | — |
 | 4 Event awareness | done | probably n/a | probably n/a | candidate |
 | 5 Time-range filters | done | candidate | candidate | via PIBot's index |
-| 6 Rerank / self-history | done | — | — | — |
+| 6 Rerank / self-history | done | — | rerank done (`rerank-3` × source weight); self-history — | — |
