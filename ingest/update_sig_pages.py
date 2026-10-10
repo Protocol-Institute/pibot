@@ -3,8 +3,8 @@ Update SIG pages on protocol-institute.org following CONVENTIONS.md.
 
 For each meeting JSON in data/sigs/meetings/ that doesn't yet have a detail page
 on the website, this script:
-  1. Creates sigs/<slug>/<date-path_slug>/index.html (detail page)
-  2. Patches sigs/<slug>/index.html to add a link in the meeting-title for that entry
+  1. Creates research-groups/<slug>/<date-path_slug>/index.html (detail page)
+  2. Patches research-groups/<slug>/index.html to add a link in the meeting-title for that entry
 
 Detection: skips if ANY directory starting with the date prefix exists (handles
 cases where the website agent used a slightly different title slug).
@@ -28,7 +28,7 @@ from utils import meeting_ready, MEETING_GRACE_DAYS, inline_markdown_html, trunc
 
 MEETINGS_DIR = Path(__file__).parent.parent / "data" / "sigs" / "meetings"
 WEBSITE_DIR  = Path(__file__).parent.parent.parent / "website"
-SIGS_DIR     = WEBSITE_DIR / "sigs"
+SIGS_DIR     = WEBSITE_DIR / "research-groups"   # was "sigs" — SIGs renamed Research Groups 2026-10-10; /sigs/* 301s
 
 DISCORD_EPOCH = 1420070400000
 
@@ -243,7 +243,7 @@ def render_detail_page(r: dict, slug: str, sig_name: str, path_slug: str) -> str
     <div class="container">
 
       <div class="about-body">
-        <p style="margin-bottom:1.5rem"><a href="/sigs/{slug}" class="back-link">&#8592; {esc(sig_name)}</a></p>
+        <p style="margin-bottom:1.5rem"><a href="/research-groups/{slug}" class="back-link">&#8592; {esc(sig_name)}</a></p>
       </div>
 
       <div class="page-header">{date_line}
@@ -274,7 +274,7 @@ def patch_index_title_link(index_html: str, title: str, slug: str, path_slug: st
     """
     title_esc = esc(title)
     # Already linked? Skip.
-    href = f'/sigs/{slug}/{path_slug}'
+    href = f'/research-groups/{slug}/{path_slug}'
     if href in index_html:
         return index_html, False
 
