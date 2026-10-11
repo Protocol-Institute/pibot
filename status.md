@@ -1,6 +1,6 @@
 # PIBot — Status Log (internal name: c3po)
 
-## 2026-10-10 16:46 PT – 17:05 PT — Research Groups rename: PR #11 merged, VM switched over (session 59)
+## 2026-10-10 16:46 PT – 17:02 PT — Research Groups rename: PR #11 merged, VM switched over (session 59)
 
 The website renamed Special Interest Groups -> **Research Groups** and moved `/sigs/` -> `/research-groups/` (website `84812fe`; `/sigs/*` 301s). **pibot PR #11** (opened from the website session) makes the generators follow: `WEBSITE_PATHS`, `generate_sig_pages`/`update_sig_pages` output dirs and hrefs, `daily_sync.sh`, `sync_sig_pages` crawl paths. Reviewed: `legacy_key()` maps the new URL back to its `/sigs/` form for the state key and vector id, matching the VM's state keys (`https://protocol-institute.org/sigs/...`), so ids stay stable.
 - Held the merge until VGR pushed the website (the PR's own ordering rule); then merged, rebased the unpushed playbook commit onto it and pushed (`4e0b465`).
