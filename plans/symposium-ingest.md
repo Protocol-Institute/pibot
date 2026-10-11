@@ -613,6 +613,22 @@ straggler files without anyone remembering to run anything.
 - **No CTA drift.** "Watch the recording" is a call to action; "the recording
   is at <url>" is a fact. Same VOICE rule as the programme.
 
+### Recording status of the unrecorded items (VGR, session 60, 2026-10-11)
+
+40 recordings cover 42 programme items. Of the rest:
+- **No-shows, dropped from the programme** (website migration 057, `is_shortlisted = 0`):
+  Provenance Against Fluency (Lvovsky), The Physics of Relation (Kramer), After
+  Client-Server (Sharma).
+- **Never to be recorded:** Visualizing memory states in transformers (Ayse Demir
+  opted out of recording); her slides are archived. The 5 workshops were not recorded.
+- **Happened, presumably awaiting upload:** A Solar-Relative Time Protocol
+  (Paragonday; memory track), the Sept 24 Protocol Fiction items (Lubin, Nitkey &
+  Benny, Benny x2, Case), the remaining Sept 25 talks (Peddawandla, Kreutler,
+  Koerner-Safrata), and Artisanal Bots. When they appear on the playlist:
+  `sync_symposium_videos.py`, then `archive_symposium.py --website ../website`, then
+  protocolized-website `scripts/sync-symposium-archive.py`, and a row in the
+  website's `data/symposium-2026-recordings.json`.
+
 ### Open decisions for VGR
 
 *Both resolved, session 56:* recordings **are** resources, like any other
