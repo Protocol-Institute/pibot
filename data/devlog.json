@@ -239,6 +239,46 @@
           "html": "The pull request said the website had to go first: if the generator moved before the site did, it would find no <code>research-groups/</code> folder and rebuild the group pages from a bare template. The merge waited until the website was pushed, then the VM's copy of the site was reset to match before the daemon restarted on the new code."
         }
       ]
+    },
+    {
+      "id": 60,
+      "sort_key": 60.0,
+      "label": "Session 60",
+      "title": "An Archive for the Symposium",
+      "date": "2026-10-11",
+      "time_pt": "11:05 - 12:15",
+      "tracks": [
+        "corpus-ingestion",
+        "operations"
+      ],
+      "costs_usd": {},
+      "vector_counts": {
+        "total": 36528,
+        "symposium": 982
+      },
+      "deployed": false,
+      "items": [
+        {
+          "title": "One home for each talk",
+          "html": "Protocol Symposium 2026 now has a canonical archive: each talk's resource page on protocolized.io carries the recording link, the speaker's slides and papers, and a full transcript whose timestamps open the video at that moment. protocol-institute.org keeps the embedded videos on its programme page and links to those pages. Its own per-talk transcript pages, built by a separate caption pipeline, are retired, and each old address redirects. PIBot now owns the whole path, from ingesting the material to the data both sites publish from."
+        },
+        {
+          "title": "Decks become PDFs",
+          "html": "The slides folder holds whatever speakers uploaded: PDFs, PowerPoint, Word, native Google Slides and Docs, an HTML export, zips. A new laptop step, <code>ingest/archive_symposium.py</code>, turns each into a PDF, using Google's own export, LibreOffice or headless Chrome as the format needs. A zip with a deck in it publishes the deck, and one with only code and schemas publishes the cleaned zip. A one-slide placeholder that only links to slides on the web is linked, not copied. It reuses the deck sync's matching, duplicate and stub verdicts rather than deciding them again. Three talks given from custom web-slide players are printed slide by slide from their built sites, so the PDF is what was projected and its text can still be selected."
+        },
+        {
+          "title": "Contact details come out of the files",
+          "html": "Contact slides and paper title pages carry email addresses. Each one is redacted inside the PDF, so the text is removed rather than just covered, and the output is checked again. Twenty were removed. Five decks exported as images have no text to search, so they were checked page by page with Claude vision instead. None had contact details."
+        },
+        {
+          "title": "All forty recordings",
+          "html": "Two recordings had been waiting since session 56. One fetched normally. YouTube still would not serve captions for the other, but the website's old pipeline had cached them, so they were converted rather than fetched again. All 40 symposium recordings are now in the <code>symposium</code> namespace and have paragraphed transcripts split per programme item. The Opening Talk video holds three items, and its transcript is sectioned to match."
+        },
+        {
+          "title": "What the gaps turned out to mean",
+          "html": "Counting which items had slides, a recording, both or neither surfaced three talks whose speakers did not show. They come off the programme. Two other cases are now recorded as permanent: one talk was not recorded at the speaker's request, and the workshops were not recorded. The rest are recordings not uploaded yet, and the plan lists the commands that carry each one through when it arrives."
+        }
+      ]
     }
   ]
 }

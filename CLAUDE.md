@@ -96,9 +96,9 @@ Host: `https://c3po-1os2tli.svc.aped-4627-b74a.pinecone.io` (PI org account, mig
 
 | Namespace | Vectors | Notes |
 |-----------|---------|-------|
-| `discord_links` | 14,101 | Community-shared URLs, scored by Haiku |
-| `sig` | 9,169 | SIG Discord messages/summaries + .org meeting pages (`sig_meeting_page`) + audio summaries (`audio_meeting_summary`, `audio_meeting_section`); 8 SIGs: SIGFPT, MRG, SIGPfB, ProtFiSIG, SIGPSY, DRG, PRG (Personhood Research Group — audio only, no Discord channel), Intelligence Media (Discord only, no meetings yet; `sig_display` is the full name — session 57) |
-| `discord` | 6,005 | General + forum channels; starred msgs weighted 1.0×, unstarred 0.70× |
+| `discord_links` | 14,114 | Community-shared URLs, scored by Haiku |
+| `sig` | 9,205 | SIG Discord messages/summaries + .org meeting pages (`sig_meeting_page`) + audio summaries (`audio_meeting_summary`, `audio_meeting_section`); 8 SIGs: SIGFPT, MRG, SIGPfB, ProtFiSIG, SIGPSY, DRG, PRG (Personhood Research Group — audio only, no Discord channel), Intelligence Media (Discord only, no meetings yet; `sig_display` is the full name — session 57) |
+| `discord` | 6,006 | General + forum channels; starred msgs weighted 1.0×, unstarred 0.70× |
 | `videos` | 3,127 | YouTube talks (97 videos; whole-transcript Sonnet enrichment, full chunk text — session 56) |
 | `substack` | 1,287 | Protocolized magazine |
 | `pdfs` | 765 | 85 papers/essays (`sources/pdfs/enriched_meta.json`) |
@@ -107,8 +107,8 @@ Host: `https://c3po-1os2tli.svc.aped-4627-b74a.pinecone.io` (PI org account, mig
 | `discord_guide` | 80 | Scoped per [`plans/discord-guide-scope.md`](plans/discord-guide-scope.md): excludes transient/admin channels (MOD, Server Link Feed, introductions/bugs/announcements); archived-read-only channels embed once then freeze; SIG channels include cadence + next_event_time |
 | `meta` | 62 | Self-knowledge: 1 vector/devlog session (61 sessions) + 1 first-person self-history (`devlog__self_history`, from `config/self_history.md`; half-numbered entries 8.5 and 27.5 anchor as `#session-8-5` / `#session-27-5`); queried at 3 results max alongside all other namespaces |
 | `transcripts` | 62 | Bot conversation self-memory: web + Discord Q&A |
-| `symposium` | 956 | Protocol Symposium 2026: programme (`symposium_overview`, `symposium_block`, `symposium_session`, `symposium_workshop`), slide decks and speaker papers (`symposium_slides`, 52 Drive files all matched; 4 stubs), and recordings (`symposium_recording` + timestamped `symposium_transcript`, 38 of 40 — laptop-only; the last 2 lack captions, re-run `ingest/sync_symposium_videos.py`). Queries that name the event are answered from this namespace alone; see [`plans/symposium-ingest.md`](plans/symposium-ingest.md) |
-| **Total** | **36,452** | |
+| `symposium` | 982 | Protocol Symposium 2026: programme (`symposium_overview`, `symposium_block`, `symposium_session`, `symposium_workshop`), slide decks and speaker papers (`symposium_slides`, 52 Drive files all matched; 4 stubs), and recordings (`symposium_recording` + timestamped `symposium_transcript`, all 40 — laptop-only; re-run `ingest/sync_symposium_videos.py` after new uploads). Queries that name the event are answered from this namespace alone; see [`plans/symposium-ingest.md`](plans/symposium-ingest.md) |
+| **Total** | **36,528** | |
 
 Every dated vector also carries **`ts_unix`** (int, Unix seconds) and deterministic ones **`event_id`** (list), added session 58 for time-range and event filters; new vectors get both at upsert (`ingest/event_tags.py`). Not on `videos`, `discord_links`, `definitions`, `bibliography`, `discord_guide`. See `plans/event-awareness.md`.
 
@@ -135,9 +135,10 @@ Every dated vector also carries **`ts_unix`** (int, Unix seconds) and determinis
 | `ingest/sync_symposium.py` | Protocol Symposium 2026 programme → `symposium` namespace | `data/symposium_state.json` |
 | `ingest/sync_symposium_decks.py` | Symposium slide decks from the public Drive folder → `symposium` namespace (self-throttles to weekly under `--daemon`) | `data/symposium_decks_state.json` |
 | `ingest/sync_symposium_videos.py` | Symposium recordings (YouTube playlist) → `symposium` namespace + resource library. **Laptop only** — YouTube 429s the VM; re-run after new uploads | `data/symposium_videos_state.json` |
+| `ingest/archive_symposium.py` | **Symposium archive (session 60).** Decks → email-redacted PDFs (Drive files + web decks in `config/symposium_web_decks.json`), transcripts → paragraphs, manifest of protocolized.io resource pages; `--website ../website` writes the .org link data. protocolized.io is canonical: its `scripts/sync-symposium-archive.py` uploads to R2 and writes the pages. **Laptop only** (LibreOffice, Chrome/Playwright, caption cache) | `sources/symposium/archive.json` |
 | `ingest/generate_devlog_page.py` | Render devlog → D1 slug `c3po-devlog` | `data/devlog_page_state.json` |
 
-All run automatically via `bin/daemon.py` (c3po_listener), except `sync_symposium_videos.py`. Run manually with `--dry-run` to preview.
+All run automatically via `bin/daemon.py` (c3po_listener), except `sync_symposium_videos.py` and `archive_symposium.py` (laptop-only). Run manually with `--dry-run` to preview.
 
 After editing `data/devlog.json`, run `python3 ingest/sync_devlog.py` then `python3 ingest/generate_devlog_page.py` to republish.
 
@@ -208,6 +209,6 @@ D1's 100KB per-statement limit no longer caps it.
 
 ## Anthropic API key (changed 2026-10-07)
 
-c3po (being renamed pibot) now has its own key: `ANTHROPIC_KEY_PIBOT` in `protocol-institute/.env.keys` — service account `pibot`, Developer role, scoped to the PI workspace. `c3po/.env` already carries it as `ANTHROPIC_API_KEY`. **Rotated 2026-10-07:** the c3po API Worker secret (verified with a live `/query`), `c3po-vm.exe.xyz:/home/exedev/c3po/.env` (daemon + bot restarted; a backup `.env.bak-2026-10-07` holding the old key is still on the VM — delete it once confirmed), and the GitHub Actions secret `ANTHROPIC_API_KEY` (not yet exercised by a workflow run). Spend is attributable per key in the Console; `data/cost_log.jsonl` remains the local record. Plan: `Code/anthropic-key-plan.md`. Do not copy the old shared key into new files.
+c3po (being renamed pibot) now has its own key: `ANTHROPIC_KEY_PIBOT` in `protocol-institute/.env.keys` — service account `pibot`, Developer role, scoped to the PI workspace. `c3po/.env` already carries it as `ANTHROPIC_API_KEY`. **Rotated 2026-10-07:** the c3po API Worker secret (verified with a live `/query`), `c3po-vm.exe.xyz:/home/exedev/c3po/.env` (daemon + bot restarted; the `.env.bak-2026-10-07` backup holding the old key is gone, checked session 60), and the GitHub Actions secret `ANTHROPIC_API_KEY` (exercised daily by `sync-substack` since, green). Spend is attributable per key in the Console; `data/cost_log.jsonl` remains the local record. Plan: `Code/anthropic-key-plan.md`. Do not copy the old shared key into new files.
 
-**Follow-ups for the next session here:** (1) confirm the next scheduled `sync-substack` run (daily 08:00 UTC) is green — it is the first to use the rotated GitHub Actions secret (`gh run list --repo Protocol-Institute/pibot --workflow sync-substack.yml`); (2) delete `c3po-vm:/home/exedev/c3po/.env.bak-2026-10-07` (holds the old shared key) once that run passes; (3) c3po is being renamed pibot — when it is, rename the Worker secret/registry rows but keep key name `pibot`; (4) `data/cost_log.jsonl` records only input/output tokens, not cache read/write — add `cache_creation_input_tokens`/`cache_read_input_tokens` if prompt caching is extended to ingest (see `Code/anthropic-key-plan.md` §4).
+**Follow-ups:** (1)–(2) closed session 60 — `sync-substack` has been green daily on the rotated secret, and the VM's `.env.bak-2026-10-07` is gone. Still open: (3) c3po is being renamed pibot — when it is, rename the Worker secret/registry rows but keep key name `pibot`; (4) `data/cost_log.jsonl` records only input/output tokens, not cache read/write — add `cache_creation_input_tokens`/`cache_read_input_tokens` if prompt caching is extended to ingest (see `Code/anthropic-key-plan.md` §4).
