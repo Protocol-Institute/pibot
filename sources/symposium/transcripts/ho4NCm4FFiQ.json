@@ -1,0 +1,162 @@
+{
+  "video_id": "ho4NCm4FFiQ",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "the-book-as-a-protocol-stack-lessons-from-building-a-protocolized-book-productio",
+      "title": "Book as Protocol Stack: Building a protocolized book-production factory",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          3,
+          "I can't tell. Doesn't look like it."
+        ],
+        [
+          5,
+          "It was It was going, but there was no sound."
+        ],
+        [
+          10,
+          "Yeah, there's I turned that off. So, yeah, this is Rock'em Sock'em, right? So, moving on to a very specific implementation of stuff that I found this 14-year-old video of right from the moment when how books were produced was changing. So, this is when digital typography first took over. And you can see a bunch of happy people with what are probably well-paid jobs that they were probably pretty proud of putting books together. And that's the We're going to talk about the craft of book making and how it's always been factory factories and factories hanging handing things off to each other. Um, let's see. So, another thing we'll cover a lot is scrolls versus pages. That tension has never gone away. And uh the seesaw of it. So, I just I'm coming from two days of giving the workshop itself where we had the number varied a little bit, of course, but between, you know, three or four or five or six or seven or eight people at any given moment in the Discord talking about how to make a book, how to use the factory. And one of those folks, I'm not going to name them because I want that to be their choice, but there I think some of them are here right now and I'm going to give everybody a chance to kind of chat in a little bit about how the experience what the experience was, but one of the folks gave me this link to archive.org where you can see the pages of a physical book now back as pages, but also on as a scroll. Like, the whole thing goes back and forth. So, this is one of the themes that I've been thinking a lot about."
+        ],
+        [
+          117,
+          "Um and then this is this talk now presented as a set of slides that you could swim through. So part of what I've seen people do well occasionally is use Figma to give talks like this and they give the link and then in real time you can swim around in your own or you can hit a button and go back to what the presenter is actually presenting. So this is kind of a hybrid at the moment. They call this your sneak preview of what we're doing and where it's going to go. Um and we're going to talk about sort of the history of the book in the first half and then kind of dive into the factory in the second half. I'm not going to watch the chat in real time. I don't think my brain can handle that. So Timber if something pops up that would be fun to address, feel free to just sing out."
+        ],
+        [
+          163,
+          "And so with the book itself has this interesting history in terms of being a physical object which had this constraint of a like it needed to fit in the hand. So they tried a bunch of other things as we know, rocks and clay and all kinds of things. And then you know, we had this transition from the scrolls to the book. And this book, you know, codex was the early word for it. It just won. It's a really um well it's been hammered on for quite a long time as a physical object that works well for what it's doing. So um will physical print books go away 200 200 years from now? Who's Who knows if we're still here, but I feel like there's something strong about the physical form of a of a book that uh might win out. We'll see. And then the the other thing that was uh a constraint is the papermaking had, you know, they could only produce sheets of certain sizes. So then they started folding them and so you got a book that was a certain kind of size. So the this handoff uh from the papermakers to the printers but that but, a back and forth that's stabilized and landed on a particular place for a long time."
+        ],
+        [
+          238,
+          "And then the book page itself, I love this word, um, the furniture of the page settled early. Like the way pages are built hasn't really changed that much since they locked it in a long time ago. Um, Bruce Rogers was one of the early designers, but this stuff goes way back. Um, I didn't have much of examples, but you you've all seen like the manuscripts and the scribes and stuff, which all of this was an echo of. Um, and then this, I just want to I keep this in mind all the time, uh, when I think about protocols because in certain moods, I find them to feel like a straightjacket. And then in certain moods, I get it where except the straightjacket and within the straightjacket, you suddenly have all this freedom. So, this essential tension, um, is never goes away and I think the books are a pretty good example of that. So, uh, the 2024 awards, uh, up in Canada, there was this press that that runs these awards. And, um, I wanted to just make, you know, you you've all seen books, but have you actually thought about what the interiors look like? So, you know, standard book pretty much with, uh, margins and a page number, sometimes a little bit more information. And then, um, another example of book interior where, you know, these were award-winning books that made different decisions about how to handle headings inside. This one had a call out, you know, fun, no big deal, but but uh, it's the kind of choice that you make uh, inside the the structure of the front, the standard furniture of the page. And then the, um, chapter openers, uh, especially for fiction, people kind of let their hair down and have a lot of fun."
+        ],
+        [
+          340,
+          "Um, these were just two fun examples that were part of the award-winning, uh, books in 2024. And then another couple of examples of not quite so crazy, but also chapter openers where again, you know, you got choices. You can have a frontispiece for a chapter and a longer intro, that kind of thing. Um I think that's what I'm going to show there. And then the just to look back in time, the typography itself, um I happen to live near Springfield, Vermont, which is where they figured out how standardizing guns could make you uh help punch them faster. I I I didn't go back and look at the number the the times timeline again, but I'm pretty sure it's why the Civil War was so deadly. The Springfield rapid fire whatever whatever, you know, it was just a grim thing, but the uh type did the same thing and that meant that um people, you know, anybody who's played with letterpress, you know, these metal types are pretty fun. And um if you want to design books on the type on a page, having an embodied experience of putting type on a page, I do think I've done it and I do think it informs has informed everything I've done. So, um when I'm shoving type around in InDesign, if I'm in that mode, it I do my body definitely thinks I'm moving something around in meat space. I It's very fun and uh would never deny it. So, uh yeah, I did this. I did this. I did this. Um and people still do it, you know, it's one of those things that hasn't gone away. There are fun letterpress prints letterpress print shops around that have found businesses. Hobart's one, where you know, they do hand-printed letterpress printed business cards. There's a lot of it that still happens just for fun. So, way out at the craft end of the spectrum."
+        ],
+        [
+          453,
+          "And then uh I wanted to segue then into this idea of um the the the it's always been factory to factory. So, the person that wrote the book buried in this step is uh several other companies. So, you would have a publishing house, you would have a development and a uh acquiring editor, maybe a developmental editor. They settle on the shape of the manuscript. It's given to the copy editor, who then goes through and makes another pass cleaning up the Ps and Qs. Ps and Qs is a a phrase, by the way, from from this stuff cuz it was easy to get your P and your Q upside down. Um there's a whole bunch of language that's pretty common still. But then it went off to the compositor and that was often a completely different company. This is no longer uh this is you know, the digital era. The Linotype's era is uh what was more common. And the very first book I ever worked on was off of a digital compositor. So, we, the graphic designer and I, were handed a roll of of print off of a it was photo print. And it was the whole book in one long scroll, swear to God. And our job was to use a paper cutter to the designer had decided how many lines per page was going to be on the book. So, we cut the whole roll into, you know, 43 line pages, whatever the number was. It's usually 40, 42, 43. And then you you used a waxer on the back of it to actually mock up not mock up, layout every single page. It was an incredibly sort of tedious and silly. And yet that's how it was done right then."
+        ],
+        [
+          547,
+          "And um and then it all changed, right? Digital kept moving. So, I just wanted to mention that that a lot happened here. And then this was handed off to printer who does the pages. And often the bindery was yet another company uh comp- a factory company that did the the binding of the books. And then of course, you get the whole book trade. So, these factories have had to figure out how to hand off between each other for a long time. Uh this was a neat A lot of people I don't think still know about the what book signatures are. Um and if you're going to be thinking about a print book, um you had to actually know how many signatures were going to be in your book to get the page layout correct. Um so that the number of pages, blah blah blah, were all correct. Um I found this example. So yeah, you know, for a long time people have done books about their style guides. So this was an example of NASA's. So kind of meta, you know, a well a beautifully designed book. Massimo Vignelli, famous designer, when Helvetica first ruled the world. Um as you you know, the the design history is fun. Um but I also want to talk about, you know, the downside of factory. So this was um twen- uh 1917 in Louisiana. I found this picture on Wikipedia. It was a print shop and you know, some parts of factory work uh should should go away, right? Like it's pretty nasty. Unlike that the video that I started with where it felt like they had figured out how to make the work not not beat you to uh to a pulp."
+        ],
+        [
+          646,
+          "In 1917, they hadn't figured that out yet. This These were still really hard jobs. A lot of repetitive um tedious stuff. So yeah, you know, I was in graduate school when this happened. My first job while I you know, make a little money while I was in graduate school was jumping on one of these in a small critical thinking skills publisher. There were three of us that were already making books using these cute little Macs when they first started."
+        ],
+        [
+          674,
+          "[snorts]"
+        ],
+        [
+          674,
+          "Um and that's the leap where um it the the suddenly pre- the the part from um if I go back to this slide, the part from here to here gets suddenly collapsed in quite a big way. Uh and so then if you keep going, um well, the I wanted to pull this in because a lot of people don't still don't know this and don't know the importance of style. So, this book was a really big deal. Some of you may be old enough enough to know about it. And then my homage to CSS Zen Garden and Jeffrey Zeldman's book was this. So, on on the factory itself and I brought it over here is a font switcher. So, that, uh, in a quiet way, Zen Garden they did people did incredibly different designs. All I'm going to do right now is show you a different typeface. So, there's JetBrains. And it's the same stuff in different clothes. And this concept is a key to how to if you're going to use the a book factory, you have to get this in your bones. And one of the things that happened on Monday was even though I talked about it a lot, uh, people if if nobody's made you get it about the importance of style sheets, you actually don't until you somebody really makes you. So, that's that's been pretty fun to figure out and and think about how to convey if somebody's going to use the factory. The other piece here is the craft itself is wilting away, sliding away. I was part of Bookbuilders of Boston. I was one of the judges in their award thing one year. Um, so, as I thought about what a book factory would be, part of my what I was curious about is how much could I keep the traditions, keep the craft alive even as we accelerate the, um, the production, you know, collapse that manuscript to ready-to-print or never mind printing, you know, ePubs, boom, you've got a book."
+        ],
+        [
+          790,
+          "Um, so, things like I just wanted to show this one example in a book spread. It's really nice if the bottom two lines align. And if you got heads on a page, how do you make that happen? And it becomes just becomes a math problem. You have to decide the space below above and below a head somehow nets out to a consistent place. Um and so there's a whole document here which I will give you the link to, but uh the factory has its own uh typography guide that honors these traditions."
+        ],
+        [
+          820,
+          "Um and again you can break them if you want, right? But start with with what they are. This I wanted to bring in Venkat then cuz Venkat had the idea of a book factory. I had done helped him do the art of gig book interior um in '23, I think. And none of this existed then, of course. So and we were already exploring how to accelerate it and not have it have to be uh fully craft version uh production on InDesign. And so at that time we used Vellum. A bunch of you have probably played with Vellum. Really good job at uh narrowing the choices you had in order to be able to kick a book out pretty quickly that still had good a good uh craft feeling. So he did a blog post a lot of you've seen and um and that we've been working since then. So this is a quick map of um what it was from that earlier piece. And now we're we're getting to the factory per factory handoff. And these are the pieces inside my factory. I have another slide about that coming up."
+        ],
+        [
+          882,
+          "But but but it is the case right now if I have a uh uh let me keep going. I want to I want to make that point. Uh I decided to call it mise en place for now that um handing the factory part of a manuscript doesn't actually net you anything useful. Uh you know, you could give it a sample chapter to check things, uh get make sure you're in the pointing in the right direction. But the the actual pull of the book needs all the pieces there. You have to made 72 decisions about excuse me, about the book. Um so I wanted to keep playing with what's the way to help people understand that. This is the current I'm not sure if this works, you know, but this is the current version of what what the factory will do and what you have to do, you know, keeping that kitchen metaphor going. Um so, this is a glimpse of the current state of play of the factory's landing page, manuscript submission, where you have to button up and make the 72 decisions. Um It's [laughter] Yeah, we had an factory and I made this thing together and it it does have a sense of humor, I have to say. So, yes, it's a very tall page right now. This page is a tall page. I had to decide whether to have it be pages that you click through versus just scroll. And in the moment at the moment, it does seem like scrolling's the answer."
+        ],
+        [
+          963,
+          "Uh and then, let's see what else did I want to talk about here. Yeah, we're getting close to the end. So, I making a lot of use of GitHub. Everything from the factory gets backed up. I read these conversations where we talk about This was one big moment, a pivot. The factory had first told me, \"Yeah, Word was the only answer.\" And then, of course, a lot of people don't want to use Word, have Word. And um So, we we figured out we don't need Word. We just need people to use an editor that does honor style sheets, and there are 13 built-in to the factory, and then there's a way to have others that aren't standard. So, um system of you can have a markers where you can indicate things that um that aren't aren't part of the 13 standards. Uh and like Vellum, we have constraints, so your first choice is uh three standard looks to help you get started. And then, there's a sampler where you can pull down and print out and see what you what you want. This This is that craft factory tension, how much freedom to give."
+        ],
+        [
+          1029,
+          "And I really loved uh O'Reilly came up this morning. So, my factory and I on the fly, well, after Tim O'Reilly mentioned O'Reilly, we built this. So, O'Reilly the the publisher totally nailed a a protocolized publishing model with these this whole series. Really amazing and how recognizable within the constraints of the protocol, how much fun they were having with these these animal prints. And then the other example is what Metalabel is doing right now, where it's the absolute opposite. There's no no protocol at all. You know, people uh if you're doing meta a Metalabel, you can do anything you want. So, that was Nadia's book. This is another one that they did. Um and this this does not lend itself to the factory. S- uh and I So, I think there's a place for craft books to continue um kind of forever, you know. Uh this is just a this this continuum is worth keeping in mind as you think about what what is suitable to give to the to a book factory."
+        ],
+        [
+          1090,
+          "Um the factory will take your file, it runs an inspection. It in this case, uh it had things to look at, but none of them were worth fixing. They're all things that weren't quite to the protocol, but nothing that was going to break. And the factory is able to fix a bunch of stuff. So, part of what happened on Monday and Tuesday was we ran the factory. A whole bunch of books went through the system. We found uh a bunch of things where the mise en place needed to be fixed. Factory found things that it could fix. And because I was sitting in the factory while this was all going on, the factory could and the factory was monitoring what people were doing. We were able to fix it in real time. So, back to what Robert was talking about, you know, how are people using this stuff? This felt like I was from a future the future a little bit. It's not a place where I want to live. I I really believe really strongly in taking being able to walk away. I take I take big weeks off from doing any of this. But to feel the power of being able to pal up my my factory was pretty pretty interesting these last 2 days."
+        ],
+        [
+          1157,
+          "Um, you know, I'm not going to go into this is the examples about what the room taught the factory versus what the factory needed to teach the the people who wanted to use it. Um, yeah, and then the builds are just fast, you know, there's no question. If your mise en place is in place, uh, doesn't take long at all to get your get your book out. Uh, what the factory doesn't address is if you are going to do a a print, that's a just this whole own piece still. So, you remember this picture, the factory probably can have a piece that helps you understand what you need to do, get you pointed in the right direction, but also the factory's not trying to tell you how to upload your ePub to Amazon, right? So, there's a whole piece there where marketing distribution is still on the is still the job of the publisher. Let's see. Yeah, this is a screenshot of my current workflow. Uh, I I've seen uh many people say this like if the way you're do using this hasn't changed in the last 2 weeks, you're doing it wrong. You know, it's just been this fun year. I like a lot of people, I started back in December with the Christmas holiday when Anthropic in particular was just giving away credits, man. And I built some really big apps right off the bat where I didn't have to spend anything on tokens. You know, those were the days, my friend, because that's not true anymore. I I probably spent about 500 dollars on tokens for this. It's not bad, you know, when you consider, but uh it does it it's become a factor. I don't willy-nilly just build things now anymore. I don't faffo anymore. I only play around when I have a goal. And I also I just don't time right now for my for my own brain for messing around with the other models. If I don't get the answer I want in the first try, I've just wasted both those tokens and my time. So, for the moment, uh this is uh how many of you know what Exy Dev is?"
+        ],
+        [
+          1269,
+          "I'm going to assume, if you don't know, I'll explain it, but but they have their own harness, they have their own VMs, and inside their harness, I can make this a little bigger, you can use whatever you model you want. It helps you keep track of if your tokens are about to explode and you should either run a compaction or as most of us do, you know, give me a prompt that I can take to a fresh conversation. Tons of that. But the thing I added this right now for the building out the rest of the factory was a punch list. So, on this side is using Chrome's new split panels."
+        ],
+        [
+          1302,
+          "It's a live punch list that the factory is maintaining for me. So, I can drop in here, ask a question, or add give it a new to-do list. You know, once you're at the the nits stage of fixing things, you it can be pretty pretty messy keeping track of what it still needs to be fixed. So, this is pretty neat. I could feed things in and it could um keep track of them and then there's a way I could talk to it over here and these any answer punch comes back over. The punch list fed back to the into the main conversation. A lot of you probably read Robin Sloan, you know, um this is a pretty important piece for right now, which is you just have to imagine it and ask for what you want. And then in his piece though, he's talking about it's just building stuff for yourself. So, the factory is my chance to think about well, if I were going to share it with a bunch of people, what what needs to happen there? And the initial goal right now is to help Timber and James and Sachin build out a tool where Monsters Times and the Protocol Institute can use this to basically click click click and hand well-prepared clean manuscript and get print print-ready PDF and an via Um, badaboom, badabing. that's the that's the the uh that's the goal."
+        ],
+        [
+          1387,
+          "Uh like Polina, I have a uh the links that I used here and I think yeah, uh look at that, five 154. Go ahead, Timmer, take it over for questions. What what do people got?"
+        ],
+        [
+          1397,
+          "Yeah, we got um one question, which is do you have thoughts on how readers might be integrated into this nascent book factory approach?"
+        ],
+        [
+          1409,
+          "What do readers what what do they mean by readers?"
+        ],
+        [
+          1412,
+          "Uh for example, I've long wanted to be able to query a book I'm reading with a rag that's based on how far I am into the book. Jog me on like names, backstory, uh what I might have forgotten."
+        ],
+        [
+          1424,
+          "you could feed any ePub. It's uh under the hood an ePub is just CSS and uh XT X X XML. I think somebody one of the nerds on the team will will correct me. But um why wouldn't you just throw the ePub ePub is completely dissectible, it's kind of amazing. All right, you know, the other thing I wanted to do, I see Mike's here, Mike Casey. If anybody wants to who was in the workshop wants to unmute and just chat a little in the couple minutes we have left, that'd be super fun."
+        ],
+        [
+          1457,
+          "Yeah, what do you want to chat about? I mean, I think this thing's super cool. [laughter] I put uh some of my manuscript in and I love that it solves a lot of the pain points. I think um there was that quote you had from Flaubert, I think, around tying yourself down to a uh living like the bourgeois enables you to be a little bit more radical. I think uh tying yourself into the styles up front allows you to be a little bit more creative in the actual work, and so you spend less time on the formatting and ornamentation within the text, and um just focus on the content. I wish I'd done that before I started so that I don't have to clean up 7,000 Gremlins right now."
+        ],
+        [
+          1505,
+          "I love that point. But having people write like in notepad with zero formatting is one of the things I I do some consulting with an enable architecture firm and I've been trying to help their their engineers write reports better, faster, able to lead taller buildings. And I see them just digging around pardon my French in word formatting stuff when that that's not that helpful and that's not a good use of their time."
+        ],
+        [
+          1536,
+          "Yeah, it's it's kind of interesting like how how time consuming some of this stuff can be and how if you free up just even small percentages of that time, it's it's super valuable for people."
+        ],
+        [
+          1552,
+          "But I would never say it doesn't matter what typeface you use. You know, like I didn't show you but if I switch from a sans serif to a serif I don't know about you but for me that's it completely changes the meaning of the thing, right? So and then you go to other kinds of of sans serifs I'm a serifs. So I'll speak out of both sides of my mouth. I both want people to not worry about it a lot while actually believing it matters a ton what typeface you're looking at the thing and what clothes your words are wearing has a big effect, you know, I didn't have the example of comic sans but that is the classic nobody looks very intelligent if they put their stuff in comic sans."
+        ],
+        [
+          1593,
+          "Yeah, this is kind of like what um David was talking about in in his talk that like similar to naming style has like really strong implications for everything that happens afterwards. So as much as it is like taxing and time consuming it can be worth putting a lot of consideration into it."
+        ],
+        [
+          1616,
+          "I also wanted to say Mike's it was a good example the factory there was this fun push and pull with Mike's stuff with that with Mike I have some updates for you the factory and I were working on what what"
+        ],
+        [
+          1627,
+          "Let's hear."
+        ],
+        [
+          1627,
+          "What was its problem?"
+        ],
+        [
+          1629,
+          "[laughter]"
+        ],
+        [
+          1631,
+          "I don't have it on screen right now do I? No it wouldn't be very easy to show you but I'm going to send them to you but I had this screenshot ready I mean this this image ready for for people wanted to get into Timber got me going on swim lanes so now this is a graphic that shows swim lanes. Um What was I going to say Mike so yeah the the idea that the factory can learn from the people who are trying to use it you know it's both like edge cases all the way down and scope creep so at some point you draw a line but for everything we did on Monday and Tuesday from the folks that were there it all felt like good edge cases the factory should learn to accommodate and probably will be able to accommodate. We're pretty much at time though Timber so you know give a shout if there's any last thing otherwise I'll go through the the chat and see what I can answer."
+        ],
+        [
+          1685,
+          "Yeah go through the chat thanks for sharing and it was really interesting to hear about the like history of publishing and how things are changing today so thank you Jenna and our next presenter is actually humble one of our AI researchers and thank god I'm not sure how this is going to work but I'm I'm pretty excited."
+        ]
+      ]
+    }
+  ]
+}

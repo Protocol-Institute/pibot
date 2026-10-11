@@ -1,0 +1,278 @@
+{
+  "video_id": "_fX0oiYQ5kk",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "talk-venkatesh-blygger-ai-native-decentralized",
+      "title": "Blygger: AI-native decentralized, mutable publishing",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "Thank you."
+        ],
+        [
+          1,
+          "And uh next up we have Vancat talking about his new protocol that he's building."
+        ],
+        [
+          14,
+          "Just thought I'd flash this for a second since this is the series of articles I uh talked about, but I'll close this one. really excited about this um talk and um a [clears throat] little stressed. I'm used to giving a lot of talks but it's been like 25 years since I gave a talk on something I invented and built. Okay, let's start. So this was the abstract. It's called Bligger and AI native decentralized mutable publishing medium. All right, let's see where we are here."
+        ],
+        [
+          57,
+          "AI intertwic synchronic social publishing. I'll define some of those terms now. Intertwingled is a Ted Nelson term for um I don't know what his ethmology was, but intertwined and tangled all go together. One of our uh alumni Dorian Taylor, he's building a product called Intertwingler."
+        ],
+        [
+          80,
+          "So going back to the original visionaries of the web for inspiration. So, what's Blicker? Decentralized P2P AI native social publishing. Kind of a mix of blogging and Twitter. So, not a new experience. I'm trying to keep it as close to the old experience as possible. It's backwards compatible. It's um it degrades gracefully. So, traditional legacy RSS readers can read it and u not garble it. Uh but it won't be as good as if it were a Bligger native client. Some inspiration from Robin Sloan's Spring 83 protocol. and synchronic diarronic think of it as the tension between Twitter time and GitHub time or Wikipedia edits time right Twitter time is you have a thought you post it you might delete it uh but basically you never edit those things even though in modern Twitter um there's an ability to do that the medium doesn't really support versioned u writing over time with iterative development of content whereas GitHub is the opposite you write a program you edit it, you edit it again, you keep releasing versions, you have a change log that tracks how it evolves. So that's GitHub time. And Wikipedia articles on important topics also have that. You go to the talk page, you see the version history of how people have changed it and argued about it. And the uh last feature is it is AI native. So it uses generative AI at the block level. You'll see how I do that."
+        ],
+        [
+          168,
+          "All right. Ethmology. Uh Bligg is apparently Swedish for shy. I didn't know this. I was just looking for some word that sounded close to blog because I wanted to be very close to the tradition. Bligger becomes a hat tip to blogger. So, it's kind of nice. Swedish for shy as in like, you know, writers are introverts fundamentally even though social media has made many of us look more social than we are. Fundamentally, we like to go away and write in private, right? And it's kind of nice that in Bligger the stem of the word is yig. And it kind of reminds me of uh Idrasil, the Norse cosmic tree of life, which feels like a nice metaphor for uh a web of content. And of course, there's a practical reason. They're close to blog and blogger. And both the domains were available, not free as in like available. So I own blegger.org, which is the home for the protocol spec. You can go look at it. Uh this talk is on blger.org and blger.com. It's just a stub right now. It has a couple of the proof of concept BLGS u listed on it."
+        ],
+        [
+          234,
+          "Okay. Uh a little bit of philosophy. Um if you look at my post on what I called intelligence media, let's see actually I think I pulled it up. Um so I wrote this post on protocolized as an editorial on the idea that we should be moving from destination AI to intelligence media just like in um you know web 1.0 to around 1999 to 2000 we called it the destination web if those of you old enough to remember might remember that and you would go to a website browse it go away then social media happened the content came to you right and I think a similar u thing is going to happen to AI we're already seeing that like right now most people go to chat GPT and chat or go to claude chat agent AI brings the intelligence to your computer kind of want to run with that and I have a definition down here."
+        ],
+        [
+          291,
+          "Intelligence media are media through which intelligence flows from one locus to another primarily in disagregated forms that get further metabolized as they flow via interaction with shifting contexts corresponding to distinct loi. So keep this definition in mind. So think basically content moving from node to node in aworked uh medium and changing as it goes by being acted upon by intelligence that lives in the context of that node. All right. So that's what we are trying to do here."
+        ],
+        [
+          324,
+          "Oh okay. I have to get out again demo. [sighs] This is the stress case. Let's see how it works. Let me show you a couple of bligs. So this is my personal ble. It lives at the domain wenkates.com/bligg."
+        ],
+        [
+          338,
+          "As you can see, it looks pretty conventional. Here's my shopping list. Here's a little thread. I'll explain why I call it a thread. Here's a little um another thread, a reblog of um a regular blog. So, Bligger can read traditional RSS uh feeds, right? Let's click into one. So, this is me responding to this and there's a little comment about it. And as you'll see, it's actually generated. Let me show you a couple more features."
+        ],
+        [
+          369,
+          "This is in response to another BLG which is on the protocol institute one."
+        ],
+        [
+          377,
+          "So as you can see there basically nothing special about this on the surface level. Here's another BLG which is the protocol institute BLG. I just did this post with a little image from Dan And here you can start to see some other stuff. All right, here's a little running thread of uh little fragments of things I've been blogging about."
+        ],
+        [
+          405,
+          "Here are those fragments that I logged blogged about before. Okay, so this is what a big looks like on the outside and you can on the top right there's RSS. So you can subscribe to it and let's actually see if I can um where's my net news wire? So let's share a regular blog reader as in RSS reader where is wait why is it not letting me show okay for some reason it's not. Oh, maybe this will work. I'll just share my desktop. So, this is just a standard um RSS reader. And as you can see, this is the protocol institute BLG which I just showed you. But one of the things you'll see is there's kind of repetition, right? So, here's my little fragment from Sean's talk yesterday and here's u the same one repeated. So, what's happening here? because it's a traditional blog reader. It's not aware of the fact that I can do version control on it and roll things up. And in fact, it's showing the same thing here."
+        ],
+        [
+          491,
+          "Whereas, in fact, when I authored it, it was two different ones. The reason there are two versions is when I first posted it, I didn't link it to the description and then I added the link and republished it as an updated version, right? So, this one is newer than this. Um, yeah. And you can see this here."
+        ],
+        [
+          508,
+          "Here's my shopping list. shopping list. You can see it just shows the same thing. Shopping list, it's shown up thrice, but in each case it's the same. So, let me stop that. So, this is how it'll show up in a traditional RSS reader if you do that. Now, let's get back to this. Okay. Now, let's see how this looks different. Let's go to the editing interface of the Blink Studio. All right, let's uh uh just do a random fragment."
+        ],
+        [
+          557,
+          "Okay, let's do this. Um here's Dan's maze talk. Let me demonstrate something else here. I'm going to edit this and I'm going to say here I was saying Dan is giving a knockout talk on mazes and protocols. I'm going to change it to say just gave a knockout talk on mazes and protocols. And let me demonstrate another feature here. So many of you when writing you probably use um actually see if it works in this scope. Um, so there's an ungenerated fragment. So TK is common writer notation for I need to flesh this out later. So I just made a little thing here and let's generate it. I click that generate. So this is just using my cloud API account and it's generated it. And now you can see in the authoring inter interface my prompt is over here. And then this is what it has generated. Okay. So now I'm going to publish V2 of this."
+        ],
+        [
+          628,
+          "And what I'm going to do is uh I'm going to show you another feature which is um I'm going to pin this one because I've said something more. So I've pinned this. So this makes it irrevocably out on the RSS feed which means I can't uh uh revoke it. Uh let's continue editing it. Uh let me say I really want to see more maze."
+        ],
+        [
+          658,
+          "So I am going to so and I'm going to change this prompt and say let's regenerate this. I've changed my prompt here."
+        ],
+        [
+          679,
+          "Okay. So, you can see it's done it. And you can go ahead and change um the output and stuff without regenerating. But I'm going to publish V3 as well. And I'm going to pin this V3 as well."
+        ],
+        [
+          695,
+          "So, there are two pins now. So, let's go look what it looks like over here."
+        ],
+        [
+          701,
+          "Let me refresh this. This just got published. So now you can see the new text is over here. It's the old text. And now you can see there's these little notation that says there are previously pinned versions and I can cycle through them."
+        ],
+        [
+          720,
+          "So here it's the older thing and you can't see the first version because I didn't pin that. So pinning is an act that creates kind of like an irrevocable memor memorialized version of the article on the feed. And the reason this is useful to do is you can then you know make that the basis of like somebody else forking it and stuff like that. So I've illustrated a couple of features. Let me show a couple more features. Let's go back to the composer and let's go to here's a thread I did right. Uh let's edit this. So this I'll show you what I did here. So this is what you saw before. It had like three little fragments with my notes on three talks that I attended. Let's add another one there. So this is my transclude primitive. And since I just wrote this little note on um Dan's thing, I'm going to add that here. And you can see that this is fully transcluded, right? But I don't want the full translusion since it's a longer post. It's not a tweet. So, let's add a TK."
+        ],
+        [
+          794,
+          "So, in the scope of a trans uh of a TK operator, this transclusion operator will actually um instead of treating it as something to directly transclude, it will um make that input to the generator. So instead of showing Dan's um the full post now it summarized it as Dan's Schmid on MES and protocols blah blah blah. It's like you know tweet size description. So let's publish this and uh let's see I'm going to pin this one too. Okay let's go back and look at this. And the interesting thing is even though it was an existing uh post, it's now bumped to the top of a feed, right? And if I read it now, it's got four items here. And the fourth one is not shown in this quoted form because I actually did transcluded generation over here. Transclusion for those of you who are not familiar is um one of Ted Nelson's ideas that you pull content from another source and actually have like a birectional link where it keeps getting um updated and so forth. So those identifiers are global. They can be pulled."
+        ],
+        [
+          869,
+          "All right. What else can I show? Let's uh let's switch to my other blig."
+        ],
+        [
+          876,
+          "So this is subscribe to the other one. So let's look at my list of subscriptions and let's reync this and see if the new stuff has popped up. Okay, so the new stuff has come here. Okay, so now let me show you another thing. Uh, okay. So, I in that other blog, you just saw me post about uh Dan's talk. So, I I now want to kind of like do the equivalent of reblogging. So, I'll do I'll show you the stub action. So, now it's created kind of like a um reference point here from that. And I said um and I'll say something like this is basic markdown by the way. Um let's publish that. So this is kind of like a mention it uses um um let's see this should show up."
+        ],
+        [
+          934,
+          "Okay. So now it's you can see it says in response to protocol institute BLG it showed this um and it's kind of like permanently linked. I won't but I want to show you one other thing. Let's go back to our reading interface. And here this was the thread of stuff I did right. So there's another action primitive action you can do on this protocol called fork. And fork is only defined on um things that have been pinned one or more times. So I'm going to click here. And here it tells me that there are two versions of this document available. And I'm going to say, all right, I'm going to fork V2. And this time, something more interesting has um happened. It's actually pulled in the content directly, but this is like two layers. It's sort of nested and so forth, right? So, I'm uh picking this one and say, and the reason you might want to do this is when you want to like use a particular version of a document to riff off of um you don't want to track the dynamic thing. So, that's why the fork primitive is uh available. So something like um um I'll say something like at this point in the simp I was feeling very tired."
+        ],
+        [
+          1011,
+          "So now I have created a forked um version of an item from another BLG and I'm continuing to write with it."
+        ],
+        [
+          1025,
+          "Now, let's go back to the first blade, and it should soon [snorts] show up in the mentions. You need make sure it's synced. Uh, yeah, you can see that it's been mentioned. You can step back. This can get kind of like arbitrarily complex. Um but okay, what else can I show you? Let's um uh okay maybe I'll come back and do more demos after uh going through the actual conceptual part of the talk but hopefully some of what we are trying to do here is clear. Okay, that was the demo."
+        ],
+        [
+          1075,
+          "Okay, [snorts] so what's going on here? I mentioned the words diiacronic and synchronic. So diiacronic is time as a sequence of states. The changing is the point right like a git log a blog series of books editions or a change log. Synchronic is time as a present moment. You do a tweet it's living in the context of all the other tweets. Everybody's doing hot takes. This is kind of similar to suchin's idea of archival time versus u a carnival time which he spoke about earlier this morning. uh um we've chatted about it and I think neither of us is yet quite sure what the distinction is uh but two notions of time basically right and as you can see traditional social media it has a tension between the two kinds of time right it's it's really hard to do change log version stuff on something like Twitter on the other hand if you're working iteratively and like making hundreds of updates to something as you're like refining it would be really annoying to see that on a synchron ronic feed it'll be like you know version 1.1.8 eight, uh, you added a comma. You don't want to see that. You want to see major versions rolled up and maybe catch up once in a while, right? So, it's kind of hard tradeoff to manage."
+        ],
+        [
+          1148,
+          "So, uh, what are some aspects of why all this is hard? Um, [clears throat] threads are a good example, right? Threads are a synchronic medium doing an impression of a diiaronic one. And this is why on Twitter it was a mess. So, when Mark Andre first started doing them, so he called them tweet storms. People were annoyed because if you're composing a thread really fast, it u kind of messes up [clears throat] everybody's timelines. It's like you're like flooding the timeline. It's almost a DOS on a stream metaphor. But on the other hand, that is kind of the right way to do kind of like you know stream of consciousness um like blogging or something. And if many of us think that way and there were always two camps on Twitter when as this culture evolved and Elon Musk ended up hating it and he started doing longer posts. And in my opinion the move away from like short form posts plus threading to basically uh blog posts that live in the feed was a really sad loss because tweets are great, threads are great, blogs are great. You we need all three. we shouldn't like have to choose one or the other, right? But threads are clumsy."
+        ],
+        [
+          1221,
+          "And one of the things this is trying to do is try and do both um thread-like artifacts, nugget-like artifacts, and compose them flexibly while not having to choose between diiaronic and synchronic time. Uh another is editable tweets break provenence in a way that you probably don't want when you have a versioned artifact evolving. Um and you could s see that in the traditional RSS reader too, right? Like once I update a post, even if I bump it on the top of the feed, the uh traditional RSS readers won't be aware of the version history or try to roll it up or be able to like say anything meaningful about how it changed. It it doesn't have awareness of uh the ideas of pins or cycling back through pins and so forth. Um provenence breaks. Uh nobody reads change logs of course uh unless you're really forced to because uh GitHub um uh commit really broke the software and therefore you have to like do analysis and stuff like that and of course citations become uh hard. So this medium is partly a attempt to fix that but also of course partly an attempt to do AI right."
+        ],
+        [
+          1288,
+          "I should comment I don't know if Jenna is here maybe she'll have thoughts on this uh but one of the reasons books are still such a powerful medium today is books actually solve this by bringing in a third dimension they're very very slow right because editions are rare you might actually want to read a new edition of a book like if I released a new edition of my book tempo it's now been 15 years I think a lot of old readers would want to read read it but if I continued working on it for 15 years and like you know releasing a change log for every comma Nobody would want to read that, right? Um, but you can't run a conversation this way. And there are things that evolve much faster where you do want to have your cake and eat it too. Both dironic and synchronic time."
+        ],
+        [
+          1333,
+          "Okay. So, let's kind of like conceptually revisit what we did. A blig is fragments and threads. Uh, I should have shown you um this one. So, if you go to these are all public and live by the way. So if you go to um uh venkitesho.com/blig, you'll see this shopping list and you cycle back through it, you'll see older versions of the shopping list. So actually this is one way to use this feature like maintain a shopping list and pin the versions of the shopping list that you want and next time you want to go shopping uh scroll back through the pins and find the shopping list that most matches what you want. Maybe edit it a little bit or just use it and you have like a versioned shopping list document, right? So, uh, fragments and threads and I'm calling it a thread, but it only looks like a thread in the editor interface. In the reading interface, it gets like fully smoothed out, but there are still seams on the back end because at the block level, you have AI generation going on and transclusions and things like that."
+        ],
+        [
+          1391,
+          "See what else is worth saying here."
+        ],
+        [
+          1398,
+          "Okay."
+        ],
+        [
+          1403,
+          "Let me actually move. Okay. Sorry. I'm trying to like get rid of that thing. Okay. Uh transclusion. So transclusion is I already um showed you how I was using this. So this is the format uh exclamation point and then double square brackets and then you put in an ID. And the way it does is it searches local scope fragments first or threads. if it doesn't um and sort of generates a list and it also like anything you've like stubbed or included from an external BLG it'll also show up in scope so you can actually reference anything that's come into your feed or inbox either by yourself or by others. Uh [gasps] these things are snapshotted at publish. So even if the other blog or bick goes away you kind of get your get your copy. So it it's against bit rot to some extent and there is provenence under every quote. Um so editing the source latent doesn't rewrite the quote but you can actually go back and pin a new version and so forth."
+        ],
+        [
+          1467,
+          "Quoting across origins this is really new. I finished this feature yesterday."
+        ],
+        [
+          1474,
+          "Uh and I'm still [clears throat] kind of like developing my intuions for this. This is um it's hard. There's a lot of recursion and all sorts of crap going on. But the difference between the two mechanisms I showed you, a stub basically um it's kind of like a quote quote quote tweet or quot quote dunking kind of like approach whereas a fork is you're actually copying the content over and working with it further. And by the way, I'm using this protocol called a web mention. That's an update to things like um some of you are old enough to remember pink back ping backs and trackbacks uh which kind of failed around 10 years ago because they got too spammy. Web mentions are a little more sophisticated. You mention that u um the um you're using somebody else's content and that other uh source recognizes it and kind of validates it in a certain way. So web mention is a sophisticated form of ping backs and trackbacks. Okay. IDs are global. These are 128 bit hashes. So there's unlikely to be a collision. So you can just use a single global namespace."
+        ],
+        [
+          1542,
+          "Uh there's like expanding scopes. Uh and so forth. So this is more for like uh people who want to get into the nerdy details of the protocol. Uh some of these slide titles are kind of crappy that Lord made up. U but yeah, I I think I showed you this. Let me actually escape this again. Let's see."
+        ],
+        [
+          1568,
+          "Yeah, see this uh let's see. Has something been mentioned."
+        ],
+        [
+          1584,
+          "Okay. See if I can find a better one."
+        ],
+        [
+          1589,
+          "But yeah, the the web mentions kind of actually no they don't uh pile up. I have to approve them in the editor. Yeah. So these mentions so everything that's mentioned um I can show or hide."
+        ],
+        [
+          1601,
+          "So right now I haven't shown any of this. Uh but the slide what it's saying is a list never count simply means that I list all the mentions but I don't roll them up into um a number because that reproduces some of the patterns I don't like on social media like you know likes and stacks and uh quotes or something a vanity metric this is much more of a tracking mechanism for where is the conversation going like think of it as a very dynamic blog role uh at the node at the individual item level so you and kind of like keep a track of who you're in conversation with, but you're not necessarily rolling them up. But this is not this is my reference implementation. You can implement a client against this protocol that maybe rolls it up if you want. Uh that's your business, but I I'm trying to do it a slightly different way. Okay. So, quick um sort of sensem uh pause here. So, I've introduced a lot of concepts even though I've tried to keep it as close to the UX of Twitter and blogging as possible. Obviously there's a lot going on here that is a lot richer. So just to summarize BLG kind of a AI native complex descendant of blogs and Twitter uh an item which is the basic building block of this protocol. It's either a fragment or a thread and a thread is basically a complex fragment that includes other fragments via transclusions and so forth and then you can arbitrarily nest them. uh a fragment can't uh transclude other things. So I didn't want to like get into infinite regress. So I defined like a lowest level atomic unit. That's the fragment um idea I already mentioned. Versions are bare counters um decided against semantic versioning for reasons. There's reasoning in the protocol documentation."
+        ],
+        [
+          1710,
+          "A pin is an important u idea because there is this idea of withdrawal. You can't actually truly delete or unpublish in any decentralized publishing medium because once it starts propagating somebody else can you know capture it, stub it, quote it and so forth. So you don't want to pretend that there's a such a thing as deletion which a lot of decentralized protocols try to pretend it's a stupid thing to do. Uh but you can withdraw it as in you can stop publishing new versions and you can kind of deprecate the version history of the item. But a pin kind of is like the exception to that where you say, \"All right, this version is an important canonical um highlight version. So, I'm going to pin it and I'm going to make like a soft promise to always serve it, right?\" Um, and of course, this is within the context of if your website goes down or you get killed and stop paying your ISP, a PIN promise will be broken. But a PIN is a protocol level promise. Some more glossery transclusion. I already mentioned TK is the one I'm most excited about because it gives me block level control of generative AI instead of the way I've been doing it on Substack which is you know generate a whole damn post in a uh chat session and cut and paste it. It's really annoying."
+        ],
+        [
+          1780,
+          "I like this way. And once you add version control you can like update your prompts. You can do prompting for one block and handwrit another part. You can like wrap TKs around the whole thing and like smoothen the whole thing. I didn't show you that example because I'm still kind of getting a hang of it. You do stubbing and forking which kind of bring in some of the intelligent media properties I mentioned. And then yeah, web mentioned RSS backward compatible and so forth. How am I doing on time? All right. Um, I have a minute left. If you guys don't mind, I'll uh keep going a little bit since I'm the last talk. Feel free to drop off if you must. But okay. Yeah, TK is the uh thing I think that's most exciting and writers will be most excited about because this used to be hand annotation for yourself later. Now this becomes an instruction to uh u generative AI. By the way, AI never goes on the protocol wire. It's all studio side. So everything that travels outside once you've published, it's generated stuff. It's not prompts. Uh but it does have like provenence in the back end. doesn't declare in the front end but in the back end I I believe the spec specifies that it show tells you what model was used and so forth."
+        ],
+        [
+          1848,
+          "So here's um we saw some of this right. So this is uh one I'm writing on the protocol institute BLG these two um it's like a running list of like biology uh links I'm maintaining but here it kind of looks like continuous pros right and you can't tell from the outside which is why the term thread is not quite ideal but I'm still sticking to calling it a thread because in the back end it's u um threadlike right it's like stringing together multiple things yeah this is what it looks like in the editor Right. So that tinting shows you that um it's u uh transclusions and so forth. And there's client side stuff that the protocol is not opinionated on. But you can implement different protocol clients that do other things outside of the spec. And yeah, this is all just files. You can serve it. Uh the current reference implementation is a Cloudflare worker. I tried to get a Python version done in time, but I couldn't do it. But this is ultimately just a bunch of like markdown files and producing an RSS like feed. So it's very very simple at the bottom."
+        ],
+        [
+          1915,
+          "There's no database but you can put it in a database if you want because that's client implementation detail that uh the protocol is agnostic to the protocol has things to say about what goes out on the feed and the markup and what what it means. So it's still RSS. a regular RSS reader can subscribe and a BLG reader can subscribe to a regular RSS reader. Um, so it's kind of like a backward compatible but enriched version of RSS. If you subscribe to my BLGS uh through a regular RSS reader, it'll look ugly. It's not being rolled up and so forth. So, it'll look kind of noisy, but it'll still be readable. Uh, one important decision I made was I'm not going to deal with identity. So wherever you're serving your BLG, that's it. Protocol institute BLG is whoever has the admin access can publish to it. Uh I think you could make identity schemes ride on top of Bligger through like you know a tunneling type of protocol but I want to remain agnostic to it. I want to stay in the publishing zone because um that's a whole other talk why this is um one way to do it."
+        ],
+        [
+          1982,
+          "I am o open to changing that idea but [sighs and gasps] I have a strong opinion against adding identity to this protocol. Uh nothing is deleted pins are forever you can withdraw. So that adds an endcap and says this thread of version document evolution is gone. But you can't actually withdraw because it's a meaningless promise in a decentralized network. So this is something blue sky people kind of don't get and complain about endlessly. Forecasted people get but they have nothing interesting to say. It's one of those things where you have to educate people about the constraints of what decentralized protocols actually mean. Uh you can fork. So that's GitHub like uh I won't say much more about this. Uh you can read it if you want. Um so things that are not enshrined. AI is studio side. You can use whatever generator you want or if you hate AI, you don't need to use it at all. Identity is not in here. Uh there is no reply primitive. So I'm not using a reply kind of semantic. So in a way the core social act here is code dunking which kind of cracks me up because so many social media hate code dunking and I love code dunking. I don't dunk very often but I think it's actually a good way to carry on a conversation. Um so yeah, it's at version.3. You can read the spec on blger.org. org. Uh you can read the two live nodes. I haven't yet packaged it where anybody can uh sort of like implement it as a cloudflare worker. I'll be able to do that in like the next month or so. Uh but I'm not u kind of like making any promises till I get to 1.0. But I am looking for a few volunteers to maybe uh join me in uh playing with this very early stage protocol. And once it gets to 1.0, I'm going to start trying to procilitize and getting people to use it."
+        ],
+        [
+          2091,
+          "So TK is the big one for writers, transclusion, all those things, more geeky stuff that you know, people who use Rome might enjoy. Uh so there's some resources. Go to blger.org. It's all um MIT license and CC uh licensed and so forth. I'll stop here. And I haven't been following the chat, but I see a bunch of comments. Uh, anybody who's been keeping track, want to like call out some questions to me or if there are questions or comments or anybody just speak up."
+        ],
+        [
+          2132,
+          "Yeah, I'd say anybody just speak up. There's been quite a lot going on in the chat. Even I've been having a hard time keeping up."
+        ],
+        [
+          2139,
+          "What about um RSS versus XML? Did you take the whatever was pre-commodified or did you stop and think and chose"
+        ],
+        [
+          2148,
+          "RSS is XML? So [clears throat] RSS, I think the underlying data structure is XML if I'm not mistaken."
+        ],
+        [
+          2156,
+          "But RSS is what I was was looking for. You know, my Dave Winer reading. [snorts]"
+        ],
+        [
+          2162,
+          "I could be wrong."
+        ],
+        [
+          2163,
+          "Uh I haven't like looked too deeply at the detail. Those are like uh things Claude decided, but yeah, I'm kind of agnostic to that and we can like switch it around till 1.0. Uh the RSS backward compatibility and tunneling over RSS is kind of like uh I like backward compatibility but uh I'm kind of willing to torture it a bit. I don't want to break it entirely and define my own equivalent to or alternative to RSS but I am willing to like make it ugly in traditional RSS readers."
+        ],
+        [
+          2200,
+          "I was wondering if you considered sort of like a two-layered protocol where one was in each time scale and that or that like rather than mixing the time systems into a single protocol like having two protocols that can interoperate cleanly with with like clean transclusion. So you can like dunk on the you know the the the public feed but you know be working on you know some longer form posts with nice you know change history and change logs you know. elsewhere."
+        ],
+        [
+          2228,
+          "I think you can already do that. Like, so for example, if you wanted to run a BLG that's simply a single essay that you edit over and over again, do that. So, publish a BLG, write version one, edit it, make it version two, version three. It keeps going. People pin any versions that you think are historically important in the development history. And then this becomes a one-page static site with a little scroll thing that allows you to scroll through all the pinned versions. So you can use it that way or you can use it in extremely pure synchronic form. So it it basically gives you a knob to do that. So you can do either pure synchronic, pure diiaronic or some mix of the two. And when you mix it mix the two, the way it generates the or the way it consumes the feed that has both going on is it kind of like intelligently rolls up um multiple versions since you last read and like produces the latest version and so forth. So you don't see repetitions and so so forth. So not quite sure that answered your question, but I think what I'm trying to do here is have my cake and eat it too. So you can actually treat it as two separate protocols."
+        ],
+        [
+          2298,
+          "Yeah, I think there could be something interesting with with with sort of like micro clients that that handle each one independently or or let them cross reference in interesting ways because you like I I'll go to the web for a particular experience like going to a blog is different than going to Twitter and and and I might be looking for a certain kind of experience. Yeah, I I think this is flexible enough that you should be able to do a lot of different kinds of clients. I tried to really minimize things the protocol spec was opinionated on. Uh but yeah, my main thing was I like sometimes working on highly iterated um documents that I work on multiple iterations and polish to a high finish. Other times I like posting, right? and uh I shouldn't have to choose and I like doing fine grained AI usage. So, it's kind of uh um yeah, I'm trying to have it all here, but I do want to like reference a part of history. When Rome came out, I was super excited and I bought the 5-year plan and I just renewed. So, I'm on Rome and there was this whole movement of content gardens on Rome. Um but Rome never actually satisfactorily solved the diarronic synchronic thing. So they do have daily log kind of stuff that they try to encourage but it always felt janky to me. So there's people who use Rome in a very daily log way and other people who kick time out altogether and they make Rome graphs that are basically atemporal. Uh I use Rome entirely in an atmporal way. I don't use the daily log type notes. I only use it as like a big content graph. And a lot of people who used Rome that way, they did the whole content gardening thing where they basically decided to give up on time."
+        ],
+        [
+          2404,
+          "What I wanted was the Romelike experience with time added back in in a way that's, you know, consumable in a synchronic sense. The world moves on. You're working on a big ambitious book or a big ambitious essay perhaps, but you want to work in public, show people new versions, uh, respond to conversations as they arise around your book topic. So, uh, yeah, I I I don't know how well this manages the tension, but yeah, that's what I'm trying to do here."
+        ],
+        [
+          2440,
+          "More thoughts. Anybody immediately want to volunteer to use this?"
+        ],
+        [
+          2451,
+          "I'll"
+        ],
+        [
+          2451,
+          "throw one on an XCVM Vette. Yep."
+        ],
+        [
+          2456,
+          "[laughter] Right. I have one sign up, Jenna. All right. Nathan is complaining that I'm violating the sacred sank um contract that TK represents. So TK normally represents a contract with yourself in the future that you will do this and I am really really happy that I'm profaining that sacred thing because I think you really cannot do any kind of innovation unless you're willing to violate some sort of sacred value. My sacred value over the last year has been I um am the opposite end of like being apologetic or trying to hide AI use. I'm like um I don't know flagrantly advertising it and I love being kind of like confusingly AI plus human authored. A lot of people are kind of hating on me for it. But uh recently I even stopped marking my substack posts as this is AI generated. Now I kind of like say just assume everything is some mix of generated and human and if you have a problem with it don't read me and I'm becoming an extremist on this point. So TK doesn't necessarily have to mean u u generated uh if you want to use it in the oldfashioned way just don't put anything between the uh markers right you can either just put in TK like you used to or you use the square back rotation but you don't put in any um text inside so there's no prompt and there then it becomes like a prompt to yourself right so uh you can still use TK the old way but this is about looping in AI via the TK thing. And you can edit what's inside the TK, by the way. Like, you know, once it's generated, you can actually just edit that text."
+        ],
+        [
+          2565,
+          "Any more thoughts?"
+        ],
+        [
+          2569,
+          "Lots of stuff about Obsidian. Don't know if you want to address that. I haven't used uh Obsidian at all since I had the big 5-year subscription for Rome. I was like, it's close enough. I don't care. Uh but yeah, welcome thoughts from people who are uh big on Obsidian and uh what whatever the Emacs thing was that it kind of like tries to mimic."
+        ],
+        [
+          2594,
+          "But yeah, I'm excited about this. And the important thing is this is the medium I wanted for myself. So I kind of built it the way I wanted. And the test of it is can I get into flow while authoring in this interface and I'm starting to like when I try doing this bl it kind of works for me. I can naturally inflow write I can leave fragments for myself weave them in leave TK notes um delegate a little block to AI and so forth. So it's it's actually fun to author using the Bligger interface. But uh yeah, if uh no more questions, I'll stop there and thank you all and um reach out to me if you would like to be an early Bligger user."
+        ]
+      ]
+    }
+  ]
+}

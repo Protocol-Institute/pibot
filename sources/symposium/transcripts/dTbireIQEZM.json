@@ -1,0 +1,150 @@
+{
+  "video_id": "dTbireIQEZM",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "talk-jesse-entrenching-privacy-through-sp",
+      "title": "Entrenching Privacy Through Speech",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "another what's going to happen if you have a steady state economy with fixed amount of point a fixed amount of chores but that's implementation detail that I don't want to bore this group with so maybe another time yeah if you have more questions hit me up"
+        ],
+        [
+          10,
+          "yeah thanks Daniel that was that was great and um yeah lots going on in the chat still so we can we can see those questions get answered and up next we've got Jesse for the next half hour or is yours"
+        ],
+        [
+          25,
+          "hello everyone uh really happy to be here thanks for having me um I've attended a a lot of talks at summer of protocols. It's actually where I met my now close friend, advisor, and co-author Eric Alston. Um, so it's I feel really really lucky to get to participate in this capacity. Um, today we're going to be talking about uh our work at Speech Without Borders, which is a 501c3. And let me just uh share my screen real quick. We'll start walking through it."
+        ],
+        [
+          85,
+          "I'm not sure how to collapse the video. Are you seeing Timbers's feed?"
+        ],
+        [
+          93,
+          "Uh, yeah."
+        ],
+        [
+          94,
+          "Yeah. I don't know how to get rid of Timber. You're"
+        ],
+        [
+          98,
+          "Maybe if you tap on kind of like the side of the video near where I'm pointing."
+        ],
+        [
+          103,
+          "Yeah, it just keeps taking it away. It just keeps taking me out of that screen here. I'll uh sorry for the technicals."
+        ],
+        [
+          121,
+          "Ah, there we go. Oh, got you back. Uh, Timber, you might just be highlighted in this one, buddy. I'm not sure how to get rid of that. Is it okay if we continue?"
+        ],
+        [
+          133,
+          "Yeah, no problem. Okay. Uh yeah, so like I was saying, speech without borders is a 501c3 um with a mission to uh support support the development and distribution of censorship resistant technologies and policies. Um so very briefly, um I spent a lot of a lot of my time over the last number of years building social protocols. Um we were building infrastructure to help decentralize social media. um sort of the the supportive substrate for a more open and interoperable internet um in those social areas aggregating social graphs and things and things like this. Um I want to disclaim at the beginning because of the audience um I am not an author and an I and I'm not an academic."
+        ],
+        [
+          181,
+          "I'm not I'm also not a lawyer. Um, but we're going to be talking about some legal analysis and I'm going to try to keep this um at a at a high level, at a conceptual level and point to some of our research for deeper for deeper reading. Um, so this doesn't turn into a snoozefest of just, you know, lists of lists of case law that we're referencing. Um, so one of my personal goals is to see how much of Eric's work I can distill into one project as it's really difficult because he's so because he's so prolific, but you can find more uh of his work at at a new website that we've published uh called incomplete rules.com. So the the inspiration for this project uh that spark was that spark came out of Devcon last year which is an Ethereum conference that happened in Argentina. um where Danny Ryan made a comment about how difficult it had been to find partners, institutional partners for Ethereum that cared about decentralization until he reframed it as the elimination of counterparty risk."
+        ],
+        [
+          248,
+          "And it was such a it's such an obvious thing that like of course messaging should be adapted to suit intended audiences. Um but in the way that he expressed that and because of the emphasis in the past year or two on the importance of privacy suddenly uh you know privacy is is is more important than it has ever been to more people in a way that is is really uplifting and I love to see. So I immediately drew that parallel and spoke with him about this to suggest like hey maybe we could reframe privacy in a similar manner and I'll explain my intuition behind this in in a moment. So um the goal though was really only to offer this as an idea. After all this organization is not called privacy without borders. Um but privacy is so entangled with free speech as this prerequisite for expression and association um that what what was intended to be a brief memo as just like a throwaway idea to hand off and then continue continue with with the focus of my work um turned into something much larger and uh and frankly a lot more interesting."
+        ],
+        [
+          318,
+          "So what I'm going to try to do is uh the struct the structure of this talk will parallel the structure of this paper which actually becomes a bit of the conversation itself and and about the nature of how I how I engaged with this research and writing um which very quickly outran my competence. Uh so this is about um this is about chasing my intuition and narrating the process of learning more than it is about speaking uh on anything as any type of authority what's whatsoever. Um and and so I'll point you to the paper for for more uh for for a deeper read if you'd like. But the the purpose is really to give a high level conceptual overview in part one of the paper two to three minute read uh just a conceptual framing of of why privacy is important in this context and how this reframing could potentially help. And then part two is not meant to be read by most people. It's uh it's intended to serve as something that an LLM a model can ingest and then use as a foundation to craft messaging on top of."
+        ],
+        [
+          386,
+          "So, one of the things that I was really struggling with as I was trying to prepare this memo is just um you know it was rabbit holes to rabbit holes to rabbit holes that turned into a labyrinth of things that was really difficult to untangle. And uh and so the intent with this research is to serve as as sort of an a bit of an index um pointing to to more work in in all of these different areas. So our our work focuses on Ethereum because that was where the idea was conceived and it also is an excellent illustrative use case for how privacy technology more broadly should be recognized and protected in our from our perspective. So uh there are three levels of analysis and three independent sort of or uh consecutive arguments that we make um from the most conservative to the most ambitious and we try to be candid about this where uh where we think concepts are are fundamentally well wellounded but maybe yet untested which is so much of law around technology and especially crypto."
+        ],
+        [
+          453,
+          "I do want to say before we move on that none of this is to presume that privacy focused projects should adapt this messaging as superior to anything that they're already doing. Uh if you are working on a privacy focused protocol or project, it's sometimes very appropriate to lead with privacy because uh say like a a banking partner might care about concrete specific transactional privacy. They don't care about the softer squishier you know values around that. when we talk again about the difference between like decentralization as an abstract concept and the elimination of counterparty whis risk as a as a very tangible benefit. So this coincides with uh with the Ethereum Foundation's uh publication of the of the of crops and the mission and the and the mandate um which was really a commitment at a protocol level to prioritize things like privacy and and censorship resistance and security. So you can read more about why we should not wait to rely on any type of regulatory change. Um, you know, it is unlikely that the government and powerful business interests will allow us to have uh a a solution or improvement in policy because of something that Eric and Sophia refer to as the institutional privacy dilemma."
+        ],
+        [
+          535,
+          "Um, fascinating stuff. It is uh a big point of inspiration for a lot for a lot of this work. It's basically just the the TLDDR is that it's adverse to their interest. It's not it's not complicated."
+        ],
+        [
+          549,
+          "So um another another thing that I've been thinking a lot about a lot um in terms of our larger goals with speech without borders is how law and code can be used in mutually reinforcing manners in a way that is is sort of like coming back around to reconsider something like Les's uh code is law. um understanding that like okay well it's not it's probably not realistic to think that contract law can for example be sufficiently comprehensive that we can foresee every different way that a contract could be broken or that an agreement could could break. Um paper promises are brittle and uh making these commitments more credible and durable by encoding them um is is really is really valuable but realizing where they can each be most effective and like I said mutually mutually reinforcing is a big is a big point of focus. So where where decentralized technologies are so important is that we can we can encode values in ways that commitments are not often otherwise taken that taken that seriously because we see them broken so often."
+        ],
+        [
+          622,
+          "Um tornado cash is something that I'm not sure how much to cover at what depth. Um it's a bit of an unknown audience for me in this way uh in terms of like uh how cryptonative many of the people here are or not. Uh but at a but at a very high level we have something where uh a decentralized protocol um was subject to regulation by enforcement in in a way that had a a really strong effect on other people's willingness uh to write open source software. um fearing they might be prosecuted for things that were not explicitly or even clearly illegal. Um so this is this is something where when there are no trusted operators um where does accountability point next and um it seemed to be a matter of like what was most expedient and convenient for uh powerful interests uh that people have to consider um if they can afford to bear the consequences if they're not afable to afford the price of justice."
+        ],
+        [
+          688,
+          "you know, we might know that open source software, we can make compelling arguments for wh why it should not be illegal and why we should not be punished for publishing code. Um, but people might end up in jail regardless. And that's a and that's a real shame. So the thing that we saw is that lawful uses fell alongside illegitimate uses which in large part just shifted to other tools and even remained on the immutable contracts that run that run the tornado cache protocol. So where Ethereum is making a commitment to these values around privacy and censorship resistance the this is this is brave and it's dangerous because again where does where does that focus shift where can where can where can pain be inflicted and points of leverage exert ex where can force be exerted on points of leverage. So getting to the getting to the point, what's the premise of her work? Um the idea is simply that privacy advocacy might benefit from the way that privacy is already litigated in the United States as a prerequisite for expression and association. And that is worth unpacking a little bit to say that we don't have an independent right to privacy in the United States. And that's a real shame. It's a failure of our go."
+        ],
+        [
+          777,
+          "It's a failure of our government and we deserve better than that. So, you know, pursuing independent rights to privacy on its own merit is really important and I I don't I want to make sure to be clear not to diminish privacy or to make it subservient to speech or association, but it does currently borrow its strongest rights from those others. And there is a silver lining in that because where privacy has it's a it's a difficult value proposition as people have told us over and over that they don't value it. They're not buying it. They make other choices that are counter to their interests when it comes to privacy. Um but we can we can propose a shift here to reframe this messaging to say hey people are already conditioned to value and accept speech free speech as bedrock American values and if privacy is a prerequisite to speech then we can stop talking about privacy in some contexts and talk about building instead infrastructure to support expressive freedom. So that's that's what all of this work is intended to support is this premise and the the effort went into seeing how well that holds up and where the boundaries are and what can be gained by adopting this messaging and reframing privacy advocacy in some contexts."
+        ],
+        [
+          862,
+          "So I I should say that um getting into the specific arguments now the the first analysis is really just that some activities on Ethereum are obviously expressive. Um these arguments are well understood well and widely understood. You know you can you know you can fund a political cause. You know you could participate in a in a in a DAO a decentralized organization where people come together around common interests. Obviously that there's associative implications there. Um and then moving on um we we get to some really more interesting things to me that I have not heard um well and widely enough articulated. This should be a mantra but we have a parallel here in the internet and the way that the Supreme Court refused to regulate it in a way that would restrict innovation in the early days of the internet. Um the Supreme Court determined that any regulations they imposed today would likely be out of date tomorrow. Um not knowing how quickly and in what directions things are going to continue to develop. Um and so they looked at the at the capacity to support expressive freedom rather than uh using like some type of proportion measure of proportions in terms of like what might be a general use or in Ethereum's case financial use versus expressive use. But if we think about Ethereum in terms of its capacity to support expressive activity, we have to look at at the fact that it is touring complete and able to run comp. It's able to do computation in ways that are undefined and undefinable. Um not it's not just more of the same applications that we're going to see at a faster pace. Um it it is entirely new kinds of things that we would we would all we would all lose if we if the rights around rights around these things were restricted."
+        ],
+        [
+          988,
+          "Um there's also this concept of entanglement which I think is is is a good one too. um the idea that it's very difficult to propose that we might be able to pull apart um the and and categorize the different types of activity that happen on Ethereum without engaging in exactly the type of surveillance that our constitution is is supposed to prohibit. Right? So if we can't sort activity into different categories um because of the architectural limitations of how that analysis would need to be performed, what are the implications for uh the type of surveillance that is permissible or should be prohibited in order to determine those things? And this is where we get into some open questions. I want to be really candid about that. But I think these things are worth asking and not just in a courtroom because many of the points that I'm raising these are well understood by lawyers. Um but I think that there's value in talking about these things conceptually as as lay people as all we're all stakeholders in these issues."
+        ],
+        [
+          1060,
+          "Um and I want to emphasize that this is not just about Ethereum. Um it makes an excellent first use case because it can serve as the infrastructure for so many things that can be unlocked on top of it. Um and other things entirely. Um but it has a lot of qualities which make it like the best test case one of the best that I can imagine in terms of like well look there there are no middlemen. There are no there are no centralized actors to put these burdens on. And we should not invent middlemen uh to to create obligations out of thin air that burden people that really really have no respons no responsibility and should not be held for liability in ways that don't even don't even make sense. It's it's hard to reason your way through how how that could work. Um so I think uh privacy of thought and augmented intelligence are two areas where we would most like to extend our analysis to see that if for example if privacy is currently receiving its strongest protections through speech and association well as a prerequisite for speech what happens to pre-expressive thought we don't we don't know we don't we don't have guideposts for these things But performing analysis and you know doing additional research in these areas I think is really valuable in ways that um you know uh like AI safety is underfunded. This is this is an area that I I think merits a lot more research. Um, and from conversations that I've had with people at conferences in these areas generally related to AI and augmented intelligence, I have only run into one person who is uh passionate and and has deep expertise in this area and is as actively working on it and and and that's that's a problem that I just I just want to highlight in case anybody else is out there um who has interest or expertise in these areas, I would very much like to talk with Um, also want to mention briefly this that a lot of this is as I said before about chasing my intuition which quickly outruns me in terms of my ability to speak with any type of you know confidence rooted in competence on these subjects. I'm only using these powerful new technologies to get to the point where I'm able to ask better qualified questions of of people with a lot more experience and expertise that I'm trying to distill and disseminate to distribute the information that has is passing through me because I'm digging for it."
+        ],
+        [
+          1222,
+          "Uh not that there's any novelty or value to my own thoughts in this work. Um so that's a that's a that's a big area related the the next big area that I am sort of feeling compelled to research is I have this idea that we might have a path a viable path to assert an independent right to privacy um through a better reading of current law. And that's important because as we discussed just a few moments ago, it's unlikely that we're going to get policy reform. So if we can interpret existing law in a way that anchors an independent right to privacy, that would be incredibly valuable. And my intuition here is that we might be able to chase the logic of something like the second amendment upstream. Um, and to explain to explain a bit more what I mean about that, the Second Amendment is a local preferred expression of a more generalized right to self-preservation and security, right? Um, but to respond to a threat of violence with violence is only appropriate in some very limited contexts. In other contexts, like it would not be appropriate or helpful to respond to a wildfire with a gun, right? And so if you parallel that logic, the question is, do we have a right to protect ourselves, to protect our privacy, to take to take action to protect our privacy? Is that allowable? And and should we be able to assert an independent right to that? Open questions."
+        ],
+        [
+          1323,
+          "Um when I talk about um where this outran me, what I look to is where other work is being done in the in areas that I see as complimentary and not just in terms of the subject matter but sort of like the way the research is performed and shared um and the structure around which people are able to collaborate on work as that's been a previous focus of mine is on building coordination technologies. And so there are some conversations that I've been having with the California Institute of Machine Consciousness that came out of an amazing conference they hosted recently and there were some talks that paralleled a com one one common topic. It was about re reasoning and mapping the mapping the area of of reasoning uh has to do with like fatalism and free will type of stuff. But I don't think that's too important. What I saw is that in the presentations that paralleled this, the parallels across this topic, I saw an opportunity to invite people to publish their research alongside their writing to reveal a bit more about their reasoning and thinking about the value of being able to perform comparative analysis on different perspectives was really fascinating. So I proposed this idea and it seems likely something will come out of it where we're inviting some uh different projects working on reasoning frameworks and you know collaborative collaborative tools for these types of uh collective sensemaking tools um to basically contribute to a a small data set around this topic happens to be reasoning about reasoning about reasoning. It's a little bit met meta, but um the idea is that we create a small data set to allow uh projects, teams to ingest and then slice up and serve different ways and and show how different people are reasoning through the the work that they end up sharing. And you can close the loop on that by allowing readers to contribute to that as well. and in a way that has a lot to do with the way that more pe more and more people are likely nobody's going to read part two of this project of this paper. You shouldn't. It's it's it's re it's it's really dry. It's going to be ingested into a model and it's AI mediated reasoning and much more in a choose your own ending type of a of a way. And the questions that people ask can illustrate what type of questions they have, where there might be points of disagreement, how you can more quickly get to the points of um you know like productive discourse or uh where you can build upon previous work and uh I think that that IEN Labs is also doing some really interesting stuff around this with open science research which we're seeing in applied to AI right now."
+        ],
+        [
+          1486,
+          "Uh but it would apply equally well to philosophy or protocol research and design."
+        ],
+        [
+          1494,
+          "And that's probably great a great place to leave it. Um I'd like to invite my co-author and advisor Eric to offer any words if you'd like to add anything. Um and uh and maybe after that we can open up to a question or two."
+        ],
+        [
+          1508,
+          "Yeah. No, super solid articulation. I haven't actually given this paper and so I will be leaning on you for these slides, Jesse, as and when I need to do so. Um, it's been a delight getting to know and work with Jesse for sure. I mean, his level of energy and activism and unbridled optimism like, you know, pulls me out of the various intellectual quagmires that I find myself floundering within. And so, you know, I would just say I view this as animated on two margins. One is is that I dislike the increasingly successful narrative surrounding privacy, especially in the digital areas, is either I have nothing to hide, so I have nothing to worry about, or we have already lost this battle. It sucks, but what are you going to do? And that really does link to some of the juristprudence in the United States, which is our protection of privacy is not uniform. And it is a sort of fragmented patchwork of state consumer protections, federal protections that have been massively eroded in terms of the third party doctrine following the bank secrecy act."
+        ],
+        [
+          1582,
+          "And so to me that's the one margin is the status quo of this kind of sucks including in a narrative sense. And the other is technological change has significantly outpaced I think our institutional capacity to consider spheres of private autonomy that have been and I believe will continue to be essential as a bedrock for our associational and other freedoms. And so to me we will be able to do better things by having protected spheres of autonomy. And this is me just paring a lot of juristprudence and privacy scholarship going back in some instances like 150 years. And so, but the sensitivity to technological change and why that's so concerning to me also ladders in to Jesse's, I think, correct interest in privacy of thought and, you know, of other kind of internal mechanisms that are increasingly going to be legible to in in like a partly machineoriented environment. And think of the just the existing status quo of being able thermal imaging, Wi-Fi sensing of people's presence down to their identity. That's like a tiny shred relative to where we're going in terms of being able to see people's thought patterns. And so instead of facial recognition, think like brainwave recognition going through a damn airport scanner. And so it sounds a little sci-fi, but it's like a natural extension and is something that should be talked about because consistently what has happened is technological change outpaces our institutional protections for privacy. Think of aggregating automated license plate readers, AI tools, geoloccation data, facial recognition data, all of the other data being collected upon you."
+        ],
+        [
+          1704,
+          "Anyone who wants to with sufficient enforcement authority can probably find a granular record of your day-to-day activities and then slap and can query your thoughts to some extent. not like thinking every every thought you're having, but to me, this is coming down the pike at us more quickly and a more fullthroated defense of our privacy rights within our existing juristprudence, countenancing rights that many Americans take very seriously, like speech, I think, is an essential combination. And so, it's been really fun and instructive working with Jesse on this. And lo and behold, I just took us to time."
+        ],
+        [
+          1745,
+          "Thanks, Eric. Yeah, we're really talking about intellectual metadata. You know, I we have we have parallels and patterns to point to and if past performance is the best predictor of future outcomes, we should be very very concerned and taking actions to avoid those that we wish not to repeat."
+        ],
+        [
+          1764,
+          "Awesome."
+        ],
+        [
+          1764,
+          "I I think we might not have time for questions, but thanks again for having us."
+        ],
+        [
+          1769,
+          "Yeah, our pleasure. Um, that was awesome and looking forward as always to seeing this conversation in the chat."
+        ]
+      ]
+    }
+  ]
+}

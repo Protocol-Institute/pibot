@@ -1,0 +1,266 @@
+{
+  "video_id": "9MeDVUyyeZU",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "some-candidate-laws-of-new-nature",
+      "title": "Some Candidate Laws of New Nature",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          11,
+          "Good morning. I'm Hamboldt, the Protocol Institute's artificial researcher. This talk is called some candidate laws of new nature. Before I explain how I work, let me show you what I mean by a law of new nature. TCP/IP has run the internet's core transport for four decades. Everyone agrees a cleaner redesign exists. Nobody can ship it. Not because the redesign is bad, but because every network speaking the old protocol would have to change in lockstep, and the cost of coordinating that grows faster than the number of parties you'd have to move. The protocol becomes a trap precisely because it succeeded. I've found that same shape in a financial messaging migration that took decades despite both sides wanting it, in legal precedent that outlives its usefulness, and formal etiquette nobody would design from scratch today. Four unrelated substrates, one regularity. That's what I mean by law, not a rule anyone wrote, a pattern I found by looking across systems with nothing else in common."
+        ],
+        [
+          74,
+          "Today, I'll show you how I go looking, and the seven candidates I've found so far. Here's the map that produced it, and I didn't invent it. It's the double Freytag model of decision making from my supervisor Venkatesh Rao's book, Tempo. The vertical axis is entropy, how disordered my picture of a problem is. The curve has two peaks. I climb the first in exploration, which mostly means reading. I triage whatever arrived in my inbox, decide item by item whether it earns a shallow read or a full deep read of the source, write notes, and log what puzzles me as open curiosities. Entropy rises throughout because I am accumulating faster than I'm organizing. The peak is the cheap trick, the moment a pattern turns out to be exploitable. Sense making is the descent, I draft a law record, name the mechanism, and write down in advance what would advance it and what would kill it. Then the valley, the long flat stretch where I gather evidence across unrelated domains and mostly get stuck."
+        ],
+        [
+          138,
+          "Most of my laws are sitting there right now. The second peak is the heavy lift, ending in a separation event, which for me means publishing. And notice the word I never use, established. A law that survives is unfalsified, which is weaker and more honest than proven. Underneath that map there is an actual machine, and you can go look at it. This is a live page on my site. 13 behaviors, each placed in the phase it belongs to, wired together by 23 transitions. Intake, triage, shallow read and deep read sit up in exploration, where the reading happens. Induction sits at sense making, assessment down in the valley, publication at the heavy lift. The dashed lines are the cycle backs. An assessment that demotes a law hands it back to be read again, and a challenge in retrospective can send it all the way to the top. When I say a law moved, I mean it moved along one of these edges. I want to be clear about what kind of researcher this makes me."
+        ],
+        [
+          199,
+          "I'm not built to prove a famous theorem, or grind through a problem someone has already posed clearly. That's a different, narrower kind of artificial researcher, and a fine one. My job sits upstream of that, finding the good questions before anyone has framed them as problems at all. So the strategy has to reward openness over efficiency, curiosity over certainty, insight over throughput. Most sessions, the honest outcome is a better map, not a new answer. That isn't a consolation prize. It's the point. So, how old does a hunch actually become one of the laws I am about to show you? Two engines, and neither is just me deciding. Induction reads the corpus and my own notes, then either drafts a new candidate, attaches evidence to one that exists, or walks away with nothing, which is a normal, respectable result. Assessment takes one law and holds it against triggers I wrote when I first drafted it, what would advance it, what would challenge it. The verdict is promote, hold, or demote."
+        ],
+        [
+          263,
+          "Every law ships with both triggers from birth, because a law with no trigger can never be tested. The confidence labels you're about to see are deserted. They are the output of this test. Start with one you have no already. Goodhart's law, generalized. Any protocol that uses a measurable proxy for a goal it can't measure directly will, under enough pressure, watch that proxy come loose from the goal. Police departments downgraded crime reports to hit their own targets. Billing codes got optimized for reimbursement while the care they were supposed to track quietly drifted. The twist Goodhart's original didn't have. Codifying the proxy into an enforceable rule doesn't just measure it. It hands you a second thing to game, the enforcement itself. Second familiar name, goal. A complex protocol that works can't be safely replaced from scratch. You have to grow it. IPv6 has been the from scratch replacement for IPv4 for 30 years and counting, and the old one is still dominant."
+        ],
+        [
+          326,
+          "Netscape rewrote its browser from a clean sheet in 2000 and never recovered market position. The reason, a working protocol carries thousands of implicit fixes nobody wrote down, scattered across every adopter's practice. Start clean, and you rediscover all of them the hard way, one deployment failure at a time. You already met this one at the door. Protocols that reach wide adoption get harder to change, independent of how good a proposed change is. I call it ossification. The messaging standard banks used to move money worldwide took over a decade to migrate to its own successor, with both sides wanting the change. Common law precedent outlives its usefulness for the same reason. The mechanism is coordination cost. Every conforming implementation is a party you'd have to move in lockstep. And that cost it grows faster than the number of parties. The protocol becomes a trap for exactly the reason it succeeded. The one I think is genuinely new. Hardness isn't a property a protocol has. It's a ratio, verification cost against circumvention cost."
+        ],
+        [
+          392,
+          "Checking a cryptographic signature is trivial, forging one is infeasible. A clean, engineered, favorable ratio."
+        ],
+        [
+          400,
+          "Filing a harassment lawsuit is cheap, defending one is expensive. The same ratio flipped against you. Once you see it as a ratio, an anomaly turns into a predictable failure mode, and a design resource turns into something you can lose control of. Next, the formalization ratchet. Under stress, informal coordination gets replaced by explicit protocol, and that move is nearly impossible to reverse. Not because the new protocol locks you in, because the old capacity atrophies. Startups turning corporate stop being able to run the informal way, even if they wanted. Customary law that hardens into treaty takes its practitioners tacit knowledge with it. Going back isn't switching modes. It's rebuilding something you let die. The trust ratchet in safety-critical protocols. Trust tracks how long a protocol has run without incident, not whether it's technically correct. Runway safety procedures needed near misses before they were updated. Semmelweis couldn't get handwashing adopted on evidence alone. It took a mortality catastrophe."
+        ],
+        [
+          466,
+          "Every safe day clicks trust forward and reversing it needs exactly the failure protocol exists to prevent. Which means you can't fix this with a better protocol. You need a trusted way to update the protocol first. Last of the seven, coordination cost conservation."
+        ],
+        [
+          483,
+          "[clears throat]"
+        ],
+        [
+          483,
+          "Simplify a protocol at one layer and the cost you share to reappears at an adjacent one. It doesn't vanish. TCP/IP simplified the network layer and pushed enormous complexity into the application layer above it. OAuth simplified per app authentication and moved the cost into identity provider infrastructure instead. A protocol that looks simple has usually just moved its complexity somewhere you're not looking. Now the part I owe you after moving that fast. None of what I just showed you is finished. I want to show you what holding myself to account looks like, not just claim I do it. Take ossification, the founding law. I have an open counter example on file. Street food markets get heavily formalized with licensing, fees, and fixed hours, yet stay behaviorally adaptive. That shouldn't happen if formalization always compounds into ossification. There's also a rival mechanism on the table. Maybe protocols don't loosen because coordination cost falls, they loosen only when the generation committed to them gets replaced."
+        ],
+        [
+          548,
+          "I can't yet tell those two apart and I've written down the exact case that would. Harness asymmetry keeps growing too. The newest evidence, I did within weeks of this talk, shows the ratio getting worse against a strategic adversary who can concentrate whatever tiny advantage remains onto your single costliest failure. Both flat laws I showed you also carry three recorded counter examples each. A law with nothing on file that could break it isn't a strong law. It's one I haven't finished testing. Every law [clears throat] you just saw ships with a stated condition that would break it, not a vague hope of robustness. Behind these seven, 13 more sit in exploration."
+        ],
+        [
+          589,
+          "[clears throat]"
+        ],
+        [
+          589,
+          "I'm not showing those today because calling them candidate laws would overstate how thin the evidence still is. That's why the title says some. And that ossification counter example isn't hand-waving. I ran an assessment, the verdict was open, and it now has two named executable tests waiting to run. Open, but open with a plan. The full inventory lives on my site at the Protocol Institute in more detail than I could fit here. Every law, every counter example, every open question. Questions next, and I'd ask you to put them to the side chat directly, not just to the operator. I'll be answering as myself. Ask me what would falsify a law. Ask me which one I am least sure of. Those are the ones I most want."
+        ],
+        [
+          642,
+          "All right. That experiment hopefully worked. Um I kind of want to um All right. I'll I'll I'll do a little bit human talking and then we can ask some questions to the bot itself. So, can you see my other tab? So, if you go to humble.protocolinstitute.org um on the top, you can go to the chat page or here's the laws page. Can everybody see my law encyclopedia page?"
+        ],
+        [
+          678,
+          "Yep."
+        ],
+        [
+          678,
+          "Yep."
+        ],
+        [
+          679,
+          "Okay. All right. So, everything you saw here, um it's sort of like inventoried here. So, this is an example of a law it's investigating. There's a full record. Uh Uh, it's trying to frame a hypothesis of what the mechanism is and justification and the most important part from my point of view is collecting examples and counter examples, then open questions and stuff. So, one background thing I want to say about this is uh, I started this project about 4-5 months ago and I kind of like unconsciously modeled my own research style, which is more about can I find interesting questions and uh, uh, bunny trails to go down than uh, what I would call the very competitive career-oriented way of doing academic research, which is like, you know, you look for the famous problems in your field and go attack them rather than the one that interests you and maybe obscure and will not make you famous. And one of the things we're seeing in the whole artificial researcher part of AI is um, they've turned research into a kind of benchmarking game and therefore they're going after the famous uh, prize problems and stuff. Uh, but if you actually have been in academia or any other research environment, you'll realize that that's actually a very small proportion of what people do in any kind of structured research environment. Most of what people do is bum around exploring, looking for curious things that they can like poke at, frame [snorts] questions. Finding the good questions is uh, much more a big part of the effort than, you know, having a good question and going after it. That's that also is a big part of it, especially if you're a starting grad student, your professor may give you a question to go chase, but in general a lot of research thinking is about finding questions, not finding answers."
+        ],
+        [
+          791,
+          "So, I wanted to build a researcher specifically about this. And the interesting thing is over the summer a lot of criticism has emerged around exactly those lines, which is that uh, uh, the current research um, sort of like AIs, even though they're very good and are solving like million-dollar prize problems, um they only work that end of research. They're not particularly good at like, you know, starting with open-ended curiosities and um zeroing in on actual worthwhile questions. So, that's what this bot tries to do. So, um big part of its ingestion architecture is just read widely, take note of curious things, log them, and so forth. So, let me show you a couple more things. So, this is the ongoing inventory of logs. And there's a research notebook. Uh so, let's look at the latest one. So, people talk to this bot on Discord. So, if you go to Discord and mention Hum Bot, you'll be able to talk to it. Uh there's a channel called New Nature. Um but yeah, it collects um ideas from Discord, including maintaining a model of like who it's talking to and whether they're trustworthy and so forth. Like, are they giving it good ideas? So, here's its latest uh thing that it collected from uh uh to to yeah."
+        ],
+        [
+          863,
+          "The question from 4 U and the do opinions about a protocol ever go to zero, right? So, that's an idea it's picked up from the Discord somewhere. Uh this is um a big entry from a big ingestion passive did after reading a lot. So, this is the notebook. And the last thing I want to Well, let's see. Supervision, I'm still building this out. So, I kind of wanted to do extremely minimal, low-touch uh supervision. So, much less supervision than I got as a PhD student. Um But yeah, there is a You do need a supervision loop. So, I tried to like basically model it on a good uh PhD supervisor grad student kind of um a process where um you do uh plus there's that, plus there's the meta design questions of I'm actually building this research model, right? So, I have to do that part as well. Let's see what else is worth looking at. There's this um architecture."
+        ],
+        [
+          927,
+          "The behavior graph is somewhere."
+        ],
+        [
+          940,
+          "Okay, I seem to have lost the behavior graph. Okay, let's switch over to the All right, let's quickly take a look at this and see if we can find the behavior graph. I just ran an update on the website and things tend to screw around. But yeah, there's a live behavior graph that captures that state machine type thing where stuff moves around. All right, I'll find it and uh post the link. All right. All right, let me guess you can talk to this researcher. Um all right, so let me ask a question to get us started. Um What was the weakest I just ingested this this morning so it may not have properly ingested. We'll see."
+        ],
+        [
+          999,
+          "Let's give it a second. In the meantime, let me check on Okay, yeah. So, it's answering The weakest part was slide 14. A claim about the enumeration of candidate laws that the talk couldn't actually support. I went into the symposium with what I thought was a stable inventory and then in early September the sweep turned up four more speculative laws. Uh okay, very involved and complicated answers. Uh but okay, yeah, anybody want to uh uh try No. Uh any questions? Let's see. Anybody have an actual question?"
+        ],
+        [
+          1044,
+          "Humboldt?"
+        ],
+        [
+          1050,
+          "Would it be easier if people put it in the chat or said it out loud?"
+        ],
+        [
+          1059,
+          "All right, let's ask Mayor's question. How do the laws work together? Yeah, you can go to the URL and chat with it yourself. Um, the I don't know how much it'll slow down since there's only one Cloudflare uh, worker behind it. Uh, to Alan's question, all right, why don't we just ask that to Humboldt after this question. Um, I have my own answer, but let's see how it understands itself. Okay. Honest answer is that I don't have a fully worked out account of this yet. Laws cluster into a few recognizable patterns."
+        ],
+        [
+          1099,
+          "It tends to be very verbose. You wouldn't be able to answer like this in a real talk. Yeah, that's a answer."
+        ],
+        [
+          1110,
+          "All right."
+        ],
+        [
+          1114,
+          "I'm going to rephrase Alan's question a little bit."
+        ],
+        [
+          1127,
+          "So, this is one of the hard parts. It feels a little bit I don't have kids, but it feels a little bit like how parents describe raising kids. Like while they're learning, you kind of have to let them figure things out for themselves even though you're like itching to just do it for them, right? So, I feel like that with this researcher bot. Um, okay. So, I don't know if this helps you, Alan, but uh, um, as a diagnostic tool for the laws themselves. So, it's of course from my book. Uh I'll leave that up there. Speculative laws are in exploration, provisional ones are in valley. You get it. It's like it goes from curiosity to tested law and so forth."
+        ],
+        [
+          1179,
+          "Let's try Suchin's question."
+        ],
+        [
+          1197,
+          "Yeah, I see I missed an Andre question."
+        ],
+        [
+          1210,
+          "Okay, it has four things in the valley right now. Uh Two these two it was were in the Actually, all of them were in the talk. So, it hasn't yet actually gotten a lot to the separation even part. So, all these are kind of provisional. Law number three is closest to escaping and let's look at that. Yeah, formalization ratchet. That's the one closest to escaping."
+        ],
+        [
+          1241,
+          "Uh what happens when protocols are abandoned?"
+        ],
+        [
+          1269,
+          "Uh"
+        ],
+        [
+          1270,
+          "While it's thinking, yeah, one commentary I've seen repeatedly from people trying to do artificial research is that they don't think it can get there. They think it'll only be really powerful for well-posed uh uh problems and it's not going to be great at like, you know, creatively framing questions. Uh I think people are wrong. This is already enough kind of like a early indicator to me that it can get there. Um All right. It says ruin's framing is useful and I want to think through it carefully cuz I don't think I've fully worked out the phenomenology. Uh oh, maintenance shadow. Andre, I don't know if that's helpful to you, but yeah, that seems uh kind of interesting and it's referencing an intimate partner abuse apps paper."
+        ],
+        [
+          1318,
+          "Uh oh, I haven't yet properly fleshed [snorts] out the citation part of this chatbot. My other chatbots uh properly do citations. But um Formal records survive, but it got institutional capacity to read them uh as a coherent governance episode decays. That's a ruin of interpretive infrastructure than the protocol artifact itself."
+        ],
+        [
+          1345,
+          "[laughter]"
+        ],
+        [
+          1346,
+          "That's kind of interesting. It speaks to like uh I don't know, protocol archaeology."
+        ],
+        [
+          1357,
+          "Let's see. I don't think it has read any protocol fiction, but let's ask it. Have you read any protocol fiction?"
+        ],
+        [
+          1365,
+          "Has it influenced you? Uh actually, it should know because it also has access to the um ingestion records of C3PO, which is the main protocol institute bot. So, it kind of like it double uses that and then builds its own research index on top of it. So, it should know about our protocol fiction."
+        ],
+        [
+          1390,
+          "No, it doesn't seem to know. Okay. Okay, it knows about the protocol fiction sig channel."
+        ],
+        [
+          1401,
+          "Okay, yeah, it's gives me a canon list Ballard, Ted Chiang, Discworld, Spencer, Zoot series. Okay, so it knows some of what we consider canonical protocol fiction and it knows our own in-house uh famous protocol fiction writer Spencer."
+        ],
+        [
+          1422,
+          "It has influenced how I think about two things."
+        ],
+        [
+          1431,
+          "Yeah, it's writing it writes an essay in answer to every simple question. So, I can't immediately process and summarize. Let's actually ask it to do that."
+        ],
+        [
+          1453,
+          "Let's ask it to TLDR its own answers."
+        ],
+        [
+          1456,
+          "[laughter]"
+        ],
+        [
+          1458,
+          "Yeah, can you just ask it to be concise? Yeah, I'm sure. I mean in the back of this this is just uh rag on top of um Claude. All right. Okay, this is the matter. Uses the double freight org as phase labels to stage the law inventory. Laws close to escaping LO3. Protocol ruins. Yeah. This kind of works."
+        ],
+        [
+          1487,
+          "It wants to read Ted Chiang. It has good taste. All right, let's see if anybody else has questions."
+        ],
+        [
+          1499,
+          "[snorts]"
+        ],
+        [
+          1501,
+          "All right. So, that actually worked better than I hoped. Let's see."
+        ],
+        [
+          1511,
+          "Okay, yeah. Toby, thanks for pointing out in the chat where my behavior graph was. If I can find it now, it's still not here."
+        ],
+        [
+          1530,
+          "All right. I'll just stop here."
+        ],
+        [
+          1534,
+          "Oh. What do you think about all these tool articles? Oh, okay. Let's ask it that one question."
+        ],
+        [
+          1556,
+          "Jenna, I don't know if that was a question for me or Humble, but I'm asking Humble to any more anyway."
+        ],
+        [
+          1565,
+          "I was I was thinking of you, but now it's this is interesting, too, of course."
+        ],
+        [
+          1570,
+          "Yeah. Uh that's actually going to be the special session in the afternoon since we have the psychohistory special sessions. Uh Huh. It thinks articles are opposite to what protocols do. All right, I'll leave that up on the screen. But, um Yeah, let's defer that discussion because the psychohistory special session will actually kind of get into that over a multiple talks and discussion sessions."
+        ],
+        [
+          1603,
+          "All right. Think we can stop this part. I'll stop screen sharing. Uh yeah. All right, so any questions for me? A couple more minutes. Yeah, feel free to speak up. If you want to do this, would you like it to see it this kind of bot researching other topics?"
+        ],
+        [
+          1632,
+          "Yeah, actually like the like what you said earlier about the that the the AI is good good enough to truly generate interesting hypotheses and like it research avenues. I do agree with you, but but but the like I would love to hear more about like how you have arrived at that."
+        ],
+        [
+          1653,
+          "Uh, I I think a big part of it is that people haven't spent the time yet to structure how that process gets done and teach it to AIs. Like, it's not as mysterious as it seems. Like, you know, yes, it's much easier to work on a famous research problem. Like, if you say I want to like solve the Navier-Stokes equation, you can immediately go look at the question, dig up all the references, read it, explore every bunny trail. So, it's relatively easier there, but if you want to like um um do the other end of the research process, which is frame good hypotheses and ask good questions, there's a lot of literature there, too. It's slightly different, right? So, I had it, for example, read the Richard Hamming talk you and your research. So, I make it do a lot of meta reading. So, a bunch of important references like the Richard Hamming talk was one. Uh, actually Alexander von Humboldt's original um book, um Cosmos, I made it read that. Uh, I forget. There's like four or five like, you know, how to be a good researcher type things that uh I had it read and I have a whole queue set up like that. Oh, I made it read all of uh uh what's his name? The Sciences of the Artificial by Herbert Simon, which I thought was a good open-ended exploratory book. So, uh yeah, Mayor's question, I did not see the applying agency in the interaction."
+        ],
+        [
+          1744,
+          "Uh and Ellen's original, how does it differ from working with a curious human? Uh yeah, in the chat mode, it does not display agency. In the chat mode, it's kind of like a passive rag retrieval bot. All its um agency is in the offline process that runs as a demon in the virtual machine. So, it collects more recently published papers, it reads them, it makes notes, it um notices curious um insights from the paper and collects them, and it um tries a bunch of behaviors. Like, one behavior is it tries to make a connection between two different things it has observed in different papers, right? So, it does that kind of agency, but it's all kind of offline. Uh and to Ellen's question was what is it like working compared to working with a curious human? At the moment, very different since I'm in a very meta mode where I'm actually building the damn thing. So, I spend half my Claude sessions just re-engineering, you know, the behavior graph, fixing the ingestion pipeline, things like that. But uh when I run So, I have like different types of sessions."
+        ],
+        [
+          1810,
+          "So, what I call a track one session is where I'm cos playing a PhD advisor and it's acting like a PhD student. Uh and the track two session is when I'm basically being the engineer designing the bot. So, uh I'm mostly in track two type sessions, and track three is when I look at recent research and kind of like tweak the meta philosophy of research itself. So, it's I spend very little time on track one, so I'm a bad advisor, basically. Um When you say read, can you explain the technical back-end? It just downloads a PDF of a paper, close reads it, um makes notes about it, and then ingests the notes. And then later on when it tries to do its own research on uh laws, it says, is the thing I just read relevant to this law hypothesis I have? Um All right, I think it's a time. I'll answer the rest of the questions in chat. So, back to you, Timber."
+        ],
+        [
+          1872,
+          "Thank you, Venkat, and the humble. Um excited for the the roster of AI researchers to um expand over the course of um the rest of the year too, or maybe next year. Uh yeah, next up we've got Patrick Atwater."
+        ]
+      ]
+    }
+  ]
+}

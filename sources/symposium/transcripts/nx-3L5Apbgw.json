@@ -1,0 +1,390 @@
+{
+  "video_id": "nx-3L5Apbgw",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "opening-session",
+      "title": "Welcome Session",
+      "start": 0,
+      "end": 1176,
+      "paragraphs": [
+        [
+          0,
+          "Um but yeah, welcome everybody to the 2026 Protocol Symposium. This is day three, so you've actually probably been at the symposium already in the workshops um that happened in the last couple days, which were super fun. Um seems like it was busy times. The Discord was bumping in all the workshop channels. Um and I'm excited to get caught up on all the ones that I couldn't make it to. Um, as happens with these online events, it's like you kind of need the the time twister from Harry Potter to make it to everything. But fortunately for the talk tracks, it's primarily single track. So almost all the talks you'll be able to make it to. If you don't have other responsibilities outside of the symposium, um, if you are fully committed, you can probably attend like 97% of the talks, maybe 96. Um, and yeah, it should be good. So, thank you everybody for joining and sorry about the live streaming cancellation, but yeah, I heard rumors that Zoom got hacked by a a rogue swarm, so I'm just going to go with that. Um, yeah, I'd say I've got a few things to say here. And then, um, we've got David Lang, who's an alumni of the program, who many of you know, who's going to give a quick talk on field building. And then the next step is to get into a bit of a just open round table discussion between me, Tim, Benat, and David about field building, about protocol studies, about the symposium, about the protocol institute."
+        ],
+        [
+          95,
+          "And then after that, we're going to go straight into the talk track in the 30-minute blocks. Um, so everybody will have a chance to, you know, comment, ask questions, engage in some friendly banter with with the speakers, and um, yeah. So, here we go."
+        ],
+        [
+          114,
+          "First of all, um, stealing page from Simon's neck, starting with why, um, why are we here? And I think that one of the big reasons that those of you who have joined this opening session are here is that you're all researchers in some sort or students or, you know, you're building something and you need to take some, you know, indirect approaches to figuring out what's what the best step is. So yeah, the discord and protocol institute and the symposium in general is kind of a a way to get together and and have fun while doing that research, which you know can be kind of an individual activity, kind of quiet, kind of boring sometimes. There are stretches of research that are like quite tedious. So kind of giving everybody a good environment to do that research is really important and kind of something that we think about a lot. And then the symposium in particular is a chance once a year, once every other year for people working on protocol studies or protocol related things to come together, have a chance to connect, figure out some, you know, lighthouse ideas for guiding them the next year, some loose coordination."
+        ],
+        [
+          192,
+          "Um and further to that, finding people that you want to work with and who can improve your work I think is another big aspect of the symposium. Like these this talk track is all about here's what I've been working on. Here's how it relates to protocol studies. I would really like some feedback on this. You'll get comments from people. Hopefully the SIG leads will give some feedback relative to their specific questions that they're working on. Um, and all in all, I think this is kind of working in the the spirit, not the letter of peer review. So, following that like idea that we should give each other feedback and like make sure that everybody's work is like up to a high standard. Not that there's any formal process for that right now obviously, but yeah, I think it's the spirit of peer review that's more important than the actual letter for or the stage that we're at. And lastly, um I think everybody is trying to make progress on something important to them. And then the symposium in general is a way for everybody to make progress on something important, which is protocol studies. And every year we should try and raise the bar a little bit and make sure that we're making progress on ideas, progress in how we do research, progress on um you know how we distribute these things, how education works for protocol studies generally. That I think is is a good goal for the symposium. You can think of it as like a ratcheting wrench where every time you turn it you should you should go a little further. should lock that progress in that you've made over the course of the year. So yeah, level up every time you come here, help other people do so."
+        ],
+        [
+          297,
+          "And the theme for for this year is new nature. So I think this is um proven to be really compelling. Um it's a nice way to coordinate the various like research streams that are going on. um the folks that are doing research on memory versus stigm robotics um law. How do these things all fit into this idea that just like Alexander Humble invented nature a while ago as a concept like we have this kind of second generation of nature that we need to look at which isn't just the the biosphere and plant life and animal life but all the technology that's available as well which kind of seems to grow in these sort of evolutionary ways. And not only that has become just as much a part of the environment and affecting um like selection and mutation pressures that are affecting everything. So, it's a really great opportunity, I think, to adopt this frame and look at the world as kind of like um an explorer discover there's this that meme that goes around every once in a while where it's like you were born too late to explore the seas, too early to explore the stars, and just in time to do something blas and and normal. But you could take a more, you know, charitable approach and be like, you were born just in time to explore new nature, which is this, you know, technological um environment that's emerged in the last couple hundred years and is continuing to evolve very quickly. Um there are all sorts of interesting species of protocols and rules and technologies that like need to be studied. So yeah, it's time to go out and discover the laws of new nature. And I think that doing so with the lens of protocols is is very effective. There's a lot to be discovered. Um if you just AI for example is just a brand new field. There's stuff happening in medicine with protocols for um for how drugs are used to treat different diseases. um protocols, diplomacy obviously are increasingly important and it's not only just going out and discovering these things like I think that is the simple approach to this where you go out you discover new nature it's there for you to find it's there for you to document analyze and report back on but then there's al also this element that um you actually need to go out and invent new nature because half of it is technological and as we are, you know, creatures that can invent technology and improve technology and tinker with stuff. Um, yeah, like Spencer Normick says, born just in time for SAS. You can make new SAS as part of new nature. Um, but inventing is just as much a part of this process as discovery. So while you're going out and figuring out, oh, like look at these strange new laws of new nature, it's also an interesting lens beyond just biology in the sense that, you know, you can make inventions, you can improve the protocols that exist. You can take technologies and and make them better. You can figure out how to like replace something. And by doing so, you're affecting the laws. So, it's going to be a continually renewed process as well as like one that is not just observation but invention."
+        ],
+        [
+          530,
+          "And one of the ways that I like to think about what's going on here is that everybody attending the symposium is a you know independent researcher. I don't think any of us are like very few of us are are formally associated with each other although there have been papers co-published by SOP alumni and and friends of so of now protocol institute um they're working together so new nature is kind of this this guiding thing that people are going to migrate towards and and explore and hopefully um protocol institute is the first swarmbased um research organization where all of these all of you brilliant researchers and people are going to like loosely work together and explore the space of of new nature very quickly and effectively outside of what would be a typical institution using the tools that are freshly available to you. making sure that everything is like in not only an innovation research but innovation methodology improving year after year and how we do these things."
+        ],
+        [
+          605,
+          "So it's discovery and invention um inventing new methods discovering new laws inventing new laws discovering the effects of those things and it's going to be this ongoing process that hopefully is going to be a lot of fun and I'm really excited to see what everybody's come up with. um over the course of this past year. So with that said, I think it's worth just a a quick update on some, you know, context like what's happening with the protocol institute, where is that at? And um that being the the host of this protocol symposium this year, the first protocol symposium was of course hosted by summer protocols um two years ago as was the protocol school last year. And you can kind of think of this as like protocol institute is is base camp. So SOP is spinning out of the Ethereum Foundation officially. October 15th will be completely out of there. Protocol Institute will be out in the wild as this new base camp that all of you as adventurers, as explorers, as documenters of new nature can come back to for some respite to share what you found to connect with people and to plan new expeditions into the wild. So, the Discord is kind of home for that. We're hoping to continue to evolve it with with SIGs, with events, with support for people, the magazine, of course, the publishing, um, to kind of create a very strong, robust base camp out in the wild that people can use."
+        ],
+        [
+          720,
+          "Um, yeah, and SIGs are special interest groups in case anybody missed the acronym. And further to that, we've been in this phase with summer protocols where we had a host with the Ethereum Foundation and it was this really great expansive um divergent process like for example in the first summer refusing to settle on one definition of protocols for the entire group having people come up with their own definitions. this is kind of um a highly divergent process that was an active choice to let that expand. Um you've we've also seen it in terms of the fields that we that have been brought in to the fellows have brought in for study for practice for improvement for education very very different the sigs operate autonomously we've had events artwork science fiction we've done lots and lots and lots of stuff um we've lots has been delegated to people to do as they see fit and it has been tremendously productive of um and part of the reason that that was possible is because of the um bandwidth afforded by the Ethereum Foundation."
+        ],
+        [
+          800,
+          "And so we're in the we're in the hery phase of of this process where you decentralize till it hurts and recentralize till it works. Protocol Institute is kind of right now has a large scope and needs to come to some clear models of how to operate, what to focus on and new nature is a guiding philosophy is is that it's kind of a recentralization of the direction for research and on the side of the organization the SIGs the special interest groups are the way to recent iz till it works. So this is the kind of the engine of the protocol institute are the SIGs and we're like really going all in on having more SIGs, making sure they're working well, potentially up to 12 SIGs um is our ambitious topline um goal for how many that we could sustain at at a high quality at good tempo. And the goal is that the SIGs would advance their own research themes and work together to synthesize findings um as a part of the protocol institute. So you can kind of think of this like an engine. The more sigs that we have, the faster and stronger we're going to be able to go, the more quickly we're going to be able to synthesize the laws of new nature."
+        ],
+        [
+          887,
+          "And this is how we're going to create more impact down the road. My hope is that um we're starting with a V6 engine."
+        ],
+        [
+          899,
+          "Hopefully we can get up to a V12 engine. And this is going to like have a big impact on popular science, people's worldviews. We've already seen um protocol studies enter educational curriculums around the world, which is awesome. And by having that broader impact and appeal and seeing this appear in the wild is going to generate the ability to bring in funding or the protocol institute which can be directed into existing SIGs to level up into new SIGs to expand or deepen areas of research into processes of synthesis into new projects that are like more capital intensive, more interesting And yeah, like Benat said, the fun part of this flywheel is is under construction. The sigs, we have a good model for that and can, you know, go from V6 to V12, you know, pretty sensibly, but yeah, this is an ongoing process and it's the early days."
+        ],
+        [
+          968,
+          "One of the downsides of using an engine as an analogy is that it seems very straightforward. It's concurrent. Um you can just fit in the puzzle pieces that you don't have. But another way to look at um proto protocol institute and this process of um recentralization is as protocol studies and as researchers as like a frontier species of lychen. So the way that lykan forms is when hot magma comes up onto the earth and hardens it contains a lot of trace minerals and stuff like that but it's very harsh not much can can live on it. So one way to think of the SIGs also are as these different pieces of lychen that are populating a hot bed of magma which is the corpus of protocol studies so far and the effects it's had um however small elsewhere. So in the early days this is going to be a very like quickly evolving like difficult process that is going to look different from year to year month to month or even week to week um depending on what's going on. So on the one hand you've got this engine and the flywheel that you're trying to build."
+        ],
+        [
+          1054,
+          "parts of it are in construction like the fund and and how to establish that like how to get the marketing right for the impact of protocol studies versus the value that people are willing to invest in it. On the other hand, you've got this like much more organic view which is that there are a bunch of research streams going on. Some of them are going to take off really well. Some of them aren't going to do as well. There are going to be people coming in and out. there are going to be new projects and old projects and projects that get revived that you thought were like completely done but they've they've come back for a second win. So keep this in mind too. It's not just a straightforward engineering process building this thing. Um it is very much like the people who are involved that make this thing great. So continuing to be involved is one of the best things you can do whether or not you're a part of a SIG, whether or not you're leading a SIG, whether or not you're part of building that flywheel, continuing to contribute in some way is is important because you're part of the ecology of of Protocol Institute in a sense."
+        ],
+        [
+          1118,
+          "So just light housekeeping notes. I'll go into more detail later. Keep the schedule handy. Um it's just on the protocol institute.org/symposium page. You'll get a Zoom link each morning. Ping me on Discord if you have questions or anything or in the Zoom chat. Um I've put the slides on the YouTube. Um I'll share them here in the Zoom chat as well. Um and almost everything is recorded or live streamed. Um live stream TBD. We'll see if I can um fix that. Everything's being recorded. Unless you don't want to be recorded, just ping me. Um, if you are running a session that you don't want to be recorded, that's okay. We'll make it work. Um, if you don't want to be recorded as a person, just turn your camera off and and um send messages in the chat. You can change your name to something like like Octopus 7 or like cow and UFO. Um,"
+        ]
+      ]
+    },
+    {
+      "talk": "talk-david-field-building-protocols-how",
+      "title": "Field Building Protocols: How to Kickstart a New Technoscientific Field",
+      "start": 1176,
+      "end": 2147,
+      "paragraphs": [
+        [
+          1176,
+          "so yeah, with that I'd say um time for David's talk on field building. So yeah, David, I'll just go ahead and stop my share. And if people that don't know David, David was part of um SOP in 2023 and did a project on how standards rule the world. He's also running the experiment foundation um in San Francisco and does a lot of cool stuff including building boats."
+        ],
+        [
+          1209,
+          "So he's not zooming in from a boat today,"
+        ],
+        [
+          1213,
+          "you know. It's actually I am. We the garage is packed up and we're starting our Mississippi trip tomorrow morning. So that is happening."
+        ],
+        [
+          1220,
+          "Awesome."
+        ],
+        [
+          1221,
+          "Um so I have been boats are on the mind. Um should I go?"
+        ],
+        [
+          1226,
+          "Go for it. Yeah."
+        ],
+        [
+          1227,
+          "Okay, cool. Um well, thanks for having me and inviting me. This is awesome. Um I can do a short introduction. Um let me just make sure my screen can share."
+        ],
+        [
+          1243,
+          "Cool. Okay."
+        ],
+        [
+          1249,
+          "Okay. So I want to talk in the the meta sense of protocol studies about technoscientific field building uh which is something I've been thinking about a lot um over the past year and uh this has been building me building for me for for quite some time. My background before the summer protocols was I I started a company called Open RV which was an underwater robot project that turned into a manufacturing company. Uh that's my friend Eric and I in the garage before. We're I'm now in the garage building boats. Um, but it was interesting because I got to see the a full kind of technological life cycle of ocean techch where we were building kits and then we were building uh well we had the prototype first then we were building kits and see that turn into um you know standards and commercial products and industrial uh shifts in the way that that ocean techch was built and and we had gotten a grant to finish our prototype um from the Schmidt family foundation which just totally like rocked our world and enabled us to finish our our project, our initial prototype, but also like just gave us a boost of confidence. And so, uh, when I stepped away from the company in 2020, I started thinking a lot about those grants. And this is like my one of my favorite photos. This is the first test of a jet assisted takeoff that the Navy had funded the suicide club to build which was a graduate student and two amateurs at um Caltech, Frank Molina and Jack Parsons and that crew who had been building like rockets out in the desert and um they had gotten $1,000 from one of their uh a photographer friend of theirs to to finish their prototypes."
+        ],
+        [
+          1359,
+          "And so this is kind of this kind of peer-directed microrant funding was so inspiring to to to me and it also really changed my life. So I wanted to do more of that. And so we started this program called science angels at the experiment foundation where we give a pot of money to a a person and let them kind of be discretionary in giving out small grants. So like $5,000 or up to $10,000 of in in micro grants. So they were able to make quick decisions um and fund people. We've got a we've funded like four or 500 projects. It's all on experiment.com. You can see it. Um and we've done these in a number of different fields and now like it's almost up to 25 I think 25 fields or more. And what I learned in this process over the past few years is some people are really good at this and some people are really bad. And there's it's actually there's a distinction between the skill set of being a good scientist and the skill set of being a good science funer. And so I've been obsessed with trying to figure out what that actual skill set is. And so I also had this experience um you know with uh summer protocols a couple years ago which was I think a really thoughtful denovo field building uh experience. It was really interesting and kind of humbling to watch Ben Cat and Tim and Timber and everyone everyone here uh try to build a field from scratch and I think it's been really compelling and interesting as I told Tim before this I think it was sufficiently interesting that it should certainly keep going. Um and so I started to put that theory together into this field building journey and I was showing this to Venat and he said, \"Oh, we should talk about this at the um symposium.\" So this is where the talk here diverges where we can go ahead and I can do slides like the typical slides or we can go on and we can explore. Can you guys see this other map?"
+        ],
+        [
+          1488,
+          "Timber, can you see this? Anybody?"
+        ],
+        [
+          1490,
+          "Yep. do or we can explore the detailed messy feral notetaking I've done. So which way would you guys rather go traditional slides or messy research map?"
+        ],
+        [
+          1503,
+          "Messy"
+        ],
+        [
+          1504,
+          "messy"
+        ],
+        [
+          1505,
+          "messy. Okay, perfect. I'm so glad to hear it. Okay, cool. Cool. Um so this these are my kind of working notes. It's also got um some interviews I've recorded and a big bibliography of everything I was reading to, you know, like astrobiology, leisure studies, um cryobbiology, just a I've just kind of was going across these these different fields trying to figure out what works. Um and I'll start up here, which is that Can you see my pointer if I'm pointing around?"
+        ],
+        [
+          1534,
+          "Yeah."
+        ],
+        [
+          1534,
+          "Yes."
+        ],
+        [
+          1535,
+          "Okay, cool. Why should you kickstart a a field? Like what's the point? And I think the answer to that, the best answer I could find is that it is when an idea needs more minds. When you're thinking about something and it's just clear that we need more people thinking about it. Um I think that's the best reason to start. It's also um I would say a compelling way to frame this because I think science and is going to change a lot in the AI era and I think this idea of directing fields is m possibly maybe more relevant than just like conducting specific experiments or reading literature. I think um this idea of directing where new entire fields should crop up is actually going to be a worthwhile thing to do. There's a bunch of things that go into the beginning of a of a field building effort like technological trends are obvious, right? Like DIY drones started because the MEM sensors got really cheap and um you know single board computers got really cheap and it was just a perfect time for Chris Anderson to start the DIY drones forum and you know kind of reshape the drone industry. Um so technological trends are worth watching."
+        ],
+        [
+          1608,
+          "scientific discovery also is like if there's a novel discovery, it's going to get a lot of people interested. Like the Miller Yuri experiment um was the the direct inspiration for all of the origins of life research and the exobiology fields that emerge from there. Um they all trace it back to just seeing the results of that experiment and wanting to know um what um what we can study next. Um, so I don't feel as confident about this who makes a good field builder, but the surprising thing to me is it's not who you think it there the these people are outsiders usually in like some important respect. Um, either actually outsiders or like perceive themselves as outsiders, but they also have to be not they have to be inclusive. They have to like care about other people's ideas and be welcoming and not just oh this is my idea and keeping everybody out. So they have to be open. I've seen entrepreneurs be really good at this. Um catalogers. So you know people who are writers at heart um who you know either have something to sell or don't or but are just like really prolific writers and storytellers. Philanthropists. I've now seen this do this. Um if you've got a little money you can usually get this moving if your heart's in the right place. And then it's it's it's not uncommon for this to be a team effort."
+        ],
+        [
+          1686,
+          "So like a combination of personalities. Um, okay. The start and and I really want to emphasize this. Everyone I interviewed and all the research I did, there was never a case where someone said, \"Oh, there's no one working on this.\" Almost in every case, word for word, someone said there are there was like five to 10 people working on this, but they weren't talking to each other. So, if I hear those words, it's like, okay, this is really the a ripe time to start building a field. Um, and from there, uh, the first thing to do is name. And it's worth pulling this out as like a tactic in and of itself because names are so, um, important and they really stick. And I the my lines there, it's like name enthusiastically, but define hesitantly. So, do not like like the wrong thing to do is start to put up a strict definition because as soon as you do that, like the conversations become dead and and it starts boxing people out and people get bored and leave. So name enthusiastically but define hesitantly."
+        ],
+        [
+          1750,
+          "And then you just have to connect the dots. So like create a forum for ongoing exchange and um create an audience of each other is usually enough to get um started. And then when you're just trying to build momentum, there are a bunch of tactics that people use. And I'll I'm not going to go into all of these, but like grants, like small grants work really well. Workshops are like the the gold standard. you want to have a workshop and like people can come and meet. Um, meetups work. Um, I think uh vision papers is a a term that Michael Nielsen has coined and is like like an artifact or a social object can be really great for kind of drawing attention. So I would say the unre unreasonable sufficiency of protocols or the the protocol reader I think would be an example of really good artifacts and a vision paper. Um but you really just want to I don't know I also like this idea of recruiting keystone individuals so like people who are established in other fields like to who can come lend some uh like excitement to it. Um there's an interesting paper from Santa Fe Institute about like they studied when social networks around a new field uh really cohhere. So I think there's a point like the naming of a field is one starting point and then there's this other point to watch for which is the the social network kind of hardens and I actually think we're right here with um protocol studies. I think like there's kind of been a hardening of the the social network around Venat and Timber and Tim and and that this is kind of like okay this is kind of an established thing. But um I think we it's worth reading this this Santa Fe Institute paper um to get a sense of that um because I think there [clears throat] has been some coherence."
+        ],
+        [
+          1864,
+          "Um, okay. I'm talking about market signal and market growth and I need to back up a little bit because the end goal and I think this is really important to think about is like what can you get from a field building effort and I think like if you if it's not a company necessarily, it's not a thing. I think the thing you're looking for is a mature industry or a mature discipline. And I think the signs of have you made it are is there an industrial lobby, an industry lobby for this and is there a graduate study are there multi Bencat corrected me on this. He's like are there multiple graduate study programs um for the field? Um so that that's what we're trying to create is either an industry or discipline and I think um it's actually unclear to me whether protocols will end up being an industry kind of thing or if it'll be a discipline thing. And I think that's common is sometimes you don't know like for a long time AI was a discipline and then boom it was a industry."
+        ],
+        [
+          1927,
+          "Um so there's a market signal can also mean institutional signal like the like for nanotechnology when you know Eric Drexler wrote um engines of of creation like all of a sudden there was market signal when the um like it was I think it was the NSF created this huge nanotechnology initiative. So it's not necessarily like you know like markets in the traditional sense it can't be the bigger players start to take notice. Um, and at that point the tactics actually change. I think then you're trying to create more on-ramps and team formation and all all sorts of stuff. And that's also the point where like the I think the real sociopaths show up and really try and capture whatever is valuable. And um like you got to be really careful here because this is the point where institutional capture can really slow things down or make these things uninteresting. Uh there's another point that I think is important which is a strong field if it's really interesting will kick off multiple new sub fields and I think those sub fields actually strengthen the the initial field um and I think we're seeing that now like Kia and others are are starting to not starting to actually creating new sub fields um and that goes back into this and then I think you get real market growth which you know things are taking off and then you're dealing with standard s um you know policy development um industry conferences things like that um and then you can have booms like I think some of these things are like explode with popularity and then there's bus like cellular agriculture right now was in a bus period for the past couple years and I talked to um Isha Datar who runs New Harvest and she was like now my job is to like go out to have optimism again and try and get people building again because we can do these tools. So, I think these things happen unevenly and not orderly. And so, like there's booms and busts and you know they talk about the the um the AI folks, what do they call it? The the desert or like they called it like the like the lean times in the 80s and 90s when no one was interested in AI. Um so you know these things can happen and uh anyways yeah this is my kind of working theory for um the the field building journey and the the question can are you back can you see my slides again? Yeah. Also, do you have a a link to the Figma? People are very interested in"
+        ],
+        [
+          2085,
+          "uh it's in the slides. Um let me just"
+        ],
+        [
+          2089,
+          "Yeah, you guys can all um hold on."
+        ],
+        [
+          2099,
+          "I think this will work. Let me just go."
+        ],
+        [
+          2106,
+          "Sorry. I'm g just put this in the chat."
+        ],
+        [
+          2116,
+          "Does this work? Did Can you see that? Somebody give me a thumbs up and I'll move on."
+        ],
+        [
+          2122,
+          "Don't be anything."
+        ],
+        [
+          2124,
+          "Yeah, it's uh it's it's working."
+        ],
+        [
+          2126,
+          "Okay, cool. Right on."
+        ],
+        [
+          2130,
+          "Um Okay, let's go back to this and then back to this. Okay, we back to my slides."
+        ],
+        [
+          2139,
+          "Yep."
+        ],
+        [
+          2140,
+          "Okay, cool. [snorts] Okay, so I gave you all of this."
+        ]
+      ]
+    },
+    {
+      "talk": "talk-protocol-studies-panel",
+      "title": "Protocol Studies Panel",
+      "start": 2147,
+      "end": null,
+      "paragraphs": [
+        [
+          2147,
+          "Um I'm super about is um yeah, protocol symposium. uh what would be the ideal outcome for people to walk away from the symposium with you know what would be the state of a person at the end of the week who's gone through the symposium and everybody would be happy with I can go first I guess um this wasn't how we thought of it when we started planning the symposium around March March. The interesting thing is that the world has gotten a lot crazier over the summer. Like um we've got u of course AI is the uh main show, but also you know the Iran war and like things just getting crazier and crazier and it feels like people are desperate for some kind of like systematizing perspective from which to just even look at the world. And it feels uh a little self- serving to say this or maybe we're like deliluded because we've all been working on this for 4 years, but it really does feel like protocols [clears throat] give you a sanity preserving way of looking out at the world right now. So there's something very salient about protocols as a perspective right now. That's what's excited me like you know it doesn't feel like you know there's the world going on out there and then we are taking a little sidetrack um thing to do the symposium. It feels like this symposium is in fact the way to engage with the world. At least that's the way it feels like to me."
+        ],
+        [
+          2258,
+          "Yeah. I guess my perspective here um and I'll talk a bit more about this on my talk but I'm I'm always amazed at like the breath that this field has taken. Um so you know I came at this not from like protocols broadly but from wanting to study my own small thing and it kind of grew and expanded and expanded. Um and my hope is like yeah for people attending like if if this week helps you come up with a different way of viewing the thing that you know you work on because protocols are weird like most people are not actually studying protocols in generality right they were studying something that that that that overlaps with protocols and um yeah like the the thing I get out of it and I hope other people get out of it is getting some context or insight from a completely different field, completely different perspective that it turns out actually can apply in your domain and help you kind of go about the thing you do every day differently. Um that's like yeah a a a really good outcome and just seeing like the diversity and breadth of people who've like chose to attend and give talks uh yeah makes me super excited that we'll get that."
+        ],
+        [
+          2337,
+          "Yeah, I think yeah, that continues to be surprising the um how well this stuff travels and you know how many people keep coming into it from different places. So um yeah, I think another"
+        ],
+        [
+          2351,
+          "Can can I add one thing?"
+        ],
+        [
+          2352,
+          "Yeah, go ahead."
+        ],
+        [
+          2353,
+          "You know, it's interesting. Yeah. So, in doing this research, I I went back and read the um notes from the first AI workshop, you know, the the summer in Dartmouth that McCarthy and Minsky put on, which was funded by the Rockefeller Foundation for really cheap. And uh Pamela McCordic has a bio like a she interviewed everybody. It's really worth going and reading that um book. It's called When Machines Think or Machine. I don't know. Pamela McCordic is the author. Um, but she it's interesting because she says after that first summer, everyone was disappointed. There were like there was she said there was no intellectual souvenirs taken home from Dartmouth that it the workshop became this it was kind of a disappointment for everyone who was there. And so I think you know sometimes it's good to put these kinds of these workshops in perspective because it's like it's not like everything's going to happen in two days. But the important thing that happened there with AI is they just gave it a name and they showed they gave each other an audience of just each other at the time. Um, but sometimes like just creating that kind of nudge and momentum is is enough to do that. So that would that'd be the only caveat is like even the the original AI conference had no intellectual souvenirs taken home, but it still really obviously ended up mattering a lot."
+        ],
+        [
+          2437,
+          "While we're on that topic, I wanted to add a anecdote I just learned recently. Apparently, one reason it was called artificial intelligence was that everybody hated Norbert Weiner and they didn't want to call it cybernetics. So, that was one reason it got called uh AI."
+        ],
+        [
+          2454,
+          "I don't know how true this is, but yeah, he was an and nobody liked him."
+        ],
+        [
+          2461,
+          "That's funny. Um, yeah. What do you what do you all think about kind of the um the field journey field building journey that we've been on so far? Like think about David's diagram kind of where we are in the process um what's next kind of the next couple major challenges that we face um as a nent scene emerging."
+        ],
+        [
+          2489,
+          "Maybe David, you can kick us off since you're the the framework professional."
+        ],
+        [
+          2495,
+          "Well, I think the sub the the sub fields stuff is actually really promising. I mean, I know that's like what you guys are doing with SIGs and and the way things have kind of naturally taken shape, but I would just kind of reiterate that that is actually really healthy way. It's like almost like a tree is formed by having branches shoot off of it and strengthen strengthens the original. So, um I think that's wise of you all to do it. Um I the other thing I would say is um we we are kind of approaching the point where some other bigger group just pours a bunch of money into it and like takes it in a way that is not as how we've been talking about it for the past couple years. And and that kind of thing really does happen a lot. You know, I talked about it with nanotechnology, but I saw it happen with uh conservation biotech, you know, like Revive and Restore had created this really great interesting uh community and then all of a sudden Colossal the company comes and says, \"We're bringing back the mammoth."
+        ],
+        [
+          2559,
+          "We're going to raise $200 million and we're going to do it.\" And it's not that that's not a bad thing or that, you know, it's interesting to have those groups come in and and do that, but it but it was kind of surprising to have this outsider all of a sudden come drop a bunch of money in and and kind of scoop up the momentum uh from the community. So, um you know, those kinds of things do happen. Um, and I think we're right at the stage where some kind of institutional capture could come in and um, do that. But maybe we're still too too feral for that. [laughter] I think we might have actually gone the reverse way since we started with like a very like you know financially powerful entity namely the crypto sector and now we are being cut loose to broaden our horizons and uh find uh less quote unquote easy sources of funding. Uh but I do want to like maybe challenge that idea a little bit because I think that kind of capture happens when there's a core of something that's like you know worth capturing from very mercenary point of view which has been the case with like you know say AI or nanotechnology or things and I'm trying to think of like fields where there was a lot of intellectual content and a lot of stuff that people were deeply passionate about studying uh but didn't necessarily really actually work out that way including when big institutional groups tried to push them like one I'm thinking about was back when I was finishing my PhD uh there was an attempt to start a field called system of systems so this was when everybody wanted to like you know reimagine big complex institutions around internet technologies and the department of defense as powerful as you can get in funding worlds really wanted people to think in terms of quote unquote systems of systems It kind of never really took off. Even though like a dozen graduate departments tried to create programs on systems of systems, they had like faculty positions advertised, there just wasn't enough coherence for it for the flywheel to pick up. Even though there was like intellectual content there, it wasn't It kind of like never got on."
+        ],
+        [
+          2698,
+          "And another example I want to throw out there more on the humanities social sciences side is there was this field called area studies. this uh was throughout the cold war and area studies was started primarily to create enough um uh Americans who could speak other languages honestly. So they needed a lot of spies working in other countries to learn the language and like you know be able to spy on the world. So that was kind of the um intelligence motive. But area studies ended up creating a really wide range of like specialized expertise on different regions of the world and created a huge amount of value. And then when the cold war ended, it just basically shut down like there was no um you know uh intelligence rationale to do that. So even though it was a very valuable and interesting scholarly field, it just shut down. it it couldn't it didn't have its own self- sustaining economic flywheel to sustain itself. So and I think this is often true of like arts and humanities and um even social sciences to some extent like they do depend on um kind of like uh [clears throat] their cost centers on the scholarly scene whereas many engineering type fields they can kind of spin up their own economic flywheel. So I think that's worth u um thinking about like is there an economic flywheel? Yeah."
+        ],
+        [
+          2785,
+          "I might um yeah, I've got a couple thoughts about field building um and kind of where we're at too. I think that there are so many um like really useful analogies for other fields that have been built. Um, one of the difficulties, uh, despite those patterns being consistent is just that the landscape today is like what feels to me extremely chaotic like Venet you were mentioning. And I think like building a field in late 2026 is like really tough because of the opportunity costs imposed by like AI in particular. I think a lot of people are like um investing time into not only learning like how to use this technology but how to adapt to it versus taking time to do research. So that's like kind of a double-edged sword in the sense that any bet that you make that isn't AI is slightly less likely to work out, but I think more valuable if it does work out because there will be so few people that invested into it. And I think protocols are one of those things that is like more likely than average and like because of the change in context, like psychologically harder to invest into, but like will be more rewarding as a result of of that changing context. Um but I did want to pivot the um chat a little bit to talk about something that we get asked a lot which is what is your elevator pitch for explaining protocol studies for an unaware intellectual colleague loosely curious about this nent field and we got a question like this in the discord like last week and the week before that and the week before that. Um and Tim just gave a really good answer. So maybe Tim, you can you can voice over what you said and then David and Ben can respond."
+        ],
+        [
+          2902,
+          "Sure. Um so okay, my first part of my answer was we're actually not that good at it. So I think um we're pretty good if we got 30 minutes with someone to kind of protocol pill them. Um and I think the reason why this works well is like I mentioned a bit earlier, people don't work on protocols, they work on something. And a lot of the pitch often is like tying the value of protocols to the value of their thing. [snorts] And I wish we get better at like generalizing that so that we can pitch it in 3 minutes or 30 seconds. Um, but given you're all already here, I guess the best kind of generalized version I can come up with is that protocols are really just this useful framing to understand phenomena that happen across boundaries. Whether these are institutions, products or market each and probably a bunch of others, you know, in in different fields, but each of these like things tends to have really well- definfined frameworks and ways to think about them, but um they tend to break down as soon as uh you kind of leave that context, right? Um and and as also Benat was saying, the world is kind of getting a bit crazier."
+        ],
+        [
+          2968,
+          "And I think part of this is also just these boundaries are dissolving and becoming more blurry. So protocols are like increasingly relevant to think about how the the whole kind of system operates. Um and then the other part of my answer is um assuming we're trying to convince someone to spend their time and mental bandwidth on this. Um to me it just feels like such a rich field because it's clear that protocols exist, right? Like no one doubts this. Um, but we've done like a really like incomplete job of detailing and formalizing what they are, how they work. So, there's just like a huge huge opportunity. And I think Venat made this analogy a few years ago. Um, the field of economics did not exist, you know, since the dawn of time. People bought and sold things from each other before we had a notion of quoteunquote economics. Um but then having that helped us understand things like you know supply and demand and model these phenomena that were happening in the world like much more uh accurately and then kind of expand our understanding of like okay what's actually happening when people buy and sell stuff from each other and what can we build on top of that. So my kind of bull case for this field is um there is like a similarly impactful set of theories and insights to derive based on stuff that's clearly happening in observable and impactful today and no one's just spent the time on it yet. So you can be one of the first people to do it."
+        ],
+        [
+          3056,
+          "Um, I actually came up with an answer to this question on Discord several um, weeks ago and I just dug it up. So, let me try and share this actually because I think it's useful for those of you who have come to see yourselves as part of the evangelist side as opposed to the part of the waiting to be persuaded side. So in my experience the question most often starts not with that what's protocol studies but what do you mean by protocol because you know people don't have abstract curiosities about like bureaucratic field definitions they want to like cut to the core concept and I came up with this almost uh salesy way of doing it because I'd begun to notice patterns from fielding this question so many times but basically yeah once you start talking about it um if they're at all interested, they'll ask, \"What do you mean by protocol or how do you define protocol?\" And this is often them just making conversation in like a polite setting."
+        ],
+        [
+          3122,
+          "It does not mean they're actually interested, but it is your opening to try and get them interested. Uh so one way I like to start is uh you know like just actually find out where their own thinking is. Uh so ask them for example what do you think it is or what's an example you're thinking of and begin from there. So that's one pathway to u begin um another thing to probe for. So there's this whole algorithm I made up that I keep meaning to formalize into a uh uh flowchart. Uh but yeah, many times what people are actually curious about is they're very they're interested in your intellectual content, but many people are often interested in the politics of um uh kind of like a field attempt. So they'll they're really asking about like when you say protocol studies, do you mean some horrible bleeding art uh progressive thing or is it some conservative thing? So that's something to again like you know take the temperature on and uh talk about."
+        ],
+        [
+          3184,
+          "Yeah, I I think the best way is start with an example that they clearly have in mind. If it's an engineer, they might be thinking of TCP IP. If it's uh you know um a humanities person, they may be thinking of like you know um diplomatic protocols or uh uh royal court protocols or something. Start from where they're at and see if you can like just surprise them by expanding their thinking a little bit by making an unusual connection or something. Uh and at some point if you get them far enough along you find that they start worrying about oh is this too big? Is everything a protocol? In which case nothing is the protocol. And that's kind of when you can start having the more philosophical uh conversations. And um if you can start pointing out to the scope is actually as big as it looks like because look at all these weird connections we can make across very distant domains. that tends to be the point at which the intellectually curious person has a chance of getting u um nerd snipe. But this is I I don't know this is more salesy than most of us are. Um but I think we have gotten it down from it takes 3 hours to run the script if people like you enough to pay attention to you for 3 hours to maybe down to like 15 minutes. And I'm doing a very bad job of explaining the meta here, but uh yeah, I think that's uh we're getting better at this."
+        ],
+        [
+          3274,
+          "Uh stop the share here."
+        ],
+        [
+          3277,
+          "I can add to that as someone who doesn't have to define it all the time, which is a slightly outsider position. And um the reason I keep showing up is because it's interesting and I'm I feel pretty confident that the best this this group of interesting people, you know, there's 50 in the group right here. Um we haven't come to the best idea. We're pulling on some thread and the best idea is still yet to be discovered in here. Um, I I still think something interesting, more interesting is coming. And um, I think that's really rare. I mean, it's really rare to to be able to come to a group of of of interested people and bring whatever problems you're working on, see it through a new lens, and um, and come out with something better. And so I think, you know, I I would almost challenge the group to have figure out which language is also going to keep uninteresting people out because I I think that's part of the thing that's really special right now is that nobody's here to like make money off this group. Like everyone's only here because they're interested in these these kind of ideas that aren't quite finished. Um, so I think that's a special time um in a in a in the formation of a field that like everyone looks back on fondly."
+        ],
+        [
+          3366,
+          "It doesn't feel like an eternal eternal September yet."
+        ],
+        [
+          3371,
+          "I will add though that you don't have to nerd snipe everybody. Like not everybody's oriented to being an intellectual nerd about every random curious thing that crosses their radar. Some people are just like, \"All right, I'm maybe much more of like a practical organizational and like, you know, um political or funding type person, and I just want to know where this fits on the map. What kind of people are you? What kind of subculture is this?\" And that's okay. That's an okay motivation to have about uh a scholarly field. Like, you know, I'm that way about sports. Like um I don't follow sports. I don't really care about them, but I can make polite conversation about sports. And when I talk to people who are into sports, I'm maybe slightly curious about the meta stuff like, oh, how does the sport rivalry work out in your sport, right? So that might interest me. So I I think that's a a reasonable way to be. But yeah, point taken that um you also do want once you have enough success to merit it, you don't want like an immune system that rejects annoying people. Um but yeah, Ellen is asking about the elevator pitch for the protocol institute as opposed to protocols themselves."
+        ],
+        [
+          3441,
+          "Um I don't know [clears throat] I haven't been asked that question yet in any loadbearing way. So I don't know how I'll answer it the first time I'm asked."
+        ],
+        [
+          3451,
+          "Yeah, I get asked this sometimes and it's like um it is kind of a function of like what Tim was saying about like why the topic is important. It's like okay well if you buy topic is important like you definitely are going to buy that it needs a home like it's not going to be self- sustaining these kind of things like don't make themselves happen and I think that you you need to make the case like why the thing is important before you make the case that the institute is important. Um and then the institute like in this case is more less of a pitch and more like due diligence and in that okay like here's who's involved here's the track record here's what we've done so far like the deployment of $4 million over three and a half years with over 70 fellows like the amount of content that this program has produced with how few people have been involved like on the op side is insane. Um the people involved are incredibly high quality. Like all the people in the cohorts, all the people in the community are highly involved and like great to work with. Um that's the case for the institute and it's downstream from the case for the field in in my opinion."
+        ],
+        [
+          3532,
+          "Yeah, maybe I can add something for the institute because I saw Eileen in the comments you had uh Ellen you had a question about like the donors. Um so I was the person who had to convince the Ethereum Foundation to fund this year after year. Um and you know in a way I've kind of gone through this. I I think um protocols themselves, you know, are maybe not the the thing that donors directly monetize, but there are organizations and the EF uh you know, has been one where protocols are a big part of what they do and understanding them better first have like a direct impact on them like you know if we know how protocols work better, the Ethereum Foundation can know how to steward the protocol that it develops which is Ethereum better. Um and I was like you know directly kind of a witness to that. Um so I think this this is like part of the answer. It's like okay there you know to take something completely different. MCP is like you know a big new hot protocol. Now um there is value in like understanding how to design good protocols so that MCP ends up being a better design protocol. Um, and the hard part about this is if you just look at your thing very like narrowly. Um, there's there's obviously a ton of value in that and people do it. But it's kind of like the contrast with economics, right? Like if you're looking at your own business, you might be able to infer a lot of things about what's going right, what's going well. But if you understand like how economics works, what are like you know the best practices to run a business to think about your balance sheet, your cash flows, debt, things like that, it just opens up a whole new kind of range of ways you can approach what you do and and that's like quite valuable. Um and I think that's like probably the most quote unquote commercial pitch. I think the other thing that we thought was valuable at the EF that's maybe less common across funders is um protocols by their nature are somewhat like more open than things like you know platforms or products or whatnot and the Ethereum Foundation definitely values like things being open source and and and more public and kind of bringing talent to the world. So part of the kind of bet on uh summer protocols originally and now the protocol institute was if more people are aware of protocols and they think in terms of protocols and they're quote unquote protocol literate then implicitly it helps kind of nudge chains towards like a more open future. Um but I'd say that's like the you know quotequote like speculative payoff. Um the the main reason we funded the program ultimately was like we want to understand how protocols work and you know we work on a protocol so hopefully it makes us better at it. Um and the hope is other people feel this way too."
+        ],
+        [
+          3691,
+          "If you do please reach out um and have a chat more."
+        ],
+        [
+          3696,
+          "I want to plus one something Tim said the protocol literacy idea. So coming to this program from outside and like meeting Ethereum people for the first time in uh what was it uh 2022 uh November. I think one of my first reactions was that Ethereum people one of the ways they exhibited their protocol literacy as opposed to mere uh technology literacy or general engineering literacy was they are natural red team thinkers which is not something you get often in regular engineering fields right like mechanical engineering like I'm designing this object I go into a CAD tool make the object get it manufactured and then I turn it into a product and sell it that's normal engineering thinking Whereas protocol thinking is more about like I'm building this system. It's not just an engineered artifact. It's living in society and tangled with human behaviors and incentives. There are people who are going to love it and use it. There are people who are going to hate it and want to destroy it. There is going to be like an attack defense dynamic. How do you think about that?"
+        ],
+        [
+          3759,
+          "This is one key subject within protocol literacy I would say. And yeah, the more people get good at thinking about red teaming as part of protocol literacy, the better they will be at a whole bunch of problems. And Tim has been especially sort of like um um emphatic through the four years of like making sure thinking about conflict as a key aspect of protocols has been a central theme which I think is uh very valuable. Uh like take AI for example, right? I think a lot of people are basically going insane after the hugging face hack because they're reading the chain of thought transcripts and it looks like AI is trying to take over the world. They're not thinking straight. They're like thinking like they're in a science fiction movie and aren't actually paying attention. Whereas the natural red team thinker would look at that and say, \"All right, that's what's happening. This is data. How is the attack defense game working out so forth?\" So that's protocol literacy. I think if people more people were protocol literate, we would have a much better discourse about the hugging face hacks for example."
+        ],
+        [
+          3824,
+          "I have I I really like Ellen's question because just like framing it in terms of uh the donors and like how do how do you make the case? the the one I would add to this because is you know we were just at a food camp which you know Tim O'Reilly is now on a crusade for kind of open open source AI and and also you know fixing the the economics and you know if you read the the kind of the manifesto of his new organization I mean he cites three or four of the um the papers from the the protocol reader I mean it's clear how the the thinking that emerged from the summer of protocols has influenced you know Tim O'Reilly and his uh you know all the people who were you know kind of working to shape this AI go well scenario um it it's you can read it in his manifesto how that kind of thinking has um influenced him. So I that that would be one example that I can think of off the top of my head"
+        ],
+        [
+          3885,
+          "maybe my own."
+        ],
+        [
+          3887,
+          "Yeah. One thing I'd like to add there too because some the last question in the chat is like is there a classic way of protocol thinking used for analysis? All of this uh conversation implies like thinking and reasoning better and that's a big part of it. But the other part too is like a lot of the work is just like applied like you know David to take your example like you know working on a like underwater connector right it's like there's a there's a big part of like thinking sure but a lot of it is you have to do like the freaking connector and like you know print the thing and and make it work and and I feel similarly when you know I work on Ethereum it's like you know it's nice to have a bunch of like nice government governance frameworks and whatnot but ultimately it's like there's a software artifact there we need to like do stuff on it. Um, and I think a lot of the like field is like a very like tacit and applied field. And this was actually part of why we we we tweaked the program in the second year. So the first year we funded a bunch of people to think and reflect and that was really valuable. But on the second year we wanted to make sure like those insights actually worked in practice. So we funded a bunch of people to work on protocol. And I think for this to be successful like you you need to maintain both components like you need to like influence people's thinking. Yes. But um it's you don't want to end up being in this like I don't know like completely remove stance where you're just in like"
+        ],
+        [
+          3968,
+          "[snorts]"
+        ],
+        [
+          3968,
+          "layers and layers of abstraction and then you know someone's trying to build a new type of cable or a new type of software protocol or a new type of like you know health protocol and it all just feels like so far removed that it doesn't matter. And um to me this is like another really really important thing to to keep in the field and and also to your point earlier David about the people you don't want like one of our filters like every time throughout the applications was have these people like ship something right we didn't really care what it was which domain it was is um which form it take but like having people who actually put out something into the world and understand that um you know there's like a whole process of beyond just the ideation phase I think really adds a lot of of you know richness to to protocols and um yeah it's something we need to keep."
+        ],
+        [
+          4019,
+          "Okay, I'm gonna um rotate us out of this round table and over to um the substance of the um symposium here, all the talks because we're going to try and keep a um a tight schedule going throughout this throughout the day um throughout to tomorrow and Friday. Um the talks are back toback 30 minutes each for these slots and um yeah so making sure that we're like quick on that that we leave a little bit of time for Q&A if the speaker likes it. Um but yeah thank you Tim Venad and David for the the round table and you guys will be around so people have questions for you just ping them on Discord or Zoom. And yeah, last housekeeping notes. Um, Discord is a great place for any like continuing conversations. Um, if you want to reach out to me about Protocol Institute and anything institutional there, there's my email on the slides. Questions about the event, ping me on Discord."
+        ],
+        [
+          4084,
+          "Um, live streaming is not going to happen. I will record things and put them on Zoom um, as quick as possible."
+        ],
+        [
+          4092,
+          "AI. Um, we don't have the capacity to police AI note-taking. So, just assume that there's always a notetaker around. Um, we'll be able to turn off the recording if you don't want your session as a speaker recorded, but we're going to have a hard time keeping all the AI note takers away. Um, schedule links."
+        ],
+        [
+          4112,
+          "And this is day three. So, up next we have Robert Peak. This is going to be in a couple minutes. Um and yeah, I'm really excited for for everything that's happening today. It's going to be going quick. Um so yeah, reminder to speakers just um try and wrap up just two minutes before your the next talk starts so the next person can get their screen up and going. Let's see anything else. Useful links in the slides um if you want them. So yeah um with that I'd say welcome to the protocol symposium symposium 2 and um our first talk is with Robert Peak. So Robert if you want to um go ahead and see if your screen share is working."
+        ],
+        [
+          4163,
+          "Look at that. Look at that."
+        ],
+        [
+          4167,
+          "All right. Should are we doing a couple minutes to stretch and rehydrate or am I diving in here? Timber,"
+        ],
+        [
+          4174,
+          "maybe take a minute to stretch and rehydrate. I'm going to um stop the recording, restart it so that we have like just a good time stamp of the opening session that I can upload for people that missed it. Um,"
+        ],
+        [
+          4187,
+          "excellent. All right, everyone. See you at the top of the hour."
+        ]
+      ]
+    }
+  ]
+}

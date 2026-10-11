@@ -1,0 +1,286 @@
+{
+  "video_id": "D_5TryFVjR0",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "closing-session",
+      "title": "Closing Session",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "didn't cut anybody off too bad in the memory research group."
+        ],
+        [
+          4,
+          "Did you just god mode everyone?"
+        ],
+        [
+          7,
+          "Yeah, I closed the breakout rooms and I see Neielson has like a bit of a smile on his face. So, it looks like I"
+        ],
+        [
+          14,
+          "they [laughter] were chatting."
+        ],
+        [
+          16,
+          "We were speaking very quickly at the end to [laughter] with great power, great responsibility, etc., etc."
+        ],
+        [
+          24,
+          "Yeah. Does anybody need to say anything to close that out? Um, nicely. I just want to say thank you to all the presenters. I really appreciated it and it was really nice moment for the group. Thank you."
+        ],
+        [
+          38,
+          "Okay, great. Um yeah, Van Cat's going to do a little bit of synthesis synthesis, but I also just want to say like this has been a really great um week like from the workshops to all the talks today and I really appreciate like everybody willing to be able to share what they're working on and provide comments and like be so receptive and I think that this is kind of um great opportunity for people to connect with each other every once in a while and you know go back to offline comms that are more like onetoone or one to few rather than this like many to many thing that we only get to do a couple times a year. So yeah, soon we'll be back in winter study hermit goblin mode and continuing to make progress independently. So great to see everybody here and yeah, lots to lots was discussed and I my little brain isn't capable of synthesizing it all. So I'll hand it over to Venat to um to do that. All right, been put on the spot with big brain, but I am not directly connected to an LLM yet. So, you will still get only a little brain, though I was using uh uh LLMs all through the five days to try and keep up with in some ways."
+        ],
+        [
+          115,
+          "All right, so how's everybody feeling? Let's actually play with the React emoji stuff here. So, all right. Maybe we can do a few sense of the body type um questions. All right. So, for I'll ask a few questions and hit the thumbs up button if you have that particular sentiment. All right."
+        ],
+        [
+          141,
+          "So, um, thumbs up if you felt a lot of, uh, FOMO through the week, either for things you were missing going on in the symposium or in the outside world."
+        ],
+        [
+          160,
+          "Right. Thumbs up if you're super tired."
+        ],
+        [
+          169,
+          "I'm going to join that one. There we go. [laughter] Yeah."
+        ],
+        [
+          178,
+          "Thumbs up if uh you're going to take a break after this and do something away from a screen like take a walk or drink a cup of tea or something."
+        ],
+        [
+          195,
+          "All right. Now, thumbs up if you're just going to turn to another screen and uh maybe catch up on email or Twitter or something. Come on, be honest. All right, one honest people, a bunch of liars. Yeah, the last couple of days I did take a walk right after the um main sessions were over, but yeah, I was checking my phone while I was on my walk. So, it's um I don't mind doing that so long as I'm also doing other stuff. All right. So, glad you all powered through. Thank you. That was a lot. Uh 5 days. It was asking a lot especially doing it on Zoom because uh even though I'm one of the evangelists of uh you know people who complain about screen time are u I don't know lite walden ponding type people. I do realize that it can be a strain staring at like a flat rectangle 5 days straight and thank you for like u engaging enough in this topic over the last 5 days to put in that investment."
+        ],
+        [
+          258,
+          "Some of you um were here almost throughout several of you dropped in quite a bit and yeah a bunch of people came in and out. So whatever level your participation was thank you for that. It's only at opportunities like this when a large large group comes together like Timber said where uh we get a chance to see whether anything we've been doing over the last four years all the study work supporting research meetings in the discord whether it um actually amounts to anything and it's glad to see I'm glad to see that something is um seems to be resonating right all right so let me share my I'll share some reflections to the extent that they've gelled and I get to do a little bit dog fooding. So you guys see my screen. All right."
+        ],
+        [
+          310,
+          "So uh those of you who attended my talk yesterday on the Bligger pro protocol, this is actually a protocol I invented and built and uh this is the reference client for that and I was using it to take my notes throughout and capturing whatever felt interesting. So yeah, I caught a bunch of screenshots. The last uh session was particularly interesting because I caught a few minutes of Jim's talk on track one and I was mainly in the memory room. But it's kind of interesting that both talks ended up on like a philosophical note on like you know just the mental state of being in 2026 talking about this stuff. I'll just scroll through some of the other stuff that I saw. The phrase forgiveness is ien virtue caught my eye. Um this is not from the memory group oddly enough but Kalia in her group brain talk um talked about how memor is actually not enough. There's more going on in group brains."
+        ],
+        [
+          370,
+          "Um I picked up this line from Andre in the zoom chat. It is like it feels like a common theme in the talks is having the outside match the inside. digital identity, visibility of AI failures, organizational design. Yeah, this was one of the surprising things for me that this theme of like interiority versus exteriority coming up, multiple instances of people talking about can AIs be sentient and things like that. Um, all right. So, let me go through this thread. Okay. Uh, [sighs] yeah. So I think four years ago when we started this I could like reasonably say that I was on top of it all and had like a good big picture map of everything in the whole group was thinking about because at that time there were like like at a retreat in Seattle the first year of the summer protocols there were I guess um 30 odd researchers working and I had talked to all of them and had a sense of what they were working on. So when I was doing like closing remarks like this, I actually did have something of a map of the whole scene. Now four years later, I definitely don't like not just because 50 talks is a lot and I wasn't able to attend all of it, but uh it's like there's lots going on in the discord. There's lots of sidebar conversation. There's lots of like almost uh frames and contexts that I haven't yet learned to like um see through. So some of the talks even though I attended I couldn't actually like um grock how they were talking about it. Uh which I think is actually a good thing. A field should evolve that um you end up with um it being too big to fit in one person's head and luckily for us we are living through a time when uh LLMs exist and it is too big for one person's head but it's not too big for um an AI's head. So we will eventually ingest all this into our um AI infrastructure and see if it can pull out some highle patterns. But for us mere human level um uh attention beings, it's more like what notes jump out at you and kind of like stick in your head."
+        ],
+        [
+          507,
+          "Um I captured a few of mine. So the first one is from the psycho history special session where Sean was uh proposing this test that it is a part of new nature when there is nobody to appeal to in a complex system. So this I thought was a really powerful synthesizing thought because we've been talking about new nature all summer but I didn't have like a crisp way of kind of like litmos testing it. is almost like a Turing Turing's test for new nature. Maybe we can call it Stevenson's test. U you know, and the immediate examples that come to mind are unaccountable bureaucracies and all those CFKA-esque things that we've all learned to hate. But there's also a lot of like machinery. You know, code is law is kind of the slogan of the uh crypto world. But increasingly more and more parts of the world, both good and bad, is so complex and so by design, kind of like out of any single entity's control, that there's nobody to appeal to if something goes wrong. It's like you kind of have to be part of this bigger thing, which is kind of like nature, right? Uh early on the first day, uh Paulina's talk on the Russian internet and kind of like the weird world there was it a really interesting note for me. Uh I think uh yesterday everybody loved Dan Schmidt's talk on mazes versus protocols. So it's always [laughter] I want to contrast that to a talk we had this morning which was like deep in the bowels of enterprise IT and like the struggles enterprise organizations have adopting it which is kind of like the I don't know depressing hard work that we know we have to do which is like um enterprise IT is nobody's favorite subject but it's kind of what runs the world. So that's one extreme, but the other extreme is you kind of have to have the ability to see the parts of what you're dealing with that are fun in a way that you can play with."
+        ],
+        [
+          626,
+          "Um, I've written about this recently where I argued that AIS are basically taking over any domain that's playable in the sense of like, you know, video game where there are like rules or protocols that allow it to like turn it into a game. So that's one notion of playability. But I think in the process of making the world more playable for AIs, I think we're learning more about how um humans play and there's the what's that book? Homoludin by Johan Hisinga I think I don't know how to say that name where he talks about how all of the human world is basically um I think it's the subtitle is the play element of civilization or something. So basically all of Civilization is a game, but sometimes you want it to be kind of an explicit game. Um yeah. So, one thing I'd encourage all of you to do um once I'm done talking is I'd like everybody to like think back and reflect on were there moments that popped out on you like particular things that were said or particular images that were shared that have kind of like stuck in your brain and if you could share that um like uh once we open the floor uh I think that would be one way of like trying to like triangulate the conversation we've been having for um five days. So this one is one of my favorites. Forgiveness is Igan virtue from Mike Trevor's talk about Jubilee protocols. So things like this that stuck in your head. All right. I tried to start an initial clustering of what are the big themes I saw emerging. AI of course is one that was one of the framing themes. So no surprise that AI showed up a lot. But it's kind of interesting to see uh in what ways it showed up, right? AI is everything and nothing right now. So conversations can go in many different ways. Um but Robert's personality test on day one kind of showed that u at least on a survey instrument most people in this audience are very tech positive and have an optimistic stance about AI generally."
+        ],
+        [
+          753,
+          "But it's one thing to say that and another to kind of reveal that in your preferences and behaviors and beliefs you share in other places, right? Uh but I think it actually proved out throughout the five days like most of what I heard about AI was not doomer conversations. It was not AI is going to take all the jobs. It was about we are entering this amazing new reality and it's kind of like fun to get literate in it and learn to live in it. So AI as a big theme but with our particular spin on it which I think is um perhaps our biggest asset as a research community which is you know having a unique spin on this big thing happening in our world right now and I I think the reason apart from like you know the people who self- select into this group are um uh tend to be tech optimist but also I think protocols as a frame almost allow you to breathe right because there's connotations of tempo measuredness, um, periodicity and things like that. All those things that allow you to manage your psyche and deal with like these explosive things happening all around you. So AI, uh, also I noticed a lot of, um, the conversation was around worlds in some way, small worlds, big worlds, imaginary worlds, real worlds. U, that is kind of interesting. So everywhere from like, you know, toy maze worlds to like uh, real gritty worlds like the LA water districts. bureaucratic problems. Um, and of course since this is a protocol institute, a lot of talk immediately turned to you know the behavioral side but not necessarily in a very practical let's turn it into a todo um uh or how to kind of u uh instrumental thing but more as like a reflective way of thinking about behavior. So of course safety is one of our uh top topics."
+        ],
+        [
+          864,
+          "Timber did a talk about that, but I also saw it come up throughout, but not in like you know doomer AI safety way but just safety as part of like life processes in general and memory. Yeah, we had a special special session on memory but memory as a theme kept coming up throughout all the material and of course we had a great engineering track and a great arts and culture track which I think has been one of our strength for several years that we kind of have a foot in both worlds. So robots uh my talk on the Bligger protocol we had Shingai Thornton's talk on formal modeling. So lots of good engineering style uh conversation and material but also on the arts and cultures side we had of course the whole protocol art workshop on Monday and Tuesday uh and we had the world building workshop and the capunk guys that was really interesting I hadn't seen that world before where they in Shanghai they built a world. So Sam talked about this morning uh of an entire world where you can interact with these kind of like people simulated people from the future in a sense. That was really cool. Um but yeah, I do want to highlight that one of um the big announcements um that we did this week was uh we've been doing protocolized the magazine for a year now and it has had both non-fiction kind of like researchy content and fiction."
+        ],
+        [
+          944,
+          "We're trying to like create a new genre of pro protocol fiction which is a subg genre of science fiction you think of it. Uh but that's been successful enough that we've kind of decided to spin out a magazine and Sachin Benny and uh Spencer Nitki who've been kind of like leading our protocol fiction group. Uh they did the u special session but they've also been leading uh that group for a year. They're behind this new project. So yes, please do support it. subscribe to Monstrous Times in Substack and if you want to support more, you can actually get a paid subscription and help the magazine thrive. Uh so yeah, engineering and arts and culture. And finally, we'll um quick calls to action which um I want to get this out of the way before we have kind of our open uh uh mic responses. If you are new to the protocol institute and all our activities the way and you enjoyed your participation here the way to continue the um participation is join the special interest groups. Uh so we have uh six special interest groups a few more on the way being chartered. Uh but this these groups meet every couple of weeks um read and think and discuss together work on projects together. It's it's taken us a year, but the model is finally kind of like maturing and we know how to do this well. So, you will enjoy it. Trust me. Um, SIGs are fun."
+        ],
+        [
+          1026,
+          "Um, if you've done a talk, uh, please do consider writing up your talk as a paper or essay. Some of you have already done that and put it in the, um, speaker folder. Uh, and we will be trying to put together a proceedings volume from, you know, maybe a couple of dozen essays maybe that we can generate from this. um heads up that we're planning to try and do um a book writing month in November. So, some of you may remember that there used to be this annual thing called Nanorimo, National Novel Writing Month, where all of November people would try to like dump out the first draft of a novel. Uh I think that event ended a couple of years ago due to some like controversies or something. Um but yeah, basically in that spirit, we want to like uh bring back a November bookw writing month. So, we will be trying to pull something together. So, those of you who think you have like a book- sized idea for menting in your head and you want to work on it together, uh stay tuned. We'll send out an email with some details. It's going to be very lightweight coordination. Um that'll be like, you know, live hangouts for those who want it, but otherwise you can just hang out in the discord. But we'll try to like I don't know do some peer support and all of us with or without AI help dump out a whole book in November."
+        ],
+        [
+          1101,
+          "Let's see if we can pull that off. Um and final thing I want to um one thing before that u one of the big philosophical things we've decided is we want to like evangelize protocols in a float all boats uh way. uh by which we mean um we would like to see a lot more happen around protocols than we do ourselves at either the protocol institute or monstrous times the magazines. So we would like to see like 10 other activity streams of equal or greater magnitude going on right and you already saw one example this morning counsel he's been doing this thing he calls the protocol for the last year uh which has more of a humanities focus so if you're interested in that definitely um look into that and uh join forces stuff so we want to encourage you to do a lot more like this right so yeah don't feel like you have to pursue your interests in protocol calls purely through the mechanisms that the protocol institute offers, right? You can start your own thing and like you know join our little federation of protocol related activities and kind of build a bigger tent. So that was the second to last thing and the last call to action is this is the big one. Uh we've been supported for the last four years by the Ethereum Foundation very generously. So I do want to take this opportunity to say thank you to the Ethereum Foundation. I [clears throat] don't know if Tim Baker is here. He's been instrumental in like uh lining up the support from the Ethereum Foundation and yeah, of course, times changed. The Ethereum Foundation's mission has evolved and narrowed to be more technical and uh focused on the internal ecosystem. Um but we've gotten off to a great start. We have a lot of momentum, a lot of energy, a lot of research going on and we now have kind of enough to spin out on our own. So that's why we are now the protocol institute and uh those of you who were there in the opening session you heard David Lang's talk. So David runs the experiment foundation which is um a nonprofit registered nonprofit in the US and the protocol institute will be what's called a fiscally sponsored entity within the experiment foundation which means we kind of don't have to do all the administrative overhead of being a nonprofit but we get most of the benefits and most importantly we are able to very flexibly uh accept um grant funding and sponsorship and all the other ways we can uh you know engineer support for what we do. Uh which means now that we have the rigging set up, we uh need support and funding coming through. So uh of course individually support as you can and if you're a high netw worth individual, yes um please give us all your money. Uh but uh also you're allworked in very interesting places. uh please do send Timber and myself uh warm introductions to people who think or who you think might be able to support our work here through their institution. So we are very new to this."
+        ],
+        [
+          1285,
+          "Neither Tim nor I um nor Tim Beo are um you know experienced at uh navigating the world of grants and fundraising. So uh we do need support and um hopefully we'll be able to like u put together robust funding to continue doing what we do. So those are the calls to action. So I'll open it up to general reflections with my one prompt which is what was one thought or image or idea or meme that stuck in your head um from the last 5 days. So maybe a couple. So yeah, let's open it up and maybe Timber, you can kind of like uh orchestrate the share back. [clears throat]"
+        ],
+        [
+          1329,
+          "Easiest way for me to do this is if people raise their hands and queue up. Um, I know it can be a little scary to go first, but um, if you just toss your hand up, it'll go by quick. So, um, yeah, the alternative is I start calling on people and then that person calls on another person, which has worked well in the past, but it's a little little harder to um to orchestrate."
+        ],
+        [
+          1358,
+          "Michael looks like he's"
+        ],
+        [
+          1360,
+          "I can say something. I'm new here. This is my first encounter with with you guys. And yeah, I've really enjoyed the week. It's been uh it's been a lot of fun. And I guess something I picked up early on because I'm, you know, we're all using LLMs all the time now. I'm a software engineer. I'm using them every single day for hours a day quite often. Um, so things I picked up were this notion that actually if we're all using much the same tools, there's a there's a risk that even though we're all working independently, that this shared substrate is is going to potentially bring us all together. maybe in a good way or maybe it'll reduce our creativity and whatever because we're all drawing on these same these same influences. Um and and then what else did I write down? There's a couple of things I wrote down."
+        ],
+        [
+          1423,
+          "I I I like the guy the fact that you guys are all interested in writing and um you know we just talked about fiction and and and so on and that's I work with academics in all sorts of disciplines um humanities as well as engineering and medicine and so on and writing in their case academic writing is something that they all do. It's a it's a technique. It's a set of skills that they all share and increasingly they're all starting to share these skills of using um AI as well. So, it's it's interesting how this kind of shared experience and a term I hadn't really used before, but now I get this that there's there's protocols there. There's ways in which um we across disciplines people will work with these tools. So, yeah, thank you. It's been it's been a lot of fun."
+        ],
+        [
+          1482,
+          "Thanks, Michael. Uh, Jenna,"
+        ],
+        [
+          1486,
+          "I I don't live a presentation lifestyle and so the one I gave on Mon on uh Wednesday was fun uh but at the edge of my normal experience. So, but I learned one protocol with an event like this is go early big time. I could relax for the last two days. So now the the piece that you actually asked about that you know what's a nut that I'll carry around is the uh forgiveness talk and I'm not going to even try to remember who it was right with the 50 but there was one the forgiveness talk um and then the kill switch piece that has been around for a long time and uh that's you know we it's it's a to me a a tension one of our tensions. when do you need to be able to shut something down with a hammer and when do you need to let things uh fail gracefully? So there with that I will pass it back."
+        ],
+        [
+          1541,
+          "Anybody else with a a nugget from this week that they're going to carry with them for a bit?"
+        ],
+        [
+          1558,
+          "This is Patrick. I can go. Oh, three quick things. One, gratitude. I wish talking about someone said there's, you know, a lot of these, you know, I definitely have some of these ideas rattling around in my head. It's nice to have a kind of community to share them. Uh, you know, working in a 97 year old utility, it's kind of a different flavor of day-to-day stuff. Though there's it's definitely a useful lens to see everything from analytic ops and like engineering and design specs. Um, two was serendipity. the, you know, participating in the AI Kitcraft workshop and seeing things like, you know, I saw a slice of Jenna's book factory and then some of the tooling there that was useful. It's kind of like both useful and then also like being able to see uh creative connections with the it was one of those world building sessions around um kind of game design which is you know back pre-kids I used to play board games a lot more and was thinking about like kind of game design mechanics in terms of kind of public sector stuff that I think about and Rand used to do a lot of games for you know de developing game theory between now I know game theory but then other stuff like that and um uh just being able to deploy and there's a couple threads popping on a couple places around how to do that there. And then the third one was taking away from it was just kind of thinking about my own personal engagement in this and made me wanted to kind of engage more and then also think about um kind of like the kind of crimson examples of like finding protocols. I think there's still, you know, there's a lot of there's particularly as the tools have developed and the conceptual categories has developed. I definitely find myself in kind of like the applied like, hey, like what can we do with this? And I find that the kind of stamp collecting sort of side of things. Um, but there were some energies in Rafa had in protocols for business like kind of similar sandly like similar thoughts around like trying to get weave in protocol watching and observing which is something that I think would be great to carry forward."
+        ],
+        [
+          1686,
+          "And I can call on someone or some I didn't see anyone."
+        ],
+        [
+          1690,
+          "If you feel like calling on somebody that's that's cool with me."
+        ],
+        [
+          1694,
+          "I see. Hi Crutler and or Alice. Let's I'm just going to like the Zoom. This is my random sorting."
+        ],
+        [
+          1705,
+          "I can share something. Um so one term that came up from the memory track um from rootfig's presentation was continuity infrastructure. So the idea that we have a lot of protocols and platforms to um like store memory or to store things. We have a lot of containers for things but we have less practice and habits and protocols for um continuity with them kind of returning to them over time. Um, so certain examples, the rare examples in software things be like your phone prompting you to look at a photo memory. This idea that you actually revisit the um memories that you store. Uh and I thought that was a propose of like the closing of this symposium that like what is the continuity infrastructure um for revisiting a lot of the topics here and [clears throat] I think the SIGs um kind of serve that role maybe for the protocol institute but interesting to think of like how we continue pulling on all the threads that um were woven further here through this com conference like what is the continuity of it so yeah that that will stay with He's here. Um, yeah."
+        ],
+        [
+          1785,
+          "More thoughts, nuggets, comments, questions that you're leaving with. Andre,"
+        ],
+        [
+          1795,
+          "uh, I guess I miss Dorian Taylor at these things. U, he was always the first one to ask a question and at some point I realized I was him. Uh, for this round. Uh but then my my favorite part was actually the workshops where taking big chunks to go do something that was actually out of my comfort zone which was building a robot which I have no idea how it runs but it was there and it was controlled from Berlin. So that was pretty awesome. Uh I I think that was a good addition to to this year's curriculum. And I think unfortunately my two biggest memory of the talks was the banana and then the sentient rocks. Uh not sure what to do with those, but thanks for whoever put them out."
+        ],
+        [
+          1840,
+          "Yeah, sometimes it's the little things that that stick with you. Um yeah, last uh probably getting the last chance to share some stuff. We've got um maybe Satchin if you're around if you want to share a little bit of a plug for the magazine. Um I definitely recommend that people go subscribe to it obviously. Um but yeah, some maybe some specifics about it in terms of like what would be actionable little things that people could do to help at this point."
+        ],
+        [
+          1877,
+          "Uh yeah. Um yeah, first of all, thanks to everybody who came to the special session yesterday. It was 2 and a half hours and um a lot of you stuck around and that was a lot of fun. And uh um yeah for the magazine itself uh I think um two things uh I think one thing that sort of sets apart monstrous times and so far all the protocol fiction we have written is that we have a bunch of anthologies that um are you know a bunch of stories either written by the same person set in a particular world or a bunch of stories around the same u theme uh and um um and they're they sort of feel like um thick descriptions of a problem or a world and u I I don't think a lot of science fiction magazines um do that and uh I think we want to do more of those um anthologies and um essentially seed uh worlds like fictional worlds is what we want to do. uh uh and um uh yeah in terms of uh supporting us definitely subscribe to the substack uh and also uh there are a lot of great ideas here that I feel could be uh seeds for good stories. So if you uh you know feel like writing fiction um I think uh yeah like monstrous times would be a good way to do that. Um, I think mentioned sort of the interior versus exterior theme repeating and I think u part of the reason we chose the name monstrous times was also sort of um uh in in some way inspired by that tension of like uh I think we are sort of interested in um exterior environments that uh become monstrous in in in the sense of uh they are like uh sort of uh filled with uh protocols to the point of breaking like a Kafkaesque monster or sort of like an interior a singular person who is sort of uh transformed by um external protocols such as um you know a lot of um you know world's nos where there's an element of u time and how external time sort of makes a new type of person and a sort of a a new emerging monster in some way. And um so if you're interested in those themes, I think um um yeah, like uh it's it's a great place to write fiction. And u um yeah, and also uh we have a contest running that is um going until uh October 30th on this theme of uh sort of monstrous times and the Grahamsky, what we call the Grahamsky gap. Uh so check that out as well. And um uh yeah."
+        ],
+        [
+          2069,
+          "Yeah. I And um one of the things too to keep an eye out for for Monstrous Times are the um Giovani says Grahamsky is pronounced Gshi. Oh, good to know. Sounds like Banshee."
+        ],
+        [
+          2083,
+          "Okay. Well, that sounds like a better pronounce pronunciation. I'll go with Grahamshi from now on. Yeah, I think the Gshi should also be like a a type of monster personally, but uh the other thing that people should look out for for Monstrous Times are the anthologies that are going to come out of it as um print books one day. Uh, I think these are going to be like really popular given how much stuff is just digital these days. And I feel like people are getting really fatigued and the print medium is about to become like if it isn't already like just really highly valued because of how much stuff is online. So like keep an eye out for those and the chance to buy them as they come out. And yeah, that's part of Jenna's book factory too. So, there's so many different projects going along um that anybody can participate in. Um it's hard to keep up with them all, but if you pick one or two that you like, it's a great way to find something interesting to do on your nights and weekends."
+        ],
+        [
+          2147,
+          "But yeah, last call for people to say something, thoughts, ideas, questions."
+        ],
+        [
+          2163,
+          "Yeah, go ahead."
+        ],
+        [
+          2167,
+          "Uh yeah, thank you everyone actually for humoring me. This was the first time I attended this uh event. I had thoroughly enjoyed it. I was looking forward to it to escape my day meetings from work and just join this. So thank you so much. Um the things which two things if I want to like which stuck out I think one was um Amber Caseas's com tech thing where uh where it changed my attitude because I kind of have a lovehate relationship with technology. So I think he helped me like reframe it how I can uh use technology or create technology which can be calming uh and make it more invisible or friction. So that was one and second of course was um the last talk uh in our session. So I really enjoyed um the big picture view which uh we ended up with."
+        ],
+        [
+          2227,
+          "Um so that was the two things. Um wet I had one um input um I'm just kind of throwing it out here but um as I was thinking this is there I need to check the website but is there some sort of just like an ACM ACM membership kind of way where we can support the um uh protocol institute like some people who don't have to be like 100% there but like have some sort of annual membership kind of thing. Is that an option? right now or if not are we considering it? Uh and I just throw that."
+        ],
+        [
+          2263,
+          "Yeah. Yeah. Um that's in the mix of various mechanisms we're considering. So yeah, actually Timber and David are working on all the plumbing and once we have that set up, we will probably consider that as one of our top ideas. Right."
+        ],
+        [
+          2278,
+          "Okay. Thank you. And yeah, I hope to join the protocol modeling thing which I really enjoyed our workshop and hope I can contribute. Yeah."
+        ],
+        [
+          2289,
+          "Yeah, that the membership thing is something we're actively considering because it's um with the way that things are going to be set up, it's really easy for way for us to like give benefits to members if they sign up like give them books, give them access to workshops, like this sort of thing. Um, but you know, because a lot of, you know, the community people are here. Um, and if you want to reach out on Discord or email like with what your preferences are for like how you like to interface with this type of community or like institutions, we'd love to hear from you. Um that's definitely the priority for us is figuring out something that works for the people that are already here and participating rather than something that's just um you know convenient on the administrative side."
+        ],
+        [
+          2336,
+          "Is there a thought for the membership on some sort of fun merch?"
+        ],
+        [
+          2343,
+          "Sorry, I missed I missed the last word there."
+        ],
+        [
+          2345,
+          "Uh like merch like t-shirts or like PI t-shirts or something more protocolized."
+        ],
+        [
+          2351,
+          "[snorts] [laughter]"
+        ],
+        [
+          2353,
+          "I think if we are I think it would be fun to have t-shirts and stickers. We've done like buttons at a previous events. I still have a few protocol watcher buttons and stuff. Yeah, those sorts of things are fun to do. But um hopefully we wouldn't be reduced to redu relying on merch for our funding our operations."
+        ],
+        [
+          2373,
+          "If that's the case, then we're doing something wrong. Merch for fun, not merch as um way to fund ambitious research programs."
+        ],
+        [
+          2384,
+          "Unless there's some, you know, like amazing merch designer here in the community that can like sell like 20,000 hoodies, in which case, yes, like we'll [laughter] do that."
+        ],
+        [
+          2394,
+          "Yep. I mean, if Bank C is hearing this and wants to do like an original artwork for every individual hoodie which you can sell for a million dollars. Yes, we're in"
+        ],
+        [
+          2406,
+          "bank CGI. [snorts]"
+        ],
+        [
+          2410,
+          "Uh let's see. What role does the PI Discord have compared to the PI distributed community channels spaces and stuff? Um the discord is our main online hub and of course it's some people love it some people hate it. We have regular members who've contributed a lot like um last year's cohort had one ton who's um uh academic based in Singapore. He every time we do an event he complains to me that he hates Discord. Um we use whatever we have. So we have a mix of like uh in-person and online stuff. Um, and we try to do as much online stuff uh as we can because it makes things very accessible globally, but we also try to do as much in-person stuff as well because there's like no substitute for like being in depth with people for several days. Um, but other than I don't think we have any online channels that are super active besides Discord, so I'm not quite sure what you mean by other channels and spaces. It it's just Discord."
+        ],
+        [
+          2476,
+          "Yeah, there used to be kind of a loose group of people on Farcaster blogging to each other. This kind of like move to Substack. Not the entire group, but Substack feed isn't bad."
+        ],
+        [
+          2498,
+          "[laughter] Been getting fashion design suggestions."
+        ],
+        [
+          2502,
+          "Awesome. Love to see this enthusiasm for it."
+        ],
+        [
+          2511,
+          "My other car. All right. There's a lot of creativity around swag and uh merch ideas."
+        ],
+        [
+          2521,
+          "Uh but yeah, I'm also looking forward to the book writing November. I see Kia's um mentioning that. Uh and I did want to like reiterate that one. I think at least half a dozen people I know of in our um sort of like regular community have like bookshaped ideas taking shape in their heads. And I think it would be really cool to just have a dozen manuscripts in whatever shape um kind of out there by the end of November. So uh definitely if you have a bookshaped idea in your head, take a stab at it."
+        ],
+        [
+          2558,
+          "Yeah, that'll be the um the next kind of event um that we're doing that'll be synchronous or like a little bit async um that you can participate in probably even as just as an observer if you don't have a book planned. We'll figure out some way if you want to be involved as like you know getting previews, being a a reviewer, this sort of thing. Definitely just you know hang around. there's room to participate even if you're not, you know, a writer, identify as a writer, or have a book project on the way."
+        ],
+        [
+          2593,
+          "Uh, no, not fiction only. Non-fiction definitely. I think the majority of people in the month are electing to write non-fiction so far."
+        ],
+        [
+          2618,
+          "But yeah, with that said, um any any uh final thoughts, Vancat, on on the week? Um you know, I I would say like we have those calls to action that everybody could could think about. Um some housekeeping stuff like everybody's welcome on Discord. Um we're there all the time. The recordings are going to get split up and put on our YouTube channel in one big playlist so everybody will have it. Um, that means there'll be your speaker name, um, the date that it happened, your title, maybe a short summary, um, as well. There will be a Google folder with um, all the transcripts from each of the talks um, separate. I might make one that's all of them together as well. Just if anyone wants to do some like LLM driven synthesis. Um yeah, nothing to do on the email side. Um I'll send out a blast probably with Luma um with that folder and the YouTube playlist when it's ready."
+        ],
+        [
+          2684,
+          "Yeah. Otherwise, I'll I'll see everybody on on Discord. And yeah, this was awesome. We have grand ambitions next year of doing this more frequently, like maybe maybe twice a year or something like this. Depends on how things go, but that is in the books. A couple people have mentioned"
+        ]
+      ]
+    }
+  ]
+}

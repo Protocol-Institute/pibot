@@ -1,0 +1,202 @@
+{
+  "video_id": "k_lhq9ecvXQ",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "talk-shingai-hand-washing-and-bitcoin-share",
+      "title": "Hand-Washing and Bitcoin Share a Skeleton: Protocols Are Systems, Proven",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "Yes, I'm here. Hi."
+        ],
+        [
+          2,
+          "Okay. Um, yeah, I'll let you take it away whenever you're ready. And, um, yeah, encourage people to continue getting limber for a couple minutes while you're talking."
+        ],
+        [
+          17,
+          "Okay. Wonderful. Thank you."
+        ],
+        [
+          20,
+          "Okay."
+        ],
+        [
+          27,
+          "Okay. Can everyone see my screen? Okay. Yeah."
+        ],
+        [
+          30,
+          "Yeah."
+        ],
+        [
+          31,
+          "All right. Wonderful."
+        ],
+        [
+          35,
+          "So, hello every hello everyone. My name is Shiny Thornton and today I am here to talk with you all about the fact that protocols are systems and what I think this might imply for a grand unified protocol modeling theory."
+        ],
+        [
+          55,
+          "Just to set the context, here is a brief reminder of what grand challenge number 55 entails. Um, this is a grand unified protocol modeling theory. So, the challenge sets out three objectives. The first one is to explore the existing formalisms for modeling systems uh that could be described as protocols and this includes state machines, process calculi and temporal logics. The second one is to unify these formalisms elegantly in a way that captures the observed behavior of most protocols. And the third is to develop a non-brittle evolvable modeling formalism that enables future research, proving of results and accommodating how new protocols behave."
+        ],
+        [
+          103,
+          "A bit of background since I haven't been too active in this community about why I'm here in the first place and what drew me to this challenge specifically. So, I graduated from USC in 2012 with a BA in the social sciences. I discovered Bitcoin immediately upon graduation, fell down the crypto rabbit hole for the next decade or so, and was completely immersed in the worlds of political economy, geopolitics, the Bitcoin, Ethereum, and Dowo ecosystems, which is where I learned most of what I know about protocols. Around 2016, I fell down a new rabbit hole, which was systems theory and complexity science. Uh it was really fascinating to me because of its promise of a rigorous unified transdisciplinary approach to science. Um I felt it would both give me more solid foundations for social science research while also giving me an on-ramp into the natural sciences which I had actually mostly dismissed up until that point. This eventually led me to an MS in system science at Bingington University in 2023. I just defended the thesis this April and I've started the PhD program at Bingington this fall."
+        ],
+        [
+          169,
+          "And I think the important part that brought me here is ever since I came across systems theory, system science, complexity science, I really have been on the hunt for integrated, unified and also useful theories of systems and complexity. So when I read the text of brand challenge 55, I felt a strong resonance."
+        ],
+        [
+          193,
+          "So I'm going to walk you through my bottom-up logic here. So I start off with just defining protocol uh based on the protocol institute's own research and archives. Um we've got one definition that says a protocol is rules created by humans that shape the behavior of groups of people. Another one that says it's a simple codified set of behaviors that when adopted by a sufficient number of participants reliably leads to good enough outcomes for all. And then a third one that says it is explicit or implicit rules or procedures intended to govern, guide or influence behavior in a way that allows the emergence or construction of coordinated behavior. So essentially the common thread I see is we've got rules or procedures that are codified adopted by participants and groups in a way such that it shapes group level outcomes and behavior. So this is a nice clean definition to work with. Um now what about a system? Um I feel like if you ask any systems or complexity person what a system is, you'll get dozens of different different answers. So I've spent a lot of time looking for formal useful definitions of system and these are three that I found to be especially useful um and they serve as a foundation for the rest of this talk. So the first one is simple. It comes from a guy named George Clear who was an electrical engineer and he took a constructivist perspective. For him systems really only exist in our minds. we construct them and they consist of things that are out there and then the relations we choose to define between those things in the world."
+        ],
+        [
+          299,
+          "On the other end of the spectrum, uh Mario Bonh who was a theoretical physicist from Argentina and a philosopher of science took a stark realist perspective. He insisted that systems are real and he defined them in terms of their composition, their environment, their structure and the mechanisms that make them work. And then finally, there's a perspectivist approach which kind of sits in the middle from George Mobus, a computer scientist with a background in robotics engineering. And this is closest to my tradition and natural style. Uh he argues that systems are real but we can only observe certain aspects of them and this is influenced by our background and what we choose to focus our attention on. For him a system consists of components, internal flow networks of matter, information and energy, an environment, external flows, a boundary, transformation functions that describe internal dynamics, a history and a time scale of relevance."
+        ],
+        [
+          363,
+          "Um, [clears throat] so if we put all this together and then go back to our simplest definition, uh, from George Clear, I think I can make a pretty easy argument that protocols are systems. And if we choose participants to be our set T of things and this might be people, agents or machines and our relations in set R as the rules that are codified, adopted and constraining what participants can do, then a protocol is simply a set of participants and a set of rules that constrain them. And this lines up nicely with Clear's constructivist definition of system."
+        ],
+        [
+          407,
+          "So in order to see how this formal definition might help with the analysis of protocols, I'm going to start with a simple example which is handwashing. I'm going to run it through each of these three definitions. So for clear a constructivist who again he says that systems don't really exist out there in the world. We just construct them by choosing to observe things and then defining relations. You've got things, hands, water, soap, towel, and relations. Water wets hands."
+        ],
+        [
+          439,
+          "Soap lathers hands. Hands scrub hands for 20 seconds. Water rinses hands. Towel dries hands. There's nothing here that specifies where it ends or why it works. I do think it's useful because it's simple, [clears throat] flexible, and convenient for doing certain forms of math. It's basically just a table of entities and a table of pairs. Essentially a data scientist view. Um, personally I have found the lack of constraint in this definition to actually be a little bit limiting despite some of its advantages. So then if we go up a rung, we get to a realist perspective like the one formulated by Mario Bonh who did insist that systems are real phenomena out there in the world. So now in addition to things we get a forced distinction between inside and outside along with a reason that the thing works. So the composition of our system is hands, water, soap and towel. The external environment consists of the tap, the sink, the germs, uh the clock in your head counting the seconds, and each of these is bonded um to something inside of the system. The structure of the system is the same five links represented as concrete bonds of information, matter, energy between real things along with the bonds that cross over into the environment. And then you name a specific mechanism. So lather and friction is what lifts the germs off the skin. Running water is what carries them down the drain. And drying is what stops the germs from coming [clears throat] back. You'll notice that there's no box here. Um while Boonhi uh says a definite boundary is common. He doesn't actually require it. And so the environment is a set of things and not a container."
+        ],
+        [
+          556,
+          "And then finally we get to Mobus with his perspectivist approach. Um one of the things he does is he adds the boundary as an explicit object of interest. So the boundary together with a rich description of network flows and a clock gives a rich picture of systems not just as static things but rather as dynamic processes. So, in the environment, you have your door handles and surfaces that bring germs through the boundary interface of your hands into you as a system. You've got a rule that you follow that tells you to wash after every N contacts. And you've also got a timer. This is the CDC's suggestion that you hum happy birthday. So, you wash for 20 seconds. This corresponds to Mobous's delta T, a time interval of interest. You've also got H, which is the systems history that tracks the number of contacts since the last wash. So after you've soaped, lthered, and rinsed, the germs go out of your hands, back into the environment, down the sink, and through the drain."
+        ],
+        [
+          623,
+          "The system's output or its purpose is clean hands. And that corresponds to T, the transformation function. And this is the good enough outcome in protocol terms. It's important to note that while this perspective insists that boundaries do have real existence, it also acknowledges that as modelers, we do make subjective choices about where we draw boundaries depending on which aspect of a system we are trying to understand."
+        ],
+        [
+          655,
+          "And then if we go beyond the basic example of handwashing and return to our simple constructivist definition of system as things and relations, we can pretty easily extend this notion of protocol a system to technical protocols with planetary reach or what Venat calls protocolization. I think this starts to give us a feel for the potential flexibility of this approach. Um, I think technical protocols are nice uh because they're not only deeply embedded in the fabric of society, but they're also especially amendable to formal analysis, making them useful objects for formal protocol study. So, you have uh the internet stack TCPIP, which consists of hosts and packets that are related through handshakes, acknowledgements, and retransmissions. Bitcoin is miners, nodes, and ledger that are interacting via and constrained by consensus rules and difficulty adjustments. And you've got the model context protocol, agents, tools, and servers engaging in interactions mediated by the tool called exchange."
+        ],
+        [
+          725,
+          "So handwashing as a social protocol enforced by social consensus is really different from TCPIP which is a technical protocol. Bitcoin whose consensus is enforced by a hybrid of technical, economic and social means and from MCP which is a protocol for machines talking to machines. So what exactly do all these protocols have in common? So my LLM powered investigations augmented by the formal the theorem prover lean have led me to a common core shared by all the definitions of systems I showed earlier. Even though the three definitions are pretty different especially the first and the third in terms of how detailed they are they all share a single thing that depends on another thing. There is a mathematical term for this, a quiver, and it's just dots with arrows between them. And it's called that because a quiver is what holds arrows."
+        ],
+        [
+          788,
+          "And while some of the definitions add things to this ground floor, none of them remove this core primitive. Um, so if you're familiar with graph theory, which defines nodes and edges arbitrarily, an edge can mean anything."
+        ],
+        [
+          803,
+          "In this formulism I'm proposing the edge has to mean depends on and that's part of why this isn't just graph theory. Uh and I think this is an example of what it looks like to take three very different formalisms find out what they share in an effort to work towards a more unified integrated framework. In my experience out in the wild I see practitioners who are in constant tension about which definition is right. Um, meanwhile, I've been working towards integration and finding that they all share this common core. So, for me, the formal work is not to decide which one is better, but rather to be precise about where they're the same and where they differ in a more neutral manner."
+        ],
+        [
+          850,
+          "Okay. So, now that I've established protocols are systems, you might be wondering, okay, that's great, but what does this actually buy us? So, I'm going to try and take Venat's challenge apart in the order he displayed it. First, we want to unify what exists. Then, we want to make the unified formalism evolvable rather than brittle. And next come the three things that we hope this will enable. Proving of results, taking in new protocols, and enabling future research. So I put Venat's challenge through my general systems reasoner and I asked it for a perspective on how you would unify state machines, process calculi, temporal logic and petriets. And what came out was a useful sketch filtered through the lens of things in relations. We have I think the beginnings of a useful unifying picture. Underneath they all draw the same quiver. It's dots and arrows, states and the transitions between them."
+        ],
+        [
+          916,
+          "So you can see it here as the same four states in every quadrant. Dirty, wet, lthered, and clean. The state machine names each step so you always know where you are. The process calculus splits it into two players, your hands and the water, who only have to meet at wet and rinse. The temporal logic sets rules over the whole run. You can't get from dirty to clean without soap. And the petriet can count. In here, it tracks the water so it knows when the supply runs out. To be very clear, I'm not claiming that this is anywhere close to a finalized formalism or a clean answer to the challenge. I am asserting that it represents a potentially promising general research direction."
+        ],
+        [
+          968,
+          "We also want our formalism to be evolvable and not brittle. And so I want to share a bit about how in my own journey I've gone from a rigid definition to something more flexible in the hopes that it might inspire. So I came into the world of systems through Mobus, the eight tupal definition of system, which is by far the richest and most complex one I've come across. And for years I clung to it as the single most useful definition. But as I got deeper into my master's work and I started seriously studying George Clear's definition and the whole world of mathematical systems theory where systems are treated as just things and relations and eventually stumbled onto Mario Bang's related work. Uh things started to shift for me. I came to realize it wasn't really useful for my personal research or for my collaboration with others to obsess over finding the one right definition and that it was much more fruitful to shift my attention to what the definitions share."
+        ],
+        [
+          1031,
+          "And so I've worked outwards from Obus over the years and what I eventually found was the common core that all eight definitions of system that I've encoded so far agree on. This has given me flexibility and helped me become less brittle. So I do believe that plural integration is the right direction, not searching for a singular theory of everything. So we've got a sense of how we can iterate towards a formalism that is unified and evolvable. But what about achieving provable results? There has been a lot of buzz lately about AI models achieving incredible breakthroughs in mathematics over the past several months. Open AAI's Navier Stokes result in anthropics formalization of Ferat's last theorem both came with proofs in lean the formal theorem prover. I personally stumbled on to the lean and LLM powered workflow at the beginning of the year and have found it to be a very powerful tool for generating machine checkable results in my theoretical systems research."
+        ],
+        [
+          1099,
+          "So I did formalize three of the protocols discussed from this talk in lean and proved simple theorems about each one. For handwashing, you can prove that as long as you follow the rule of washing after every n contacts, the counter never goes above n. For the internet stack, we can prove that when you join TCP with HTTP using a single bond, that is the client handing its data down to the sender, you still get an organized system and not just a heap of parts. For Bitcoin, we can show that 10 minutes is a fixed point. When blocks arrive on target, the retargeting rule leaves them there. This model is a simplified version of the real rule."
+        ],
+        [
+          1144,
+          "And here's a snippet of the exact content read by the machine checker. You've got the claim written in plain English in the comments section with the next line uh formalized in lean. This repository is public. Uh you can see the file names at the bottom of the slide. I'll make this available in the discord. And I should note that in my view for any of these types of results to be useful, they do have to be part of a dynamic flow where subject matter experts and mathematicians can read, interpret, and to some degree independently verify what was produced by the LLM and lean. For my personal systems work and for protocol science, I don't think it would be desirable to have results that only machines can understand. Okay, the final thing we are looking for is a formalism that can take in new protocols and capture what's new about how they behave. So, as proof of concept, I quickly modeled Noster, the decentralized messaging protocol, in the same way and found that it does fit fairly well. It's got things, relations, and arrows, and nothing in the model had to change to make it fit."
+        ],
+        [
+          1216,
+          "I think it's an interesting example because it offers a bit of a peak into how this approach could open up new insights and research directions on the topic of hardness. Um, I don't have a lot of strong thoughts on how we would quantitatively measure hardness across protocols of different types and shapes, but I do think this framework makes it easy to locate hardness in a protocol. In the case of Noster, publishing is a signed message, whereas deleting is a request that any relay can ignore. And I think that by drawing dependencies in a way that is both technically sound while also remaining accessible and legible to non-technical experts, um, we can paint pictures of exactly where the hard part lives in Nostra's case in the one relay that keeps the copy. Um, am I doing okay on time? Have you got just a couple more slides? Oh, okay. Um, so as far as future research, putting these slides together has brought up three directions that I find interesting. The first one, as I alluded to on the previous slide, is measuring hardness. Is it possible for us to go beyond locating hardness qualitatively and towards scales and metrics that measure it quantitatively in a protocol agnostic way? I think it seems at least worth trying. Second, does this unification hold past four formalisms? I think a good stress test would be for anyone here to bring a fifth formalism, encode it, and see if the underlying skeleton survives in a meaningful way."
+        ],
+        [
+          1316,
+          "And then finally, and I think this is the most interesting one, this is about getting into the messy weeds of the realworld protocols that we're all embedded in, that we deeply care about, and that we're trying to steward in the context of new nature. I think finding out where these models I've suggested break, where they don't make any sense, and where they actually aren't very useful could be one of the most valuable outputs of this research program. And to get those results, I really will need to engage with all the protocol experts. And so to that end, I do have a concrete ask. Uh please invite me into your team, your organization, your project, and let me do some protocol analysis with you. If you have a formal spec for your protocol, send it over. uh respond to a short survey that I can send out and then let me interview you so I can really capture your lived experience as you relate to your protocol or protocols of interest. I will follow up on this in the Discord. Um [clears throat] and so to close out, I'll just share that when I shared my draft slides with Venat, he emphasized how easy it can be to get lost in the world of theory and abstractions. and he suggested that I focus a lot of my attention on real problems and real world systems. I really took this to heart because I did get into the world of systems and complexity because I was convinced it would help me contribute to solving real world social problems. Uh the journey has led me down a very deep and satisfying rabbit hole of theory and abstractions and mathematics that I don't expect to be out of anytime soon."
+        ],
+        [
+          1412,
+          "But I look forward to balancing that out with a more grounded approach focused on real people, real protocols, real systems along with real stakes and outcomes. So I'm curious, what does the protocol you care about look like as a system? And thank you for your time."
+        ],
+        [
+          1430,
+          "Thank you, Shingai. Um, if Giovani or Patrick Master are around, yeah, comments would be great."
+        ],
+        [
+          1440,
+          "Thanks, Shai. Um I uh so if I understand correctly um the kind of structure of your presentation is sort of like there's a lot of different systems sort of formalizations and they all share this kind of I guess like kind of like a like a directed graph sort of relationship, right? You've got kind of these nodes and like a directed graph. So I guess I have a couple questions kind of based on that. Um,"
+        ],
+        [
+          1466,
+          "first off, do you see like you have kind of just the one dependency arrow going in one direction. Is this do you also kind of see this as being like um like a birectional relationship that's possible? That is um can you have arrows that go in both directions directly from one to the other or would you consider that like maybe one of the directions is usually mediated by something else?"
+        ],
+        [
+          1488,
+          "Yeah, that's an interesting question. And so I would say um you know I talked about how my bias is towards the uh sort of most complex 82volt definition of system and in that formalism I always have birectional graphs and complex feedback loops um they're sort of embedded in it but as you go to the simpler definitions of system it becomes harder and harder to say that those things necessarily exist. So um I guess I feel a tension between maybe what I've proven about the common core of systems as a theoretical exercise versus in practice I use tools and approaches that absolutely uh show birectional loops and graphs and feedback loops um all over the place. Um I don't know if that helps or answers directly but"
+        ],
+        [
+          1544,
+          "thank you."
+        ],
+        [
+          1544,
+          "Yeah. Um, another [clears throat] question that I had was, so it seems to me that like if you're identifying kind of like you know the hard common sort of core of all these mechanisms, what you would ideally want to have is sort of like a notion of like abstraction, right? So I I if you sort of start at the place of okay well there's these relationships between you know kind of these entities and there's a sort of dependency between them that you can kind of like like simulate or encode these more complicated um you know formalisms that kind of layer things on top right so I think for the constructivist case that's pretty simple right like you've got just like and like things and relationships between them well like a directed graph is certainly like a thing and a relationship between the thing, but then there's all these other things like, you know, um like the like temporality and environment and all those things. And it seems like what you would kind of ideally want is to kind of cobble together a notion of what those things are in terms of your most fundamental structural property. Um have you been able to kind of make any"
+        ],
+        [
+          1614,
+          "do you have any thoughts on that kind of direction?"
+        ],
+        [
+          1617,
+          "Huh, interesting. Um, my only thoughts are that it sounds like a really important and [clears throat] useful thing for me to do. It had not occurred to me to pursue that direction, but I can immediately see why it would be useful. So, thank you for the suggestion and I would love to collaborate with you on that if you uh yeah, if you're interested. Yeah, [clears throat]"
+        ],
+        [
+          1636,
+          "no problem. Thank you. I think I'll I'll leave it there maybe if Giovani wants to ask a few questions."
+        ],
+        [
+          1640,
+          "Yeah, thank you for the questions."
+        ],
+        [
+          1643,
+          "Thank you, Shinga, for your presentation. Uh actually um yeah definitely uh it strikes I mean your presentation uh some uh interesting uh say trails I would say um I I I just uh um definitely want to give a look at your uh uh outputs I mean the lean artifacts try to understand a little of what we get there but very for captured by stuff like uh the the mention of Bitcoin as a kind of a fixed point. Uh that is very interesting. I mean um and u maybe just a couple of suggestion out of uh my mind. I mean one is uh um definitely um maybe give a look at uh also uh hyperproperties of the system. you know beyond standard say LTL there are hyper LTL and other evolutions uh along uh that path of formalisms where you capture I mean the the the behavior across runs which is definitely important because you want to capture the evolution of the system or meta system not just the way it it behaves right now. Um this is definitely one and also yeah and and definitely uh ciring back to what we have done until uh uh recently in the uh SIG FPT group um pretty sure you're going to I mean join the discussion there is uh some of the formalism that we have seen because you you were mentioning in one of your slides the the evolution itself of the um say of this first step at unification Um, and I guess that some say theoretical tool sets such as the the ones we explored from by by Milner for instance uh you know B party graphs and stuff but also you know the pebble automata kind of form may be definitely uh worth looking at. I mean among many we there's a whole bunch but this may be I think promising uh uh things to add to to the current you know uh if you want the deck kind of expanding from there [clears throat]"
+        ],
+        [
+          1792,
+          "yeah absolutely thank you I um well actually I had a question about one of the things you said did you say hyper properties um was that term yeah okay"
+        ],
+        [
+          1802,
+          "I I right here uh for instance hyperl LTL as an example of a way to capture uh the kind of I mean it's a generalization of that. So uh maybe a a good way to to look at the way to encode certain properties of the system especially evolutionary ones."
+        ],
+        [
+          1822,
+          "Okay. Wonderful. Thank you. Um yeah definitely [clears throat] look forward to exploring all sorts of different formalisms with the group. Think what's interesting for me I was uh talking about this with the person who chaired my thesis committee is I came into this world of systems and I got obsessed with the definition of system which has had me really focused on system structure more so than system dynamics and I'm now really starting to shift my attention more towards the dynamical side of things. So I suspect that all of the formalisms that you've been studying in the SIG will be very useful and helpful for me to dive into. So look forward to contributing. [clears throat]"
+        ],
+        [
+          1863,
+          "Great. Looking forward to seeing this conversation on the Discord. Um we're looking forward to having you."
+        ],
+        [
+          1868,
+          "Yeah. Yeah. Thank you so much for having me. It was fun."
+        ]
+      ]
+    }
+  ]
+}

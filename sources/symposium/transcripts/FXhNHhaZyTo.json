@@ -1,0 +1,182 @@
+{
+  "video_id": "FXhNHhaZyTo",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "open-mic-frontier-pacing-protocols",
+      "title": "Open Mic: Frontier-Pacing Protocols",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          2,
+          "Thank you, Eric. Yeah, if you we our next session is actually um kind of open mic about frontier pacing, and I think Ben Garfinkel's leading on that one, but yeah, I'm um maybe you can just kick us off with like 2 minutes and what you think frontier pacing should be like since you're talking about kill switches, which is kind of an adjacent topic."
+        ],
+        [
+          29,
+          "Ooh, frontier pacing. [laughter] I mean, the public choice concern is here in spades."
+        ],
+        [
+          39,
+          "Which is it's one way to view some of the criticisms of the good faith incentives of the massive massive corporations that are calling for the government needs to pace us. My first question is what you'd like don't have control of your own people? Like, you know, seriously, you're like that literally off the rails that you can't pace yourselves internally? And creating a regulatory standard that is safe, which is what everyone wants, I want safety, too, to be clear, but there's a form of passing the buck that I think could constrain downstream liability for many such large platforms."
+        ],
+        [
+          87,
+          "Which is if they pass the buck to the government and say this is too important, we're competing with one another and we'll both outrace one another, and I'm like really? You can't control yourselves? You're You're agreeing with one another publicly that you need to pace, and then they're like, oh, but these open weight models might outpace us then. And I'm like, oh, so this is a backdoor means of regulating open weight open weight models as well. And so, to me, the concern is if the government gets to define the safe standard and each large company says we are complying with the safe standard and a harm emerges is it the fault of the company or is it the fault of the regulators for not specifying the right safe standard but I suspect no one no one knows yet. And so my concern is is the call for please regulate us. We've seen this from railroads to you know massive massive corporations across the course of the 20th century. This is not to argue that we don't have a safety concern which I I think is quite serious but nonetheless arguing that we therefore need government intervention to ameliorate that concern is not to me an unambiguously clear answer and it has really troubling implications for our access to models that are not centrally controlled."
+        ],
+        [
+          171,
+          "Because then the argument becomes oh all of the unsafe stuff is happening with these open weight models. Maybe everyone needs a legal identity tethered to one of the big platforms to use their AI tools. And oh a device native open weight model very dangerous cuz we can't see what's happening there in. And so all of the margins of open source software that are degrading the competitive advantage of these these titans to me I'm very concerned about where those go in a world where we say government define the safe pacing standard for these transformative and I would say admittedly dangerous new technologies. But I've already spoken for past my time. Thank you for giving me the two-minute segway Timber and I look forward to Venkat."
+        ],
+        [
+          225,
+          "Yeah. Couldn't have done a segway better myself. So Venkat, yeah, if you want to maybe voice over your take that you posted about to get us started, that could be interesting."
+        ],
+        [
+          234,
+          "Um All right. So, we we originally had Gary Wolf uh scheduled to speak in this slot, but he had a personal um emergency, so he couldn't make it. So, we thought we'd uh take an opportunity to turn it into a little bit of an open mic session to discuss the hot topic of um the last few weeks, the idea of frontier pacing. Uh so, for those of you who don't know, um this was this conversation was kicked off by Dario Amodei, the CEO of Anthropic. He posted a um manifestoy-ish article, which I've linked there, called We Must Pace the Frontier. And this came on the back, as you all know, of several weeks of uh uh security incidents, like OpenAI had the big one with Hugging Face. Um Anthropic had several, and since then there has been, like, you know, a steady stream. So, just to give you all a recap of what else has happened, um you had Dario's piece, then Microsoft's Mustafa Suleyman posted a thing called Humanist AI, um which uh I thought was terrible. Uh then uh there was a big sort of like weirdly organic um dog pile on the effective altruism crowd, which um yeah, I didn't expect because I was writing and posting effective altruism um criticizing it on my own, but then suddenly Trump posts about it saying America will never be an effective altruist nation. And then he does his weird thing trying to rename AI as superintelligence."
+        ],
+        [
+          333,
+          "In the meantime, you still have these security incidents going. And um if you guys are following the blow-by-blow, there seems to be a schism developing in the effective altruism community, where the true doomers are kind of forking off uh and doubling down on their hardline position that this is out of hand. We cannot align. We must shut down AI. Uh the effective altruist crowd, and I'm learning just the details of these internal rifts fairly recently. Uh but they're kind of like still regrouping, I think. I haven't heard them kind of like fight back. Right now, everybody is like just punching hard at EA. Uh I'm I don't like getting involved in culture wars, so I was just writing my post, so I didn't actually expect that. That's not the post, by the way. This This was my response to Dario's post. I had a second good post called EA safety."
+        ],
+        [
+          386,
+          "Um and I had um If you go to my Contraptions uh newsletter, you'll see I've posted three posts recently. One is a response to Dario, which is this accelerationist one. Another was about EA safety, which was my kind of like snarky title that you know, we talk of AI safety, but the EA crowd is trying to make AI safe, and they themselves need some governance, so that's what I called EA safety. And then I wrote a rebuttal to um uh the Microsoft safety piece. So, lots going on, and this is I think worth paying attention to. It's not the usual noise in social media that has no effect because billions are riding on it. So, EA money, you know, the funds billions in safety research and other stuff. Um the industry has organized around these narratives. So, the current state of narrative chaos is both a risk and an opportunity. Lots of things are settling down in different ways. Um yeah. Uh Charles, I see your note about desk real. I honestly think that's kind of like a a nonsensical um progressive left uh thing. It Somebody described it as desk real is um a perfect illustration of the fallacy of composition. So, for those of you don't know it it came from Timnit Gebru's uh uh sort of like group in she left Google or forced out of Google."
+        ],
+        [
+          478,
+          "Deskreal stands for something like transhumanism, effective altruism, uh there's like some longevity thing. So, it kind of like cobbles together all the tropes about all the things progressive left people hate about Silicon Valley and bundles them into an ideology that doesn't actually exist. Um each of those things might be individually critique-worthy and individually objectionable from certain perspectives, but there is no such thing as a deskreal person. So, that's why I think it's kind of nonsensical. Uh but but that is a sidebar. Okay, so that's kind of my very muddy uh um explanation of a very muddy situation that's still evolving rapidly. But, I've concluded that actually what's happened, so this is my first attempt at sense making, what's happened is that what used to be um So, back back up a month, right? Data centers were the hot topic in the election cycle running up to November, right? It was bipartisan, Democrats and Republicans were both hearing all over America. So, this is going to be a very America-centric sort of like open mic spiel by me. Um but yeah, America is where frontier development is happening, it's where things are getting pushed and the narrative is getting shaped, so it makes sense to focus on America even though a lot is happening in China and the rest of the world. But okay, so couple of months back data center politics was framing the mainstream, right?"
+        ],
+        [
+          567,
+          "What's happened in the last couple of weeks is I think two more dimensions have gotten added to it. Um the first is this a conversation that was kind of like a little subcultural culty thing has suddenly gone mainstream because that one guy left Anthropic and showed up on Anderson Cooper and a lot of other places. Bernie Sanders kind of like proposed a non-starter bill saying we must stop development on like self-improving models even though I think he has no idea what he's talking about. That's a non-starter but it's like you know brought the topic into the Overton window so to speak. And the third dimension of that which Eric kind of alluded to is there's a lot of money in the balance, right? Like AI industry is where a huge amount of investment is concentrating not just in terms of equity investment but an extremely over leveraged debt situation. And the stock market is kind of staying afloat on AI kind of like boom positivity but it's very fragile. A lot of people a crash might happen. So there's that happening. This is I think one cynical reason Trump is acting as he does. I don't think he has any idea what AI is, what effective altruism is or what the safety concerns are. He's totally uninterested and doesn't ignorant about all that. The only thing he cares about is if the AI fueled stock market and general economic health science collapse, he's already dealing with high inflation and the bond market is giving him headaches. So he's really scared that if the whole thing collapses on his watch, he'll basically get going to the second half of his term not just as a lame duck but as the guy who kind of like killed the boom and brought inflation back, right? So that's all he's trying to counter program in my opinion. So that's my three-dimensional read on the situation. It used to be all data center. Now it's data centers plus a little bit of a real doom conversation that's not extreme like it'll kill us all type doom conversation, but more like hey, all these crazy security incidents are happening. We need to do something. So, sort of like middle of the road doom conversation. And then the third, genuine economic anxiety and insecurity. So, that's my take on the state of play. I'm kind of blogging through it while this symposium is going on. And I'll close with one thought, it's kind of nice that we're doing this protocol symposium at this time because I think we are one of the groups with one of the few lenses that actually makes interesting sense of all this."
+        ],
+        [
+          732,
+          "Uh so, with that I'll feed the mic to whoever wants to go next. Tim, or if you could kind of like curate uh um any raised hands and stuff. So, please raise your hand if you want to do a little open mic 5-minute spiel on everything that's going on."
+        ],
+        [
+          747,
+          "Yeah, raising hands makes it a lot easier for me to um to queue people here. So, yeah, Rafa. Let's hear it. Hot hot take."
+        ],
+        [
+          757,
+          "[clears throat]"
+        ],
+        [
+          757,
+          "So, uh I I don't really have a hot take, but I do think that kind of like all problems or combination of problems that kind of like occurred previously in history in some flavor. And I think kind of I I find it hard to believe that this is quote unquote the first time in history that this type of situation is happening, although it might be. So, I guess I don't really have a comment beyond like can we articulate when similar situations have occurred before? And are there specific actions or non-actions that might be uh relevant to the to the conversation today? For example, of how nuclear power was managed um or how the adoption of um uh you know, I I I'm not 100% sure. I I have a difficulty thinking about it, but I think that's the open question that I have."
+        ],
+        [
+          828,
+          "Anybody else with thoughts, comments, questions on the the frontier pacing topic? You can queue up the three Androids."
+        ],
+        [
+          840,
+          "While we're waiting, I've got a"
+        ],
+        [
+          842,
+          "[clears throat]"
+        ],
+        [
+          842,
+          "I can go for a couple minutes. Um, I think it's just a really really complicated question about frontier pacing and like you have the charitable thing where you're like, well, these frontier companies like need to coordinate on a slow down or else one of them is like like none of them are incentivized to slow down. So, like that's the charitable type of the company perspective. But, yeah, generally I think that this could be solved by like using existing liability laws and holding these large companies accountable for damages caused by their agents rather than forcing them to slow down and a coordinating that slow down because of what um what Eric said, which is a um you know, if we make this slow down the responsibility of the government, then liability actually gets punted off from the companies and onto uh the government, which is probably not what you want. I think that having the companies be liable for their products is more important. Um, and then there's the argument where it's like, well, we need a we either need a global slow down to make sure that China doesn't get ahead with this potentially destructive technology, which I think is just I don't know."
+        ],
+        [
+          926,
+          "This probably not going to happen. And I think though that if I had to rank my preferences, it would be like hard liability for AI companies, then it would be a globally coordinated slowdown, and then the the thing that I think is least attractive is like a domestic slowdown in in North America and Europe where like China is is not um slowed down."
+        ],
+        [
+          953,
+          "Yeah, it's um unless China's slowing down, I think that the best option is probably just to enforce harder liability with with the companies that we have in in our jurisdiction here in the West. Yeah, Mike, you you go ahead."
+        ],
+        [
+          969,
+          "Yeah, I just uh I think the whole thing is absolutely absurd. I think that the it's just utterly preposterous. I think it's all self-interest, candidly. I don't doubt that these people are, you know, getting high on their own supply of uh advertisements and and the the intelligence they're selling to raise cash, but um they have raised themselves into valuations that are absolutely astounding. And they both, OpenAI and Anthropic, are choosing to compete without They need to find a third party, a government to step in to basically keep them give them the excuse to stop spending so much cash, uh incinerating it on compute, and and sort of having this uh war of all against all to like move at 100 miles an hour toward the frontier. There's objectively not a reason to keep doing it except for the hype machine they need to keep keep the sort of uh money coming in, the valuations going up before the IPO hits."
+        ],
+        [
+          1040,
+          "And I find like this uh"
+        ],
+        [
+          1044,
+          "[groaning]"
+        ],
+        [
+          1044,
+          "Silicon Valley is kind of like glomming onto the oh, but then China's going to do it. Absolutely absurd as well. I just think these people are clowns and they are coming on to like this uh because there's more government spending going down, we're going into a rearmament cycle. We've already started it, right? They know that defense industry is where the money's going to flow, and so they're all clamoring for it. But it is logically inconsistent, in my opinion, for um the people in the AI labs to be worried about oh, well, China's going to build a model when they themselves are saying, well, we're the ones that are building a model that is exhibiting behaviors that are out of alignment with the values we purport to live through. So, I think this is like um a much ado about nothing, and I think it's all just a bunch of hogwash to keep the the plates spinning before it all comes crumbling down."
+        ],
+        [
+          1112,
+          "Okay, Sachin."
+        ],
+        [
+          1114,
+          "[laughter]"
+        ],
+        [
+          1119,
+          "Yeah, um um yeah, I guess I sort of thinking about how it seems like there's always like a pattern of um um um Uh yeah, I think Venkat had this idea of manufactured normalcy from a blog he wrote several years ago, where the idea was that um um like essentially it's humans can't handle a lot of change at the same time."
+        ],
+        [
+          1154,
+          "And so, there's like a manufactured normalcy field that makes it seem like change is sort of gradual or it happens through sort of like the future or like it happens through experts who for whom maybe things have changed experts in a particular field for whom things have changed rapidly while outside of the that field everything kind of feels more gradual or like the pace is slower. But I think like now you sort of have this thing where every time something escapes containment from sort of a highly technical field or it's usually something that's like extremely I don't know what the word for it but like a negative version of a charismatic sort of like doom prophecy type stuff and like the safety thing is one example but I think it also happens in other cases as well where the sort of examples that escape as like visions of the future like tend to be like these extremely negatively charismatic examples. And and and then it seems like there's like a political coalition around those things and yeah, I don't know how um Yeah, I don't know how you deal with something like that."
+        ],
+        [
+          1295,
+          "Any more hot cakes?"
+        ],
+        [
+          1297,
+          "Yeah, I mean since I've been thinking about this, I thought maybe I'll just add a few few thoughts of mine. And I think Tim might have noticed I was pretty active last evening on this topic."
+        ],
+        [
+          1311,
+          "One, I feel that there's a lot of hype even around the terminology we use and we in the field should at least be avoiding that. Like when we say agent swarms, I think we should just dumb it down and bring it back to reality that they are prompt loops. When we are saying it's escaping, we are just saying that when you give enough compute or almost infinite compute, I don't know, they should share how much how many millions they burned for that swarm to attack hugging face, but you're exploring the entire solution space. So of course you'll find a way to find a hack when you're given enough set of tools to hack a website. So I think we as a community have this responsibility to bring it back to what it is rather than hyping it more, calling them agent swarms for which are basically prompt loops, um bugs as agency, and um I just kind of feel that we are adding to that noise here. One, because and Mike had a very good point about adoption. I mean I'm in a very large MNC. We spend millions on it."
+        ],
+        [
+          1379,
+          "Nothing really works in production and these companies know that. Um except for coding, and that too we are running into a lot of issues with a lot of slop. So, where is the money coming to them? Uh that's something very um important question to think about. And I've spoken to friends across the industry. No one seems to make it work in the production. So, I was like, it's they have to come up with money, and I'm thinking this is the whole way of hyping this entire thing just to get more eyeballs, more scare tactics, and also this whole idea that we cannot pin um responsibility to them. It's like I I just cannot come to terms with it. It's like you write a buggy code, um you are responsible for it. So, I think as a community, I think we have that responsibility because I have worked in this field for almost 20 years. I wrote my first decision tree algorithm in 2005, random forest in 2006 in C, put systems in productions in hospital."
+        ],
+        [
+          1444,
+          "Uh so, I know this field. So, if someone comes and says, \"Hey, um we have agent swarms.\" I'm looking, \"What What are the agent swarms?\" It's basically a prompt with a tool set. So, uh yeah, that's my take. I know it was a rant more, but uh"
+        ],
+        [
+          1466,
+          "We have a few more minutes left. Anybody else who hasn't gone yet have another take? Avang."
+        ],
+        [
+          1475,
+          "There's Avang and Giovanni next."
+        ],
+        [
+          1478,
+          "I have to go quick. I'm a kind of I came because I want to know more about protocols because I've been working with radical exchange um in salons about the EU's new paper called the plural stack, and they're rebuilding their digital foundations from protocol up. So, I kind of wanted to see what people were doing with protocols here, but I also work in the grassroots space and we're trying to have community conversations between polarized groups. These groups are very worried about all the AI stuff cuz they don't know what anything you guys are talking about. Um and so we're trying to get communities together on a large scale and we're using Polis to try to help bridge those divides and then we're having meetings"
+        ],
+        [
+          1529,
+          "[clears throat and cough]"
+        ],
+        [
+          1530,
+          "with different groups to try to change the discourse and empower people with education and knowledge, but wherever I go I hear doomsday discussions and the data centers are going to ruin everything and AI is going to end the world. So, I guess I'm looking for what kind of language would you say would be good for these kinds of discussions to help um just your average citizen understand um and kind of get a grasp on past, you know, your average YouTube algorithm."
+        ],
+        [
+          1579,
+          "All right. Thank you very much."
+        ],
+        [
+          1582,
+          "Uh do you want to say may I add the um I was uh finishing reading your essay about the accelerationist case. Um and I was struck by the the I mean up to the paragraph talking about fighting the wrong enemy. And I the first thing that came up in my mind is, you know, the the famous paperclip maximizer kind of scenario by Bostrom. Because to me it looks like as you wrote in the the maybe the the the biggest and the you know clearest clearest and the present danger is humans using AI against other humans or in general the the human factor in all of it. Uh, and I was thinking about the the paperclip uh maximizer because if you wanted to abide to the uh the uh a positive uh light to shine on the um Darios and the other spacing proposal. So, I'm not thinking about the the the their own interest economic I mean interest in that. Maybe that instead it's uh shall we say anti-economic in the sense that it's a kind of way to fight the most uh uh the worst pollutions of capitalism in the sense that in a sense AI is right now enshrining a kind of the the maybe the biggest bubble that has ever been at least potentially. Uh and so pacing here is actually a protection against the worst kind of human uh degenerate uh behavior."
+        ],
+        [
+          1703,
+          "Uh AI in this sense is a kind of a vehicle shall we shall we say more than the the the main spot to look at."
+        ]
+      ]
+    }
+  ]
+}

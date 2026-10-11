@@ -4385,5 +4385,93 @@
       "climax technology / technology plateau",
       "resonant attractors in matter"
     ]
+  },
+  "D_5TryFVjR0": {
+    "video_id": "D_5TryFVjR0",
+    "title": "Closing Session",
+    "url": "https://www.youtube.com/watch?v=D_5TryFVjR0",
+    "duration_sec": 2705,
+    "upload_date": "NA",
+    "playlist_ids": [
+      "PLEt1tjJkFjsQ"
+    ],
+    "series": "symposium-2026",
+    "has_captions": true,
+    "youtube_title": "39 - Venkatesh Rao and Timber Stinson Schroff - Closing Session",
+    "programme": {
+      "slug": "closing-session",
+      "title": "Closing Session",
+      "speakers": [
+        "Venkatesh Rao",
+        "Timber Stinson-Schroff"
+      ],
+      "abstract": "Review and retrospective of the symposium with town hall discussion.",
+      "scheduled_date": "2026-09-25",
+      "track": "General"
+    },
+    "date": "2026-09-25",
+    "summary": "Venkatesh Rao delivers a closing synthesis of the five-day symposium, highlighting recurring themes like 'new nature' (Sean Stevenson's test: a system is new nature when there's nobody to appeal to), the interiority/exteriority tension in AI discourse, and the balance between playable protocols and grinding enterprise IT work. Timber Stinson-Schroff co-hosts a town hall where attendees share standout moments, Rao announces the Protocol Institute's transition to fiscal sponsorship under David Lang's Experiment Foundation following the end of Ethereum Foundation funding, and the group plugs the Monstrous Times fiction magazine spinoff led by Sachin Benny and Spencer Nitkey plus an upcoming November 'book writing month.'</summary>",
+    "categories": [
+      "protocol-theory",
+      "organizations",
+      "announcement",
+      "editorial"
+    ],
+    "speakers": [
+      "Venkatesh Rao",
+      "Timber Stinson-Schroff"
+    ],
+    "key_concepts": [
+      "new nature (Stevenson's test)",
+      "continuity infrastructure",
+      "protocol fiction / Monstrous Times magazine",
+      "fiscal sponsorship via Experiment Foundation",
+      "interiority vs exteriority in AI/protocol discourse"
+    ]
+  },
+  "FXhNHhaZyTo": {
+    "video_id": "FXhNHhaZyTo",
+    "title": "Open Mic: Frontier Pacing Protocols",
+    "url": "https://www.youtube.com/watch?v=FXhNHhaZyTo",
+    "duration_sec": 1719,
+    "upload_date": "NA",
+    "playlist_ids": [
+      "PLEt1tjJkFjsQ"
+    ],
+    "series": "symposium-2026",
+    "has_captions": true,
+    "youtube_title": "19 - Venkatesh Rao - Open Mic: Frontier Pacing Protocols",
+    "programme": {
+      "slug": "open-mic-frontier-pacing-protocols",
+      "title": "Open Mic: Frontier-Pacing Protocols",
+      "speakers": [
+        "Venkatesh Rao"
+      ],
+      "abstract": "An open-mic session for people to present quick 3-5 minute takes on how they think frontier AI should be regulated or paced. This session will be used to seed a working group if there is enough interest.",
+      "scheduled_date": "2026-09-24",
+      "track": "General"
+    },
+    "date": "2026-09-24",
+    "summary": "In this open-mic session at the symposium, Venkatesh Rao frames the sudden mainstreaming of 'frontier pacing' debates (sparked by Dario Amodei's 'We Must Pace the Frontier' essay) as the collision of three forces: data-center politics, a newly mainstream AI-doom discourse, and genuine economic anxiety over an AI-fueled market bubble. Timber opens the session with a public-choice critique, arguing that AI labs calling for government-imposed pacing standards may be a strategy to offload liability and create a backdoor mechanism for regulating open-weight models out of existence. Other participants, including Mike (Travers), Sachin (Benny), and Rafa (Fernández), debate whether hard liability law, a coordinated slowdown, or skepticism toward 'agent swarm' hype is the more honest response to the current AI safety panic.",
+    "categories": [
+      "protocol-theory",
+      "governance",
+      "technology-ai",
+      "editorial"
+    ],
+    "speakers": [
+      "Venkatesh Rao",
+      "Timber",
+      "Mike Travers",
+      "Sachin Benny",
+      "Rafael Fernández"
+    ],
+    "key_concepts": [
+      "frontier pacing",
+      "regulatory capture / public choice critique",
+      "manufactured normalcy field",
+      "liability vs. government-imposed slowdown",
+      "open-weight model regulation"
+    ]
   }
 }

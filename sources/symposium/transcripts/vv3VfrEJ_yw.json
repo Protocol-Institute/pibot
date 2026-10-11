@@ -1,0 +1,222 @@
+{
+  "video_id": "vv3VfrEJ_yw",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "group-brains-minds-made-of-people",
+      "title": "Group Brains: Minds Made of People",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "Are we gonna start again?"
+        ],
+        [
+          1,
+          "Yep."
+        ],
+        [
+          2,
+          "Hi everyone. So this talk is called group brains minds made of people."
+        ],
+        [
+          8,
+          "And um this idea is not new. Um Doug Angelbart, one of the um authors of modern computing had this concept of collective IQ. and he looked at it as um he saw it as the computers were going to be tools to augment human intelligence and he had this idea of developing a dynamic knowledge repository at DKR that was a living body of knowledge where groups intelligence dialogue records and finished proceed products were maintained uh together continuously and so this is this is sort of where we're starting with in you know back in the history of the evolution of computing and I um oh I define a group brain as a durable human collective sorry for the siren out of a cafe um so a group brain is a durable human collective that remembers learns turns, deliberates, and decides as a coherent mind with capacities no single member has and a life that outlasts any of them and we can see um these elements that make up a group mind. So first of all there is um the the core elements the knowing substrate how a dist how distributed individual knowing becomes shared knowing a memory substrate where knowledge persists when nobody's thinking about it a decision protocol how the group commits to something and an output what the group actually produces."
+        ],
+        [
+          127,
+          "Then there's key elements around keeping alive it alive. Who's inside and how does anyone know? How does it survive um the loss of every current member and still continue? Can a newcomer find out what works um without being told this is legibility? Capture resistance. What stops one faction or funer from taking over?"
+        ],
+        [
+          154,
+          "And then you have pillar three. Placing it. Sorry, I'm having trouble with these. I want it to just be small there. Okay. Placing it in the world. So there's place rudeness. Is it local or deliberately portable? How many people?"
+        ],
+        [
+          174,
+          "Hybridization, if anything, what is the machine's role? And longevity, how many generations has it run? So these are ways to kind of think about this problem space. So I first encountered what I named as a group brain um when day water and I were doing this research for the protocol institute two summers ago. um and that their data tracker um which is this repository of all the knowledge of every working group and every um all the different groups. There's more than just working groups at the ITF. There's other organs that do different things. And this data tracker is like a memory organ that saves all the information and but it's not enough like you can't sort of look at the data tracker and understand it all. there's actually um the living assemblage of people who are participating in the IATF um the the human interaction three times a year at their meetings and the interactions in between and the the collective capacity of both the data tracker and the human culture and human protocols that go with it make make up a group brain. It's not one or the other."
+        ],
+        [
+          262,
+          "Um and so this was the AI's drawing of a very beautiful potential group brain. Um the ITF's been operating continuously for decades. Although people who were involved at the very beginning are still involved. Um they are getting very old and they will die soon. Um and then they the life of the organization will have extended past the original members lifespans. um it's working at planetary scale with no chief executives, no formal um board authority over technical work and it's um protocols essentially run every packet on earth between all computers. So, it's a very impressive sort of set of work it's been able to produce, but also the way it produced them is really novel and unique. And we can think about the two elements that there's this memory substrate with the RFC series being at the base of that plus all of the the mailing list, every slide deck of every presentation ever at all meetings."
+        ],
+        [
+          338,
+          "Um they even went back and retroactively as modern computing and the data tracker got created inputed the notes from previous meetings. So it's as as complete as they could possibly make it. And then this knowing like how people operate, rough consensus, the fact that they never vote on anything. And they have this truly like amazing lived sense of what fits with the organization and what doesn't when they go through a process called a birds of a feather to figure out whether a new piece of work or new group could could enter. and this group brain that they have and the people within it have a have a sense of group proprioception. And in a few slides I'll show you uh an org chart for this entity. It's it's incredibly complex but everybody who's actively participating knows where they are and and the IETF has like all things that are coherent. They have boundaries within the IEF. They have very soft boundaries at the edges where anybody in the world can join any mailing list and anyone can speak at the microphone in their meetings. Um, but each working group has a very clear purpose and a clear reason for existing and and things that are off topic are not tolerated within that boundary of the working groups or or other organels. And then as you get um closer to um powerful roles within the institution, the boundaries harden and they have unique processes for picking leaders um that include a sort nominating or it's a it's misnamed. It should be a called an interview committee. A sort committee that sort means you're randomly selected. So a randomly selected set of people pick the key leaders."
+        ],
+        [
+          460,
+          "And if we sort of analyze what's going on with this the mechanisms in the IETF, they have this very sophisticated stigma going on. This is like the what ants do and other types of of of entities that are leaving marks about where they went. So each of the working groups leaves a whole set of traces about how they got to a decision and what the deliberations were and it's it's but stigma alone doesn't get you deliberation and discernment. And so this is these two things together are key elements of of what I'm calling a group brain. Um, this is this image I was talking about earlier where you have all of these different entities within the IATF. Almost all things every one of these entities do is public. Um, and they are together. This whole set of what we end up calling organels makes up the IETF."
+        ],
+        [
+          532,
+          "Um, in a paper that I'm working on related to this talk, um, we look at some examples of things that we think have group brain like qualities and sort of ask the question, are they group brains or not? Uh, I think the IETF we just went through in an explicit way. Um, Wikipedia um has qualities that I think mean we could consider it a group brain. has um the edit history. It has talk pages."
+        ],
+        [
+          565,
+          "It has a whole process, a sophisticated process around selecting ad admins and editors um that that take on key roles and they are continuously reviving and it's alive like it is a very very successful entity on the internet that is yeah it has a foundation and there's staff people in that entity but it's really driven by the living energy of the people who make and remake Wikipedia every day. And that's similar to the ITF. The ITF is pulling in the aliveness energy of the people who co-create it um all the time in their processes of working on standards. Uh, my friend Jerry Macowski has an incredible Jerry's brain using the soft brain software, but it's really all about him and his brain. So, it's like really about Jerry. It's not a group collective, although he does um run a community called Open Global Mind. and that community um does sort of he does add information to his brain from the community's conversation."
+        ],
+        [
+          646,
+          "It isn't a an entity. It isn't owned or cared for by the community. And then we also have an sort of negative example of Dows which sort of had this theory of like onchain recording of transactions but the boundary is buying a token and there's you know apparently a lot of problems of people not wanting to actually participate in the collective decision making um of the of Dows Right."
+        ],
+        [
+          688,
+          "So I I gave a talk a couple of days ago along with my colleague Kevin Triplet at Project Weave. Um we think that you know an essential complement to having a group brain is having a group membrane. who is in and who is out and how can that continuity be maintained over time even for the ITF you can't participate if you do not get an account inside the data tracker even if you never submit anything ever you can't go to a meeting without it and you can't really post on a mailing list without joining the data tracker so that's like the the boundary for them. In other groups, like the the types that I'm really excited about exploring this concept of group brain with, it's like, do you live in the neighborhood? Are you in a subgroup that is active in the neighborhood? Those types of things."
+        ],
+        [
+          753,
+          "Um, and this is um echoing back to Doug Engelbart's work that I started at the beginning. He had this idea that humans that that there he knew not idea he knew that in order to maintain like the group the the the work of a group um you had to have humans do a lot of work to manage the information flows within this digital substrate that he was envisioning of a dynamic knowledge repository. And so he he saw this as um saw this he saw this kind of need to both have that but also do a lot of training. And I think this is where we have a real opportunity with the AI is to have AI do this kind of organizing cognitive labor that humans would have had to do when he envisioned this first in the 60s to um to being able to make this vision become alive."
+        ],
+        [
+          827,
+          "And so this is just another diagram of sort of saying like there's there's the opportunity for human integration and then shifting this to allow AI agents to serve a role in inside of a group brain to help it organize itself. And I think when I think about this, I think that the role of AI agents should be to augment our capacities as humans, not to replace our decision making, right? That I I don't have as much faith as some people seem to do in AI. think it's an amazing tool to do grunt work. Um, my team at Project Weave uses a group brain in the form of an obsidian vault that we sync with the team every day. So, it holds everything about our our whole project."
+        ],
+        [
+          889,
+          "But just before I went on this latest trip, I spent I spent a whole week reorganizing the vault cuz it was a mess. and me and my a my AI agents together, we we worked in collaboration, moved over 4,000 files around to get it sorted, right? So, that sorting was possible because I collaborated with an AI agent, but I had to be in the loop of making it make sense and getting things to not be total chaos, right? So, and and we as a team that are using that group brain of an obsidian vault for our ongoing work need to be are not using the AIS to make decisions. We're using it to think and organize and consider pathways and options and store information about funders we're approaching, etc. But we're the ones who are actually the humans making decisions."
+        ],
+        [
+          951,
+          "Um, and I think that another way that I've been thinking about the opportunity of a group brain and the relationship with AI is that in fact there's a huge conversation about I think it's the next slide. Yeah. A huge conversation about quote unquote AI alignment and it sort of ends up focused on two ends and it misses this middle the group. On the one hand, you have like the alignment with an individual or with individual values or what's good for a person and on the other you have sort of vague notions of like all of humanity which is way too big to wrap your head around. And I believe the middle sweet spot is groups and and the group brains that we could build using AI and having the AIs align with us in our group communities. maybe where we should be focusing our alignment attention."
+        ],
+        [
+          1010,
+          "Um in the essay that I'm working on, we sort of had a uh an overview or history of where we have come from like way back um at least in the west, we had kinship networks and those were broken down uh with various mechanisms including religion emerged as a kind of way that people connected and trusted one another. And then we had the emergence of um with merkantile capitalism the emergence of pro-social impersonal pro-sociality meaning you could be pro-social towards people you didn't know and had very little in common with and this is how we have mass society today. Um, and I think we might have driven ourselves into the ground with the way that corporations have sort of move to full extraction and that communities uh defining themselves and figuring out how to align with each other and with the planet may group may group brains uh may play a critical role. And we was touching on this in my talk um two days ago really thinking about like how do we help our humans and people connect with place um and that we could imagine a future where AI is in block level like AI for a block in an urban environment is is being hosted in someone's basement with the data of that community and the n the an AI for a larger sized area like Tracy's frame of a neighborhood could also be helping us connect and live in place and this I think has a lot of potential to again ground AI and service of people life and the planet and not just corporations exploiting us more because and This was just a pretty picture about, you know, what does it look like if we connect up these intelligence at a much larger scale and see where we can go in terms of building a thriving future on the planet with group brains and protocols for them to work and group membranes using protocols for defining groups and communities and enabling those groups and communities to collaborate together."
+        ],
+        [
+          1164,
+          "And I saw this quote. This is my final slide. I really thought that there was a quote from Ticknot Han that I read while I was working on this that said, \"The next Buddha will not take the form of an individual. The next Buddha may take the form of a community and a community practicing understanding and loving kindness and a community practicing mindful living.\" And I think that our communities and our groups can fulfill live into that vision with the assistance of group brains that help them uh live together and maybe we'll get somewhere potentially enlightening. I don't know. But it was a nice thought to end on in terms of why I think this idea and these protocols are important for us to explore and what could happen if we do it well. So with that I will stop sharing any questions."
+        ],
+        [
+          1240,
+          "Okay, I'll look at chat, see what's there."
+        ],
+        [
+          1247,
+          "Yes, I I am a big Cosmolo fan."
+        ],
+        [
+          1254,
+          "Responding to the chat."
+        ],
+        [
+          1262,
+          "Have a question. Yes."
+        ],
+        [
+          1265,
+          "Um, so I work in and around Ethereum development and we're all ingesting how agents and LLM are changing the workflows, political economy, etc. Um, one of the things we're looking at now is like a constitutional agent which describes sort of the history of past decisions summarized into a constitutional form. Um,"
+        ],
+        [
+          1291,
+          "and hopefully this, you know, maybe we can start to use it in tandem with live audio calls. Um, but generally, do you have any recommendations on like where I should start looking if we were to pursue this deeper or I'm sure you you probably have a ton of ideas, but um, anything come to mind right now? Um, well, I think well, it sounds cool to develop the constitutional agent that helps you figure out where decisions have come from in the past. Um, yeah. I mean, to me, I feel like I'm a midlevel AI user, maybe even not that that close to the the edge. So, um I just Kai turned on her video. I don't know if she wants to say something."
+        ],
+        [
+          1348,
+          "Sure. Well, just to clarify like it doesn't have to be necessarily related to AI. if you have any recommendations for like structuring the knowledge in a particular way because right now it's just scattered across a bunch of different forums probably and um"
+        ],
+        [
+          1362,
+          "if there's any precedents that come to mind but yeah"
+        ],
+        [
+          1364,
+          "well I mean I would say look at the research that day and I did about the IETF and and look at what they look at their practices very seriously. I would even encourage you to go to the IETF and sort of do an immersive field trip. I've been thinking about doing that. I've been thinking about with David Hodgson leading a learning journey to the IETF. I don't know if it will come together or not. We have a website up that I'm posting about it and I just put a link to the research as well. Um, they are the OGs of Group brains and they are also the OGs of the internet. And I hope that younger aspiring communities of, you know, of of internet scale can can can learn from them."
+        ],
+        [
+          1420,
+          "Yeah. Yeah, for sure. I I have your um I I remember reading your piece about the ITF. Um yeah, and I'll I'll take a look at it again."
+        ],
+        [
+          1429,
+          "And yeah, I guess the final comment"
+        ],
+        [
+          1432,
+          "I'll I'll have here is one of the challenges again with with AI is that it's yes, it's making our workflows easier, but it lowers the bar for other any any kind of party to come in and contribute at a really high level. And so"
+        ],
+        [
+          1448,
+          "Oh, totally. and Ethereum is Oh, go ahead."
+        ],
+        [
+          1451,
+          "And I'll just say like the IETF is struggling with this very issue right now."
+        ],
+        [
+          1456,
+          "They like took up a ton of time at the last meeting and they're they're really not sure what to do,"
+        ],
+        [
+          1462,
+          "right? And so like Ethereum is pretty directly descended in terms of its rough consensus practices. you probably know something about this, but I think one of the challenges we're going to have to figure out is how do we maintain these open processes of deliberative engagement"
+        ],
+        [
+          1479,
+          "and keeping them open, but um it's going to be harder and harder. I mean I think this is also where the group membrane the group membrane talk that I gave could also s be helpful like who's in and who's out who gets to participate"
+        ],
+        [
+          1497,
+          "and who's bots get to participate right like it's not you know I'm anyways so yeah these are great questions there another question from"
+        ],
+        [
+          1511,
+          "Kia was No, go ahead. I'm just joining."
+        ],
+        [
+          1520,
+          "Um, yeah, I guess I'm interested in um some elaboration in this knowing substrate where in this"
+        ],
+        [
+          1528,
+          "this comparison because it's different organizations and also Dows"
+        ],
+        [
+          1533,
+          "um because there's different forms of knowing that I see here. I'm not exactly sure what this refers to the snowing substrate."
+        ],
+        [
+          1543,
+          "Yeah. So, it's uh it's hard it's a little bit hard to get to when and I'm still trying to um figure it out in terms of how do we actually talk about it and what is it? But the the the information in the ITF track data tracker is not humans knowing like it's there's a there's a kind of group consciousness that forms in multiple levels of the IETF that goes with the data in the data tracker. And it isn't just data. It's like data plus human culture and knowledge and their their practices around it that mean that there is a sense of knowing in the organization and I'm sorry I don't have better words than that but hopefully as I work on this article we'll get clearer."
+        ],
+        [
+          1612,
+          "Um I think we got time for one more question before we get going with our double track. Um Ver if you want to go ahead."
+        ],
+        [
+          1619,
+          "Uh yes. Um hi. Um so maybe if you can elaborate a bit more about the tradeoff uh related to the decision of being uh rigid in the borders like and and also like who is in who is out and of topic is not allowed. What are the tradeoff for um related to adaptability to allowing the creativity to allowing newcomers"
+        ],
+        [
+          1654,
+          "and yeah and also if you can also put some dimension in terms of the size of the group because this may be completely different if we are talking about"
+        ],
+        [
+          1664,
+          "something that is very small or larger"
+        ],
+        [
+          1667,
+          "right so the IETF is composed of tens of thousands of people who've participated over the years. Their physical meetings have about a thousand people in them. Each meeting in a room has anywhere from 10 people to like a big working group meeting would have a hundred people."
+        ],
+        [
+          1689,
+          "Um, so that's that's what they're talking. I think it's interesting because the ITF is very sensitive to new information. Like if something surfaces in a meeting that isn't supposed to be there, they redirect it to where it should go right into that that that organel that organi organel complex has lots of different places for different types of things. But if something doesn't fit and it feels important, there's where they have like a plenerary session where anybody can stand up and ask any question of the the big in the big organels. IESG and the IAB and they often will hear like uh disqu about how some piece of the IETF is operating and have a meeting just to discuss that within the next um face toface thing. So there this is what I mean by knowing it's there there's a kind of collective sensing that's ongoing all the time about is is something working or not? Do we need to fix it? do we need to have a meeting? And and it's very very beautiful to watch and hard to describe."
+        ],
+        [
+          1761,
+          "So I hope I hope I'm I'm um doing it some justice and that you know folks are interested in in really experiencing it. I hope you can go and do so yourself."
+        ],
+        [
+          1777,
+          "Awesome. Thank you Kia."
+        ],
+        [
+          1779,
+          "Thanks. Bye."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "video_id": "K6tmMjKkU_Y",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "talk-botao-protocoling-hci-hardening-int",
+      "title": "Protocoling HCI: Hardening Interaction into Infrastructure",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "Oh, you see me? Yes. Okay, there we share screen. Um, screen looks good."
+        ],
+        [
+          15,
+          "Okay, sorry. First,"
+        ],
+        [
+          20,
+          "I think this is the least number of tabs I've ever seen you have open, by the way."
+        ],
+        [
+          24,
+          "Okay. Yeah. Yeah, that's that's very ADHD. Okay. um today uh can we can we start it?"
+        ],
+        [
+          34,
+          "Yeah, go ahead."
+        ],
+        [
+          36,
+          "Okay. So, uh long time no see. Um like uh today I going to present uh this this kind of a design theory but it's not really a theory. I I still start to shaping it. I just want to um throw my thoughts out to see like everybody's reaction on that. So I name it as a protocoling as a design theory from interaction to infrastructure. So it's trying to name a paradigm. We're trying to design a condition for desire emergence. We shape the local action space but enable collective possibilities. So um first chapter uh we talk about this design a paradigm shift. So the design material become essential. So uh like this this year I was very lucky um like get enrolled into Santa Fe um institute their complexity science summer school and in that school I chat a lot with people about protocol but people don't talk about protocol there they talk about different thing like collaboration rules institution and uh like something called emergent engineering so what is emerging engineering. Basically is trying to engineer the minimum mechanism that can co coordinate with maximal adaptive uh system trying to achieve a function of objective."
+        ],
+        [
+          130,
+          "So traditional classic engineering you're trying to specify every component a dimension tolerance interface everything you need to specify and so you can get the result um by those specification. Think about one iPhone how many component inside and but uh sometimes in your design system some component could be very adaptive very uh aential. So the adaptive component maybe change the problem. So it it change shifting the paradigm from classic u engineering which every parts is a passive to every parts become agentive."
+        ],
+        [
+          171,
+          "So that's why in um like in last uh year I published a papers called um protocol futuring trying to record this kind of a divers rail daminics in protocol futuring process it's like because every component in this system it's a very agentive you cannot control everything so you only can control the protocol um yeah emergent so that's the emer engineering so that's the first um trend I I realized that people already working on this and the second trend is from biology like uh Michael Lavine who is very famous for a lot of like um biological design uh with a what he call agential material. So here's the conversation between him and also another designer talk about designing with diverse intelligence and from his model he trying to distinguish between passive material which is the material you probably can specify u be specified be shaped by external designer but a gential material could be a cell or could be uh some like agentive system which uh you cannot like really have fully control. Um so especially recent um recently large language model it's this kind of aential material."
+        ],
+        [
+          260,
+          "So uh here's their paper and uh we when when we shifting this kind of a material to a gential material um we our mindset should be shifting from specify it in everything rather than specifying how to organize those essential material by like uh thinking about their cognitive glue. So um for example from their lab uh they they trying to control okay the question is all the cell in one organism is have the same genome and same DNA why this part of genome be becoming a eye this part of cell becoming eye another part of cell becoming a skin so who control this so actually it's the uh he found it's a bio electric intervention. He can change the local bio electric intervention that will trigger this uh unusual area to to to emerge a eye organism like organ here. So it's like a it's very interesting. So how the cell know which kind of model they will become is totally bit it depends on the surrounding the surrounding uh cell and also the bioelectric environment."
+        ],
+        [
+          352,
+          "So the third trend I I realized is like is this um post is talk about uh the missing mechanism of agentic economy and they try to name another paradigm shift from traditional game design. We're trying to design um players rules action and experience within the game. Instead of we trying to design reversely it's called reverse game theory. It's trying to we're trying to think about what kind of rule what kind of incentive so the strategic uh um actor can reach the desired result the desired um uh collective behavior. So and that's uh here I'm trying to name this kind of design paradigm shift. It's called uh like designing a condition for desirable um like a emergence. So the outcome can remain contingent on how the actor responds. So recently we have AI large model system. So I think the scale to to like trying to writing the scale is like a protocoling is a kind of this kind of design. We're trying to telling them the condition and uh like to to to behave so the agent can follow that skill. um like which is just like high level instruction can can follow that uh to to become agential under that rules. So like uh this is like a a very interesting paradigm shift. It become more and more important in our um like a design scheme uh the design scene."
+        ],
+        [
+          457,
+          "Okay, let's talk about chapter two. Chapter two is like it's called diverse intelligent and um cognitive glue. It's basically these all theories coming from Michael Levine. Um how can bounded the actor become collective? So uh why we talk about diverse intelligent uh because this concept is also coming from Michael Loving his his paper is called just title uh diverse intelligent because when we design protocol we usually need to facing uh h uh hyuralen like um like act actors sorry for sorry for my English um so um because they have different like capab capac capacity, different goals and different way to sense the world and how can we co like coordinate those like um like a how to sorry I cannot spell this this term. Yeah. Anyway, um the cognitive lyon is the model that Michael Lavine proposed."
+        ],
+        [
+          522,
+          "I think it's very beautifully to describe the um like this kind of uh computational boundary of self. Um so you can see this chart um every kind of being they probably have here and now they have their limited cognitive um like power. They can only like predict some future and remember some past and also care about some surrounding not everything. So every everything is within this kind of cognitive lyon. Um it's bounded computation. So see the dog cannot predict that much future can remember some past and that's human that that's a possible AI or alien. So every being probably have this kind of cognitive lyon even a cell have a cognitive lyon. But when the different cognitive lyon can be using cognitive glue to glue them together to let them become combound intelligent the cell can combound into organism organism can be combound into a colony they will have a larger cognitive lyon collectively."
+        ],
+        [
+          595,
+          "So yeah, here's the uh here's like a fancy chart. You can see how a cell can coordinate with other cell with with uh using some shared model what kind of a a thing to make it a collective intelligence. Um yeah, here's the paper just you can you can for your reference. So um in like a biology um Michael Levin found like a bio electricity it's a cognitive lyon it's it's like a cognitive glue gluing different cell together once you in like intervene this kind of bio electric environment the cell can realize oh I need to grow a eye in a very strange place so they glue they they have like a mouse in different strange place also they put also put a eye on some butt of some uh fork but but anyway it's really fun but uh yeah so it can reveal something how can we organize different like actors so actually it's not our like cell is not fully controlled by genome it's also controlled by their surrounding environment their local environment so and also he also proposed this paper it's like a price as a coordinating signal as a cognitive glue. So price at it it can be a shared model of the relative scarcity. So using like a tuning price they can also like a um trying to coordinate the uh dis disperse plan um across uh different actors."
+        ],
+        [
+          702,
+          "So here's his uh paper about that and I found this ideas very fascinating. So we can think the cognitive glue is a compression is a compression of computation. So basically they compress the uh all the information about other others like for example I don't need to know each other's like scarcity their need and then their like supply. I just need to watch the price. The price itself it's give me enough signal to collaborate but I don't need to have a full theory of mine of each uh like a uh like each actor in the society but I still can like co coordinate with them just because of this kind of mechanism. It's a it's a very good uh compressing algorithm with like with which I can understand within my limited cognitive lyon. So the trust is bounded because trust require computation. So how can we make things trustworthy?"
+        ],
+        [
+          773,
+          "Um I think a portal can be a trust compressor. So you can using protocol to compress the computation to trust."
+        ],
+        [
+          783,
+          "So uh chapter three is about protocoling. So so protocol is trying to name this kind of uh design action. So protocol become the material you can design. The proto protocol is the design actions. So um as as like a be specified in some protocol a protocol is defined by codified interaction and uh it shapes the local action space for the local actor and trying to enable coordination amount different uh actor."
+        ],
+        [
+          818,
+          "So the protocol uh it's trying to create sometimes a constitutive uh design space or like action space. Um it's not like a regulative um governance. Regulative governance is like you do something and I say um like maybe you do something wrong, I do some exposed um punishment on you. Um but the protocol usually can define the action space how much move you can move and uh it's kind of guardrail for the actor in the space. So it usually can structure the local um the choice space which is very very powerful and very very different from traditional rules. It's it's a because it's constitutive."
+        ],
+        [
+          868,
+          "So like a auction rules you can specify who bids what's uh what is v visible when the bids close. This is this is like a local action space. So it's can be um this local action space can be uh very clearly specified in protocol even it's not incomplete because there's incomplete contract theory but sometimes good enough for you construct a very comp complex system. So the protocol is start become a design material. So you can design uh how uh to uh how the protocol specify this kind of local uh design space local action space and the protocolization actually is um a process a long-term process trying to um codify the interaction. So basically uh like the protocol uh the previously I described the protocol actually is shaped the local action uh space it's actually local action space is the interaction so um so that's why it it start with interaction and then we repeat this interaction and it become convention and then we codify it and then we standardize it make it have a make it a consensus and then we make it infrastructure and so everybody can based on this infrastructure to interact with each other. So this is a process we can um sometimes we only stop at just one spa uh one one step never go f further. So we don't think every protocol um like uh can go through all all this process but we just want to uh name here portalization is a long-term process."
+        ],
+        [
+          978,
+          "So the protocoling instead of protocolize so uh like protocoling is more active iterative like uh design action that can change the uh like a interaction uh condition towards a desirable collective u behavior. So um yeah that's that's the my definition. So um yeah finally I just want to show some example uh some toy example. This toy example is pox merge. Actually, it's a portical art. Um, from my stand, my definition probably primma prim doesn't doesn't agree with that. Um, it's it's trying to like the artists are trying to shape the protocol. The protocol enable the collective behavior. That become the protocol art definition from me. So um for for example um my favorite um protocol artist uh PAC he have a very famous work it's called merge is basically um you can buy NFT um of certain amount of mass of the NFT and then NFT automatically merge in your wallet become bigger and bigger so that's the local um action space you can do you can basically just buy it or sell it this two action But collectively it become a very interesting universe um like that's all the NFT um like a like a universe about this system and the center is the largest one it's called alpha and then who owns the alpha actually people collectively um kind of a um construct a dao this dow is called internship da using this da it's money collect collective money to buy out this kind of alpha and then they have all the kind of a funible token of the alpha. So the whole story become if you want to join the collective or just become still isolated. So become it's a very poetic like a like um u deminics."
+        ],
+        [
+          1108,
+          "So basically what the artist do he just invent very small um like kind of a protocol but the the whole collective behavior um like emerge over time."
+        ],
+        [
+          1122,
+          "So here's my summary. Uh protocol become design material protocoling become design action. Protoilization is the design process over long term. Yeah that that is my u kind of uh uh early stage theory. I really uh want to like like discuss with you guys to see uh your opinion about that."
+        ],
+        [
+          1165,
+          "Anyone? Um maybe any question."
+        ],
+        [
+          1178,
+          "Okay, I'll go back to the last slides. Oh, okay."
+        ],
+        [
+          1198,
+          "Sorry like that so I can read."
+        ],
+        [
+          1216,
+          "So, any question?"
+        ],
+        [
+          1226,
+          "Andre, you got a question? Go ahead."
+        ],
+        [
+          1233,
+          "Yeah, I guess this is uh I just keep bumping into this Lavine fellow and he keeps uh hurting my mind every time I I I I read it. Like I don't deny that what he's saying is true, but it really like feels like there's a massive amount of tension between his theory that diverse intelligence lives below the level of self like as of the whole versus uh maybe it was Anderson or someone had the essay of uh more is different where each level of selves actually create an entirely different set of rules that should be looked at independently from the smaller the smaller components and I guess uh that's something that I don't know what to do with it but it keeps bothering me and I'm just wondering uh it seems like you're in the the Lavine camp where the components are more important but I just wondering if you had any thoughts on how you balance out these two elements."
+        ],
+        [
+          1293,
+          "Yeah. So actually um initially I'm not in his camp until until this year. I suddenly realized he start to publish a lot of like a paper about mechanism design for example the price as a cognitive glue. He published this paper this year. I start to realize um probably there is a like connection between protocoling when we talk about protocoling in our literacy um we think about um different actor the actor we cannot control only can control the protocol and I found his experiment is very similar his like argument is very similar like a price uh we don't need to know each other we just need to think about the price and He trying to mapping those mechanism to his own theory like a cognitive lyon cognitive glue. I found it's really mimatic."
+        ],
+        [
+          1355,
+          "So that's why that's why I I I I put it here. Um but I think it really name a paradigm. It's called like a like a aentive material. But currently we are facing large language model. It is agentive material. It's not like a traditional engineering. We don't know. Even the larger model company, they don't know why it works. It just scaling and scaling up. No one knows why the int intelligent really emerge from there. So, um yeah, we are getting into some some some place really strange and for you talk about um hierarchical thing. Um I think yes uh it's very beautifully the intelligence like hierarchically emerge initially not not just like a mine but there's a thought is called thousands minds which means in our uh brain there's a lot of like cortex a little cortex like a column um they are individually almost the same like small compute unit and then they they they compute stuff like a indiv visually and then they vote and then they emerge like a more collective intelligent. Um I just found this like a parallel to protocol as a design action. It's very similar but uh I I don't I I I I cannot come up with a very concrete theory so far."
+        ],
+        [
+          1449,
+          "That's why I just want to throw the idea out."
+        ],
+        [
+          1462,
+          "Any other questions, folks?"
+        ],
+        [
+          1466,
+          "Looking at the chat."
+        ],
+        [
+          1477,
+          "Well, I could ask another one if if we have time. uh kind of related that if Mike Lavine's idea of biology breaks downs organisms, is there any uh have you thought about how atoms might also have some sort of intelligence? I think uh Jenna posted yesterday that wrote rocks are also alive or sentient. Does have that has that thought crossed your mind?"
+        ],
+        [
+          1511,
+          "There's another very crazy theory. It's called assembly theory. Uh you have you heard of like assembly theory uh from like Sarah Walker and uh it's kind of a it's very like a Minecraft. So basically they talk about everything is like a assem there's a assembly index which is the minimum amount of like assembly step you can get some something. So for example you can get um you can get a life maybe at least you need to have a 100 step and if you like a like this kind of biotech uh probably usually it's 15 step. So the atom is like a much lower assembly uh index. So basically you once you assembly something and then that thing become very salient and become easily replic replicatable and then you can start to build on one step like a one higher level up and higher level up. So we cannot argue like the atom is sentient but I think the sentient or consciousness is kind of a high level emergent behavior. So the lower level doesn't show that kind of a behavior but uh once the assembly index larger than certain amount and then finally you will find there's a boundary of the sentient or like a consciousness."
+        ],
+        [
+          1609,
+          "Yeah, that's that's that's that's another very interesting theory from Santa Institute. Yeah."
+        ],
+        [
+          1618,
+          "Infinite staircase."
+        ],
+        [
+          1624,
+          "Okay. Well, thank you. Oh, Giovani, we probably got time for a quick one. Yeah, why not?"
+        ],
+        [
+          1630,
+          "Thank you, Amber. Actually, a question about uh the trust compressor theory. uh just uh asking you to elaborate a little more because uh I think it's fascinating to think about com protocol as a compressor in this sense."
+        ],
+        [
+          1646,
+          "Oh yes that's uh that's my that's my uh current project. So it's it require me like half a year to to finish it. So I just applying for a grant for that. So basically uh I get inspired by a paper it's called epiplexity this year epistemic complexity. So um I realized that the trust um require a lot of cognitive uh computing. So um the epiplexity is trying to argue that how much structured information I can learn from the system and plus some entropy."
+        ],
+        [
+          1686,
+          "So uh okay I can share share this this with you. Um, IP plaxity from entropy uh this paper."
+        ],
+        [
+          1704,
+          "So this paper uh from entropy to epiplexity rethinking information for computational bounded intelligent the most important thing is the bounded thing. It's really have a connection between Michael Lavin's work and this work. This work is trying to argue that how much information you can learn from uh from the data you see and uh um which is the minimal um like uh uh okay let me show this okay this is like a like a different kind of game of life um pattern so you know like rule 15 which is very simple so there's no too much epiplexity so you can found the epiplexity is very low The rule 13 is very random. It's there's no not too much like epiplexity also very low but uh the the entropy of this 13 is very high here. The 15 is very low here. So rule uh like a uh 54 is more kind of agile of chaos. So it have a epiplexity um like a like a over time when you're increasing your computation power your model is trying to understand this rules more through the time through through like more computation so uh so the definition of epiplexity is very very beautiful um based on what I understand where is that okay here so basically is for all the algorithm which is under the compute computation bound uh like bound time bound T and the what's the minimum length of the model plus the entropy to um like using this model to encode the the the data. So finding the minimum one and the length of the the model is epiplexity."
+        ],
+        [
+          1814,
+          "This is really beautiful. Think about trust."
+        ],
+        [
+          1816,
+          "Amber I feel like we should take this um this explanation maybe into the chat. I don't I hate to derail you, but we do have another speaker."
+        ],
+        [
+          1827,
+          "Okay. Anyway, but yeah, sorry, Giovani. Um, you guys can you guys can chat."
+        ],
+        [
+          1833,
+          "Yeah, we will get to the Thank you. Yeah, we can chat later."
+        ]
+      ]
+    }
+  ]
+}

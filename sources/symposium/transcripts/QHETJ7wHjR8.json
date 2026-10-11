@@ -1,0 +1,142 @@
+{
+  "video_id": "QHETJ7wHjR8",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "talk-simone-a-common-protocol-for-composab",
+      "title": "A Common Protocol for Composable, Modular Organizations",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "Okay, you're up. Um, you got 30 minutes, 29. Sorry."
+        ],
+        [
+          7,
+          "Thank you. So, [clears throat] thank you so much. It's amazing to be here. I think uh it's really good to see the community. I'm I'm uh uh sad that uh sometimes I cannot contribute that much on the discord which where I'm more of a lurker. But uh yeah, thank you so much for organizing this. It's it's a pleasure to be with you. I am Simon Shisher. I run uh boundaryless which is a design company. I've I spent the last decade on working on how products and organizations are put together evolved mostly from the perspective of platforms and ecosystems and I've been doing much a lot of work with customers and adopters worldwide. uh Manderless has been uh pioneering the scope of uh the space of platform design and platform organizing in many ways and um I think this experience uh in building tools and and you know everything in creative commons has given me the possibility to work with so many people and to actually understand uh why uh open and shared languages are are super important and therefore you know you can see how resonating is uh my experience with that of the protocol institute and the work you guys are doing."
+        ],
+        [
+          84,
+          "Um so basically uh what I why why this work you know because essentially the the implicit um you know the the organization that uh used to be implicit for many many years is now I believe being explicitated very very fast. Uh so this this institute the protocol institute somehow describes protocolization as a uh you know this slow invisible process of standardizing human behavior into this new coordinating infrastructure for new forms of civilization right and um I mean roughly speaking but uh if we we kind of take this definition as a given and I think I I kind of believe it uh I believe that this process has reached many domains but is having a hard time in entering inside of the the inside of the firm, right? And the firm is of course you know the most common institution in the world and the boundary of the firm turns out to be very resistant to standardization ironically because you know in the end it's really as we will see fairly standardized already right but still inside companies there's a lot of improvisation every morning uh people know things uh but they disappear and then they formalize agreement multiple times on the fly. Um, and the firm is largely a black box with no shared description of how it actually coordinates internally."
+        ],
+        [
+          176,
+          "Um, of course, uh, is you know, of course, you know, this really in reality happens even in bureaucracy, right? Of course, I'm not complaining about bureaucracy and and I want to, you know, uh overcome it from a perspective of uh uh not being uh uh uh happy with what bureaucracy delivers. But rather what I'm seeing is that there are hidden uh uh patterns and hidden protocols. You know, for example, hierarchy itself, it's a it's a protocol for escalation paths. Uh meetings are synchronization primitives. Uh so there is, you know, there is a real protocol. is simply informal and uh uh the fact that it is is informal has very bad consequences. Right? So rules leaving people again again when they leave the rules leave with them. Uh typically two or two teams or two units will describe themselves in a very different way. Nothing composes really easily inside and between organizations. There is a high friction human in the middle almost everywhere."
+        ],
+        [
+          240,
+          "And uh um you know basically organizations cannot be read they they they just need to be attended all the time right and this I think is a very big problem for especially nowadays that we need much more composibility for responding to much vast I would say uh bigger uh societal uh problems and opportunities that are emerging and require more collaboration between and and inside organizations. Um so the question is why is he stayed unwritten for centuries? You know, first of course because there was a reason, right? that were, you know, the first decades of, I mean, of course, in the last century and maybe in the first decades of this century, um, price mechanisms using a price mechanism or more like a a low coordination processes and approaches inside organization wasn't really easy, you know, because uh um in the end um uh you know uh searching, drafting, comparing, monitoring, agreeing this add very high cost right but all this is becoming much cheaper and faster I would say and um besides these let's say new enablers that are coming up with technology and AI we are also seeing u fairly let's say strong uh pressures coming from uh the outside of the organization so we are seeing volatility the need for re combination everybody knows that we are living in the world of this rate the you know the the what's happening in the state of Hormuz. Nobody could imagine until you know a few months ago and and so imagine how supply chain changed so fast and um you know suddenly you have to recombine and and reconfigure your organization around different routes to deliver uh what you are supposed to deliver. And indeed we we are seeing that um reports from companies like uh Mckenzie or or or or BCG they're all talking about deep seated flexibility. Uh they are talking about the capability to reconfigure as one of the invariant um uh that would be needed in any of the futures that we we are looking into. So of course there are multiple scenarios but if there is one invariant is this deep-seated flexibility and and I think we we already have captured that over the years in the last 20 years more or less 15 years whoever has been putting out some interesting work in organizational design has been uh converging more or less on the on the same ideas. Right? So the idea that you have a certain type of units in the organization uh some of them are more like innovating some of them are generalizing shared services some deliver commodity like services. So you know I wrote something about it a few few weeks ago and but largely you know there is a very strong convergence in the in the organizational design uh community even if people would tell you that that they have different ideas that they do not converge in reality everything is converging quite quite strongly."
+        ],
+        [
+          440,
+          "Uh lastly, you know, we have seen also very prominent voices in the space of organizational innovation. Like for example recently uh we have uh everybody knows this article from both and Dorsy where they have been calling about the transition from a hierarchy to intelligence and uh I think um this uh transition was pictured as based on uh what they call a a company world model uh and a customer word model. So the idea was you know if we want to run an organization as an intelligence uh we need to have models that we can run the organization on and uh um it's very important because of course you know whenever you have agents now that are jumping into the organization you don't just need an organization easy to reconfigure and mobilize but you also need the language for agents and humans to participate and collaborate and keep the uh continuous reorganizing of the of the organization and the products uh legible and and observable you know because otherwise there's a lot of slope and there is a lot of drift in what a mixed intelligence between humans and agents can deliver uh uh you know if the organization is not described in the right way."
+        ],
+        [
+          518,
+          "So somehow O2A is the object we are talking about is uh what I call a generalized company world model for for for the current uh uh you know situation right so we we we are talking about essentially a semantic standard okay um anontology for how what an organization is made of uh and a grammar for the terms uh that regulate how the pieces combine it's technology agnostic is implementable by by anyone. Of course, you know, we are just starting this up. So, one of the problems we have is let others adopt it. Uh it it has three domains. So, at the moment covers at least in the intention because we are releasing 1.0 in a couple of weeks. The one that is already available is in draft. Um but it covers topology, portfolio and strategy. So, three three major domains of organizational development, design and development. So essentially a structure uh of units and contracts um products and how they combine and strategy means meaning that you know how do you develop your uh go to market your evaluation of how defensible your products are and so on."
+        ],
+        [
+          591,
+          "Um so that's it right so this is what I was saying so essentially again uh how the organization is built the offering side offerings how they combine the nature and so on the services and then strategy which is more about you know your choices uh value chain analysis uh uh you know what is"
+        ],
+        [
+          612,
+          "sorry quick interrupt Simone uh are you supposed to be sharing a slide deck or no I'm seeing some question in the"
+        ],
+        [
+          619,
+          "uh yes I was supposed to use a slide share but you don't see that."
+        ],
+        [
+          623,
+          "No, we don't see that. So,"
+        ],
+        [
+          624,
+          "okay. So, let me start here. I'm sorry about that."
+        ],
+        [
+          628,
+          "Yeah, if you could back up maybe 30 seconds and quickly show us the slides we"
+        ],
+        [
+          632,
+          "Yeah. Yeah. Sure. Sure. Sure. Sorry about that. So, again, um more or less the most important pieces. I think this one was more like a general introduction but the most important piece is again you know there is a large um there's a large overlap between multiple schools of thought in in organizational design this is what I just introduced and then we can move into the schematic where uh you know again this is three things uh topology portfolio strategy uh three domains how the organization is built how it's run um What that what are the unit types the hierarchy between them? For example, if a unit is a parent of another one, what are the contracts that exist between between them in the portfolio side? What are the offerings? What is the taxonomy of offerings? How do they connect? Uh how much do they cost? Um and the strategy side is more about, you know, reading the market, making bets, validating, making analysis, right? You know, thanks for thanks for alerting me, Vata. you know it was funny but so far so far I didn't at least I didn't you didn't need much schematics but you know thank you for for mentioning that so um how do you how do we do that uh we are um approaching the problem from three layers so we are defining anology which is essentially the objects the actions that the objects uh expose in a in a in terms of kinetics so essentially for example you you say there's a node and the node has a number of actions or there's an offering that you can p you can perform a number of actions. So we are defining a set of semantic triplets and now you know basically encoding them into a um link ML but essentially besides the ontology you have configurations which is where you as an organization you constrain the model you basically decide what type of units you have what type of offerings you have. So you configure the shared ontology into your actual actual organizational reality. And finally of course there is the implementation which is where uh the u actual instances of nodes and offerings are uh measured created operated. So three layers the ontology the language the configuration which is one per each organization and then descending from the configuration you have the implementation the current state of the organization."
+        ],
+        [
+          785,
+          "You know the most important pieces of this model is the unit uh uh the offering and the relationship between them. So we we largely model an organization as a set of capabilities. These capabilities are uh defined as units that deliver certain offerings the certain services. So we typically uh when we work with organizations we typically enumerate units we define the cataloges of services that these units uh uh provide and uh then we have mechanisms for uh composition of course right uh again as I said uh we can define life cycles of the unit we have contracts uh we have systems of milestone and oracles um and this is all you know defined in the standard right so this the wannabe standard that we are building. Uh just as an example uh or or rather as a as a more more detailed explanation at the moment we model three uh major um um instruments for uh node interaction which is the purchase typically you have one node purchasing a service from another node. Then we have a revenue split uh primitive which essentially uh roots uh money across nodes based on tags and uh um events."
+        ],
+        [
+          864,
+          "And then you have the investment pre primitive which is about uh one node investing into another node uh and um setting milestones for example for uh you know unlocking certain transfers of money or changing uh the equity cap the cap tables of the nodes. Uh maybe for those of you that have been active in in web 3.0 So I think this is really you know it's really resonant with some of the experiments that have been done in the space with something like you know um wallets or or um you know the the work that Metropolis uses to be or or Prime D. So the these were experiments that in the three we have 3.0 zero world have been done quite a lot but not much actually in the real corporate uh world."
+        ],
+        [
+          918,
+          "Um, of course, you know, the strategy frontier is the most complex, you know, because there you have much more uh I would say um soft uh elements, soft concepts, right? So you have concepts like you know what is a flywheel or or what is the control point in this value chain? Uh you know how can I uh influence maybe uh one piece of the value chain by taking one product and bundling with another product. So this is much more complex right to develop but uh you know thanks to our 12 years of work on standardizing most of the uh platform design platform thinking so you know marketplaces or or developer platforms extensions integrations we have a lot of uh uristics and a lot of information that we have consolidated uh uh that gives us you know basically an idea of what are the objects you need in a strategy landscape uh for an organization. And um you know what what we are seeing is that this grammar is combining pretty well. So it's covering a lot of u typical uh primitives that exist in organizations uh uh with the minimal uh let's say uh uh uh actions and and objects that we have in the grammar. So for example, if you take a you know a um a shared service, you can implement it as an internal purchase of a published offering. So if you have a joint venture is a revenue split contract with a with a uh you know unit creation a signature."
+        ],
+        [
+          1013,
+          "So there are you know what I'm saying here is that the grammar we have defined it's working for us and it looks like it can cover most of the typical artifacts you have in a in a complex organization."
+        ],
+        [
+          1025,
+          "I'm going to speed up a bit because I want to have some time for Q&A. Um, and of course we believe this is important for um, both people and agents, you know, because of course, you know, uh, it's a m it's important for agents because they can deliver reliable contributions to the organization. So for example, if you have this standard to define what a node is and what are the constraints, for example, you can give objectives in terms of uh operating targets. You can say, you know, this node should operate with 30% target operating margin, runs these three offerings, can do these three type of contracts. You can really delegate a lot to agents in in safe environments and people keep adaptability and legibility of what happens you know because otherwise it's easy to uh lose control of what uh uh the agents in the organizations in the organization are actually doing. Of course, we tested this in in very in real environment. So, I don't want to go in the details, but um uh we tested them with real real companies, right?"
+        ],
+        [
+          1091,
+          "Companies like, you know, billion dollar for 500 or uh you know, uh mid-market fintech from the Middle East or you know really real world real world companies and it worked pretty well so far. So the question becomes how do we protocolize this and of course you know we are we are as a company we are building our offering around this. Of course, besides the uh um consulting offering that we provide, we also have a product which we call orchestrion. That is a software that operates on this standard, right? Uh but the thesis is for me is that software is no more an advantage, right? So, so you know basically the idea is how do we create an open language that allows multiple players in an industry to uh coales around uh this common language right and the questions that we have is um first of all you know a standard exist only if people share it. So at the moment we call it a standard but no basically just a bunch of players are using it us and a couple of more you know of renegades that that we know but the intention behind this is to converge different organizations around this standard and um and also uh uh we see that this is um a let's say um meta discussion because another thing we are seeing when we work with companies Some of our customers for example or friends or or people we advise that are working in in specific domains are having the same problems. So for example for us the domain we want to standardize is organizational design and development and product design and development because this is what we do."
+        ],
+        [
+          1200,
+          "We want to build an ecosystem around that. But similar uh our customers for example some that are working in mobility or health care uh they have the same problem because they want to mobilize their partners around uh uh what uh Dorsce would call a customer word model. So a model of the actual domain problems uh that they are um they are facing. So the question board for the room is really uh first of all um you know uh how much of of organizing is standardizable at at all and Venat you also mentioned in in one of your talks I think it was a couple of months ago when you introduced the program that there is this convergence that you guys see between AI blockchain and protocols uh and we kind of call them the new nature. So the question is for example this this standard lives on um at the moment it's an optent to build a protocol layer we are already integrating agentic access and we expect that in the future of this there may be a settlements happening between organizations so they need a third space uh which can actually be a ledger right so so how does this vision uh connect with this idea of new nature uh is this is this how you build the new nature so these are the questions that uh uh that we have uh we have in mind."
+        ],
+        [
+          1286,
+          "So um so that that was my quick talk and sorry for you know missing the slides for the first five minutes but uh um but uh that that's it. So let me stop the sharing and uh open to of course open to hear what you uh what you think about it."
+        ],
+        [
+          1312,
+          "One of the um the questions I saw in your slide was like to what extent is organizing standardizable which is a really kind of interesting philosophical question. Um, and I think a I think a lot of it is and I think like it's going to be increasingly standardizable as agents come into business and like how LLMs come into business [snorts] because um some of the work we've been doing with like the government's California that like Rafa has been leading as well, the need for people to standardize data upfront isn't as important anymore. for and like LLMs can do a lot of the standardization and like clean up after the fact. So I think like on one level like the human involvement in organization is um not super standardizable but like a lot of the context is and like it'll just get formatted into like um new types of standards that make it easier for agents to like interface with each other which is going to be interesting."
+        ],
+        [
+          1382,
+          "Right."
+        ],
+        [
+          1383,
+          "I have one um sort of like analogy I think that might be useful which is um when container shipping first became established as a protocol um the types of things that um factories were shipping to each other across global supply chains it actually shifted. So early on it um like you know in the era of break bulk shipping the two kinds of things you would ship across the world were either raw commodities raw materials on the one extreme or completely finished and assembled things on the other extreme and when containerization um happened the distribut distribution shifted to the middle. So neither commodities as much nor finished products but like you know components broken down partial assemblies things like that. So like intermediate materials flow flowing around. And one way you can think of that is the very idea of a factory got distributed across the supply chain and intermediates that previously used to flow between say two machines in the same factory would now flow between two machines in different factories at different ends of the world. Right?"
+        ],
+        [
+          1450,
+          "I think something similar might possibly be happening with u uh information in the era of LLMs. you no longer need to like you know ship a finished report or completed Excel model or like you know formal um um standardized format thing to another entity you can like do a partial thing so that's possibly one way it's happening and the other extreme yeah like the equivalent of sending raw materials like you know iron ore or something from a mine in Australia to a steel factory in China that is the information equivalent of that is uh the big foundation model people of course scrape the whole internet but ideas like you know data warehousing or ETL they're getting transformed differently like I think there's not so much of the old big data idea of like just gathering unstructured data to the center and processing it into structured formats. It's more like everybody has enough processing capacity so you can like move halfbuilt things around and like finish processing at all nodes. So not quite sure if that's a helpful thought but I think that's an important um evolution in the design space that you're working in."
+        ],
+        [
+          1528,
+          "Mhm."
+        ],
+        [
+          1528,
+          "No, I mean it helps. It helps because uh it makes me think that uh it's like we're trying to contain containerize organizational agreements somehow, right? And I think this connects also with the question that Johan made on the chart and which is of course one of the questions we have been asking a bunch of times. And I think our approach so far has been that of trying to uh find what we call um a min um uh thin waste in in the organization. So we're trying to spec specify um the thin waste of concepts that have already emerged from from the practice. So we're not s sitting here and say this is the ontology because we believe this is the one but rather we have been looking into what is what is the emergent ontology in the space of organizations like you know these three forms of units that we have seen in team topologies or topologies rand and and DDD and whatever even if you look at the contracts in DDD uh they resonate a lot with what we have in the in the in the standard So we're trying to basically find these very thin waste that uh I think it resonates with this idea of the container right because ideally the container is a square box which has a very simple you know so like it's a constraints uh uh a lot the the change language uh so that's the approach that we've been following so so Um maybe just yeah what's next for the the the thing that you're building like the next at the end of the year maybe next year like what's what's the road map look like?"
+        ],
+        [
+          1641,
+          "Uh well that's a good question. At the moment our um our um target is really that of putting this together uh find uh both uh companies like organizations that want to adapt it as their own their own ways of describing themselves. Um of course some of them are going to be our customers, some of them are going to be our partners. But also I'm looking into uh producers of software for example that I don't know for example they do OKRs or other organizational practices that rely on the idea of a node like a team for example and letting them use this ontology uh so that they can for example build plugins for the for the standard or and of course now we are thinking about how do you extend the standard uh how do you make constitute build the institution around the standard as well because it's also another problem that of course we have but you know in short term I can tell you that in maybe one month maybe less we should have version 1.0 zero. In any case, if you guys want to check it out, uh the standard is already partially online. So, let me quickly share with you the the page. So, so we are done. Um so, it's available online. You can check it out. And of course, we are uh as I said, we are going to update it uh fairly soon. So this one is uh is released clearly with as a draft open for feedback. But uh you can find here a bunch more information um you know more detailed information how the approach was uh uh was taken."
+        ],
+        [
+          1751,
+          "Awesome. Thank you Simony. Um yeah put a link to that in the chat. People can check it out and um yeah great"
+        ],
+        [
+          1759,
+          "much and sorry again for the for the slides."
+        ],
+        [
+          1762,
+          "Oh my bad. I should have been around to to point that out. Um, all good."
+        ]
+      ]
+    }
+  ]
+}

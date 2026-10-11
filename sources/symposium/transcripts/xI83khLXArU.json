@@ -1,0 +1,162 @@
+{
+  "video_id": "xI83khLXArU",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "talk-robert-protocols-for-co-cognition",
+      "title": "Protocols for Co-Cognition: The New Nature of Collaboration in the AI Era",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          2,
+          "Okay. All you Robert."
+        ],
+        [
+          7,
+          "Hey Timber. Great."
+        ],
+        [
+          16,
+          "Okay. Welcome back everybody. Uh great opening session and uh good evening from an undisclosed near location uh somewhere near London. Um it's I'm a hard person to introduce so I tried to fob it off on Timber just now and he said no. So um I think uh quick story back in uh Berkeley in the mid '9s uh my colleagues were working on self-driving cars um and other crazy things like uh facial recognition and my work was in generating haiku."
+        ],
+        [
+          50,
+          "So [laughter] probably one of the smallest language models uh still to this day. And that kind of weird combination um of uh of interests and uh proclivities has kind of been characteristic of the the sort of the last 25 years of my working career. So um I guess someone who thinks mythos and logos are are kind of equally valid even complimentary ways of exploring truth. But um you have to respect the terms kind of of each. So hopefully everyone's back. Um, come with me if you want to live. No, I'm kidding. Uh, that is nothing to do with my talk. I just always have wanted to start a talk that way. Um, and see if anyone's paying attention. So, um, a question, an open question. Uh, find the chat. Um, click to kind of everyone mode. Um, and, uh, give an answer."
+        ],
+        [
+          102,
+          "Is AI a tool or a relationship?"
+        ],
+        [
+          106,
+          "AI. Okay. definition uh LLMs and their orbit of capabilities in particular. Uh so if you have a if you have a relationship with a stable diffusion video generator, I don't want to know about it. I want to know about LLM's tool tool tool. Got to be a tool. Both. Okay. Uh if you're feeling really brave, you can say why or what. [laughter] Um I feel like I feel like I'm in a '9s industrial band. Uh, tulle t tool is tulle is overwhelmingly um popular as an answer, but we're getting a few boths. Um, all right. An extended meat says relationship uh it's the water we swim in. Okay. [laughter] All right. I love all of these answers. Um, instincts to say both. I think that those are those are interesting, too. At the end of the day, I think it a lot of what I've come to is that it depends kind of on the lens you're looking through. Um, so none of those answers are wrong, but here's here's a lens um that I've been looking at AI through. It's the lens of accountability, right?"
+        ],
+        [
+          169,
+          "Um, so uh Tim talked about protocols as a way to understand across boundaries uh things that aren't institutions, products, or markets. I'm going to take a leaf from Charles Bukowski, the poet, right? He said, \"Poetry is what happens when nothing else can.\" So I'm gonna say protocols are what happen uh when transactions are necessary but accountability is lacking right. So accountability here um from Mark Bubbins in 2007 is conceptual framework means answerability plus external judgment and externally imposed consequences. Right? So judge, jury, and executioner. Um you put out a piece of work slop uh you get fired. Your replacement retains the same AI license, right? They're not canceling the subscription. So there's no existential consequences really for the AI. You can fake it, tell them there are um make them mad. But the reality is um that that there's a a unidirectional accountability at least when we're talking about work and co-working. So we often ask how is you know working with AI different and and we give capability based answers but rarely do we look at human incapability and let alone this third thing of a counterparty protocol. So I want to look a bit at those things to this evening or morning or afternoon wherever you are."
+        ],
+        [
+          247,
+          "The fault is not in our stars but it is in ourselves because we are social animals with linguistic baggage. So language inherently invites a social reading. Um research shows we cannot switch that reflex off even when we know better and that we extend that to literally anything that that will talk to us. Grounding, this idea of grounding um is that basically anything you do as humans that subsequently you go away and say, \"Yeah, we're on the same page about that.\" That's grounding, right? Those are those rituals and research shows it matters because it costs something and that cost in the uh human AI co-working protocol is is on on us. So, um algorithms are a funny thing, non-human things. So, um we abandon algorithms for errors we'd forgive in a person. And then in other settings, we trust them more than we do human experts. We're just really poorly calibrated at relating to nonhumans uh that that feed back to us. Reliance used to follow social cues um particularly fluency, competence and consistency. Those were proxies for competence. Um and they were expensive to fake uh but now it just costs a few tokens. So uh the final one offloading, right? Um again around accountability. If you ask your spouse or partner if you say remind me of something later, you're not just offloading the context of what you're being reminded about. you're offloading the accountability of that as well. So, language models can reproduce cues that historically they just accompanied human collaboration without necessarily providing reciprocal understanding or uh shared exposure to the consequences."
+        ],
+        [
+          347,
+          "Right? So, the decoupling of those things combined with our old nature causes us to miscalibrate trust, to miscalibrate responsibility. So, what do we do about that? what what was would good look like for this uh AI co-working given that we're fallible."
+        ],
+        [
+          371,
+          "This is one definition. Part of my background comes from extensive work with the getting things done GTD methodology. If you're familiar with that, you may see that this rhymes a little bit with the promise there of stress-free productivity, but it's a little different, too. So the output of an ideal protocol accounts for human nature in pursuit of quality output, right? Quality as in not just correct but also the right kind of thing and human sanity in the mix there."
+        ],
+        [
+          407,
+          "So a fun thing we can do with this is create a dimensionless formula to describe it. Right? uh we stripped out any real quantities time and cost by just making them ratios of U well or U plus AI divided by U basically right so so what the what the boost factor is there um and I do think fit and correctness have an outsized relationship with each other in in quality of course load and debt are in a kind of fixed sum game in a in a sense um and of course your the denominators are the the time and cost factor good old oldfashioned 19th century productivity stopwashes and bull whips. So what does bad look like?"
+        ],
+        [
+          449,
+          "Well, we're already doing it or a lot of people are already doing it. Um and frankly it's it's kind of Kofka-esque. Um so working with AI when you get good results that often sort of earns your trust. So you hand over a bit more. You keep up with the detail a bit less and you start to lose some grip on all that. So the work falls over and your trust falls down with it. Then when you do attend the work better, your judgment comes back. You can hold the whole process to better account. You're getting good results. And then the punishment for that is you're back in the loop. So um I evolved this from a practice of observation and working with people. But the idea of deskkilling being a loop or even a death spiral um has provenence in literature all the way back to the classic Banebridge 1983 ironies of automation text. It's so it goes way way back. One way to to get out of this of course is to just opt out um either by literally stopping or by settling for work slop. Um but that's that's not very 2026 uh or or forward thinking. So um again out of extensive sort of individual and team effectiveness work my sort of working theory which is holding up pretty well so far is that we must build tools and practices we can rely on so we don't just have to trust AI. Right? So this is something called the trust trap. Um I'll put a link into the chat if you like um to have a look at more of that."
+        ],
+        [
+          547,
+          "All right, everyone sitting comfortably. Oh, we have video on. Well, Timber's sitting comfortably. That's good. So, we may begin. So, a posture is where you and AI um where that work has settled basically, right? So, there are two dimensions. There's cognitive sovereignty, what you retain, um and trust, how much you extend that trust. So, this isn't meant to be a categorizer, but we can use quadrants to just have labels. so we can actually talk about something. And yes, I'm also a consultant, right? So I I love a good 2 by two. Um each one of these has a shadow. So vigilance can lead to mistrust. Execution can lead to over reliance. Pragmatism can be a really just a proxy for disengagement. Uh and partnership even the supposed ideal can slide into just comfort. And each one of these of course is carrying a cost a cognitive cost to the human."
+        ],
+        [
+          610,
+          "So a lot of you have taken the survey. Thanks for that. I went off and I measured this with knowledge workers. In that survey I refined the questions over iterations. So each question belongs demonstrabably to a dimension it was written for. So trust, sovereignty, load and debt. Um, and apart from the obvious limitations of any self-reported survey, we can't really know whether the trust was merited and we can't really know whether the sovereignty arises from just vigilance or from methodology. So, that's a lot of where my work in in industry is leading me as a kind of a form of field research to get up close and see what are what are real people um doing. And the research was full of all kinds of surprises. Um, I've also spent, you know, over 20 years as a CTO and a fractional CTO. Um, so I would have expected different posture patterns for technical versus non-technical roles. We weren't able to to prove that at all. Colleague of mine ran this in Chile with a group of safety officers. Um, as you can imagine, they skewed a little bit toward the vigilance mistrust area, but the pattern was pretty stable. Um, congruent with the with the general panel. I'll let you read the other uh the other nullles we found there."
+        ],
+        [
+          683,
+          "But two ass associations did shake out of this. Vigilance and mistrust is less common in the higher rungs. Um and um even though claude users are actually associated with deeper adoption uh which AI use is actually no correlated even though adoption is correlated. See me later for the statistics on that. Um so it's not just measuring who's who's using claude. Um, execution and overlines are obviously more common in higher adoption rungs. And then who's telling you to do it? Intrinsic motivation for using AI links to the partnership and comfort zone. And your boss telling you to do it links a lot more to pragmatism, stroke compliance, which is sort of one of the things we I theorized. So again, thanks for taking this. Um, I've already made a lot of improvements uh to the survey as a result of feedback, great feedback from a lot of you. Um, so as promised, here's here's us. Um, the average adoption level over on the right, the the panel group is basically doing basic drafting with chat GPT. That's where the world is or co-pilot frankly, right? Even worse."
+        ],
+        [
+          748,
+          "Um, protocolized newsletter readers, they're about two points above that corresponding to full-on orchestration of agents. Uh, although that band itself is actually um slim compared to the top one. Um, and compared to the panel, they're a few points higher in uh the partnership quadrant. Again, this is the newsletter. Those on Discord are it's a much smaller group, but um they're hitting the adoption ceiling just all the way um to full-on deployment of AI in production environments. Um they're much less in the execution and vig or sorry, the um um the vigilance and mistrust quadrant. um and they're um high on the rung an equally high rung team of data scientists I was consulting with recently inside a big media company um they had that same rung of adoption but they skewed way over toward vigilance and mistrust right so um it's it's not um a guaranteed things needless to say they were pretty stressed out so the methods and tooling we were focused on there were in aid of increasing your confidence without maxing out your cognit ative load. Um, so as I said, I made a lot of improvements. The biggest one I'm excited about is is when you hit a boundary, uh, letting people actually choose based on a hopefully neutral description which one is more accurate."
+        ],
+        [
+          825,
+          "So that should help not only with relevance of results, um, but also hopefully map the lines a little bit better um, in this in this kind of 2x two uh, version. So um, you can now take and retake uh, the test. So thank you for that. Oh, my other um my other uh link didn't go through. It has now, I think. Um but here's the partnership survey. Um if you want if you want to do to do some of that. Discord is for builders indeed. Thanks, Mike. Um so there's some entanglement um between trust and sovereignty that shook out in the results. So I wanted to make sure that we're really dealing with two axes here rather than just sort of a 45 degree skew that pegs between vigilance and execution over time. So what did I do? Of course, what would anyone do? You'd model a finite state machine. So, uh, model a little state machine in the trust trap. Um, added in the delay inherent in noticing and responding to bad work to adjust and no matter what sort of parameters I started it with, it would settle into this kind of elliptical orbit pattern. So, I thought that was I thought that was interesting."
+        ],
+        [
+          890,
+          "Um, not claiming it it necessarily proves anything of itself. Um but if you want to play with the posture machine, there's a link there. You can set different parameters and watch it watch it do its emergent thing. Um and it did um make me wonder. So overlaying that orbit on uh the study, so a single modeled cycle um is big enough to cover about four-fifths of that population. And again, this was placed from the emergent cycle, not fitted as a model. So that just seemed like an encouraging sign that posture may not be fixed. Um and it motivated me to do to do a retest. So four weeks later um bothering people from the panel again. It's a small retest. Um and of course a single point can't show any kind of cycling. You can just show vectors or lines. But um the group's displacement here was nominal. And um went and simulated some instrument noise that caused a change of posture about 35% of the time. And here we're seeing over half the time quadrant changes uh after four weeks. So um signs are positive that postures where you and the AI have come to rest at a moment in time. So the theory now is that this can be changed. This moves right and the way to move it is to change the terms of engagement. Not just to change the person, not just to change the AI. And I think the worst possible way of trying to do this, I think back to my first ever interim CTO gig. uh payment processor where the uh founding um technology leaders had cashed out and bought a stage at Burning Man. He was the first or second ever Burning Man."
+        ],
+        [
+          988,
+          "And um uh so I came in, swooped in to help um and the CEO meanwhile in the vacuum of technical leadership um had put up a sign in the breakroom that said, \"Think security.\""
+        ],
+        [
+          1005,
+          "and security basically is the commodity right of a payment processor. So um at the end of the day I think we can do better than think cognitive sovereignty and validated trust right the idea is instead to use for example the survey tool as a way of routing people to appropriate interventions. Um and those interventions again fundamentally I believe are our tooling and our methods."
+        ],
+        [
+          1030,
+          "So this is an example of some tooling. uh most AI companies right now are very focused on this kind of blackbox approach to context. So they surface really at the interface um because that's their kind of domain of influence. But this is a really thin mechanism for proper grounding, right? And there's a high likelihood that you're just going to compound drift and misalignment over cycles when it's this thin. So this is tooling I've been triing successfully so far. Um it's a taxonomy of knowledge promotion. So stemming again from the individual and team effectiveness work um about um I guess um you know cognitive um uh cognitive sovereignty and load but also um looking at executive function looking at communication standards amongst teams. There are sort of hierarchies and this is a hierarchy of just in time context. It's also intelligible beyond the session loop and it's sharable across teams. So again, I'm not advocating that, you know, we be able to inspect all of the hugging face logs, but I'm saying somebody better record the results of the forensic, you know, for future reference for both human and AI to align to humans align with each other and so forth, right? So that would be a top level hierarchical finding. Um, it's enforceable. So whenever I close out a claude session, uh, we go through this ritual of what did we learn and what do we need to document at what level as a result of what we've learned."
+        ],
+        [
+          1116,
+          "And actually if I don't close out a session properly either in code or co-work uh it persists a little sentinel and it bugs me next time about it. So it's actually it's forcing me um to work with AI to make the kind of decisions that make the next loop better. So that's one example of just of tooling in terms of methods. I this is not a method yet but I think it's one of the best darn pneumonics out there right now. Um so I've all again some inspiration from from getting things done and the personal productivity approaches but it has providence in literature um pretty recent literature. So um Cam at all did a an occupational study at Google in 2025. They came up with a six-part loop but both GTD and this Google loop are missing what I think is a really essential piece. So have a look at this. I think you can see right away how it works in terms of load uh and cognitive debt."
+        ],
+        [
+          1181,
+          "Right? So decide will help you keep ownership of that task and prevent debt. Request makes your insump assumptions sort of visible and drive down load. Um iterate shortens the feedback loop so that you can calibrate. You can kind of micro ground over and over. validate tests your correctness against your stated criteria. So again driving download as well and evolve is the one um that's the distinctive feature of this pneummonic um where you know you're converting the patterns of sovereignty and trust calibration into reusable controls basically. So um the taxonomy of promotion is one example of of evolving through externalizing uh rather than hoping you get it right next time. quick example probably illustrates this best. And of course, who does, you know, protocols better than than software engineers? Um, so I'll let you I'll let you just take a second and and read this."
+        ],
+        [
+          1243,
+          "See if it makes sense."
+        ],
+        [
+          1258,
+          "Right. So, one way to move from don't deskkill to can't deskkill uh for example is to always write your own uh commit comments to version control in your own words. So, that's a a kind of a classic guard. One way to remove from, you know, just don't overload your brain to can't overload. What I think is kind of a gold standard frankly is full coverage end toend automated testing right 30 seconds you know the features work uh with there's no regression uh based on all of that extremely low load extremely high leverage trust um and well calibrated right mechanically calibrated so we're not asking people to be more vigilant here we're changing what vigilant costs and how it pays into subsequent iterations so my biggest question you know is how do we port these kinds of protocols into knowledge work more broadly and one way is to evolve kind of meta principles from best practices. So I'm sort of going the depth play in my own consulting work with this but I'm just one guy so the breadth play I think um is is to collect and make available. So Timber and I are putting putting together this database. Um it's both best practices and it's hazards of working with AI and he's going to talk more about that uh a little later today."
+        ],
+        [
+          1339,
+          "The hazards side of the game. But for now, if you would, if you're willing to play along, I greatly appreciate it. I'm going to put a link in the chat."
+        ],
+        [
+          1352,
+          "Take a moment, have a think about just one thing. simple thing, anything, a helpful practice that you've discovered working with AI. Um, follow that link and I'll visualize the answers uh as as they come in while I also um just just take questions in Q&A. Has the link arrived, Timber? Good. Excellent. All right, I will uh I will see if we can see it because that would just be fun."
+        ],
+        [
+          1392,
+          "So, while those are coming in and as you're contributing, we have a few minutes for questions. I kind of blew through that compressing a research into 25 minutes."
+        ],
+        [
+          1530,
+          "All right, let's see if we can get a few displayed here."
+        ],
+        [
+          1568,
+          "concrete goals, roof reading, ambition. It's great. thinking at the highest possible level reminding AI to stay in a certain range."
+        ],
+        [
+          1597,
+          "Minimum viable ontology. Interesting."
+        ],
+        [
+          1601,
+          "Try to build a bigger world that you can eat or something like that. Okay. Um, we've got 20 different practices here, uh, which is amazing. So, I will make all of these available in some form. To those of you that contributed, thank you for showing up. And if there are no questions, how are we doing questions? Are they in the chat or what should I be looking out for?"
+        ],
+        [
+          1631,
+          "I would say in probably in the chat. Um, and we've got"
+        ],
+        [
+          1637,
+          "drift Mike likes. Yes, me too."
+        ],
+        [
+          1639,
+          "In two minutes. So, may be good to um respond to questions in the chat um if that's not too inconvenient."
+        ],
+        [
+          1647,
+          "Excellent. All right, we'll do and we're uh back to the studio and um yeah, looking forward to your talk as well, Timber. So, uh, this will be available at the end of timber's talk, too, to contribute some some repetitive strain injuries or hazards on the dark side of the force. Um, but yeah, why don't we head back to you, uh, and looking forward to Paulina."
+        ],
+        [
+          1674,
+          "Thank you for kicking us off, Robert. That was a that was a great start. And, uh, next up we've got Paulina. Um,"
+        ]
+      ]
+    }
+  ]
+}

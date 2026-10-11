@@ -1,0 +1,98 @@
+{
+  "video_id": "lXqC4T0ziiQ",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "talk-timber-psychological-safety-i-ii",
+      "title": "Psychological Safety I & II",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          2,
+          "And this is kind of a topic that I have um been noodling on for a while now. And it's kind of originated because a couple years ago um when I was at some conferences, people would talk to me about they're like, \"What do you work on?\" And I would say like, \"Oh, I work I work in safety.\" And they'd be like, \"Oh, oh, you're in AI safety.\" And then they'd start talking about like existential risk and stuff. And I'd be like, \"No, no, no.\" Like, \"I work in occupational health and safety.\" Like, like people that hurt their backs lifting up a package off the floor. Like, and they would immediately lose interest, which was too bad because I wanted to talk about how um AI as a tool is going to affect workers and kind of like the ergonomics of that. Um, so this is the I've drawn is like even the typewriter had problems for people with carpal tunnel syndrome. Um, now we've got these really potent machines, tools slash like personal agents that we talk to that seem to have like some interesting effects on on the people that use them."
+        ],
+        [
+          74,
+          "Um, and I talk about like like riding a bicycle. And this is kind of a distinction in in health and safety literature between safety one and safety 2. And so you can ask people this question like what's the safest way to ride a bike or how do you reduce your risk of an accident riding a bike? How do you get it to zero? And the only way to get it truly to zero is to just never ride a bike. And this is this distinction between safety one and safety two which are kind of like two sides of the same coin. Safety one is do as many thing as few things um as few accidents as possible. And the naive implementation of that is stopping the activity that might cause accidents like riding a bike. But we all like riding the bike. So you actually want to maximize the ratio of successful operations to accidents. That means both reducing accidents and increasing the number of successful bike rides you go on. And then the other difference I have with like um the AI safety crowd which you know I'm I'm not as confident on this one but thinking about agents in terms of like them being chemical agents rather than you know an agent that you deploy and it goes and does stuff for you. Um and thinking about what would a whims or like workplace hazardous materials information system look like for AI agents. um people using these things like need to figure out some way of like maximizing the good things and minimizing the um the bad things. And that comes with like a good sense of like what the the landscape of hazards are and and yeah, you need to have in mind both safety one and safety 2. So I've been calling this cognitive ergonomics. It probably would have been called psychological safety and been a really hot topic had psychological safety not been a term that was created in like the 2000s 20110s to talk about workplace culture. Um psychological safety is like a really great phrase um because it's it's so potent. Um but it's typically talked about in terms of like um how people communicate in the workplace, harassment, um you know, being able to speak up, being able to share if something goes wrong, which are all kind of like, you know, interpersonal issues in in the workplace. And a lot has to do with like the relationship between co-workers, between bosses, between clients and service providers."
+        ],
+        [
+          237,
+          "Um, so yeah, but it's still a useful term in terms of of AI and and how we think about it. I'd say it's a it's a little misleading in one sense because what the phrase psychological safety does is it prompts you to think about like events and accidents and kind of like the traumas associated with like work versus what I think is a more important thing to focus on and why I actually prefer the term cognitive ergonomics is what are the long-term consequences of using these tools like the chronic problems that emerge from using a typewriter. You know, you could cut your fingers on the typewriter keys, but the real problem is like the carpal tunnel syndrome that you develop after, you know, months and months of use. It's the same type of problem that dentists get. They get carpal tunnel syndrome and it doesn't emerge right away. So cognitive ergonomics kind of like forces you to think about the chronic stuff rather than just the acute accidents that can happen."
+        ],
+        [
+          308,
+          "So yeah, this is going to be a short presentation because I'm busy with other stuff and um I'll kind of open this up in a bit to questions and feedback. But here are some you know loose thoughts I have about cognitive ergonomics for AI."
+        ],
+        [
+          327,
+          "first is that this is changing really quickly. The tools are changing all the time. Um so this is obviously going to be like a rapidly changing field. Um people are going to find probably solutions before they even come to like a a strong identification of the different hazards of AI. Like people are going to figure out like what works for them and what hasn't worked for other people just in terms of like a practice rather than a theory. I think we'll actually come up with like good theories later. Um, second thought is you can't just look at AI. Like AI is this kind of technology, but it sits within like a lot of different stuff. Um, like it's right next to your email. It's right next to social media. Um, if you're using AI, you're significantly more likely to have like a remote job at this point. um that comes with its own um hazards."
+        ],
+        [
+          386,
+          "So you have to untangle like the other things that are affecting cognition and these habits at the same time. So that that makes this problem tricky. Um, yeah, it's like to to fix your AI usage, you probably need to take a little bit more holistic perspective about like your whole dev environment because it's like how you prompt the AI and how you approach it as kind of like a tool/ relationship hybrid um is going to be driven by the rest of the work that you do and like how you kind of approach work. Like if you're just trying to get stuff done quickly and you're struggling to stay on top of things, like the way that you delegate stuff to an AI might not be like the most quote unquote healthy in terms of your long-term um cognitive outcomes. And this is all conjecture at this point. Um there have been some studies done but um yeah people are just feeling like self-reporting reduced um persistence loss of skills anxiety about AI taking over chronic stress from keeping up with AI from being the um the bottleneck um when they weren't used to before."
+        ],
+        [
+          466,
+          "And this is all kind of um this is emerging. People are reporting it and there hasn't been a lot of documentation about the actual hazards causing this stuff. So as much as people are reporting things like AI psychosis, they aren't saying like the specific um things in the environment that are causing this. And this is I've been very focused on this side of the coin. Um, and you've heard from, you know, Robert earlier today about like the good side, which is how do you use AI effectively? What are your patterns for good usage? I'm focused on the other side of the coin, like flushing that out, being like what are the hazards? What are pathologies associated with like chronic or long-term AI use as much as we can figure that out with a quickly evolving technology? Um and this is going to become increasingly important um as these tools evolve and become more adopted. And I think that the you know the protocol studies lens is very important here because right now this is pretty much entirely put on users of AI."
+        ],
+        [
+          538,
+          "companies are obviously like interested in providing tools that don't mess people up because that's bad for their their long-term business. Um, but to the extent that this can also be put on employers who expect their employees to use AI tools and like have good guidelines about like what does it mean to use this stuff sustainably. Make sure that you're like using it safely from the business perspective like you're not blowing stuff up by having AI just go into the codebase. um this phrase like slop grenade where you're just like polluting the communication channels of your company and like really causing a drag on like review processes is not only impractical I think it's like cognitively demanding and and bad for everybody. So yeah, today I kind of like just to get um well like Robert this morning collected some best practices. I think that we're also working together to collect hazards and pathologies. So yeah, I think that in the next, you know, 10 minutes, I'm going to share a similar link where you can think about like what are some hazards you've experienced especially or heard of um if you've seen any pathologies come up like somebody that's, you know, staying up late because of AI, staying up like getting really stressed out because of it. um you feel like they're talking starting to speak like Claude is like a very clear one. Um whether or not that's an improvement for their particular speech patterns. Another question. Um so yeah, we'll we'll have a link where you can just like fill this stuff out."
+        ],
+        [
+          643,
+          "But before you do that, um also consider that the way these things manifest is not always it's not always direct. Sometimes it's the second order um response that actually causes the pathology and you know the the classic example of this is today in the workplace um the top causes of workrelated death are u COPD which is like a lung disorder, heart disease and stroke. It's like well how is how is work causing that stuff and it's not directly causing it. Um the biggest risk factor is long working hours. And the way that that causes heart disease and stroke is by adaptations to stress. So people who work long hours are more more likely to smoke, more likely to overeat, more likely to drink, less likely to move. And these are all adaptations to that stress. So when you're thinking about the hazards of AI, think too about the the mechanism by which they become pathologies because it might not be direct. Um so with that said, uh here's the URL. I'll um also copy this and put it in the Zoom chat."
+        ],
+        [
+          722,
+          "And yeah, I believe you can just fill that out. And um this one is the negative. of a hazard or pathology. And if Robert's here, we can um in a couple minutes put the board on screen. So, I'll leave the the QR code and the URL there for a bit. And while people are filling out, does anybody have any questions or like just comments on this? Um I'll get caught up on the chat and then in a few minutes we can look at the board. Robert says, \"My wife considers Claude my mistress. that um that is a second order effect that could cause some damage for sure."
+        ],
+        [
+          772,
+          "Patrick asks, \"What have been folks cognitive ergonomics today during the symposia?\" Good question. Um, I think one with with this is like for me personally, um, taking a couple minutes just like, you know, lock back in between sessions is helpful. If you just like float through the day and don't pay too close attention, um that can be a little exhausting mentally, which is ironic because you'd think by paying less attention you'd have more energy, but feel like it's the opposite."
+        ],
+        [
+          834,
+          "getting out in nature. Yeah. I when I was giving this presentation um I gave a slightly different one at a conference and I was saying like we don't know the hazards very well and we don't know the pathologies very well but we do already know a few interventions that are very reliable and effective which is like um going outside touching grass which is like pretty tongue and cheek tongue and cheek but like genuinely effective."
+        ],
+        [
+          869,
+          "And then yeah, VJ, it's um it's interesting about liability for companies. Um one of the problems with with employee health rather than employee safety is that it's a lot easier to establish liability um if the feedback between the incident and the pathology. So like the damage is quick as in the case of oh um something fell off the counter at work and it crushed my foot now I have to go get surgery and it's easy to be like the employer's responsible because that proximate cause was was at the workplace versus something like um you know asbestous and any sort of associated lung disease. um if you were a ship worker um you know in like 1880 and then developed a lung disease in 1920 who's going to establish that it was the like your company that whose fault that was? It's very difficult and it gets even more complicated when it's something like your company's having you work 10 hours a day instead of eight and as a result you're consuming you know 20% more calories and 20 years later you develop like um high blood pressure and have to leave your job then almost impossible to establish fault the employer in that situation and we'll probably see the same thing with AI companies. We are only just now seeing liability be established for social media and you know arms for teen teen mental health like and these lawsuits coming through and Facebook's been around for like 15 plus years. So it's it's a tricky problem establishing liability. I think the best that um can be hoped for in the short term is empowering individuals and then you know companies that do genuinely want to get ahead of this before any legislation legislation like formal liability we're are going to take a long time."
+        ],
+        [
+          1005,
+          "So yeah Robert if you're there I can stop my share. Here we go. Some hazards there."
+        ],
+        [
+          1031,
+          "Yeah, there's a lot of, you know, it's interesting. A lot of the issues with AI right now are like pretty emotional. Um, so they're e either like emotional or self-reported cognitive changes. Um, so it's like frustration with your agent or, you know, getting annoyed."
+        ],
+        [
+          1061,
+          "Yeah, Robert made a good point. Language is an emotional interface. I think that AIS and like well LLMs are going to be like pretty revealing in terms of um how we use language at work and the effects that that has. Um you know, it's been a best practice for a while now to treat um your prompts like you would if you were telling a co-orker what to do. And like there are some clear best practices there about like being specific about the outcome, the method, the timeline. Um, and then even being polite was shown to produce better outcomes from LLMs than being rude."
+        ],
+        [
+          1107,
+          "Um, I see lots of people too um report um like the yes man problem. So, this is where you kind of like just say yes to um the suggestion that the AI gives you. And the way that I like to think about that is basically the faster the LLM is, the harder it is to use because if it responds quickly, you haven't really had time to react to the prompt that you just gave to figure out what comes next. And when the LM gets back to you right away, you're just that much more likely to respond yes to the prompt it gives you, which is a question. Should I do X? And you're, yeah, why not? Um, so you end up going like really fast in one direction that you didn't intend. Um, so yeah, if you're not like on your on your toes thinking about this stuff quickly, you might not necessarily want an LM that responds quickly to you."
+        ],
+        [
+          1175,
+          "So yeah, these are good. Um, I'm enjoying like building up this database so far. like the the ambitious um outcome of this is like a diagnostic and statistical manual um of like AI pathologies which is you know very ambitious like the DSM has been like decades and decades in development um this isn't going to happen overnight but like it's one of these things that because you know there's been this whole school of like UIUX design um human computer interactions. I think that it's kind of fascinating to see a totally new tool emerge with a new interface and it just functions differently and begin to ask the same questions about like oh how should we change this tool to to better suit how we work rather than like trying to mold ourselves in the shape of the tool which which happens a lot. Um, and you know, when we look historically at situations where people have been shaped by their tools, those don't those don't tend to age very well and we look at them like like it was kind of a shame and that somebody should have known better and intervened, which is the same situation here. I think that these tools are very potent and um yeah, it'd be great if we can go ahead and figure out, you know, what's wrong with them, what to avoid, you know, how to treat these pathologies, how to avoid them even better. And then on the other side, because truly um one of the big problems in workplace health and safety today is this often exuberant focus on getting accidents to zero. Like it is a great goal and we should never get rid of it."
+        ],
+        [
+          1293,
+          "But the practical implementations sometimes are are very bad. And you know, we're seeing this right now with like the AI safety community where it's like everybody should just stop using these tools altogether and then you're throwing the baby out with the bath water. Like these things have such good use cases and they're so fantastic for so many things that if you stop doing it because you're trying to reduce your accidents to zero, it's like yes, you achieved that goal, but the opportunity cost of doing that is extremely great. So always when you're trying to do safety things that are like um improve outcomes, get rid of bad ones, you need to look at safety one, which is minimizing accidents, and then safety two, which is optimizing your ratio of successful operations to accidents. And and that's like how I continue to think about AI. So that's my um presentation today."
+        ],
+        [
+          1355,
+          "Got time for one question, maybe two. Um otherwise I'll pass it off to our next talk."
+        ],
+        [
+          1373,
+          "Okay, thanks Ro for um sharing the the grid there."
+        ]
+      ]
+    }
+  ]
+}

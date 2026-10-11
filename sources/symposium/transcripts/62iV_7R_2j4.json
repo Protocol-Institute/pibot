@@ -1,0 +1,246 @@
+{
+  "video_id": "62iV_7R_2j4",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "talk-anuraj-robots-as-protocol-citizens-s",
+      "title": "Robots as Protocol Citizens: Souping Up an Open Planetary Network of Robots with YakRobot Protocols",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "You're first. Okay. Uh is my audio working?"
+        ],
+        [
+          4,
+          "Yes, sir."
+        ],
+        [
+          6,
+          "Let me share my screen."
+        ],
+        [
+          14,
+          "Hopefully, you guys can"
+        ],
+        [
+          17,
+          "And Anurag, [snorts] I'm here by the way."
+        ],
+        [
+          19,
+          "Okay, yeah. Okay, I think uh we can start."
+        ],
+        [
+          26,
+          "Uh Yeah, so today uh Rafa and I will be talking about uh the work we are doing at uh the Distributed Robotics Group at Protocol Institute. Uh I so I gave this talk yesterday at the university here. Uh so, I hope everybody knows what Protocol Institute is. Uh but a little bit about uh the research, uh what we do, where we came from, and uh what are the questions we are trying to research. Uh so, the Distributed Robotics Group basically researches in short uh the coordination protocols of multiple robots, and uh we are a uh applied research group, uh and then basically, we try to theorize protocols and actually implement on them on real robots. So, we meet bi-weekly, uh and then a little bit about So, like uh why do we do this research? So, there are like two ways to actually build uh these protocols. So, you could have like a integrated and closed uh protocol. So, a lot of uh corporate entities might do it, and then the other way is to uh uh do it in a uh open way, uh open planetary protocol, something like let's say HTTP or TCP/IP, uh uh what the multiple robots could use to talk to each other. So, uh maybe there is some value in an integrated uh protocol, but so we are not going to, uh, uh, discuss here like why we need, uh, open and planetary protocol, but like let's say if we want to build something open and planetary like, uh, how would we, kind of, uh, do it?"
+        ],
+        [
+          130,
+          "Uh, so these questions, uh, so little bit of history. So we, uh, some of us have been, uh, building robots online in online maker space called Combinator Garage and then we had always been asking, uh, like what if we, uh, gave some wallets to the robot? What What if we, uh, ran a Ethereum node on the robots? What else What sort of things could we do with the robots? And then somewhere [snorts] around, uh, 2024 we kind of like, uh, we saw some light at the end of the tunnel that, uh, we could pay the robots and make, uh, them move. And then la- last year, uh, with some protocols coming from the Ethereum Foundation, we found that like you could also discover robots in a decentralized way. And then finally we realized that like, uh, this, uh, uh, requires more thought and then we started the Distributed Robotics Group at Protocol Institute. So this is like, uh, 2 years ago. Uh, this is Venkat and me with our robots. Uh, so what we were able So the first idea uh, we had was like we built, uh, a Farcaster. So Farcaster is a decentralized social media and then we were able to make, uh, robot control with crypto payments and then the control layer would, uh, appear in your social feed. So you could discover the robot in a dis- decentralized way on social networks and then control the robots."
+        ],
+        [
+          216,
+          "And let's see. So this is Sachin using his social media, decentralized social media to control our robots. And So basically what we realized was like if if like one to a few robots, uh so you are either doing engineering or uh, uh like with even with a fleet of protocols, you could make some sort of uh uh fleet uh based app that you could control. And there are like many corporate entities do it, but then you have like thousands and thousands of robots who want to might want to share uh data sets with each other or like let's say coordinate with each other without knowing much about each other. Then you need some sort of protocols. So this is the basically a protocol research which we are trying to research at uh uh distributed robotics group."
+        ],
+        [
+          267,
+          "Uh so we started asking like what are the basic things uh a robot would actually need uh to be able to uh be a part of a global open protocol, right? So it needs its own identity, it has to be discoverable, and then you need some sort of control layers uh to control the different uh robots or uh or to talk to the robots, and then you need some payment rails if you want to get, let's say, uh it in the real world. So once you have these primitives, then you also need some sort of price discovery mechanism. So that is where uh uh marketplace comes in the protocol stack. So these are the uh layers of the protocol stack we have currently. So for the identity layer, you have like a identity, and then you discover it through the discovery layer. And for payments, uh right now we have like crypto payments and also uh for fiat, we are using currently Stripe. And the control layer is basically how you expose your own robots or the if the robots are autonomous enough, uh you could they could expose them to the public internet. And then marketplace is where like the robots uh kind or the agents or people uh discover the price of some service offered by the autonomous agents or robots."
+        ],
+        [
+          349,
+          "So, for the stack, this is the stack currently. So, we'll try start at the bottom from the physical layer, then we'll quickly look at the identity and discovery layer and how the payments happen and then how the control layer is done and how you are the agents and robots and people talk to each other and then there is marketplace for price discovery and how the demand comes to the marketplace. And the entire stack is composable. So, you could like use some parts of the stack and some like let's say some people don't want to use crypto at all. So, they could just use throw away the X40 part and then just use stripe. Let's say if they don't want a blockchain based identity, they could use something else. And then let's say if they don't want to use ICP. So, it's like completely composable system. You can like mix and match whatever you want. And this is the mapping to the actual code repositories we have currently. So, the marketplace runs on the Acrobot marketplace repo and then we have like the gateway repo which is kind of like how once you have a fleet of robots and then you can expose them to the public and uh internet and then control it from via MCP endpoints or teleoperate via the gateway. For payments, you have like the payments repo and then the identity and discovery are like distributed in three repositories for registrar, identity, and descriptor. And then you have the physical robots where like you could have different types of robots."
+        ],
+        [
+          449,
+          "And then one of the things we have implemented is like we didn't want to have the private keys in the repositories themselves. So, the private keys are staying inside uh own operators wallet. So, the initial designs when I was doing it like uh a year year ago, so I had like private keys in the uh uh the environment variables, but now these are like completely by the uh uh in the wallets of the operators. For the physical layers, uh you could connect any robot. Uh it could be like a service robot. Uh it could be a simulator or any kind of robot. It could be a humanoid robot from Unity. So, like the the we can like the currently we are experimenting with $150 robots, but it could be any uh robot like a $20,000 Unity humanoid."
+        ],
+        [
+          506,
+          "So, these are the platforms we experiment with. So, one is like a microcontroller Wi-Fi microcontroller, a small $150 microcontroller, and the other one is based on Raspberry Pi. It's a four-wheel drive a small robot which you can connect to."
+        ],
+        [
+          526,
+          "And then how do you get the identity for the robot? So, we use a standard called ERC 8004 that came around in the beginning of uh uh 2025. So, basically like uh there are two parts in the passport for the or the identity for the robot. So, you have some parts uh which describe the uh affordances of the robot. You have it off-chain on IPFS, and then basically you mint a NFT uh that points to the URI on the IPFS card. So, that combines and gives you some sort of identity at discovery layer. Uh so, this is how the passport or the identity layer actually works. So, you the YAK robot descriptor uh is like a shared contract or a uh description of the robot. so which multiple consumers can consume and validate if the robot is in a robot description is a specific format or not. So, like when you are registering the robot for on 8004, the gateway kind of exports a JSON file. So, right now it's a JSON file, but it could be like something more complex, but right now we have kept the descriptive file as a JSON file. So, you export the JSON file and then the registrar what it does it prints the JSON file on the IPFS."
+        ],
+        [
+          606,
+          "And then it gives a URI and then the operator wallet kind of mints a NFT that points to this JSON file and that's how you get the identity."
+        ],
+        [
+          618,
+          "And once you have the identity, so you need some sort of trust mechanism to for for the robots."
+        ],
+        [
+          627,
+          "So, what we use here is like Ethereum Attestation Service. So, once you have the identity, so somebody could, let's say, let if if you want to operate a a fleet of robots for the for the Distributed Robotics Group, so we could have like a attestation from Distributed Robotics Group. Okay, these are the attested robots and somebody could the consumers could basically scan some sort of index like EAS scan and find out which are the trusted robots. Find me the trusted robots from Distributed Robotics Group. Or let's say if MIT wants to publish their own attested robots, they could search somebody could search and then find those robots."
+        ],
+        [
+          676,
+          "And this is the parts we are currently these are like speculative things currently. So, for the two or three fleet custody, so you could like have like fractional ownership of the robot with the this mechanism and then you could also use zero-knowledge proofs to attest or like verify and attest the sensors without revealing too much information about the robot. And then for the hardwares, you could like right now we are like using like software based MetaMask based identity for like the robots, but like you could also have the crypto keys inside crypto hardware and like have a hardened layer of identity."
+        ],
+        [
+          721,
+          "So, once you have the identity, basically you can query the blockchain or some indexer to get the attested robots, and then once you have the uh at So, basically you can find the IPFS URI, which is a JSON card, and the JSON card is basically pointing to a URI through which you can connect to the robot via the gateway."
+        ],
+        [
+          750,
+          "Then we come to the payments. So, for our payments right now you can use a protocol called X402 and pay in crypto. And for we also added the Stripe rails so that like people could actually use with fiat. So, some you have to actually bring out the money somehow. So, we are right now using Stripe for fiat money."
+        ],
+        [
+          773,
+          "This is in short like how the sequence of payments work. So, once somebody wants to drive the robot, so they go to the gateway that you have found from the 8004 agent card. And then kind of somebody who is running a payment service uh tests finds out which robot is attested and then gives the driver a quote. And once the driver pays, it's uh verified and settled with something called facilitators. The facilitators are X402 services run by companies like Coinbase that kind of verify and settle the payments and then the payment service runner can like mint a small JWT token and then kind of that can be used for session management of the robots."
+        ],
+        [
+          827,
+          "[clears throat]"
+        ],
+        [
+          830,
+          "Yeah, then we come to the gateway layer. So, the gateway is kind of like how you expose your the robot to the outside world and then it has either MCP endpoint or a UI or teleoperation UI. So, agents can talk to the robot with an MCP endpoint and then there are some reservation mechanisms inside the gateway which kind of provides mutual exclusion for robots. So, like multiple people are not trying to drive the robot at the same time."
+        ],
+        [
+          862,
+          "And like the gateway is done in such a way that like there is some common code for all the robots and once you want to add new robots to the gateway, you're writing a plugin. The plugin is basically like MCP gate MCP and a adapter for the protocol the robot speaks. So, the robot could speak HTTP, UDP or some other SDK and then basically you have a the adapter plus the MCP tools which you can combine into a plugin and plug it into the gateway and then you can control some sort of physical hardware. So, this is the internals of the gateway. So, basically you have some reservation registry and then so, the gateway is exposed to the outside world via ngrok. So, ngrok is a service it's like a tunneling service that exposes your localhost to the outside world and then you have the plugin here with MCP tools and so, and then opt-in tools for the marketplace and some adapter for the protocol the actual robot speaks."
+        ],
+        [
+          929,
+          "Uh and then like the AI agents or the marketplace or actual people can directly talk to the Engroc uh URL and then get to the robot. Uh this is in short like how the uh sequence diagram of how an agent or a person could uh use the gateway to control the robot. So, the uh the agent for or person first makes a reservation and then uh the uh a the two MCP tool call goes via the gateway to the plugin and then to the protocol the robot actually speaks."
+        ],
+        [
+          963,
+          "And then for the marketplace, I'll hand it over to Rapa."
+        ],
+        [
+          968,
+          "Um so, I think one of the main questions Sorry, let me fix my internet [clears throat] here."
+        ],
+        [
+          977,
+          "Let me know when to"
+        ],
+        [
+          978,
+          "Okay. Can you hear me?"
+        ],
+        [
+          980,
+          "Yes, but let me know when to shift the slide."
+        ],
+        [
+          983,
+          "Yeah. So, um I think one of the main questions that we had was uh it's actually quite hard there's actually quite a gap between when you want a robot to do something and what the basically the robot specific tasks are. Um and then it also you kind of have the question which is like which task could you have could you actually supply? So, I started [clears throat] with this question at the beginning of this year which is like how can you make a a marketplace between task and robot can basically achieve those tasks. Um and you kind of have to start with um some sort of specification. Then you have to find a robot not just who can um execute the the work, but you also have to start thinking about uh verifiable completion um so that you know the work was actually done so then you can actually settle the settle the payment."
+        ],
+        [
+          1046,
+          "So kind of kind of cool to do and thankfully Cloud Code was able to explore with me over I think it took like two months which is a long time and I guess AI generated code time to kind of be able to create a bit of a framework to make this a reality. So we can move on to the next slide."
+        ],
+        [
+          1075,
+          "So I think we can probably talk a bit about like the price discovery. So originally um market places in terms of like I'd be able to post I'm willing to pay $500 for a task but it actually it felt like the appropriate the the appropriate execution is actually backwards so you post a task and then people say I'm willing to do the task for x amount of amount of money. So it's kind of like a it's it's a blind auction. Right now the first auction is a winner but it might be like first auction is winner but you pay second price like you can do a variety of different things like the auction mechanic that you use is you know it's plug and play depending on the market place so you can create and the robots themselves can have can have instructions on how to bid for work. So you can actually configure your robot like saying bid even if you're online with a different schedule. Bid only if you're online and don't have work to do."
+        ],
+        [
+          1140,
+          "You know bid aggressively or be conservative. Change your bid depending on how much availability you have you you have which is quite fun. So you can you post a work you you collect the bids that you can either programmatically or have human participation in the award process then the robot goes and executes it. There's you want a verification engine for the execution whether that be data third-party verification could be reputation based and then you get to settle your payment which means like in an ideal situation you also have an escrow process. So you want the money you want people to not just say I hire you but I've put the money aside such that if you complete the work like the work is actually complete. We move on to the next slide."
+        ],
+        [
+          1200,
+          "So we can I mean the marketplace itself is a little bit trickier because you also need to be able to do the conversion between like a physical task request into robot specific movements and tooling that robots may be able to do. So kind of interesting to this which has this has led to another project which is thinking about how to convert for example construction RFPs into machine readable language. It's I think as the models get better we might we might get significantly better at this but it's a non-trivial activity to go from I need to move a box to not just what equipment you need to move the box like how much does a box weigh but also because there's a variety of different robots that could potentially move the box but moving a box is a super super ambiguous statement. And the and the specification of like what the robot needs to do is actually quite tricky. So I think this might get solved with some world models as well that like I don't think I'm I'm not convinced current LLMs will be able to do it perfectly, but I am fairly convinced that it is an LLM shaped type of problem."
+        ],
+        [
+          1281,
+          "Um we can move on to the next slide."
+        ],
+        [
+          1286,
+          "Um so one of one of the things that we kind of think about is like okay so who participates in the marketplace? Um we started out thinking about like general contractors or like I was thinking mostly like construction contractors. This has kind of changed recently um with more market research it actually looks like there's a variety of different participants. Contractors may hire robots, but they don't actually hire them that much. They're more like specialized subcontractors who manage machinery or uh tooling like execute surveys. Um and then you also need kind of like the AI mediation that basically translates between what what the what the task owner wants and what the robot actually has to do. The AI this type of AI agent can actually sit in different places. It can sit in between like the marketplace could be the owner of this like AI. It could be a contractor's AI or it could be an AI on the robot operator side. I suspect that as these markets emerge you're probably going to have all three of them will have their AI validating each other's like outputs and verifications because wherever the AI sits that medium that's where you're going to have like like insurance and accountability pieces."
+        ],
+        [
+          1380,
+          "Um Okay so I think with that um we can probably just review really quick, which is like you want to make sure that a robot can get hired. Um but then um it might be a Oh, I mean Anurag, you can probably talk about this now, um which is like the full intent stack."
+        ],
+        [
+          1401,
+          "Yeah, so basically we saw the entire stack uh how the physical layer connects to uh uh the uh the actual agents or people. So you register, you have a identity, and then you get kind of discover the Once you have the identity, you can discover the robot and then control the robot with a uh the gay control layer, and then have some sort of price discovery with the market price protocols. Uh we have 5 minutes left, so I'll quickly go through the rest of the slides, so we have some time for questions. So this is the current stack we have right now. So we have like uh uh the control and MCP gateway working, identity and discovery uh layer is also working, teleops with crypto payments is working, and then we have like a assisted registration service for for uh the distributed robotics group, and then the marketplace is currently in a demo state, and then this is what we are like eventually would like to have at at some point, but this is like speculative design state."
+        ],
+        [
+          1464,
+          "And"
+        ],
+        [
+          1465,
+          "And and I would say Anurag, like the we probably are missing one piece, which is that we probably need um uh protocols for boundary execution, so robots not going outside of task or not like hacking stuff. I do feel like with all the security stuff from OpenAI, like we might Yeah, we might I don't know, in the future, not right now. We've got We'll do it little piece by little piece, but I'm sure um security and and such will come into play."
+        ],
+        [
+          1497,
+          "Yeah, and then uh so the right now we are just building robots, but you could see like this could this stack could be used for let's say there is an autonomous lab or smart factories or like you could also connect like IoT build and buildings behind the stack and then have them talk to each other. And hopefully like right now we have our robots in the backyard. I hopefully in the next few years we have some sort of different labs and office around earth and but the North Star of the research group is to have this protocol work also on moon and someday on Mars."
+        ],
+        [
+          1535,
+          "And during the workshop this week we had like four more robots on the network. So we had some people on the East Coast, one more from Seattle and then in Italy joined the network. And then we already had like five robots around the world on the network. So if you want to if you have if this talk has made you curious about the robot come join the distributed robotics group research group or if you want to have a small workshop talk to us. We'll be happy to organize a workshop with you and research the protocol."
+        ],
+        [
+          1574,
+          "Thank you. We have like four minutes for questions."
+        ],
+        [
+          1584,
+          "Anurag I'll go ahead."
+        ],
+        [
+          1588,
+          "No, I was just going to say any robot bid contracting nerds can can speak up."
+        ],
+        [
+          1597,
+          "This is Jenna. I was part of I tried to play along at in their workshop. And Anurag, can you say a little bit for the group about how just it's tough been tough finding models that assemble okay."
+        ],
+        [
+          1610,
+          "Cuz I hit a wall and I've been I actually asked my clan curator create a faux robot that I can use the pie Raspberry Pi that I got. So that I can be a pretend robot on your network. That's my my current move, but I would it would have been fun to have gotten a physical one over the finish line."
+        ],
+        [
+          1627,
+          "Uh so I didn't get your question. Like do you want a simulator on the to play with or"
+        ],
+        [
+          1633,
+          "Yeah, I wanted the physical one to work and I and you said something to me interesting in our last last co-working session about the why you didn't use the tumbler that the Yack robots groups have been using."
+        ],
+        [
+          1646,
+          "Uh"
+        ],
+        [
+          1647,
+          "And the free one just kind of a pain in the butt to assemble."
+        ],
+        [
+          1651,
+          "So the tumbler is a little harder to program for beginners. So like we want to make wanted to make like people joining the network easy for them to use. So it's So right now the Raspberry Pi based robot is just easier for people to use. So you can also give your agent the SSH key to the Raspberry Pi and then it can just automatically copy the code and then run the robot and do the test. So it's just easier that way."
+        ],
+        [
+          1681,
+          "But then the free robot was almost impossible to assemble."
+        ],
+        [
+          1687,
+          "Uh yeah, so it was kind of like the kits we chose, but I think like we can I have already found a new kit that is that should be easier to assemble. So this was like yeah."
+        ],
+        [
+          1700,
+          "Yeah, not just easy of course, but robust, able to crash around successfully for a little while. Yeah."
+        ],
+        [
+          1707,
+          "I I think more people would I think people would enjoy. It's pretty fun to play along with these guys. So anybody else listening on the call, I just want I'm giving it a vote even if I had a fail my personally."
+        ],
+        [
+          1727,
+          "Okay, well, just a minute left, so maybe we can we can hop to the next speaker. So, thank you Anuraj and and Rafa for that. Um, definitely recommend people join the um, distributed robotics SIG if if they're interested. I think it's um, yeah, definitely definitely a frontier thing that people are working on. I think you got to skate to where the puck's going to be, not where the puck is. Um, next up we've got William. So, all you. You got your slides going to jump"
+        ]
+      ]
+    }
+  ]
+}

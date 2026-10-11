@@ -1,0 +1,166 @@
+{
+  "video_id": "fqawzyiWXlc",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "the-political-economy-of-protocol-funding-alt-origins-and-implications-of-protoc",
+      "title": "The Political Economy of Protocols",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "um session."
+        ],
+        [
+          3,
+          "Thanks Anish, Sean, Florian. Great talks."
+        ],
+        [
+          7,
+          "Great job everybody. I was I was listening in quietly in the background lurking. And um next up we've got Trent who's going to talk about the political economy protocols."
+        ],
+        [
+          20,
+          "Over to you."
+        ],
+        [
+          20,
+          "Hey everyone."
+        ],
+        [
+          22,
+          "Hi. Hi. It's been a delight to listen. Um audio coming through good."
+        ],
+        [
+          27,
+          "Yeah."
+        ],
+        [
+          28,
+          "All right. I will share."
+        ],
+        [
+          35,
+          "How did that look?"
+        ],
+        [
+          37,
+          "Looks great. Handmade."
+        ],
+        [
+          41,
+          "Yes. Small batch slides just for you all. Uh, okay. So, first off, thank you so much to Timber, uh, Patrick and Venet for kind of structuring the symposium and some of the stuff, some of the blogs from earlier in the year. I really appreciate the invitation to present here. Um, as the title says, I'm going to be talking about the political economy of protocols. Um, these slides have a lot of text. I'm not going to touch on all of it. Um, and I'll go pretty quickly, but hopefully, um, the stuff that you don't get to read, you can look at the slides later if you really care to look at the recording. So, um, I'm currently affiliated with Protocol Guild, which is a collective funding institution, um, for Ethereum core developers. Uh, and I've been working on this for the past 5 years. Uh, previously before that, I was working at the Ethereum Foundation for about the same time and just have been in and around Ethereum for the past 10 years, but that is not the focus of this talk. Oops."
+        ],
+        [
+          104,
+          "Um, just quick context on impact. Uh, we have about 200 members in Protocol Guild. Over the last four or so years, we've distributed 40 million directly to these individuals and have roughly 730 years of cumulative experience of these individuals part of this peer collective just to give you context where I'm coming from in this talk. So the initial abstract for the presentation is as follows or was as follows. Um protocols generate orders of magnitude more value than they capture. Um and to put some numbers to that uh there's an estimation that open source broadly is uh would would cost roughly 4 billion to recreate and yet downstream it generates almost 9 trillion in value for companies that are extending this or building products on top of it. So that's that's an incredible multiplier and the the initial frame I wanted to take was that the protocol commons still needs governance. It still needs labor. It still needs funding to structure ongoing stewardship. um and whoever governs these flows and by extension uh sorry who governs these flows and by extension the shape of the protocol. So that's the initial question I wanted to start with."
+        ],
+        [
+          177,
+          "Um, as I started to get into it, um, I realized there was a lot of existing work I could reference. Pathetic dot theory from Lawrence Lesig is probably familiar to some people. And I even, uh, included a fourbody problem, uh, joke in one of the slides. And then I was reminded last night that people have actually written about this specific context, crypto's threebody problem. Um, the other internet crew. So this is the frame that we will we'll we'll take for this talk and hopefully it's it's generative for us all. Um so this is the the diagram that I'm going to use. Uh we have again it's just restructuring less frame. We have norms market state and new nature. Um I'm open to kind of you know discussion on whether new nature is the field and the protocol architecture is in the top right. But for now we're going to put new nature in the top right. and um maybe at the end of it people will have some stronger opinions on on what this actually means."
+        ],
+        [
+          238,
+          "Uh some more uh images that maybe get your your brain working. So you can think about this as a four-face mask the protocol taking on different aspects. A bunch of people have touched on pace layering. you know, we have it's it's very easy to imagine where each of these corners could go in the pace layering or or even as like a local and global maxima. Um, so the big claims that I'm making as part of this proposal uh as as part of this presentation is that protocol is not just the spec and it it really can't be separated from the contestable institutions, the labor, um the funding and legitimacy which which shaped them. And you know, of course, I'm not talking about um you know, sneeze protocols or handshake protocols. So there maybe you could argue there's a political economy in the uh sneeze protocols, World Health Organization, etc. But I'm mostly going to focus on software and um uh digital protocols. Uh and so the second claim is that these dynamics can be plotted in an attractor political economy field with each of the corners as an attractor."
+        ],
+        [
+          309,
+          "So, also in keeping with the um kind of theme of the symposium, we have some atomicish protocol questions. They're just isish because I I definitely don't answer them fully. Um this is I would say a very very early initial stab at what something like this could look like. So, pulling from uh some of these posts from earlier in the year and here here are my atomic protocol questions. Uh first can the relative influence of each attractor be quantified in some way over time? For example, think about freedom or democracy indices where you have you know global nonprofits that look at the frequency of open elections things like that and then they construct a composite score. Uh second question could be is there a measurable relationship between the utility and invisibility of a protocol and the number of entities with a stake in its ongoing production. Third, and I certainly don't answer this one, um when and how should positive externalities be internalized to provide sustainable flows back to these shared processes? So, um, like I said, this would probably have to be a much larger project, but as we're going through some of these examples and case studies, maybe, uh, come back to this slide and and try to flesh it out and give me feedback."
+        ],
+        [
+          391,
+          "So, um, let's get a little bit deeper. So, I think each of these corners of the diagram has an animating directive. Uh, I'm going to pull from a couple different books here. Um, this was an early, uh, book I read here was incorporating the digital commons. Um, and it looks at corporate involvement in open- source software, uh, specifically Linux. Um, and I think the canonical example here is like open source software in the small or local sense, uh, is like very heavily, uh, norms based. And the the the directive is to avoid capture in order to perpetuate and maintain shared resources moving forward. Um and I'll give another uh you know little bit more in-depth canonical example of the English commons. This is often uh presented in different contexts but mostly for how it failed right for many many centuries in in historic UK historic England um these lands were maintained for the benefit of the the peasantry um using the land using social and cultural norms. Um, but this is it changed pretty significantly over the course of a couple hundred years. And so what I'm doing here is kind of uh plotting out the evolution of which uh corner of this diagram has the strongest influence in defining who benefits from the resource. Uh that is the land the the arable farmland the pasture land for animals. And if you're not familiar, you know, capture is a term that I often use and is is common in political economy or regulation. And just to define it for people, it's a corruption of authority for the benefit of a minority party. And one of the things that might come up throughout this discussion is okay, from whose perspective is is capture taking place? Obviously, if you're a software developer um and you feel like a company is going to capture the output of your work, you feel like it's being captured."
+        ],
+        [
+          506,
+          "But um just something to keep in mind."
+        ],
+        [
+          510,
+          "We're going to go to the other three corners. There are animating directives and a a resource or a book that I think really well provides a frame here. So the external control of organizations is a more traditional uh organizational theory but it has a really great perspective uh called resource dependence theory and it uh kind of just defines okay what are the ways that companies and organizations try to reduce uncertainty in their supply chains or um in their broader context in order to maintain or increase profits. And um this is a great frame for markets because it's from the perspective of the organization. You know, they're not necessarily to capture an open source software system uh or you know, hire all the developers away, but their goal is to reduce uncertainty. And you know, this this might manifest as vertical or uh uh vertical centralization of a particular industry is is another frame. Uh moving to the state corner. Um the book here, the master switch is a really great history of the telecommunications industry in the US. Um and the directive from the perspective of the government is uh to prevent or permit monopolies to increase public welfare. Um and the the through line of the thread is the AT&T example which again in keeping with the theme was given a natural monopoly by the government for many decades to just run communication systems in the US. Eventually it was uh this monopoly was revoked but I think this is a good perspective uh that describes a state position. And I I skipped over uh the example in the market corner which is Visa. You could argue this is a just a consortium effort, but I think it's a good example of like pure market um uh protocol that was agreed to and defined by the participants. Um let me know if you have a better example. Uh jumping back to the state corner, GPS is a state uh state managed protocol. Last I checked um maybe this has changed."
+        ],
+        [
+          639,
+          "And then for the final corner, new nature um a great book other people have referenced protocol how control exists after decentralization and the directive is how do we or how does a protocol encode or seed control in order to maximize its fitness in a broader environment of entities or uh uh resources and um public key cryptography is I think a really good example here. Um, however, people are probably familiar with the crypto wars and sort of the the way that the state put export controls on cryptography in the early days. So, it's not a a perfect example. Again, like Visa, if you have a an alternative I can put in this corner, please do share. Um, final overview slide and then we'll get into some examples. Uh, there are potentially measurable inputs that could feed into sort of the placement on this this field. Um for norms, you know, is the software open source or is it closed source? What is the degree of unaffiliated contributors relative to corporate contributors? Uh for the market corner, what is the share of corporate sponsored authors? Um for the state, is there some kind of formal legal recognition? Does the state uh mandate technical compliance? For example, um building codes, right?"
+        ],
+        [
+          720,
+          "Building codes are an industry standard, but they gain all of their legitimacy from uh state, local, and federal governments mandating their usage. That's where a lot of their legitimacy comes from. And then for the final corner, new nature. I I think I've described this as discretion reduction. How much can you lean on math cryptography? In what ways can the rate of change be decreased? Um a couple people have talked about ocification and we'll talk about this as well in this talk. Um generally what sort of things can give greater certainty or greater lindy to uh the way the protocol is defined. So let's get into some examples. Um the computer human interface conference uh I think it's pronounced kai the kai conference started in the 80s. um in the 90s to the 2000s uh it started to attract corporate sponsors from the industry and uh the paper I reference here it describes how it effectively has become a revolving door for the industry where the interests of uh large tech companies and sponsors are effectively um laundered through and you know they become the source of a lot of the panel discussions a lot of the research prompts and ultimately funding. So there's this sort of captured commons aspect of what ostensibly was a normbased academic event um that was a you know research commons it's now transiting through this diagram and becoming more of a market defined uh uh process chromium great paper uh chromium as a tool of logistical power describes the way that Google has used this over the years to um uh build up influence you know in 2008 it started by 2016 they have gained about 50% of the market share and then pretty rapidly you can see a change in posture to um the the broader community right they've they've become such a force and have such a large user base that effectively they set the standards right they can shape what W3C does they can determine what every other Chromiumbas based browser does um they are the standard setter But effectively it is a uh you could say it's a proprietary standard almost even though it's building on other open standards um maintained by other open organizations. So interesting case study. Final example for this section is related to DNS and ICAN um started within the US government as a partnership between USC and DARPA. Uh eventually they found an independent organization, but it wasn't until 2016 where the contract with the Department of Commerce actually ended and the oversight from the federal government ended. And so now they have, you know, they're beginning on this finally on this path of independence, uh building a multistakeholder, uh industry. Um but as this paper lays out restraining I can um the federal government still has oversight uh on the ability of IAN to define and maintain DNS. Um and yeah I recommend people check out all these papers. I think they're they're really interesting to uh get a deeper perspective into each of these examples."
+        ],
+        [
+          927,
+          "So those three examples uh open question here at the end of this section. Can we start to define certain path typologies of starting in norms and moving towards market, starting in state, moving towards the center or towards new nature? If I did, you know, dozens or a hundred of these, you'd probably start to see patterns. Um, I didn't have time or [clears throat] bandwidth to put together an AI slide, but um, it would be very interesting to see this mapped out because it feels like every week it jumps to a different corner of this uh, between the open models, the the large companies, and the state trying to regulate it. It's uh, it would be super interesting if if I had more time to go through it. Okay. Uh, I'm going to go through Linux and then Ethereum and then we'll wrap up. So um Linux has been around for 30 years. It's started as a hobby project by Lionus was rellicensed moved a bit towards let's say the market corner and um today it's it's I I would estimate it's pretty close to the center of this diagram. Um, and the thing I'm adding here is yes, we can track the trajectory over time, but another interesting element we can look at is these the relative pull of different vectors in each direction because you could have two different protocols which are in the same place but um have different uh composite vector scores. So um that's what I want to introduce here. And uh for another visual example, I think there's a a productive discussion to be had between this idea of contestability and tenseity. Um contestability, I mentioned it earlier, but it's this idea that um the governance is open. The the the definition of the kernel is not set in stone. It's changing more slowly than it was in the past, but it's still um a spec that is evolving and can be shaped."
+        ],
+        [
+          1039,
+          "And this is where contestability comes from. Uh my background is originally in architecture and tenseity. It's it's a a phrase which comes from tensional integrity and it's just a practice of uh large sculptures oftentimes made of steel and wire. And so you have these rigid elements which are combined and carefully thought out. The physics and the structure of them carefully thought out to create these structures that seemingly shouldn't stand up. But you know there's an image of uh one by a practitioner in the space and so you get these these structures that are under tension um and you know bringing it back to Linux I think over 90% of all the contributors are from multinationals that are competing in one way or another in in different verticals. Um so you know this this gets into like coast or uh bankler like the wealth of networks right people are contributing uh while still competing for each other but producing something that's outside of what would uh would have historically been within the boundaries of the firm."
+        ],
+        [
+          1106,
+          "Um and of course the one note I want to make here is that this assumes a really really strong foundation. You could say the Linux foundation has provided that. Um but if you don't have this foundation where this these extreme pressures are building up and contestability of uh you know corporate or commercial involvement in a shared standard it it's difficult to say whether it can persist over time. So I won't go through all of these but you know Linux has maintained coming back to these um kind of these vectors which are pulling or holding the kernel in place. It has maintained these strong norms about how we define uh the cultural and social layer of the project. Lionus is the benevolent dictator for life. The merge access is very heavily reputation based. Um but as I mentioned moving into the market corner, uh the Linux Foundation is paytoplay. Board membership is based on donations. Um and as I think somebody mentioned in the comments, uh Google has pushed specific features um into the kernel which benefit Android, right? In the same way that they did this for chromium, they build up market share and suddenly they have the ability to influence a standard of which that they are also a consumer of. And this is, you know, what what we're talking about the political economy of who has agency and who has power within a a governance system."
+        ],
+        [
+          1188,
+          "Even for the state corner, right, we've seen NASA, we've seen the Department of Defense use Linux uh to great extent. Um they've even produced patches. uh there was a security focused Linux version that the NSA made um and they've contributed to the kernel uh I think it was closer to early 2000s but you know this this stuff still does happen how is it moving towards new nature I think this is still definitely an open question but the fact that it's been around for 30 years of development it's developed these you know vector forces which are pulling it and and pulling it in place and it's also seeing a decreasing rate of change um I think sort of uh lends itself to the fact that there are forces which put the protocol into a new nature territory. Um, another prompt I don't have an answer for, but this idea of uh, invisibility was presented in some of the um, blog posts from earlier in the year and it's just like something that's so ubiquitous or so pervasive. And so the question I have is uh can a protocol have this platonic invisibility and would its vectors look like this where they stretch uh equidistant to every single corner where the federal government mandates their usage markets find extreme value in engaging in the political economy there's you know similarly for the other two corners um open question uh is this tying down a Leviathan tying down a Guliver or is this just providing a substrate for some kind of uh protocol fungus to to spread as far as it can. All right, final case study and then um I will wrap up."
+        ],
+        [
+          1287,
+          "Uh so Ethereum is obviously where my background comes in and I've been working in there for 10 years. It's very strongly maintained a uh strong culture. Open source software is a rule. It has a strong institution of all core devs where many different entities come together and decide on priorities. Um a heterogeneous client uh set where there's you know many different organizations building clients. This is this is all very good. However uh looking at the market corner there's been a number of incidents over the years that have directly tried to engage in governance. And this is um Tim touched on this in his talk uh the parody hack. Um, but I I expect this will only continue moving forward as long as there's active governance and uh active protocol evolution. There will be uh projects that look to encumber the the core governance processes. And this is an interesting distinction from Linux because the kernel is sort of I don't want to say this inert object, but you can't monetize the kernel directly. You have to build a distro around it. And this is sort of there's this bifurcation between the commercial activity and the maintenance and stewardship of the common kernel uh definition. Whereas Ethereum comes out of the box with uh monetization built in, right? It has this live network and in the early days it was a pretty painful lesson that the Dow hack had to be reversed. There was this major blowup of a a smart contract and we had to in intervene. Um is there does this change the political economy?"
+        ],
+        [
+          1377,
+          "I I think it's pretty easy to say it does. Moving into the state corner, uh I I I people are probably aware of stable coins. I I think it's pretty uncontroversial to say this is effectively an extension of US hijgemony. Um stable coins are uh large buyers of US debt. Um some people are probably familiar with OFAC sanctioning tornado cash contracts. This was a privacy protocol. Um, and then finally for new nature, I think this is something that Ethereum does really well. Again, Tim also touched on this, the idea that you don't have to ask anybody for permission to use the network in the same way that I don't have to ask permission to breathe uh the clean air that is in my my particular city. Uh, similarly for censorship resistance, a reliance on public key cryptography. And then finally, you know, this this could be argued it's between norms and new nature, but this idea of oification is pretty openly discussed and people think about, okay, how can we slow the rate of change um and avoid uh too too radically changing the guarantees of the protocol."
+        ],
+        [
+          1446,
+          "So, you know, we can see this process take place. The Ethereum Foundation started in 2015 with a couple different clients and today there's this really really healthy heterogeneity of different entities. The Ethereum Foundation has reduced its prominence and uh there's been other organizations, other companies, other nonprofits which have sort of stepped in to fill out this this political economy of entities which are engaged in core protocol maintenance. And this is a good thing. This is a healthy thing. Um, it's still an open question just how this will develop over time. And this is the the final example I'll give before wrapping up. Um, and I want to talk about Bitmine and resource dependence theory. If you're not familiar, Bitmine is a DAT, which stands for digital asset treasury. Uh, and the the whole mandate of these companies is to buy and hold a particular asset, in this case, Ether. This is sort of the main thing that they do. Um, and you can see they announced this in 2025. Uh, and it it was so early. They still had the Bitcoin, they were transitioning from the Bitcoin ecosystem, and they still had the logo as part of their logo. Um, but they sort of developed this notion of the alchemy of 5%, which is they want to own 5% of all of the ether supply. Um, and this is where resource dependence theory comes in, right? They want to reduce uncertainty in their supply chain and in this case uh both Ether the asset which they are the I think the single largest holder of and also the development and stewardship of the software and the network. Um so as of September 21st they have uh 4.9% it's roughly 16 billion and um these next slides I'll I'll go through that."
+        ],
+        [
+          1549,
+          "Uh earlier this year we also saw the beginnings or continuation of Ethereum institutional succession. So uh June 18 I wrote an article called succession after subtraction looking at what it means for the EF to kind of step back and uh where you know asks a question of where is funding going to come from what who is stepping in to succeed the EF and the next day the Bitmind CEO tweeted there's zero chance this crisis happens and he quotes the the famous Elon tweet of funding secured the next week there was the EF reorg and personnel and significant budget cuts And so in the the subsequent month uh the weeks and months, Bitmine sort of followed through on that that claim. Uh they funded ETH Labs, which is a nonprofit, Ethereum Institutional, another nonprofit, and ETH systems, which is a forprofit. Um so, you know, following through, which makes sense as part of this this resource dependence framework. However, they uh acquired a company called Pier 2 earlier in the year, which is a um which was a staking company and they're joining the Mavon subsidiary, which is uh made in America validator network."
+        ],
+        [
+          1619,
+          "So, pretty clear political bent. Um they're marketing to some people who think this is interesting. And Bitmine is going to comprise a pretty significant percentage of the Ethereum staking network. They're going to engage in proof of stake. It remains to be seen how this will play out. Um I I think it's an open question. And then finally, Pier 2 is also the developer of a uh one of the clients that the an implementation of the Ethereum protocol spec. And so now Bitmine also has an implementation of the protocol spec. Yes, they're funding it. They're reducing uncertainty related to uh where does this funding come from? But now they have a voice in governance. Last two slides. Um, and it looks like I'll be right on time. What does it look like for Ethereum to move towards new nature? I touched on this earlier. Do our embedded capital circuits, proof ofstake, Ether, DeFi, either amplify or do they inoculate us against capture by market? There's been a bunch of incidences of this over the years. Um, I'm not sure actually, but it's definitely different from Linux and people often compare it to Linux. Um and I think these distinct these distinctions are are important. Um the second question as I wrap up what can be done to derisk any worst case tense again remember tenseity is like these sculptures which are pulling on a protocol or you know I'm using the metaphor of these metal sculptures as a a way to visualize these vectors. Uh so again often people point to oification."
+        ],
+        [
+          1715,
+          "I'm skeptical because it's not really clearly defined and oftentimes uh I joke it's you know it's just one more fiveyear sprint that doesn't really ever seem to actually uh have an end date and there's always something you can do to improve the protocol. So in the in the same way that um uh a boat that's in the middle of a river it needs to keep moving if it wants to stay in the same spot. I think there is a social and political consensus that needs to be established or you know norms that still need to be maintained about okay we are done we're not changing anymore open question uh other stuff related to de-risking postquantum transitions um and I'll finish with AI unlocks this gives us formal verification it gives us uh potentially a reduced reliance on wealthy patrons for funding which is you know the history of open source is this relationship between the poor open source developer and some wealthy patron who uh pushes a few dollars their way in order for them to keep going on their work. With AI, suddenly you can multiply your impact and this is great for reducing uncertainty as it relates to funding. Um however, this also lows lowers the bar for building clients and by extension uh what their voice and governance actually is. So, I would say as I said at the beginning, I have more questions than answers, but hopefully this was an interesting high and low-level uh quick overview of uh the political economy of protocols. And final note, I I was heartened to see in the uh one of the intro blog posts references to the oceans because I've put Ethereum in this frame. Um so really appreciate this whole community and um it's been really interesting to listen to the talks today. Maybe I have time for Oh, we're right out of time. No questions. Or maybe one. I don't know."
+        ],
+        [
+          1826,
+          "Yeah, maybe if somebody has one question. Um I'm actually next and my talk's pretty short, so um happy to"
+        ],
+        [
+          1838,
+          "have Have you heard I've got kind of a question. Um if somebody's stewing on on one, we can do that after. Have you heard of the robustness ratio? It's it's this idea in investing um where you can tell how robust a company is by how much of their profit they give back to their consumers relative to their shareholders. So if they can give back a lot of um potential profit to consumers by offering things at a lower price like they will probably do better in the long run because it's harder for competitors to um cut down their margins because their margins are already smaller. So effectively you're reducing um risk of competition by proactively cutting down your margins. And I was kind of wondering like what the equivalent sort of ratio would be for um protocol governance like communities like like the one surrounding Ethereum like what ratio do they need to optimize between the value they give to users and what they pay to devs for example."
+        ],
+        [
+          1910,
+          "Yeah. I I think it's like it ultimately comes down to how well you can actually quantify where which way these vectors are pulling. Um is it do the devs have the final say or is it their employer? And so this this relationship is interesting to explore. But yeah, um it's also, you know, I was at the EF for for a number of years and oftentimes the criticism was that the EF was this ivory tower that wasn't in touch with users and the demands of what the kind of the people who are actually um utilizing the network. You're out of touch with them. So, it's also double kind of a double-sided double-edged sword where you want to be in touch with let's say commercial entities that are actually using the network. we want to understand what their needs are. Um, but you know, maybe it goes too far and you become captured by the interests of uh just the val like if you only make features for the proof ofstake validators, you're probably not focusing on the needs of other user bases or other user types."
+        ],
+        [
+          1976,
+          "Yeah, it's interesting. I mean, there could probably be some way to like translate that that ratio over, but um would need some some engineering. Um yeah, if there aren't any other questions, we can go on to the next talk."
+        ],
+        [
+          1995,
+          "If there are, maybe just drop them in the chat and then Trent can answer them. Um Trent has written a lot about this stuff and is very knowledgeable, so take advantage of it while you can."
+        ],
+        [
+          2005,
+          "Okay."
+        ],
+        [
+          2006,
+          "Thank you. Thank you for listening. Um, and again for for allowing me to present. It's a great forcing function to get this stuff out."
+        ],
+        [
+          2014,
+          "Yeah, thanks for thanks for joining. Uh, let's see. I guess I'm next. Um,"
+        ]
+      ]
+    }
+  ]
+}

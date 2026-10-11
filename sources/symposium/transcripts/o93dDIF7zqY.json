@@ -1,0 +1,250 @@
+{
+  "video_id": "o93dDIF7zqY",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "life-serving-protocols-a-framework-for-evaluating-cooperative-emergence-in-livin",
+      "title": "Life-Serving Protocols: A Framework for Evaluating Cooperative Emergence in Living Systems",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          10,
+          "Okay, welcome back everybody. Hope the the double track went well and um people are able to express both tracks it looks like um at least uh in one direction, so glad to see that there was so much world building happening at the end of the day. And uh our next So now we're in the afternoon, at least in the on the West Coast, into the evening on the East Coast and into the middle of the night elsewhere. So we've got um four sessions this afternoon and kicking us off is Scott."
+        ],
+        [
+          42,
+          "So you go ahead Scott. Um share your slides if you have them."
+        ],
+        [
+          47,
+          "Okay."
+        ],
+        [
+          62,
+          "Look at that. Okay."
+        ],
+        [
+          64,
+          "Okay. So my name's Scott Clearwater and this is uh joint work done with Jose Leal who gave a talk this morning on protocols."
+        ],
+        [
+          75,
+          "This is uh kind of a follow-on to that."
+        ],
+        [
+          79,
+          "Um when Jose and I started talking about this, I didn't really know exactly what he was talking about. It took a lot of discussion. And eventually I asked him for some papers that I could look at which helped a little bit but still not enough. So I fed it into chat GPT and I said explain all this in a way that a physicist would understand. And it gave me this big dump of partial differential equations and tensors and all kinds of cool stuff. Which was nice. It made it made it sound like the life fingerprint uh uh, was something that um was legitimate or at least could be modeled in some way. And so, being an experimentalist, I said, \"Okay, we have this theory, what can we measure?\" And that's when the idea of the life fingerprint score came out."
+        ],
+        [
+          135,
+          "The idea being that a protocol to survive needs to to really survive needs to serve life. And life is not just biology, it can be a group of people, it can be a group of, uh, agents, it could be an organization or organizations. So, life here is is a very general term. And life-serving is something that supports that ability to live, to function, to adapt, and renew itself both inside and outside of a boundary. And I think that's a key point that we're not just talking about self-serving, but we're talking about serving both inside and outside of a boundary. And in you can think of that in terms of, uh, Pareto frontier that you'd like to be in a place where both the the inside the boundary and outside the boundary are both benefiting from whatever protocols you're enacting."
+        ],
+        [
+          196,
+          "So, this is, uh, uh, not a real Pareto frontier plot, it's just a visualization to help understand what we're trying to do with the life fingerprint score. Um, something the going far along the x-axis or the y-axis is a high capacity and near the origin is is something that's not life-supporting either internally or externally. Those are considered as extractive or non-viable entities. They won't survive long. And so, where we want to be ideally is to use the life fingerprint scores as a way to get closer to this life serving frontier."
+        ],
+        [
+          242,
+          "So right now we have in our current social structures they tend to be kind of rigid and harder to do to change. Protocols, as we've been hearing last this week, are meant to be reflect to be flexible to overcome those"
+        ],
+        [
+          260,
+          "[clears throat]"
+        ],
+        [
+          260,
+          "uh rigidity constraints. But they're not inherently life aligned. They may be good for some things, but not in the life serving sense that we've decide that we've defined in this case. And that's where the LFP scoring, the life fingerprint scoring comes in. It aligns with life across the boundary between self and other."
+        ],
+        [
+          287,
+          "So what goes into the life fingerprint score? There's an organizational uh characteristic uh functionality and the dynamics of it. So how it adapts and so on. So those are the three key points that go into the LFP score and there's an internal version of that and an external version of that. That's important because you don't want something like a drug cartel to come out as having a high life serving capability. Internally it works, but externally it's horrible. In addition to that, we have two other uh functions called discrepancy and recurrence. Discrepancy is how well the entity or how well the protocols that are being enacted are able to satisfy all their constraints at at the same time. Recurrence is is the entity able to generate reusable motifs that allow it to ev- to reuse over time. so these are it's not quite the same as the life cycle dynamics because you're talking about something that's reused over time."
+        ],
+        [
+          356,
+          "And so what you end up with is life fingerprint score, which is the LFP internal external and then DNR. It's a sum weighted sum of those four quantities."
+        ],
+        [
+          370,
+          "So how did I set it up? There's not really a protocol corpus that I can rely on to test this. So I I did this within the context of an LLM. I gave the fingerprint ontology to to chat GPT in this case along with the working definitions of what life serving means, what protocols are, what the boundary is and so on. And then it came up with a score. I asked chat GPT give me a score for for LFP. I want to be able to measure something. I want to be able to tell whether these protocols are working internally and externally. And that's what it came up with. I said give me a zero to 100 criteria with the weighted LFP scores. And these are something that the organization or the entity can use, but it doesn't it's not that the LFP engine is making decisions about what to do. It'll score something. It'll say why something is good, why something is not so good and even give advice on what can be changed, but it's up to the the players involved what changes they're going to make. So what how it works is an entity has a need."
+        ],
+        [
+          448,
+          "What's needed by the entity? That generates a protocol. What how it's going to go about it. That's eventually enacted and then it's scored by the LFP engine. The result of the effects of adopting that protocol to meet those needs. And then that's fed back to the entity which again can decide to make adjustments. It'll show the LFP score because it has these different dimensions can show where the strengths and weaknesses are of the current um uh protocol system. And it only makes sense to use it if you can iterate with it going around and and I'll show an example of that a little later. So, as a test case I decided to use the the Buurtzorg organization which was mentioned earlier. It's a decentralized nursing care organization. And there's no central control. And so I asked ChatGPT to create a dialogue, a scenario uh of how this LFP engine and scoring could help with this particular scenario which is Elsje having a leg wound and having diabetes. She has a two nurse team and her daughter are involved."
+        ],
+        [
+          529,
+          "So, the answer is not just to throw more nurses at the problem because then they're not able to treat other people."
+        ],
+        [
+          537,
+          "And also Elsje doesn't get a sense of independence by constantly being hovered over by nurses. So, there's there's got to be some kind of balance between all the players involved and that's what the LFP score helps with."
+        ],
+        [
+          555,
+          "So, there was a dialogue that came up discussion between the nurses about what to do and the protocols were were created accordingly. So, the protocols there were of course that there's has to be a need, there has to be a boundary, some trigger for that protocol to fire. And then the actions that that that are taken and then again, other triggers for escalation or de-escalation. So, as it started off the scenario, she has a wound, a leg wound, and glucose instability. And the action was, \"Let's visit her every day for 5 days.\""
+        ],
+        [
+          595,
+          "And there's a guardrail that this is not going to be a permanent thing and they're going to review it at day five. Just that act changed the LFP score from a 57 to a 71."
+        ],
+        [
+          607,
+          "Next, what happens was that that Elska was improving in her condition, but she still wasn't confident in her ability to take care of herself. But, with the help of the nurses, they were able to coach her and help her to to uh dress her wound."
+        ],
+        [
+          627,
+          "And that raised the score from 71 to 83."
+        ],
+        [
+          631,
+          "And the next step, the boundary check, the daughter was brought in. She hadn't been used before, but they wanted her to be involved, but they didn't want to treat her as uh as free free work. But, getting her involved and letting the nurses back off on their schedule raised the score to from 83 to 90. And the last step, Elska with the with the support of her daughter and the nurses, she was able to safely uh dress her wound twice."
+        ],
+        [
+          668,
+          "And that gave her confidence that she could do it herself. The nurses then become uh something to fall back on rather than something that that's ever present. And they were able to reduce their their visits, but they would come back if needed. And that raised the score slightly from 90 to 93. So, that path becomes something that's storable and reusable because this is not a one-of-a-kind situation. There's lots of situations like that and this whole protocol could set could be shared with uh other groups in that in the organization so that they don't have to rediscover it themselves. So, what we saw was that as a result of the actions of the life-serving actions that we went from a 57 to a 93. It was a huge increase in life-serving capacity as a result of these actions. So, one thing as an experimentalist I wanted to see how reproducible these LFP results are."
+        ],
+        [
+          741,
+          "So, I did some experiments and I did a couple here on this graph."
+        ],
+        [
+          750,
+          "The orange line I said start with the particular stage and then give me a score. And this was done with non-personalized temporary chat so there's no memory of what was going on."
+        ],
+        [
+          763,
+          "Just a fresh start each time and so they should be statistically independent and that's why you have the error bars there. That's the standard deviation of the LFP scores. So, the orange one at each stage you said here's the stage give me a score. So, there were some fluctuations in the scores. We know LLMs are probabilistic and this that shows up right here. The fact that you don't get the same number each time. And the blue line I said start at T0 that initial stage and then you figure out what T1, T2, T3, and T4 are. And you can see it doesn't rise as fast. It has larger error bars, but at the end it converges almost to the same value in terms of life score. So, that gives me some confidence that uh the results are reproducible in that sense."
+        ],
+        [
+          818,
+          "I also did a study with different LLMs to make sure that this was not just a chat GPT dependent thing. I asked chat GPT, \"Give me a condensed version of the life fingerprint ontology that I can share with another LLM so they can reproduce LFP scores.\" And it gave me about 40 to 50 kilobytes of text to do that."
+        ],
+        [
+          845,
+          "And the results are quite interesting. It did quite well. That condensation of many hours of dialogue with chat GPT turned into just 40-50 kilobytes was quite reproducible in terms of LFP score. Both Gemini and Claude converged to the same value. What's interesting here on the Gemini, the orange one, is that they had a setback. What happened was the nurses decided to go to automation for monitoring Elska. And that led to a fall back in her condition. And then on the next step they were able to recover and eventually converge to the same value. So, this is not just a chat GPT phenomenon. It it's a seems to be very consistent across um different LLMs even with a condensed version of what the scoring mechanism is. The last thing I did was you remember I said the oops, I said the score I said the score uh sorry."
+        ],
+        [
+          920,
+          "I said the scores were weighted sums. So, how sensitive are the results, the LFP score, to the weights? And so, I took the T0 score. This is again the Bert Sorg example. And I said, \"Randomize the weights for each factor and give me the score.\" And you can see there is a dispersion, and which we'd expect at the beginning, but it's only about 5% or so. At By the time you get to T4 on the right side, the dispersion in scores is less than 1%. So, if if you're worried about using If you wanted to use this system, you don't have to worry about which LLM you're using. You don't have to worry about what weights are using. It's all very stable."
+        ],
+        [
+          976,
+          "So, the conclusion here is we want to use this LFP mechanism to make life-serving visible and adaptable. And it's a mechanism for testing protocols that they are in alignment with servicing life."
+        ],
+        [
+          999,
+          "And that is true both inside of a boundary and outside of a boundary. That's very important. So, just for fun, I ran some things through the through the engine. And Bert Sorg, the organization, not the particular case I gave, but the overall organization came back with a 91, very high. A non-invasive ant colony did well. A healthy coral reef did very well. Humanity did very poorly because the external is the biosphere, and the biosphere the external LFP score was only in the 20s. So, we're not treating the biosphere very well. We're treating ourselves pretty well, but we're not treating the biosphere very well. So, Humanity came out with a a very low score. Ponzi scheme, as you might have guessed, is only a 20. And I tried Protocol Institute at 79, which is a very good score. So, that's what I have."
+        ],
+        [
+          1076,
+          "Okay. Any questions for for Scott on the LSP?"
+        ],
+        [
+          1090,
+          "I have Ponzi scheme rated."
+        ],
+        [
+          1095,
+          "It's good on the internal, but not good on the external."
+        ],
+        [
+          1098,
+          "Yeah. Really good on the internal, but"
+        ],
+        [
+          1103,
+          "And therefore, it's not life-serving. So, the idea is to make protocols really bit all kind of beneficial, all round beneficial, all round life-serving. Okay. What could the Protocol Institute do to raise its score? So, I ran that and Protocol Institute did up in the 80s, except for one measure, which was discrepancy. And so, it scored in the 60s on discrepancy because it has these very ambitious goals, but not yet the funding to support them. So, that's a discrepancy. And so, it didn't do well on on that."
+        ],
+        [
+          1147,
+          "But for such a young organization that's not specifically necessarily aiming for life-serving, that's that's a very good score."
+        ],
+        [
+          1156,
+          "I will I have a [clears throat] question here. I really like the example of visiting somebody in hospital for several days in a row, right? Because that's an acute need and it goes away at some point and it can become burdensome if they start to expect it. So there's all sorts of like messy psychology involved, but the humane stance is while somebody is in need of like short-term support, you do it, right? And it reminded me of this tweet I saw long ago that was comparing conservative and progressive, you know, rifts in America, red and blue America. And [clears throat] it made this point that Americans are very good at, how did they put it? Acute compassion, but really bad at chronic empathy. And the example that motivated the tweet was something like even if you're in the middle of red America, with like, you know, fraught tensions or whatever, this person was remarking on an episode where they saw a black woman driving on the highway, her truck had broken down and she was waiting for help and some guy in a you know, MAGA sticker pickup truck stopped and helped her out and it felt like a heartwarming thing to the person observing it. And the comment was, yeah, Americans are really good at this kind of thing. Like it doesn't matter if you're red or blue. If there's a hurricane or a flood or something, they will pull together and kind of do the right thing."
+        ],
+        [
+          1246,
+          "The hard part becomes why doesn't that same attitude translate to like, you know, compassion for somebody who's been through a hard, say, you a few years of medical troubles and needs like Medicaid and perhaps income assistance and stuff, there things break down. So, can you, I don't know, comment a a bit about that sort of thing?"
+        ],
+        [
+          1266,
+          "Well, I would say that there's not a there's not a scoring mechanism. People aren't getting a feedback. They're not considering internal and external. Like you said, it's just a short-term external, and then it's gone. So, it's it's a mindset that if you were thinking about your life, your personal life as being life-serving, then you would have a longer horizon."
+        ],
+        [
+          1293,
+          "So, I guess you could say Americans have a short attention span, but humanity itself only came up with a 50. I didn't try Americans. I didn't I tried just all of humanity, but um I'm sure Americans would probably come up short also on the biosphere. I I hadn't thought about the interpersonal example you gave, but I think it's because people aren't thinking about life-serving, which is a long-term thing."
+        ],
+        [
+          1320,
+          "Do you um just off the top of your head experience of places you've traveled to or something, maybe do you have a sense of particular um cultures that seem to do relatively better naturally? Like I've heard people who visited Japan say that there's just a general level of higher consciousness in how people are I don't know prosocial. I don't know. Any thoughts on that sort of thing?"
+        ],
+        [
+          1345,
+          "I guess the Buddhist countries I've been to um embody that. I think more than here. Uh that's my personal experience. I I actually scored Buddha. He got a 95."
+        ],
+        [
+          1369,
+          "So, I mean that's true. America has a short history. These long cultures that have been around for a long time, they kind of have to have a more life-serving aspect, otherwise they wouldn't survive. So, I think it cultures that have been around for a long time have kind of built in more longer term resilience. They have that this has to go on and so that it's kind of more built in than the short-term history of America."
+        ],
+        [
+          1398,
+          "I think it's partly the short-term but also partly the migratory culture. Like lots of parts of the old world you have no option but to stay where you are and therefore get along with the people around you and be a good citizen. This whole Like even today I think less than 3% of um the world's population is ever expected to leave the country it's born in or something like that. I forget where I read that statistic. But America is disproportionately or historically has been disproportionately uh mobile. Uh so there's something there that's less incentive to go deep or less time to have gone deep and maybe That's something that could show up in the LFT external that we don't treat our neighbors as people that are going to have an influence on us because we're going to be moving or they're going to be moving. That's possible."
+        ],
+        [
+          1459,
+          "I'm blanking on the name but I was at a seminar about a month ago about a Chinese scholar. He's at the Max Planck Institute now. He's uh written a lot about the disappearance of the what do you call I think he calls it the here or something but just the sense that how much of your life is sort of like embodied by the neighborhood you live in, the shops you visit, um you know, interactions with strangers but familiar strangers like the shopkeeper in your neighborhood and so forth and how that's kind of like disappeared lately. I'll see if I can find the link and share it but um something there."
+        ],
+        [
+          1498,
+          "Well, in California you definitely feel that transient nature. People are coming and going all the time. So, you can live next to somebody for years and hardly ever talk to them. I've experienced that."
+        ],
+        [
+          1521,
+          "Yeah. Um Yeah, any last questions for Scott or like Scott, if you've got final thoughts on on this or like, you know, what's next for for building this thing out, I'd be curious."
+        ],
+        [
+          1534,
+          "Well, I'd I'd like to hear you know, what other people think about it. I think when Jose and I talk, almost every time we talk we say, \"Oh, there's another paper. There's another paper. Um there's one I'll mention that's in in the in the paper that we that we submitted. It's called the organization defining engine. So, it will analyze organization and give it an LFP score. Or one thing I did, I said, \"Look at LinkedIn and construct an organization for me.\" And it came up with a farm cooperative from a farmer, a transporter, and a retailer. Those were the different pieces of it. So, it's it's able to construct organizations just from what's out there and what information is out there about someone. So, you could use that to construct companies, startups. Uh you could also use it to analyze your current uh company and see which parts or which players are not contributing to the life serving aspect."
+        ],
+        [
+          1601,
+          "So, there's I'm almost overwhelmed by where you can take this uh scoring system, this life serving idea."
+        ],
+        [
+          1613,
+          "Do you worry at all about Goodhart's law in that if this becomes"
+        ],
+        [
+          1620,
+          "Yes."
+        ],
+        [
+          1621,
+          "measurement becomes a goal, like what happens then?"
+        ],
+        [
+          1624,
+          "Yeah, that that's actually mentioned in our paper. We We talk a little bit about Goodhart's law. Um I mean, there could be like a greenwashing kind of a thing, also. Um But, I think if you're if you're just trying to do get a high score, you're probably going to get caught in the end. I don't I I think it's robust enough that people that are pretending to be life-serving are going to be found out over time. Especially ones that are focusing on LFP internal because focusing on that, they're probably going to hurt the external. But, there could be some game game playing uh that would make Goodhart's law kind of applicable here."
+        ],
+        [
+          1678,
+          "Yeah, you don't want You don't want some organization pulling a Volkswagen here and just like ramping up their score while building a obviously bad thing."
+        ],
+        [
+          1687,
+          "Yeah."
+        ],
+        [
+          1689,
+          "Okay. Well, um thank you for the presentation and um yeah, if you and Jose like want to continue like contributing to community and like I think to um putting this stuff like in the Discord with some links, sometimes you can get some feedback from people there in the community either as collaborators or just if you want comments from a new group. Thanks, Scott."
+        ],
+        [
+          1713,
+          "Thank you."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "video_id": "nrjNIqlkC_o",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "envisioning-alternative-futures-for-delivery-work-toward-a-decentralized-network",
+      "title": "Envisioning Alternative Futures for Delivery Work: Toward a Decentralized Network Built on the OpenCourier Protocol",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "And um let's see who we have next. We have Yuan."
+        ],
+        [
+          8,
+          "Yep. Thank you, Timber. Hi everyone. Can you hear me?"
+        ],
+        [
+          13,
+          "Yeah."
+        ],
+        [
+          14,
+          "Great. Uh let me share my screen real quick."
+        ],
+        [
+          20,
+          "You work with uh with Andreas, right?"
+        ],
+        [
+          23,
+          "Yeah, I work with Andreas."
+        ],
+        [
+          25,
+          "Great."
+        ],
+        [
+          25,
+          "So, hi everyone. My name is Suhan and it's really great to be here to join the discussion about protocols and here I'm here to present our recent work which is a vision um envisioning alternative futures for deliver work and this is towards a decentralized network built on the open career protocol and this work was done together with my awesome collaborators Verun Soan Janet and Maya Lesser Andress. So I want to note that this is a vision paper that we are trying to build a blueprint of what I imagine that the uh future infrastructure and deliver work could be. So the central question is what changes if coordination is defined by an open protocol rather than owned by one platform. So uh the preview of the talk is first I will uh discuss the problems with centralized delivery platforms and then introduce the open career architecture and then use three scenarios to show what infrastructure could enable and finally uh what the future work we are currently exploring. Uh a little bit context of me my name is Yuan. I'm a current uh I'm currently a final year PhD student at Princeton University. I work on human computer interactions."
+        ],
+        [
+          107,
+          "social computing and computational social science with my advisor Dr. Andre Monoy Hernandez and my research focused on decentralized socio techchnical systems with a specific focus on uh gig economy and uh this is my ongoing project that understanding the motivation and challenge in adopting decentralized ecosystems and we're using bacon as a case study. So if you're interested in this topic feel free to contact me uh after today's talk. So first let me ask a quick question. Have you ever heard of this platform and other takeouts from these platforms? Uh those three are Uber Eat, Door Dash and Gra in this uh slides."
+        ],
+        [
+          151,
+          "So yeah because we are yeah remote so I cannot count how many people actually ordered but I assume there will be many. um actually those are what we call centralized and mainstream platforms because they take uh most of the sh market share in the industry. So within those platforms researchers have identified several problems. First is power imbal imbalance. So these centralized platforms are the sore authority of decision- making leading to many exploitative tactics to other stakeholders. For example, they charge high commission fees to restaurants. And their previous work has reported that those platforms took 30 to 40% of the commission fee in each order, which is a lot. And the restaurant are facing a dilemma. Either they have to lose money in the short run or raise their menu price but lose their customers in the long run. And they also find listing restaurants menu without consent and coercing them to join. So first this is annoying to restaurant owners but also it sometimes makes restaurant break the exclusive deal with other platforms facing unexpected consequences and those platforms they also find responsible for unfair deactivating drivers. For example, drivers reported that they were deactivated because of the failure of the facial verification, which is due to the algorithm malfunctioning, not their driver's fault. And they have to spend hours, even days arguing with the platform to get reactivated. And another problem is that these platforms have uh information asymmetry and these platforms are well known for adopting state-of-the-art algorithms to manage their daily operations and including predicting uh ETA deciding wage price and evaluating drivers and the AI algorithms are mostly blackboxed uh which is hard to interpret even when pe even for people who has domain expertise let alone gig workers and meanwhile the large scale semi-automated operations often uh result in a lack of transparency during the process. And in addition, this tech infrastructures uh in these platforms are usually designed in a top-down manner like uh their software developers and product managers. they were in the company and then decide they decide what the um the uh design of the app of the infrastructure should look like instead of the drivers decide themselves and those are often reflecting their investors value without integration of the preference of the other stakeholders for example the couriers and drivers and though value misalignment exists in other areas but the algorithmic management in those platforms often lacks of human intervention making communications between stakeholders and the uh platforms very hard. Therefore, the value misalignment here in uh centralized platforms is hard to mitigate."
+        ],
+        [
+          341,
+          "So what other solutions could be? So we realized that currently in the United States there are hundreds of these platforms which we called indie platforms. uh there are currently emerging and became a widely social uh technical phenomena in the US. So more specifically what we mean by India platforms we define them uh that is not the mainstream player which is specifically Door Dash, Uber Eats and Grub uh as the indie platform and because according to a market report those big three platforms taking 90% uh of the market share. So the others are what we call indie platform and this term is actually borrowed from music and gaming industry where defi they define indie as anything that is not m mainstream. So the mo motivation of this uh project first uh we mapped the landscape of independent food delivery to better understand this sociotechnical phenomena and we aim to answer these four research questions to through this uh pilot project. Uh the first one is what are the motivations and values of these indie platforms and the second one is what is the size of their operation."
+        ],
+        [
+          418,
+          "Third being what technical infrastructures do they rely on and the fourth and one is what operational obstacles do they face currently. So this was in 2023 and 2024 and here are some uh takeaways of our key findings. So first indie platforms is a significant players in the United States uh food delivery service. We identified 495 of them which is far beyond our uh expectation and second they are very widespread have existing for many years with hundreds of them actually uh operating as I extend before and third which is very interesting is because they rely highly uh hoggenous software infrastructure so according to our data collection 78% of those platforms uh their software were built by two uh software vendors. So the software they are using is very similar but uh basically they have different theme color different logos but everything else is very similar. So compared but the good thing is compared to mainstream platforms they filled get the gaps emit by mainstream platforms by car uh providing better financial uh security to restaurants and workers and also gave them more agency to decide what they want to work for."
+        ],
+        [
+          507,
+          "uh and also they have better human intervention uh because they don't have the algorithmic management and also they common uh they commonly operate on a local scale within a small geographic area and they have adopt community focused strategies to uh serve themselves and the local community they were in. So here we identify opportunities and challenges. The first one is uh alternative there. They provide alternatives to mainstream platforms and with better service and price and they value human intervention a lot and they are locally owned and operated and aim to serve their local community. And the challenges is also very obvious. First they don't have the resources of the large companies like Uber to build very sophisticated and uh software. So the patchwork systems to bring uh and this bring obstacles for stakeholders due to the infrastructure breakdowns and also the one size fits all doesn't cater to the human involvement aspect of the indie platforms. We servered uh we surveyed those indie platform owners and they realized that oh because of the software is built on top of one template and it's hard for them to customize and connect the software vendor to say oh I need this feature uh could you please just implement it for me and also this is very costly for them no matter uh it's in time or in terms of money and the third one is the siloing of the technology impedes these platforms serving their local communities which is also similar to the uh the previous finding that currently they rely on very uh similar infrastructures but they cannot communicate each other. So probably one feature uh wanted by one company is uh also wanted by another one but currently they don't have the communication uh network to know that."
+        ],
+        [
+          629,
+          "So here we are thinking that how we can help them. So we propose that from the independent platforms to an interoperable ecosystem that uh so this is the connection between uh the pilot project and the main project. So what the indie landscape study revealed is that local platforms pursue different community values but they remain isolated and the heterogenous infrastructure makes reuse hard even when platforms share the similar needs and also the technology sowing make the co coordination auditing and adoption limited in the growth and development of the indie platforms. So here we saw the design opportunity is to connect those indie platforms together without turning them into another centralized marketplace. So here the puzzle is what if local platforms could interoperate while remaining independently operated."
+        ],
+        [
+          688,
+          "So as here in this very simple sketch, we envisioned a gig platform network that the platforms can be connected but they are operated and managed in independently. So we imagine there could be low barrier for entry that anyone can set up a new platform easily and the restaurant owners, drivers and customers to have the ability to choose which one uh that values uh that the values matches with theirs. So given the motivation of this work, the invasion network centers deliver workers and we highlight three key factor in this uh network. So first a career is defined as a worker who completes short distance deliveries by receiving tasks through mobile apps and transporting goods to with back scooters or other uh methods and couers operate as a part of the couer instance and you can see those uh ideas being uh illustrated in this diagram. So here we have the courier instance that is independently operated harps where couers manage their work and the network assumes each couer belongs to one or more instances which may take various organizational forms and scales and very important uh independent owned instance in the networks are interoperable. The protocol allows them to exchange information like the career delivery history and the reputation data. As you can see those arrows pointing to different layers uh in this network and the workers can move across different instances and broadly such consistency also means that platform software designed by one could potentially be used by the others. If you're familiar with fedors uh you may know that with the activity pub protocol you can um access masterone server different masterone servers without uh switching between different apps."
+        ],
+        [
+          814,
+          "And so here we also have the external requesters that is the any party that interact with couer instance by initiating the request and including service request or data request. So you may feel confused because I introduced a lot of the information here but uh the overview is that we have uh four different components and uh three layers. The first layer happens in the registry layer and the other uh the registry and the other components. So the registries uh either apps instance and external requesters can query the registries to know who is the member of this uh network using the protocol. And uh in terms of the instance and app uh communication, you can use the uh green arrow here. Those are the endpoints we defined with parameters and communication uh data schemas to get uh the apps can send in uh information to the instance to communicate to fulfill the orders and the instance requesttor and the instance uh the external requesters and instance is communicating through this pink arrow and I will go into details in the next part."
+        ],
+        [
+          894,
+          "So first I want to highlight that open career is not just an idea. We have a fully specified protocol available online and we have a functioning open-source software that is uh published through GitHub under our Princeton HCI lab account and we also have working apps. So if you go to opencouer.cs.princeton.edu you will get links to all those three. So let me go into the details of the open couer protocol. First is the registry layer. So let's record this uh diagram. So the platform owners re register their business in the network in those registries and the couers query and join instances in the network that matches with their values and the external requesters query instance to look up who is uh serving the nearby locations. So why we imagine there could be several different registries is because we believe that delivery work and other gig work is very uh physical location dependent. So if currently I'm in the US and I don't need to worry about who is serving this area in for example China because it's too far for the service to be fulfilled. So currently we hope uh we're imagine the registries can have different information granularity. If it's far delivery work there could be a larger registry that covers a broader area and if it's very local focused for example it's just in Princeton the small town it could be uh like registry that only contains all service providers nearby the campus. So this is the first layer registry layer and the other one is called open uh app instance layer which defines how careerf facing apps communicate with the infrastructures used by the couer instance and this is for uh like fulfilling uh order and the delivery. So it includes how the order is allocated, the task is dispatched to different uh couriers and also how the delivery is fulfilled like when is the pickup uh time, where is the pickup location and also here we have a worker preference input which is uh very specified uh for supporting the well-being of workers because we believe that currently the workers's voice is not considered in mainstream players."
+        ],
+        [
+          1045,
+          "And we think through this app we could improve it and change it. So in our app uh worker can input I think we have a screenshot here. Maybe it's not that um not that clear. Okay. Sorry I didn't put that into it. So actually for example a worker with uh health uh concerns may think oh I cannot deliver very heavy packages. So they could specify their preference of delivering uh smaller packages in the app and then the instance render will take that into consideration into the order dispatching and task allocation so that their voice is being valued and heard and the other uh layer is uh around two different uh another two different stakeholders which is the external requesters and instance. So the external requesters we have have um two main different types. The first one is the service requesttor that they could use the protocol specification to make pickup and drop off location very clear and same together with um timing constraints and the compensation terms and they could also get quotes from the instance and negotiate with the instance. for example is that oh I need to deliver a package of food from point A to point B what would be the price and then the instance going to send the information through open career protocol saying that okay it will require you $20 and the service requesttor could be oh that's too expensive could it be 18 so something like that and then the external requesttor will finally confirm the uh delivery order so we assume there could be uh uh delivery, negotiation and quoting process. And uh also the researchers and regulators which we called data requesters, they could ask for anonymized delivery data from the instance and compare because of the schemas are very uh the same uh defined by the protocol. So they can compare uh across different instance. For example, they can say, \"Oh, this uh state uh the average wage of the couers is lower than the others.\" So, they could inform a better policy design to support the workers well-being as the data auditor."
+        ],
+        [
+          1192,
+          "And [snorts] uh as a regulator, I know that currently in the US, the New York City and Chicago, they require the uh gig platforms to reveal or disclose some of their data. But uh we could imagine like in the future there will be more and more requirement like this. If it's a a national or like cross uh state uh business running they could they have to uh change diff change their data reporting to fit the requirement of different states. But if there is a standardized protocol like open couer, the effort could be much lower."
+        ],
+        [
+          1235,
+          "And also we imagine that this open couer protocol can improve the information transparency by require fields in the protocol uh to enforce data information disclosure. For example, the deactivation problem we mentioned before. So if uh the instance and the couriers are communicating through the protocol the protocol actually require the de deactivation reason to be uh a required field that it cannot believe empathy. So the um instance when they are deactivating drivers they have to say something and then the driver could use it as an evidence to appeal or like just negotiate and discuss with the platform. So what we recall is the problems in mainstream platforms. There are power imbalance, there are information asymmetry and there are value mis alignment. And here uh how open couer are going to uh solve this problem is first uh we give workers agency and then we ensure transparency across the network and we also allow developers to create technical infrastructures that are available for anyone within the network. So here I'm going to use three hypothetical scenarios to see uh how this protocol can enable it. So first give agency to corers. We can imagine the career whose name is Bob and Bob wants to avoid physical intense tasks and in sometimes if he's really tired and in another in other times he wants to prioritize his earnings. So he registered on two different instances and he doesn't have to have two different cell phones or switch between different two apps. he can use uh one app that is compatible with open career and he registered on instance A which is a workers co-op that will uh take his uh uh preference into consideration in giving him uh like not physical intense tasks and in the other time Bob wants to um prioritize earnings so he also registered on a commercial platform uh which didn't he didn't mention anything about his uh physical intense task con constraint. So he opt into more work when appropriate. So here we think the agency is the ability for them to move, combine and choose not just to tugle settings inside of one platform."
+        ],
+        [
+          1389,
+          "And for the second one, how we improve data transparency. As I uh mentioned before, Chicago uh New York City and Seattle, they may have their own uh disclosure requirement and for the platform themselves uh which is also called instance in our case. So they have to put more effort in uh complying with the different data disclosure requirement. But with the open career uh protocol everything is standardized. So they don't have to they it could potentially lower their uh effort and also uh researchers like us could uh run data auditing and compare for example paper mail and working hours and delivery instance and policy disparencies and then give concrete policy suggestions or recommendations."
+        ],
+        [
+          1444,
+          "And also we can uh conclude with some interesting design implications for people who have bandwidth and interest to develop new technologies and systems to support workers well-being. So the in uh in a word the network reduces the barrier to data sharing where enable aggregate analysis for policy and industry while auditing."
+        ],
+        [
+          1468,
+          "And so the third one is that we believe that this protocol and the network gonna encourage worker center design and technical infrastructure innovations. So the third any third party or any individual developers they could use our open source software to build on top of it or they could uh build from scratch to uh like improve the current delivery experience of couriers. So for example, Alice, she's a developer and she wants she developed an open-sourced optimiz optimization uh module for uh better matching queries and the tasks and this is compatible with the open query protocol and no matter who saw this one and they could incorp uh incorporate it integrated into their own uh app or into their own uh infrastructure no matter is a urban co-op Bob is a small indie platform or is a newcomer who is interested in this uh business. So the protocol compatibility lowers the cost of reusing better algorithms, interfaces and service."
+        ],
+        [
+          1538,
+          "So here is a small uh and uh quick summary of how centralized platforms versus open curer is different uh different in terms of the control different in terms of the interfaces that between the stakeholders and the platform and it's different from the data schemas and it's different from who initiate the innov innovation and it's different from the governance structure and so for the future work we are currently thinking of different uh governance models. It could be within an instance, how are norms set and revised? How are c careers being protected? How are harmful behaviors being handled? And it could also be between instances, how do they deal with uh policy, pay policy uh conflict, how do they overlap labor pools to affect the competition and what is portable and what is local. And across the network it also have some governance questions like who curates the registries uh how are the bad faith instances being removed from the network and how do we prevent the harmful actors from helping. So decentralization moves power but it doesn't make the power disappear. This is our uh like oneliner uh summary and we think we hope and we welcome everyone to join the discussion of like what could be the good governance model of such a network and also the implementation adoption tools is our future work because there are already existing platforms using their technical stack and there is the open uh protocol and we are trying to build the adapters of the translators that could make them transform into open uh career network more seamlessly without disrupting their current uh operation of business and then it could lead to a interoperable network in our best hope. So interoperability is valuable only when there are enough actors joining in. So uh we're also currently uh in touch with several organizations and individuals who are interested in this network and we are working with them in adoption of the open career protocol and the technical infrastructures."
+        ],
+        [
+          1676,
+          "So this is a quick summary of this project given that we are we have limited time I will just skip it and here is the link to our vision paper our website and there is a blog post thanks to platform.co co-off they reported our work and this is our team and if you have any questions and you want to uh discuss with us more specifically feel free to email us. Yeah,"
+        ],
+        [
+          1703,
+          "that was awesome. Thank you John. Um have you had um some positive um I'm sure you've had positive feedback from you know people that are couriers and delivery people. Does anything stand out in particular as an anecdote?"
+        ],
+        [
+          1721,
+          "Yeah. Yeah. Yeah. So, we're currently working closely with the Greek union and they want to set up an open career instance and uh we just talked in uh Tuesday actually. Yeah. So, we're discussing how uh the infrastructure can be adjusted to fit their local needs. And uh they're also making changes they have the developers. They're also making changes to their uh of by forking our repo and we are going to discuss uh because when we are designing it we uh have collaborations with couer themselves but they haven't tested in uh real life while they are working and driving and like writing a back using the infrastructures. So after they have tested in Greece uh they will give us more feedback. Yeah."
+        ],
+        [
+          1769,
+          "Nice. Uh how are you doing licensing for um for the Greek um work?"
+        ],
+        [
+          1778,
+          "Oh uh we we open sourced using the MIT uh license. So anyone who who can use it uh anyone who is interested they can use it. Yeah."
+        ],
+        [
+          1788,
+          "Awesome. Uh Mike, you got a question?"
+        ],
+        [
+          1792,
+          "Yeah. I'm just like this is super fascinating and I'm wondering about whether there's a way to like vampire attack the um existing kind of incumbents and basically siphon off their supply. Like if you go to the drivers and you're like don't don't leave the existing networks but import your entire you know delivery history and then we can put you in touch with other providers. Like I wonder if there's a way to harness the network effects that that the incumbents have already built to basically kickstart the entire network's effect for open courier."
+        ],
+        [
+          1830,
+          "Yeah, I think this would be very interesting question actually. We're also learning about it because this is like at the very beginning and we are still like at a very early stage. So we're also collaborating uh closely with an organization called Beckan in India and they are trying to build such a history and reputation system among like workers working in transportation as like uh r sharing drivers. So we are learning from them and to see how they make the uh data portability uh successful. Yeah."
+        ],
+        [
+          1866,
+          "Awesome. Well that takes us um pretty much the time. So, thank you, Yuan. Um, this is a great project and yeah, I'm excited to see this get implemented and like be sure to keep us posted on how that goes."
+        ],
+        [
+          1880,
+          "Yeah. Thank you."
+        ]
+      ]
+    }
+  ]
+}

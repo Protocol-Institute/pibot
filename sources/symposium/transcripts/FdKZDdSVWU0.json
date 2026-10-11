@@ -1,0 +1,134 @@
+{
+  "video_id": "FdKZDdSVWU0",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "the-nature-of-trust-weaving-identity-relationship-and-place",
+      "title": "The Nature of Trust: Weaving Identity, Relationship, and Place",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          1,
+          "And um next up we've got Kalia and Kevin to talk about trust. So you guys can take it away. You've got 34 minutes."
+        ],
+        [
+          12,
+          "Hi. Good to see all of you. Uh we are on an adventure right now. Just for context, traveling between um yeah, you can see us both. Hi. Uh we're traveling between um Portland, Oregon and Northern California and we've stopped to present you you all today. I'm going to start by sharing our slides. Oh no, that's not what we wanted to do. Sorry there. This one. And then let me get it so we can share SL. Sorry."
+        ],
+        [
+          54,
+          "slideshow. There we go."
+        ],
+        [
+          58,
+          "So, we're gonna talk about the nature of trust, leaving identity, relationship, and place together. And I think we're going to we're going to focus today on um this talk has two parts. The first part touches on this thesis that I I have that hard technical protocol development actually require soft protocols for the people who collaborate to create them. Um and this is probably going to be about a quarter of our our discussion today. And then the second part really talking about how Kevin and I and the communities we're working with are evolving protocols for peer-to-peer collaboration um and human groups to define themselves in the digital world and how this sort of third generation of digital identity um protocols that are actually hard. They're running on the wire aligns more with our nature as collaborative beings um and including rooting in place."
+        ],
+        [
+          141,
+          "So this slide is a of Jim Zlin who's the ex uh executive director I think they call him the CEO now of the Linux Foundation and he's on stage at their member summit talking about the challenges that they're facing with security trust and innovation and the specific incident that uh attacked or happened to the Linux kernel community was the mystery of J10 and this XZ backdoor that almost got into the core Linux kernel. And this uh piece of code was um almost put into the core Linux kernel before they figured out that nobody actually knew who Jan was. even though this contributor had been showing up and actively participating for over two years and it was sort of I don't totally know all the details and and lots has been written about it but it was almost figured out by accident that this was a a malicious code and the failure wasn't in the hard you know the the signatures and the uh very concrete code element. It was really human. Who was this person? Jan and it speaks to this challenge that many software projects and all of us today are facing is who are you actually interacting with?"
+        ],
+        [
+          246,
+          "And now this other layer is is this entity you're acting with really a human being or is it just an AI agent? And if it is an AI agent, which human is it working for? And these layers of um soft connective tissue in our human relational field that we're representing in the digital world. And I uh this image came out of my dialogues with um AI around these topics and really thinking about the process of weaving and in weaving fabric you have the warp and the we and together they make a fabric and you can't like one without the other makes no sense. and the IATF and the research that um protocol institute funded day and I to write two summers ago about um about the protocols for protocol at the ITF prove the importance of these um these these quote unquote soft protocols that allow the hard conversations to happen about the technical protocols that run the internet and I actually think these same types of soft protocols are important to think about another element or another layer of like physical hardness that we have in the real world of how our communities manage and interact with physical places which is sort of where we'll touch on very briefly at the end of this talk and I think pattern languages are one tool that we have to understand the aliveness of soft protocol processes and and it's what we use in the the research that we did and also they can serve us in evaluating soft protocols that we're using in our groups and collaborative spaces."
+        ],
+        [
+          363,
+          "And so two places where I have experience leading in this way is that the internet identity workshop is a forum that I've facilitated and hosted for over 20 years that has been collaboratively working together on the protocols of digital identity and I would argue is a high performance collaboration community and the ITF is its own remarkable special institution that does the name. And what I'm going to spend the rest of my talk on today is walking you through the emerging third generation of digital identity protocols that I I think enable and align with our soft human protocols of group groupness and group capacity to work together. And it's really in this is where we're going. It's like really talking about this identity substrate or group creation layer that I think we can have in the that we're building on the internet today. And so this is setting the context for getting to generation three. We have gen generation zero where we started generation one that grew out of the first 10 years of the internet identity workshop the decentralized identifier and verifiable credentials work and finally digital trust graphs which is what I'll spend most of my time on which is this emerging layer. So, in generation zero, for those of us who are old enough to remember, you had one username and password for each site, and you had to pick a unique username that was different than anyone else. Um, mine happened to be identity woman, of course, and you then had to have a password and remember them. And you you ended up with, you know, people being quoted divided up into hundreds of little people. like each time you created a new account, it was a little new representation of you in yet another different place."
+        ],
+        [
+          496,
+          "Um, and it was in this context that me and others founded the internet identity workshop and we first gathered in 2005 and literally at that first workshop the seeds of open ID were were seated. folks got together from four different similar URLbased identity protocols and aligned and they created open ID and a few years later um folks created the OOTH protocol. This protocol supports two services connecting um on behalf of a user to link their accounts together without giving away their passwords. And this was really a breakthrough where competitors and their security professionals decided if we let the password anti-pattern spread, it will be disastrous for all of us. So let's cooperate and build a standard to prevent that. And we ended up with this identity provider model that's pervasive on the internet where these large entities host your identity and you use them to log into other entities. And this is both a good thing. It makes it easier for user and it's also a challenge because these large service providers of identity now are disintimating people from the the services and other tools and services."
+        ],
+        [
+          582,
+          "But on the other hand, generation one has been very successful. These protocols are used between 10 and 15 billion times a day and and it's still a critical part of enterprise architecture all over our digital world. Um we were not done innovating. We thought that these architectures didn't um reach our highest aspirations and values and we went on to invent a second generation of protocols, decentralized identifiers and verifiable credentials. And decentralized identifiers were critical to reset the foundation of how we anchor entities into the digital world to transcend globally managed registries like the domain name system, IP address system and the telephone number system which are managed um at a global scale by by large NOS's at the top and private name spaces where our identifiers are owned by the entities that we are subsumed under in those spaces."
+        ],
+        [
+          660,
+          "Decentralized identifiers are really long numbers with the scheme method and method specific identifier. And you can think of the decentralized identifier spec as a minimum viable definition of a decentralized identifier. At this last count, there's well over 180 different did methods, but there's some that have kind of come to fill niches that are very popular and used a lot and others just never got adoption. So, it's been a interesting exercise in evolution. Each decentralized identifier comes with a public key and a private key. I don't have time here to describe the the link between these and how public private key cryptography works, but I invite those of you who are curious to dive in. But they have a special relationship because you if you share your public key, an entity can challenge you and you can prove that you hold a private key without giving it away. And each decentralized identifier comes with a DID document. And this DID document has a DID, the public keys, the protocols you use to challenge it and figure out if someone actually holds the private key associated with that public key, a set of service endpoints, a time stamp, and a signature."
+        ],
+        [
+          742,
+          "And what decentralized identifiers are is globally resolvable, decentralized, have associated public key key keys and endpoints. And they give us something we didn't have before, which is resolvable decentralized public key infrastructure. And this is a critical foundation for us to build these new webs of trust and connection between people and organizations."
+        ],
+        [
+          776,
+          "I often say at this point, who cares about really long numbers? because they don't actually do a lot for our human ways of consuming information, but they are critical for this like baseline infrastructure for human interesting things to be built. And one of the things that got built on top of this identifier substrate that we innovated is verifiable credential technology. So you'll have the issuer who is um could be any any entity, a a person, an organization, a well-known institution that issues fancy documents on paper today like governments that issue driver's licenses or higher education institutions that issue us um issue us uh certificates of completion and degrees. But it could also be membership organizations like the Lions Club or the Boy Scouts or a church or, you know, pick your organization that you are a member of. I'm I'm a part of lots of loose confederations of humans who come together on a regular basis. We could issue our own credentials, right?"
+        ],
+        [
+          849,
+          "But this first generation of of of usage was really picked up by formal institutions that already had a paradigm of certificate issuance. And the way that this works together, this is like a sorry for the switch in graphic tone, but I wanted to pull together this image. You see the issuer on the left hand side, the holder up above, and the verifier. And in between them is this verifiable data registry. And that's where information about the issuers might be stored. This lower sort of loop is a governance authority or framework. So we can imagine these already exist in the world like the state of California has a list of institutions that it it has certified as higher education institutions etc. So this this is how the system works where you can find out where a credential was issued and whether the information somebody presents in their verifiable presentation of their credentials is accurate. And so this is generation two with wide adoption across these kind of formal institutional settings. And and there's at this point hundreds of millions of credentials issued in this format."
+        ],
+        [
+          929,
+          "And now we are working with generation 3. Um, and so I'm going to walk through these elements. So we're taking these core components I just described, keys, decentralized identifiers, and VCs, and we are reconstituting them into helping individuals connect to other individuals in a peer-to-peer trust graph. And in this model we have individuals issuing mutually issuing verifiable relationship credentials. And so this is uh an architecture diagram. The pink pink section at the top is really establishing a peer-to-peer connection using a protocol called decentralized identifier communication. This is like another useful thing decentralized identifiers can be used for is like creating this connection and then the verifiable relationship credentials can be mutually issued. And you can see Bob is using information shared with him by Alice and and and and his did and Alice's did are in the verifiable relationship credential and he's issuing it to Alice. And Alice is doing the same for Bob. Alice is saying, \"Yes, I I interacted with Bob and Bob's phone and I did indeed meet him in person.\" And there's this this vision of using this type of peer-to-peer proof of humanity as an alternative to things like the world model of eyeball scanning for everyone on the planet that if I have a stack of verifiable relationship credentials from a 100 or 200 people, I've met 200 people in person. And it's really hard for a bot to do that."
+        ],
+        [
+          1047,
+          "And so this is helping answer this question, proving that you're a real person with real trust relationships. And so here's the Wikipedia diagram of a web of trust. And we can see that you could have a verifiable relationship credential as being a tool in this type of web of trust and like connect all the people in a peer-to-peer way."
+        ],
+        [
+          1072,
+          "And we could think of this as enabling a ultimate instant key signing party that you could get in a room with a dozen or more people and doink phones and exchange verifiable relationship credentials in a way that had a good user interface. And I was just speaking with Drummond Reed who's one of the innovators in our community and he was saying that right now the core Linux kernel developers are the only ones who really do serious PGP signing parties and they're that that mechanisms are um are really important for them and that they are looking at these new protocols and adopting this new modality for how to do this key signing and then taking that those practices and spreading them to more of the Linux Foundation projects. And there's also this idea that we can each have a verifiable trust agent that is helping us manage our connections and relationships and the keys because key management is not for the faint of heart if you do it on your own. And the great thing is we have AI now and and trusted agents that work on our behalf to enable this. So we can imagine each person having a verifiable trust agent and this same mechanism happening with this new set of tools that can act on our behalf."
+        ],
+        [
+          1162,
+          "So we have below we have this what I shared with you already verifiable credentials and and the the that stack enabling self-s sovereign identity and then verifiable trust agents on top of that continuing to build we have a next question which is if we have all these people connected sort of in a peer-to-peer way where is the community and what does that look like And we this problem has been identified and there's a cool way to solve it which is to build a trusted community of members who are part of that community and issue each of the participants in a community a verifiable membership credentials."
+        ],
+        [
+          1215,
+          "So building on the diagram I shared earlier, this is how this fits in. So that you would have membership credentials for trusted communities issued on top of a peer-to-peer trust graph that's following these protocols. And all of this is protocol based. So the verifiable relationship credential follows the verifiable credential specification from the W3C. So do the verifiable membership credentials. And I think one of the reasons that this work is important is because I actually think individual reputation, which a lot of people have written about and thought about and worked on for years. Um, two of the people I know who've worked on it the most and have the best thinking is Randy Farmer, who used to be at Yahoo way back in the day, and Christopher Allen. that actually in the world we're building looking ahead, it's groups that are the unit of reputation and accountability because a peer group can hold each other accountable for their behavior. And we could trust people based on their membership in groups that we know act well in communities. And we could even imagine that those communities might have well-trained, well- behaved agents as well. Um and that it is um thinking through this like looking at just individual first protocols as potentially being too weak to really stand to have reputation sit on."
+        ],
+        [
+          1324,
+          "Every digital trust graph node has a verifiable trust agent. So even communities uh can have these and there's a whole emerging set of pretty simple trust trust pro protocols that are also being developed by the digital trust graph working group to enable this. So, tada, there's VTAs everywhere."
+        ],
+        [
+          1346,
+          "And this is hopefully to help us um really manage the complexity. Um, and I think in some ways these protocols could be imagined 5 years ago, but with the existing software capabilities, they probably would have been too cumbersome to implement. So I think now is the right time with the the AI developments we're seeing. And so here you can see we can now think about scaling these to groups of roof like verifiable trust communities like perhaps you know the protocol institute and radical exchange and metaggov. These are all different communities that I personally participate in and I imagine some other folks also participate in those communities could team up and create a verifiable trust network, right? So that they can uh peer-to-peer affirm other groups that they think of highly and have confidence in their work and their collaborative capacity."
+        ],
+        [
+          1414,
+          "So VCC's can join together under common governance and f form verifiable trust networks and they can be formed at any scale and any configuration needed by the participants and it's really important to assert make clear that the governance of a community is defined by the community. These protocols are not about defining that. They're sort of like a a meta layer of building blocks or tools that you could compose to help the digital representation of your community represent the real life instantiation of it. So if you had a benevolent dictator who decided who was in and out, that would be one modality of governance you could have. And you could also have a modality of governance where you know 50% of the members of the community needed to vote someone in, right? Like it's really up for grabs. And so you have verifiable trust networks being built on top of verifiable trust communities and and an emerging property of a verifiable trust infrastructure."
+        ],
+        [
+          1482,
+          "So this work is being developed at with the trust of IP and the decentralized trust graph and it's been under development for the past seven years and if you're really interested in what I'm sharing it's still being developed. These core building blocks are here and we have them but the decentralized trough craft working group is is very active. It meets every Wednesday morning and if you have something to contribute, it's all open and available for folks to to engage with. We have three um main libraries that have been created to implement the protocols that I've just been talking about. And the folks at OpenVTC are working very hard to bring their working code to the Linux builder summit coming up in a couple weeks. And Kevin and I are just about to go meet the uh fabulous women who are working on trust stackers and the folks at the Burkeman Center have developed their work in the applied technology lab there."
+        ],
+        [
+          1557,
+          "And I'll just um close with two things. Where are we innovating this work? One place is the internet identity workshop that I started with at the beginning. None of these protocols would have emerged without the work of that community over 20 years. Um, we've also started a sister event next to it, the Aentic Internet Workshop to explore that the relationship with Agentic AI broadly, but also specifically between people and their agents. Kevin and I are leading Project Weave and we're considering the possibility if if it all works out. This is very contingent on both interest and and our resourcing capabilities. The week following IW to really build and test interoperability between the existing code bases and emerging um uh tool builders who want to accept sort of community members showing up on their door and getting out of just OATH as the only doorway they have to their tools."
+        ],
+        [
+          1620,
+          "And I just wanted to close off and sort of talk about why I think group membranes actually matter. Don't have time to go into this here. This is only a 25m minute talk. But it's worth just thinking about like why did I go to all the trouble of of of sharing this and what is interesting about it from a uh um in a different way. And one is really to free our groups. Um, I wrote this essay building on work that I actually originally wrote in 2009 going to Fu Camp, um, Friends of O'Reilly Camp."
+        ],
+        [
+          1661,
+          "Really thinking about the importance of groups as having their own protocols and why they're important. And it's really heartening all these many years later to finally be able to say we're very close to this becoming a norm and becoming widely adoptable. And then also thinking about AI and AI alignment. I think we have um over subscrib like this conversation about AI alignment ends up lost on two ends of a spectrum. One is like aligning with one person. Okay. what does that mean or even look like or like all of humanity somehow again overwhelming and I think perhaps the unit of finding AI alignment is actually with a group and with the data of a group and and this connects up to the talk that I'll be giving on Friday about this concept of group brains and so if AI agents are playing a part in helping our groups be smarter and more collaborative Can we weed out agents and AIs that are not aligned with us as communities of people as a way to get at the AI alignment problem with a different kind of lens?"
+        ],
+        [
+          1742,
+          "And then also thinking really particularly about how groups of people rooted in place can work together to care and steward that place. and my friends and colleague um Tracy Rogers Brandt has this idea of a neighborhood, right? Like instead of thinking of like all of Cascadia and three huge river basins plus all the, you know, smaller ones along the coast, can we just think about the neighborhood and the walking distance around our home and how the water flows there and how would we care and steward our places? So this is one area where I'm thinking about applying this work in a really practical way. It's like working with a neighborhood and a place about how all the groups there can be their own autonomous groups and potentially how those groups can work together to care for place. And I'll just finally leave this slide up for a little bit and I'm happy to take questions. I haven't been able to follow the chat while we go along. But um and actually before I finish, I'd love to turn it over to see if Kevin has anything to add to what I said or maybe he's been tracking the chat. So"
+        ],
+        [
+          1818,
+          "yeah, I've been engaging in the chat channel. It's hot."
+        ],
+        [
+          1822,
+          "Yeah, a lot of good questions like adop adoption. That's that's very important. It doesn't help to build tech or protocols and no one uses them. So we're definitely focused on that. Atomic communities is one pathway we've identified. And when we talk to especially ind indigenous communities, they say, \"Oh my gosh, you're not going to impose a cultural governance norm with these.\" Yes, we're can we use them now? And they have application now. So once a community or group uh uses the tech built on the protocols, they're uh they're uh effective. They can work. They can start doing stuff immediately and doesn't require global or planetary scale. it it can start very local a family can can use the protocols to coordinate their schedule. So yeah, some really good questions too. There's lots of other ways to do web of trust. Uh there's onchain. Um that's how to protect and identify a unique digital identity with a person or or group. There is another way to do it and that's with it's kind of like social proof."
+        ],
+        [
+          1887,
+          "It's like if you can establish that you have a lot of relationships with people then you you probably are a person and it's very expensive to duplicate that as a civil attack and still be unknown within your community. So it's definitely relies on the social aspect. The protocols are very light so that the social aspects of the group or community are are what they bring that to the protocols and the tools. I hope that's But any other questions?"
+        ],
+        [
+          1922,
+          "I think since we've only got um two minutes here, um I'd say continue responding to the questions in the chat. Um that was a super great presentation and there's been lots and lots of uh activity in the chat. So, thank you Kevin for responding to all that as it was going on and thank you Kalia for for being here. Nice to see you again."
+        ]
+      ]
+    }
+  ]
+}

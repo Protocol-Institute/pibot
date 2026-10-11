@@ -1,0 +1,270 @@
+{
+  "video_id": "w1CzNf4d6Xo",
+  "source": "YouTube automatic captions, unedited",
+  "sections": [
+    {
+      "talk": "talk-mike-jubilee-meta-protocols-agains",
+      "title": "Jubilee: meta-protocols against entrenchment",
+      "start": 0,
+      "end": null,
+      "paragraphs": [
+        [
+          0,
+          "I could share them and you could just tell me when to switch the slide, worst case."
+        ],
+        [
+          4,
+          "Yeah, we'll do."
+        ],
+        [
+          5,
+          "Uh"
+        ],
+        [
+          6,
+          "Thanks so much."
+        ],
+        [
+          6,
+          "Mike, do you want to get us started?"
+        ],
+        [
+          9,
+          "I could I could go. I'm not sure I'm going to be any better at this, but uh sure, let me let me see if if I can master sharing here."
+        ],
+        [
+          17,
+          "Okay."
+        ],
+        [
+          18,
+          "Uh Um No. No. Oh, wait. Here it is, I think."
+        ],
+        [
+          45,
+          "Uh let's see. You."
+        ],
+        [
+          50,
+          "Uh is that Does that look about right?"
+        ],
+        [
+          53,
+          "Yeah, looks about right."
+        ],
+        [
+          54,
+          "Okay. Uh Okay. Um So, uh glad glad to be here. Um So, I'm I'm Mike Travers. I'm an independent uh software developer and and writer. Um I I was one of the early guest bloggers on Ribbon Farm. Um and I'm going to be talking today about things that I don't really know much about, uh although a little bit of technical stuff uh sneaks in there. Um So, uh the topic is a Jubilee and forgiveness protocols. Um what what does that mean? Um so, Jubilee is an ancient tradition of debt forgiveness. Um meant to address uh a classic problem that uh we still have today, which is that um people people who need to borrow money uh often can't pay it back. They get a They get debt accumulation. They get uh They They lose their their their free their their indebtedness accumulates to the point where they lose their freedom, wealth gets concentrated, and you get social instability. Uh so, this problem existed uh 5,000, 6,000 years ago, and they invented a way to fix it with a periodic reset of of debt debt forgiveness."
+        ],
+        [
+          136,
+          "Um which is a can fairly radical move where all debts get canceled and property gets returned to the people who are actually using it. Um it sounds radical, but in fact, it's a conservative move because it keeps the the the social system running. Um so, this this tradition, you know, dates back to early Mesopotamia. It was codified in the in the Hebrew Hebrew Bible and Israelite law. Uh we'll get into the details of that. Um so, why is this interesting to protocol people? Um I think it's a it illustrative case of a concept uh of the difference between hard hardness and softness in protocols. Not really maybe not really uh classi- classification like that, but um the the we we have from from the crypto world where the protocol community is rooted, there's this uh I think I think tends to value hardness of protocols. Uh the the more the the harder it is for protocol to be bypassed or or broken, the the better."
+        ],
+        [
+          204,
+          "That's kind of the fundamental assumption of of crypto. Uh whereas human protocols uh don't work don't work that way. They they tend to be uh soft, uncertain, open to interpretation. You need to make exceptions just because of human life is complex. Um So, uh given that we'd like to protocolize the human world, we kind of need to solve this this dichotomy. Uh and economics uh inherently bridges the two worlds because money is kind of hard and and humans obviously are very involved in money. So, this has been this this uh this bridging has been going on for a long time. Um so, outline of the talk, uh we'll talk about the way the the ancient system failed, how it's patched, how there was how there was uh patches on the on the patch or protocols to get around around the the the protocol patch, uh how this tradition kind of uh seeps into the into the modern era."
+        ],
+        [
+          269,
+          "Uh then I'll talk a little bit more abstract about the the protocol design space and how forgiveness uh can can works in protocols in general. Um so, ancient system failures. Oops."
+        ],
+        [
+          283,
+          "Uh well, there we go. In a second. There we go. Um So, as I said, I don't really know much about this stuff. My primary source is a book by this economic historian Michael Hudson um called And And Forgive Them Their Debts. He's got a, you know, very very detailed and elaborate exploration of this. Um it's also if if people have read David Graeber's book Debt, uh that also relied a lot on on Hudson's research. So, you may have encountered some of these ideas before. Um Hudson is a little bit controversial among historians. Uh I'm not equipped to judge judge uh judge that, so take it all with a grain of salt. Um but his main his main points are that debt cancellation was a fairly routine event. Um uh but it was controversial and the historical evolution tended uh the as as elites uh got established, they tend tended to not like this cuz it interfered with their wealth accumulation. And eventually Rome kind of uh you know broke with this tradition and eliminated it and that's kind of what we inherit today."
+        ],
+        [
+          354,
+          "Um, okay. So, money is a very early protocol, maybe the earliest one and you know it's um it's been studied to death by archaeologists. Um It's a very interesting topic. Um, you know, just the the very course outline is that you know pre-urban societies didn't really have money. They their economies were more more based on on gift gift exchange and obligations. Around 8,000 BC the first kind of symbolic records emerged and then they apparently for doing accounting like operations. 4,000 BCE you get something that looks like writing and central more more centralized economies where temples and palaces are keeping keeping records. Uh, eventually people invent interest-bearing debt and not long after that the first debt cancellation happens. Um So, you know, Mesopotamia interest rates were were fairly high. There was the when when um uh palaces lent to lent barley to farmers they were expected to pay back you know 33% interest rate on that. That was pretty high and and often they couldn't do it."
+        ],
+        [
+          436,
+          "Um There so that that so the really centralized institution small farmers system of system of debt Um and according to Hudson a universal principle is that the burden of debt tends to exceed the ability of debtors to pay and that's been the major major cause of economic polarization from antiquity to now. Uh, debts that can't be paid, won't be paid, what what happens? Uh oh, I should say uh so, um I might show this off at the end of the talk if there's time, but uh because I didn't want this to be too soft and squishy, I made a little agent agent-based model where you can run simulations of these ancient economies and uh run your and uh and run your [clears throat] own uh ju- jubilees. There's a jubilee button. Um so, uh this this is fun, and I'd encourage people to try it out and let let me let me know how that goes, and I'll I'll show I'll show this off at the end if there's time. Um so, uh how do you patch the debt economy? Uh you have these periodic resets."
+        ],
+        [
+          504,
+          "Uh Hudson's preferred term is is clean slate with the a royal act where what personal debts are wiped out, property kind of returns to people who are using it, slaves are freed. Um there's a bunch of different words for that in in different in the different cultures. A bar gi is Sumerian, it means return to the mother, uh symbolizing the debtor, you know, who might have been enslaved in a in some other household going back to where they they came from. Uh a andurarum is Akkadian, it means restoration of right order. Um so, all of these were kind of framed as exceptions to the rules that kind of return restored the the working order of of of the system, so they were, you know, considered considered protocols fixing themselves by by violating by by violating their rules or extending their rules or having exceptions to their rules. Um then the the word deror is in in the Hebrew Bible. Um it means proclaim liberty. We'll We'll see that uh emerge a little bit later."
+        ],
+        [
+          573,
+          "Um so, uh the the Israelite jubilees that were there was a 7-year release as mentioned in Deuteronomy at the end of every 7 years, thou shall make a release. Every creditor that lendeth out to his neighbor shall release it. Um the the word there release is repeated several times in in scriptures. The original is shmita in Hebrew means that means to drop, to let fall, to loosen your grip on something. Uh, every 50 years was the jubilee."
+        ],
+        [
+          611,
+          "Um, and that was a deeper reset where all all slaves were freed, were freed, all land returns to their original owner. Um Not clear this was actually ever ever implemented for for various reasons which which we'll get to, but that's that's how it appears in in the Bible. Um So, jubilee is linked to Yom Kippur which just happened a few days ago. That's the most holy day of the Jewish calendar and it's a it's a general time of release from obligations and debts and and for forgiveness. Um Uh, it's signaled by the blow on the the a ram's horn shofar, also called a a yovel. Um, and and and then the name jubilee actually derives from the term yovel. So, so it's very much linked to this this tradition. And you know, one interesting aspect of it from protocol aspect is that it's it's a it's intended to be a very noticeable public signal of an event happening. So, everybody everybody knows this is going on because the the ram's horn has been has been blown."
+        ],
+        [
+          691,
+          "Um, so that that was Jubilee. Uh That had it had some problems of its own. Oops. Um, and you know, mostly you know, what when when a modern person hears about this, they say, well, this can't possibly work because if all debts are released every 50 years, um, no one's going to no one's going to make loans, no one's going to give you a mortgage if it if it's if their obligation to pay it is going to disappear next year. Um, so that so that doesn't work too well. There's it if you know that the reset is coming, it's easy to game it and it's obviously unfair because it favors borrowers over people who who didn't borrow. Um, so there was a pa- a patch was invented called uh um slides out of order here. Uh called uh pro- prosbul uh which uh we'll get get to that. Um, sorry, my slides are a little out of order here. Um, was Jubilee ever actually done? Probably not uh as it's described in the Bible uh cuz there are no records survives of that. Uh however, the the earlier forms of debt cancellation were were done were definitely done and quite common."
+        ],
+        [
+          763,
+          "Um, and presumably the the the seven-year uh release in the Bible was done because somebody uh went to the trouble of inventing the workaround for it. This is the prosbul that we'll talk about here. Um, so pro- prosbul was a a patch on the patch. So, this is a way for lenders to get around the obligation to release their debts every seven years and involving a legal trick where you reassign the debt to the court rather than an individual. The courts are exempt from from this rule, so you get to to bypass you get to bypass the the bypass. Um, so that's just an interesting little uh protocol epicycle there and then this this is uh this is also you know, commented a lot in in scripture. Um, oops. Sorry. Okay. Okay, how do how do the this uh weird tradition uh translate into the into the modern era? Um, well, it's uh found on the the Liberty Bell. Uh, some of one of American American's important symbols."
+        ],
+        [
+          827,
+          "It's the Liberty Bell says, \"Proclaim liberty throughout the land and its inhabitants thereof.\" That's a quote from uh Leviticus and it's the Jubilee where at liberty in its original context really meant economic liberation. We've kind of translated that to be more like political liberty, but in fact it means uh release release from debt. Um, but that's uh the the roots are there. It actually also was commissioned for a 50th anniversary of uh William Penn's charter. So, the people there were at least aware of the 50-year tradition. Um, so, uh modern era we have we do debt forgiveness every so often. We do it on a national scale. Uh, this is uh a list of some failures of debt forgiveness. Uh, Weimar Germany uh was a big one. Uh, uh German Germany was saddled with uh war reparation debts from World War I. Uh, these were unpayable. It caused severe economic problems and led to the rise of uh Nazism."
+        ],
+        [
+          891,
+          "Uh, in Greece in more recent times they had a debt crisis that uh uh was described in Yanis Varoufakis' book where he uh he was the economic minister of Greece at the time and was trying to renegotiate the debts and didn't quite do it. Uh, it's a very interesting story. Uh, another uh failure of debt forgiveness is is US student loans. I will I'll talk a little bit about bankruptcy later. Um, a lot of personal debts are dischargeable in bankruptcy, but you US student loans for some reason are not. So, uh for some reason if you borrow to for the education, that's an unforgivable debt. Um Oops, sorry. Uh some some uh successes Uh so, Germany a bit later on did have a successful uh debt uh forgiveness where their their debts were cut basically cut in half. Um and creditors just absorbed a a write down. Um in 2008 debt crisis Um there was a lot of research to the balance sheets, although most of the forgiveness most of the forgiveness went to creditors rather than the debtors."
+        ],
+        [
+          958,
+          "And then in 2000, there was a a campaign actually named after Jubilee Jubilee 2000, which was a uh program of debt forgiveness for the for third world countries primarily in Africa. So, we already run these Jubilees. We just do them uh we do them kind of in an ad ho- ad hoc uh ad hoc way. Okay. Um now to get into the more theoretical side of this, I don't know if I got time. Um So, uh here are some four dimensions of of economic forgiveness mechanism design. When it fires, uh we've talked about the 50-year fixed calendar, uh but what more typically uh debt forgivenesses were were run on a special event like a ascension of a new king. Um uh or an arbitrary decree. There's also other mechanisms which I'll talk about. Uh who it covers, if it covered one collective event or in a case-by-case like individual bankruptcy or redemptions. Um how deep it cuts, meaning is it a total release of debt or partial write down."
+        ],
+        [
+          1024,
+          "Um what it touches. And um so, so Jubilee is one one at one point in this in this design space. It's calendrical, it's collective and and total and it's aimed at the land and persons. And I think Eric Allston has talked talked about emergency mechanisms. So this is this is an instance of an emergency mechanisms. Um let's see. So here a couple of variations on Jubilee. So bankruptcy is also debt forgiveness, but it's individualized uh rather than than collective. Um so I won't say a lot about this cuz time is running short. Um uh variation two. This this is an idea I came up with when I was researching this and I was pleased to find out that a real economist thought of it a stochastic Jubilee. So instead of doing it on a 50-year schedule where it's easy to game, you do it on a on a random basis like like say every year there's a 1% chance of a Jubilee. Um that prevents some some gaming. Um you can price that into into into a loan loan interest rates."
+        ],
+        [
+          1092,
+          "Um but it turns it turns out that uh stochastic algorithms are violate US administrative law. So I'm not sure that's going to be really practical. It's kind of a It's kind of interesting idea though. Uh oops. Uh variation three. This is getting a little bit far afield, but people have mentioned carnival in other talks. So I thought I'd include it. Um carnival is isn't isn't exactly debt forgiveness, but it's another case of of rule loosening where the normal rules of society are are sus- are suspended. Uh it's not economic rules and it's it's kind of temporary rather than a a reset. Um but it's also kind of a relief relief valve on a protocol system. So that's maybe reaching a little bit, but I thought I'd include that. Um Okay, now I'm going to talk about uh protocol uh forgiveness in protocol design and kind of the different aspects. So this is not directly related to Jubilee. Um How do you design forgiving protocols?"
+        ],
+        [
+          1155,
+          "Okay, here one one way to do that is is I'm calling this syntactic forgiveness or mechanical forgiveness, which is just if you have a a technical protocol like an an internet protocol, um there's a design principle from the early days of the internet, be conservative in what you do, be liberal in what you accept from others. That means so rather than enforcing a rigid syntax on the communications of a protocol, you should accept things that are better that are that are that may may be violated in some way or looser. And then this was uh done in kind of early web browsers. People were which were not very uh strict about what kind of HTML they would they would accept. Um that probably helped the internet bootstrap into into its large scale in its early days. Um but later that practice has been kind of frowned upon uh because being loose about your protocols leads to a phenomenon called protocol decay where if you have a lot of variant implementations around, it's hard to it's it's difficult to know if you're implementing it right and that causes security concerns. So that's a that's another that that's one simple form of protocol forgiveness."
+        ],
+        [
+          1231,
+          "Um Another aspect of forgiveness uh relevant to protocol theory is arises in game theory. Um and if you're familiar familiar with Axelrod's iterated prisoner dilemma tournaments, um there were some you know, people are familiar with with the tit-for-tat strategy, which was the winner of his early experiments. Um Later oops, wait a minute. Sorry. Um Later later work has shown that you can actually you get a little bit more leverage with forgiving protocols if you if you protocols that don't that may retaliate most of the time but if for some probability they they will be forgiving and this turns out to be important especially when they're in the presence of noise because otherwise noise could could trigger uh a state of permanent defection if you have if you add a little forgiveness to the system you fix that problem and it turns out that a a 1/3 uh rate uh probability for uh forgiveness work works out well in in the under in those conditions. So, that's another another uh way to think about forgiveness in in the protocol world."
+        ],
+        [
+          1301,
+          "Um whoops. Um another uh kind of work of protocol design is just is just designing ex- exception handling. Um and that this is uh where my my programming uh background comes in. Um you know, every programming language has some facility for exception handling. Uh you have the normal normal case of a program but something unexpected happens, it raises a signal, some something some code catches that and and recovers from it in in some way. So, that's a common thing in pro- in programming languages. I think you know, protocols also need that in in in some form. What that actually means uh I don't know but I think it's a design uh important design pattern. Um I'm put to I I can't give a talk without mentioning Lisp. Um it's my favorite uh programming language. Uh Common Lisp has an extremely powerful uh exception handling mechanism um which people are not generally familiar with."
+        ],
+        [
+          1366,
+          "I think it's it's worth it's worthy of study. Um and not to get it too into the weeds of that but it it it uh it has some facilities for preserving the context where exceptions happen and letting people operate in that. And uh I I I decided to ask Humboldt what it thought about that and it gave me it it it it it thought it was relevant and started started gave itself a whole new research track. Um I put I put some of that conversation on the web if anyone wants to look at it, but that's getting a little bit too into the technical weeds here. Um So uh for forgiveness in general, um I So for forgive us our debts is a a line from the Lord's Prayer, so people know that. Um give us this day our daily bread and forgive us our debts as we forgive our debtors. Um And uh that's usually interpreted as yeah, I don't know. Spiritual debts, but it it if you believe Michael Hudson, it really has its roots in in economic debts and was meant to be taken quite uh quite literally."
+        ],
+        [
+          1435,
+          "Um so but for for forgive forgiveness does seems to be an important uh concept in religion and spirituality in general. That that kind of that kind of fascinates me. I don't I don't know quite how to talk about that. Um I came up with this uh kind of stupid term, but I like it uh of I I eigen virtues, meaning uh certain certain virtues that are just, you know, very very basic uh to morality. They're often topics in in religious discourse. Um The classical term is cardinal virtues and this is a picture of the four cardinal virtues. You can see justice over here with the scales. Um so I'm I'm trying I'm making a collection of of eigen virtues for myself uh just purely for my own uh spiritual development. I think people should make their own. Um but forgiveness seems seems to be one. It's just something very basic. That's why it's so, you know, fundamental on Yom Kippur to to belief."
+        ],
+        [
+          1501,
+          "Um and so of all of these kind of basic virtues, justice and forgiveness seem to be the most relevant to protocolization. Justice is a function of protocol hardness. Forgiveness is a function of protocol softness, and I think we need we need them both. They need to be combined. Don't have to ask me how, but that's that's my That's that's my my thought, and I think that's it. Okay. Uh that's it. I I apologize for the looseness of this talk. Please forgive me. Uh any any questions?"
+        ],
+        [
+          1543,
+          "Hello."
+        ],
+        [
+          1543,
+          "Have you um Cuz you you noted that like kind of 1/3 as being somewhat of a maybe optimal ratio like something around that. Have you kept that in your mind like mentally like reflecting or like, you know, going about forgiving things in your daily life?"
+        ],
+        [
+          1561,
+          "I don't quantify my daily life that that that much, but I I certainly I certainly do try to to to to practice more forgiveness. I think it's you know, I don't know. It's uh I don't I don't I don't It it it's I feel like it's something I need to work on. It's just a give give it give it in my character, but um I don't uh it's the the the ten- the tendency to retaliate is is is quite strong, and uh that that that is one way to try to try to lessen it."
+        ],
+        [
+          1599,
+          "Yeah. Um thanks for the talk. I had I had always looked at uh early on crypto. I thought it would be a fun idea to like social forking as a way of debt jubilee. You know, we all just move away from something that we all don't like if that's get too huge. But I was wondering for a question, how does how does war sort of play into this? Cuz it you know, especially like after Germany, there was kind of debt forgiveness after the war, but but even early on well before that, like like was a lot of these debt forgivenesses around like when a new king would come and take over or was this completely separate from that?"
+        ],
+        [
+          1636,
+          "Uh that's a good question. I don't I don't have a good answer for that. I mean you the the the the linkage of debt forgiveness with with a new king was mostly you a function of regular succession, not not wars. But um the the you know, the indebtedness was related to wars because that because that's how they conscripted people into into armies. So there was that relationship, but but yeah, so war war is a big social reset. And ending ending a war kind of does you know, involve involve if not forgiveness, at least you know, reconciliation. So I'm I'm sure there's a linkage so I haven't haven't really given that one one much thought though."
+        ],
+        [
+          1683,
+          "Yeah, I'd also be kind of curious is there like do societies that have debt forgiveness like avoid wars more? Like do do is it something like there has to be a system reset and it's going to reset anyway or regardless of which way you do it? I don't know."
+        ],
+        [
+          1698,
+          "Interesting."
+        ],
+        [
+          1701,
+          "Yeah, it's like you can you can elect have a jubilee or jubilee will be elected for you through a a crash. Um"
+        ],
+        [
+          1712,
+          "I'm going to look at the comments. Duncan likes the jubilee button."
+        ],
+        [
+          1723,
+          "Purge carnival."
+        ],
+        [
+          1731,
+          "Uh I thought it was forgive us our trespasses. Well, it's a it's a it's a translation uh from the Greek and I think the original Greek word is actually a little bit closer closer to to debts."
+        ],
+        [
+          1745,
+          "Ah, yes, somebody said that."
+        ],
+        [
+          1750,
+          "Yeah, and uh um Yeah, and and and uh Nathan, you know, Nathan's talk this morning was looking for for virtues, I think. Forgiveness can can is one to add to his list."
+        ],
+        [
+          1764,
+          "Uh another question I had was you mentioned that randomized decision-making is is not allowed by the US administration. I was just curious, um do you have any context on if there are governments around the world that allow randomized decision-making as part of their processes?"
+        ],
+        [
+          1783,
+          "Um that's a good question. I I I don't research that. I know that in the US that the like the there was a draft the there was a draft lottery uh back in in in my day. And uh that was the they had an special exception to the law to the law for that particular case. Um I I don't know if there I don't know how how it works in other governments. That's an interesting question."
+        ],
+        [
+          1815,
+          "Mike, I have a um maybe this might be a side quest kind of question, but"
+        ],
+        [
+          1823,
+          "It's all side quest."
+        ],
+        [
+          1824,
+          "[laughter]"
+        ],
+        [
+          1825,
+          "But like I was looking into that list like I was compiling and of course mercy forgiveness makes into the Christian um uh virtues, right? Like but if I look at um other major religions, of course I means having studied a Buddhism extensively and a little bit of Hinduism, I know that list is more or less correct, and I'm not like completely delegated my"
+        ],
+        [
+          1850,
+          "[laughter]"
+        ],
+        [
+          1852,
+          "thinking to the LLMs, but I was wondering like how this kind of also sows the um seeds for conflict, right? Because you have these five different ways of valuing stuff around you. And then, so you don't have a common protocol. Uh and then, you're not valuing the same thing. So, that kind of ease creating structural Uh I I'm not the first person to bring that up, I'm sure. But, it's kind of creating some structural issues to begin with, which are sometimes ir um um What do I mean? Like, they can never come together at the end of the day."
+        ],
+        [
+          1896,
+          "You You mean the different different virtues in different religions or you"
+        ],
+        [
+          1900,
+          "Yeah, because like, if you look 80% of the pop 80% of the world population is implicitly has imbibed this either from culture or from literature or from their national ideology and stuff, right? These are like im- imprinted on them."
+        ],
+        [
+          1914,
+          "Well, yeah, there I mean Well, in one respect, you know, there are real differences. It means it's, you know, building a cosmopolitan multicultural society is difficult. Um I I I I'm I'm I al- I almost put a list of Buddhist virtues on on my slides cuz I know the Buddhists love to make lists of that kind of thing. Um Uh I've I've I've I've often been inspired by the Baha'i faith, who their their their whole they they tried to integrate They took nine religions and said, \"Well, they're all really about the same. Let's try to put them all together.\" And of course, then they get persecuted by everybody, but uh it was it's a ni- it's a nice idea. I grew up next to the Baha'i Baha'i Temple in Chic- in Chicago, so I might"
+        ],
+        [
+          1960,
+          "Oh, okay. It's a beautiful temple there."
+        ],
+        [
+          1962,
+          "Yeah, yeah."
+        ],
+        [
+          1963,
+          "India has the largest population of Baha'i faith."
+        ],
+        [
+          1972,
+          "Any more questions?"
+        ],
+        [
+          1974,
+          "Any more questions for Mike? Um, I think we'll have some like time for open discussion since we had one no-show like towards the end of this block, so um, worst case we can save a couple questions for Mike for later."
+        ],
+        [
+          1989,
+          "All right."
+        ]
+      ]
+    }
+  ]
+}
