@@ -1,0 +1,31 @@
+{
+  "_about": [
+    "Symposium talks whose slides were published as web pages with the talk-kit player",
+    "(a 16:9 #stage stepped by a DECK array), not as files in the Drive folder.",
+    "ingest/archive_symposium.py serves each built site locally, steps the player and prints",
+    "the stage once per slide, so the archive PDF is what was projected, with text kept.",
+    "root is the built site (asset paths are site-absolute), path the deck page under it,",
+    "live_url the published deck. Rebuild the talk site before re-exporting a revised deck.",
+    "The Drive folder holds one-slide placeholders for these; the deck sync skips them as stubs."
+  ],
+  "decks": {
+    "talk-venkatesh-building-archival-selves": {
+      "title": "Artisanal Bots with Protocolized RAG",
+      "root": "../artisanal-bots/dist",
+      "path": "/artisanal-bots/",
+      "live_url": "https://chat.venkateshrao.com/artisanal-bots/"
+    },
+    "talk-venkatesh-blygger-ai-native-decentralized": {
+      "title": "Blygger: AI-intertwingled diachronic-synchronic social publishing",
+      "root": "../blygger-protocol/blygger-org/dist",
+      "path": "/talks/2026-09-24-blygger/",
+      "live_url": "https://blygger.org/talks/2026-09-24-blygger/"
+    },
+    "some-candidate-laws-of-new-nature": {
+      "title": "Some Candidate Laws of New Nature",
+      "root": "humboldt/humboldt-site/dist",
+      "path": "/talks/2026-09-23-new-nature/",
+      "live_url": "https://humboldt.protocol-institute.org/talks/2026-09-23-new-nature/"
+    }
+  }
+}

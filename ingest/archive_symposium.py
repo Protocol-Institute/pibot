@@ -18,6 +18,8 @@ Outputs:
     sources/symposium/slides/<name>.pdf        slide/paper PDFs (gitignored; go to R2)
 
 Inputs:
+    config/symposium_web_decks.json   decks published as web pages (talk-kit player),
+                                      printed slide by slide from the built site
     data/symposium_decks_state.json   which Drive file belongs to which talk — the
                                       matching, duplicate and stub verdicts of
                                       sync_symposium_decks.py are reused, not redone
@@ -34,7 +36,8 @@ cannot be checked that way and is listed as needs_visual_check — look at it
 before publishing.
 
 Laptop only, like sync_symposium_videos.py: it needs LibreOffice (pptx/docx ->
-PDF), Chrome (html -> PDF) and the local caption cache.
+PDF), Chrome (html -> PDF, and web decks via Playwright), the sibling talk-site
+builds, and the local caption cache.
 
     python3 ingest/archive_symposium.py --dry-run       # report, write nothing
     python3 ingest/archive_symposium.py                 # build PDFs + manifest + transcripts
@@ -66,6 +69,7 @@ SLIDES_DIR  = OUT / "slides"
 TRANS_DIR   = OUT / "transcripts"
 MANIFEST    = OUT / "archive.json"
 DECKS_STATE = ROOT / "data" / "symposium_decks_state.json"
+WEB_DECKS   = ROOT / "config" / "symposium_web_decks.json"
 YT_DIR      = ROOT / "sources" / "youtube"
 TIMED_DIR   = YT_DIR / "captions_timed"
 SERIES      = "symposium-2026"
@@ -267,6 +271,53 @@ def redact_emails(pdf: bytes) -> tuple[bytes, int, int, bool]:
     return out, pages, found, chars >= 40 * max(pages, 1)
 
 
+def export_web_deck(root: Path, path: str) -> bytes:
+    """Print a talk-kit web deck one slide per page, as it was projected.
+
+    Serves the built site (its asset paths are site-absolute), steps the player
+    with the arrow key, and prints only #stage each time — real text, not
+    screenshots. Uses the installed Chrome; no browser download."""
+    import functools, http.server, threading
+    import pymupdf
+    from playwright.sync_api import sync_playwright
+
+    class Quiet(http.server.SimpleHTTPRequestHandler):
+        def log_message(self, *a):
+            pass
+
+    srv = http.server.ThreadingHTTPServer(
+        ("127.0.0.1", 0), functools.partial(Quiet, directory=str(root)))
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    w, h = 1600, 900
+    css = f"""@page {{ size: {w}px {h}px; margin: 0; }}
+      html, body {{ margin: 0 !important; padding: 0 !important; }}
+      body * {{ visibility: hidden !important; }}
+      #stage, #stage * {{ visibility: visible !important; }}
+      #stage {{ position: fixed !important; left: 0; top: 0; width: {w}px !important;
+               height: {h}px !important; max-width: none !important; margin: 0 !important;
+               box-sizing: border-box; }}"""
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(channel="chrome")
+            pg = browser.new_page(viewport={"width": w, "height": h})
+            pg.goto(f"http://127.0.0.1:{srv.server_port}{path}", wait_until="networkidle")
+            n = pg.evaluate("DECK.length")
+            pg.add_style_tag(content=css)
+            pg.emulate_media(media="screen")
+            doc = pymupdf.open()
+            for i in range(n):
+                if i:
+                    pg.keyboard.press("ArrowRight")
+                pg.wait_for_timeout(250)
+                one = pg.pdf(width=f"{w}px", height=f"{h}px", print_background=True,
+                             page_ranges="1")
+                doc.insert_pdf(pymupdf.open(stream=one, filetype="pdf"))
+            browser.close()
+            return doc.tobytes(garbage=3, deflate=True)
+    finally:
+        srv.shutdown()
+
+
 def doc_title(name: str) -> str:
     stem = re.sub(r"\.(pdf|pptx?|docx?|html?|zip)$", "", name, flags=re.I)
     return re.sub(r"[_\s]+", " ", stem).strip()
@@ -358,6 +409,26 @@ def build(protocolized: Path, dry_run=False, force=False):
     if not dry_run:
         SLIDES_DIR.mkdir(parents=True, exist_ok=True)
 
+    def resource_for(talk: str) -> str:
+        """The resource page a talk's slides go on: its recording's page, or a
+        page of its own when it was not recorded."""
+        slug = talk_res.get(talk)
+        if slug:
+            return slug
+        t = prog[talk]
+        slug = slugify(t["title"])
+        if slug in res_by_vid.values():
+            slug = slug[:73] + "-slides"   # never land on a recording's page
+        resources.setdefault(slug, {
+            "slug": slug, "new": slug not in io_slugs, "kind": "slides",
+            "title": t["title"], "video_id": None, "video_url": None,
+            "duration_sec": None, "date": t["date"], "speakers": t["speakers"],
+            "description": t["abstract"], "talks": [{"talk": talk, "start": 0, "end": None}],
+            "slides": [], "transcript": None,
+        })
+        talk_res[talk] = slug
+        return slug
+
     for fid, st in sorted(decks.items(), key=lambda kv: kv[1].get("name", "")):
         talk = st.get("slug")
         if not talk or st.get("duplicate_of"):
@@ -370,19 +441,7 @@ def build(protocolized: Path, dry_run=False, force=False):
         if not t:
             report["failed"].append((f["name"], f"talk {talk} not in programme"))
             continue
-        slug = talk_res.get(talk)
-        if not slug:                       # slides with no recording: own resource
-            slug = slugify(t["title"])
-            if slug in res_by_vid.values():
-                slug = slug[:73] + "-slides"   # never land on a recording's page
-            resources.setdefault(slug, {
-                "slug": slug, "new": slug not in io_slugs, "kind": "slides",
-                "title": t["title"], "video_id": None, "video_url": None,
-                "duration_sec": None, "date": t["date"], "speakers": t["speakers"],
-                "description": t["abstract"], "talks": [{"talk": talk, "start": 0, "end": None}],
-                "slides": [], "transcript": None,
-            })
-            talk_res[talk] = slug
+        slug = resource_for(talk)
 
         stem = f"{slugify(doc_title(f['name']))[:60]}-{fid[:6]}"
         prev = old_slides.get(fid)
@@ -431,6 +490,47 @@ def build(protocolized: Path, dry_run=False, force=False):
         print(f"  FILE  {f['name'][:50]:<52} {pages or 0:>3}p  {how}"
               + (f"  [{n_red} email(s) redacted]" if n_red else "")
               + ("  [NO TEXT LAYER — check by eye]" if not has_text else ""))
+
+    # Decks published as web pages (talk-kit player) rather than Drive files.
+    for talk, d in sorted(load(WEB_DECKS, {}).get("decks", {}).items()):
+        if talk not in prog:
+            report["failed"].append((d["title"], f"talk {talk} not in programme"))
+            continue
+        root = (ROOT.parent / d["root"]).resolve()
+        page = root / d["path"].strip("/") / "index.html"
+        if not page.exists():
+            report["failed"].append((d["title"], f"no built deck at {page}"))
+            continue
+        slug = resource_for(talk)
+        key = f"web:{talk}"
+        mtime = int(page.stat().st_mtime * 1000)
+        prev = old_slides.get(key)
+        entry = {
+            "file_id": key, "talk": talk, "drive_name": None, "title": d["title"],
+            "source_url": d["live_url"], "file": f"{slugify(d['title'])[:60]}-web.pdf",
+            "format": "pdf", "mtime": mtime,
+        }
+        if (prev and not force and prev.get("mtime") == mtime
+                and (SLIDES_DIR / prev["file"]).exists()):
+            resources[slug]["slides"].append(prev)
+            report["reused"] += 1
+            continue
+        if dry_run:
+            resources[slug]["slides"].append(entry)
+            continue
+        try:
+            pdf, pages, n_red, has_text = redact_emails(export_web_deck(root, d["path"]))
+        except Exception as e:                                   # noqa: BLE001
+            report["failed"].append((d["title"], str(e)[:120]))
+            continue
+        (SLIDES_DIR / entry["file"]).write_bytes(pdf)
+        entry.update({"pages": pages, "bytes": len(pdf), "how": "web deck export",
+                      "sha256": hashlib.sha256(pdf).hexdigest()[:16],
+                      "emails_redacted": n_red, "needs_visual_check": not has_text})
+        resources[slug]["slides"].append(entry)
+        report["built"] += 1
+        report["redacted"] += n_red
+        print(f"  WEB   {d['title'][:50]:<52} {pages:>3}p  from {d['live_url']}")
 
     # Transcripts, one file per video, split into the programme items it holds.
     for slug, r in resources.items():

@@ -59,3 +59,4 @@ x-wr-timezone==2.0.1
 yarl==1.23.0
 youtube-transcript-api==1.2.4
 pymupdf==1.28.2
+playwright==1.63.0

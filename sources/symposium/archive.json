@@ -45,7 +45,7 @@
     },
     "ai-kitcraft-a-hands-on-ai-tooling-workshop": {
       "slug": "ai-kitcraft-a-hands-on-ai-tooling-workshop",
-      "new": true,
+      "new": false,
       "kind": "slides",
       "title": "AI Kitcraft: A Hands-On AI Tooling Workshop",
       "video_id": null,
@@ -124,9 +124,49 @@
       ],
       "transcript": "transcripts/L-z0iJA5ZRg.json"
     },
+    "artisanal-bots-with-protocolized-rag": {
+      "slug": "artisanal-bots-with-protocolized-rag",
+      "new": true,
+      "kind": "slides",
+      "title": "Artisanal Bots with Protocolized RAG",
+      "video_id": null,
+      "video_url": null,
+      "duration_sec": null,
+      "date": "2026-09-24",
+      "speakers": [
+        "Venkatesh Rao"
+      ],
+      "description": "In this talk, I will share techniques and lessons learned from my experiences building multiple RAG bots based on personal and institutional archival material. I will cover 3 bots: vgr_zirp (my personal archival bot), c3po (PI oracle bot) and Humboldt (artificial researcher). I will share general principles of using RAG (Retrieval Augmented Generation) in a protocolized way to make such bots.",
+      "talks": [
+        {
+          "talk": "talk-venkatesh-building-archival-selves",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "slides": [
+        {
+          "file_id": "web:talk-venkatesh-building-archival-selves",
+          "talk": "talk-venkatesh-building-archival-selves",
+          "drive_name": null,
+          "title": "Artisanal Bots with Protocolized RAG",
+          "source_url": "https://chat.venkateshrao.com/artisanal-bots/",
+          "file": "artisanal-bots-with-protocolized-rag-web.pdf",
+          "format": "pdf",
+          "mtime": 1790274873541,
+          "pages": 31,
+          "bytes": 1320878,
+          "how": "web deck export",
+          "sha256": "750b49b159b8a8bf",
+          "emails_redacted": 0,
+          "needs_visual_check": false
+        }
+      ],
+      "transcript": null
+    },
     "attention-as-natural-law": {
       "slug": "attention-as-natural-law",
-      "new": true,
+      "new": false,
       "kind": "slides",
       "title": "Attention as Natural Law",
       "video_id": null,
@@ -184,7 +224,24 @@
           "end": null
         }
       ],
-      "slides": [],
+      "slides": [
+        {
+          "file_id": "web:talk-venkatesh-blygger-ai-native-decentralized",
+          "talk": "talk-venkatesh-blygger-ai-native-decentralized",
+          "drive_name": null,
+          "title": "Blygger: AI-intertwingled diachronic-synchronic social publishing",
+          "source_url": "https://blygger.org/talks/2026-09-24-blygger/",
+          "file": "blygger-ai-intertwingled-diachronic-synchronic-social-publis-web.pdf",
+          "format": "pdf",
+          "mtime": 1791651866736,
+          "pages": 30,
+          "bytes": 1762214,
+          "how": "web deck export",
+          "sha256": "0029864b5e536386",
+          "emails_redacted": 0,
+          "needs_visual_check": false
+        }
+      ],
       "transcript": "transcripts/_fX0oiYQ5kk.json"
     },
     "book-as-protocol-stack-building-a-protocolized-book-production-factory": {
@@ -318,7 +375,7 @@
     },
     "closing-session": {
       "slug": "closing-session",
-      "new": true,
+      "new": false,
       "kind": "recording",
       "title": "Closing Session",
       "video_id": "D_5TryFVjR0",
@@ -342,7 +399,7 @@
     },
     "continuity-infrastructure": {
       "slug": "continuity-infrastructure",
-      "new": true,
+      "new": false,
       "kind": "slides",
       "title": "Continuity Infrastructure",
       "video_id": null,
@@ -382,7 +439,7 @@
     },
     "creating-new-genres-for-new-nature": {
       "slug": "creating-new-genres-for-new-nature",
-      "new": true,
+      "new": false,
       "kind": "slides",
       "title": "Creating New Genres for New Nature",
       "video_id": null,
@@ -744,7 +801,7 @@
     },
     "interior-computing": {
       "slug": "interior-computing",
-      "new": true,
+      "new": false,
       "kind": "slides",
       "title": "Interior Computing",
       "video_id": null,
@@ -973,7 +1030,7 @@
     },
     "open-mic-frontier-pacing-protocols": {
       "slug": "open-mic-frontier-pacing-protocols",
-      "new": true,
+      "new": false,
       "kind": "recording",
       "title": "Open Mic: Frontier Pacing Protocols",
       "video_id": "FXhNHhaZyTo",
@@ -1165,7 +1222,7 @@
     },
     "photo-realism": {
       "slug": "photo-realism",
-      "new": true,
+      "new": false,
       "kind": "slides",
       "title": "Photo Realism",
       "video_id": null,
@@ -1463,7 +1520,24 @@
           "end": null
         }
       ],
-      "slides": [],
+      "slides": [
+        {
+          "file_id": "web:some-candidate-laws-of-new-nature",
+          "talk": "some-candidate-laws-of-new-nature",
+          "drive_name": null,
+          "title": "Some Candidate Laws of New Nature",
+          "source_url": "https://humboldt.protocol-institute.org/talks/2026-09-23-new-nature/",
+          "file": "some-candidate-laws-of-new-nature-web.pdf",
+          "format": "pdf",
+          "mtime": 1791672547966,
+          "pages": 16,
+          "bytes": 560664,
+          "how": "web deck export",
+          "sha256": "2405e5bb2114f47e",
+          "emails_redacted": 0,
+          "needs_visual_check": false
+        }
+      ],
       "transcript": "transcripts/9MeDVUyyeZU.json"
     },
     "southeast-asia-discussion": {
@@ -1491,7 +1565,7 @@
     },
     "story-shaping-in-new-nature": {
       "slug": "story-shaping-in-new-nature",
-      "new": true,
+      "new": false,
       "kind": "slides",
       "title": "Story-Shaping in New Nature",
       "video_id": null,
@@ -1851,7 +1925,7 @@
     },
     "visualizing-memory-states-in-transformers": {
       "slug": "visualizing-memory-states-in-transformers",
-      "new": true,
+      "new": false,
       "kind": "slides",
       "title": "Visualizing memory states in transformers",
       "video_id": null,
@@ -1933,6 +2007,7 @@
     "talk-simone-a-common-protocol-for-composab": "a-common-protocol-for-composable-modular-organizations",
     "talk-timber-psychological-safety-i-ii": "psychological-safety-i-ii",
     "talk-venkatesh-blygger-ai-native-decentralized": "blygger-ai-native-decentralized-mutable-publishing",
+    "talk-venkatesh-building-archival-selves": "artisanal-bots-with-protocolized-rag",
     "talk-william-the-role-of-identity-in-decent": "the-role-of-identity-in-decentralized-dispute-resolution-protocols",
     "the-book-as-a-protocol-stack-lessons-from-building-a-protocolized-book-productio": "book-as-protocol-stack-building-a-protocolized-book-production-factory",
     "the-nature-of-trust-weaving-identity-relationship-and-place": "the-nature-of-trust-weaving-identity-relationship-and-place",
