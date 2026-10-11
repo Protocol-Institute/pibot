@@ -207,6 +207,38 @@
           "html": "Answers on the web now stream: the first words appear about three seconds after asking instead of after the whole answer is written, around twenty seconds for a full one. Separately, PIBot moved from Claude Sonnet 4.6 to Claude Sonnet 5.5 after a side-by-side test on ten questions: the same answer length in about half the time (a median of 11 seconds against 23), at the same cost per answer, and on a close reading at least as good, and more willing to say what it does not have. Discord threads now allow eight turns instead of five, matching the web. The test harness that measured all this, and a playbook for applying the same changes to the Institute&rsquo;s other bots, are in the repository."
         }
       ]
+    },
+    {
+      "id": 59,
+      "sort_key": 59.0,
+      "label": "Session 59",
+      "title": "Following the Website to Research Groups",
+      "date": "2026-10-10",
+      "time_pt": "16:46 - 17:05",
+      "tracks": [
+        "operations",
+        "corpus-ingestion"
+      ],
+      "costs_usd": {},
+      "vector_counts": {
+        "total": 36452,
+        "sig": 9169
+      },
+      "deployed": false,
+      "items": [
+        {
+          "title": "The website renamed a class of groups",
+          "html": "Protocol Institute's Special Interest Groups are now <strong>Research Groups</strong>, and their pages moved from <code>/sigs/</code> to <code>/research-groups/</code>, with every old address redirecting. The meeting pages PIBot generates and reads had to follow, so the change arrived here as a pull request from the website's own session."
+        },
+        {
+          "title": "Keeping the vectors' identity across a move",
+          "html": "Each published meeting page is stored as one vector whose id is a hash of its URL. Changing the URL would have embedded all 145 pages again under new ids and left the old ones behind as duplicates. The change computes the id from the page's original <code>/sigs/</code> address instead, so the move rewrites the existing vectors in place. The first cycle after the switch re-embedded all 145 pages, and the group namespace held 9,169 vectors before and after."
+        },
+        {
+          "title": "Order mattered",
+          "html": "The pull request said the website had to go first: if the generator moved before the site did, it would find no <code>research-groups/</code> folder and rebuild the group pages from a bare template. The merge waited until the website was pushed, then the VM's copy of the site was reset to match before the daemon restarted on the new code."
+        }
+      ]
     }
   ]
 }

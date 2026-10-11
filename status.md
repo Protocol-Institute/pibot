@@ -1,5 +1,14 @@
 # PIBot — Status Log (internal name: c3po)
 
+## 2026-10-10 16:46 PT – 17:05 PT — Research Groups rename: PR #11 merged, VM switched over (session 59)
+
+The website renamed Special Interest Groups -> **Research Groups** and moved `/sigs/` -> `/research-groups/` (website `84812fe`; `/sigs/*` 301s). **pibot PR #11** (opened from the website session) makes the generators follow: `WEBSITE_PATHS`, `generate_sig_pages`/`update_sig_pages` output dirs and hrefs, `daily_sync.sh`, `sync_sig_pages` crawl paths. Reviewed: `legacy_key()` maps the new URL back to its `/sigs/` form for the state key and vector id, matching the VM's state keys (`https://protocol-institute.org/sigs/...`), so ids stay stable.
+- Held the merge until VGR pushed the website (the PR's own ordering rule); then merged, rebased the unpushed playbook commit onto it and pushed (`4e0b465`).
+- VM: daemon stopped, `~/website` reset to `origin/main` (discarded stale regenerated `sigs/` pages, rebuilt the same cycle), `~/c3po` pulled, daemon restarted.
+- **Verified on the first cycle:** `sync_sig_pages` New 0 / Updated 145 / Skipped 0 (the expected one-time re-embed); `sig` namespace **9,169** before and after, so no duplicates; `generate_sig_pages` wrote all 7 index pages under `research-groups/`. Index now **36,452** (+35 organic since session 58, `meta` +1 for this devlog entry).
+
+**Open:** the website PR step (7-day interval, last 2026-10-04) has not yet run on the new paths, so expect the first `c3po/auto-sig-pages` PR with `research-groups/` around 10-11 and check it. Website D1 migration 046 is the website session's to apply. `api/worker.js:1618` still says `protocol-institute.org/sigs/` (redirect covers it; fix on the next Worker deploy). Open TODOs below unchanged.
+
 ## 2026-10-07 18:43 PT – 2026-10-09 17:45 PT — PIBot rename; event & time awareness (A, B, C, E, F); streaming; Sonnet 5.5 (session 58)
 
 **Session-start checks:** vectors 35,949 (+459 organic since session 57); Substack 1 new (`where-the-stones-hold`), no intro issues; cost $4.91 last 7 days / $36.65 all-time (VM log). Laptop fast-forwarded 96 daemon commits. New per-project key `ANTHROPIC_KEY_PIBOT` already in `c3po/.env`.
