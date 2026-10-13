@@ -60,6 +60,8 @@ ROOT        = Path(__file__).parent.parent
 STATE_PATH  = ROOT / "data" / "symposium_decks_state.json"
 REVIEW_PATH = ROOT / "data" / "symposium_decks_review.json"
 MAP_PATH    = ROOT / "config" / "symposium_deck_map.json"
+# Decks speakers sent directly instead of uploading to the Drive (session 61).
+RECEIVED_PATH = ROOT / "config" / "symposium_received_decks.json"
 
 FOLDER_MIME = "application/vnd.google-apps.folder"
 # Subfolders that live in the deck folder but are not programme material (VGR,
@@ -178,6 +180,21 @@ def resolve_shortcuts(files: list[dict]) -> list[dict]:
     return out
 
 
+def received_files() -> list[dict]:
+    """Directly received decks, shaped like Drive inventory entries. The files are
+    gitignored and live on the laptop; where one is absent (the VM) the entry is
+    still listed, marked missing, so it counts as present and is never pruned."""
+    out = []
+    for rid, d in load_json(RECEIVED_PATH, {}).get("decks", {}).items():
+        path = ROOT / d["file"]
+        st = path.stat() if path.exists() else None
+        out.append({"id": rid, "name": path.name, "mime": "", "path": "received",
+                    "mtime": int(st.st_mtime * 1000) if st else None,
+                    "size": st.st_size if st else None,
+                    "local_path": str(path), "missing": st is None, "talk": d["talk"]})
+    return out
+
+
 def download(f: dict) -> bytes:
     """Native Google formats are exported; uploaded files download as-is.
 
@@ -185,6 +202,8 @@ def download(f: dict) -> bytes:
     the speaker notes too, which are often more substantive than the slide text.
     """
     fid = f["id"]
+    if f.get("local_path"):
+        return Path(f["local_path"]).read_bytes()
     if f["mime"] == GSLIDES:
         return _get(f"https://docs.google.com/presentation/d/{fid}/export/pptx")
     if f["mime"] == GDOC:
@@ -630,7 +649,14 @@ def run(dry_run=False, report=False, force=False, prune=False, limit=None,
     drive = [f for f in drive if f not in excluded]
     for f in excluded:
         print(f"  SKIP  {f['name'][:52]:<54} excluded in {MAP_PATH.name}")
-    print(f"  {len(drive)} files across the folder tree\n")
+    print(f"  {len(drive)} files across the folder tree")
+    received = received_files()
+    for f in received:
+        overrides.setdefault(f["id"], f["talk"])
+    drive += received
+    print(f"  {len(received)} received directly ({RECEIVED_PATH.name})"
+          + (f", {sum(f['missing'] for f in received)} not on this machine" if any(f["missing"] for f in received) else "")
+          + "\n")
 
     resolved, review = [], []
     for f in drive:
@@ -659,6 +685,9 @@ def run(dry_run=False, report=False, force=False, prune=False, limit=None,
         print("\n(dry run — nothing downloaded or written)")
         return
 
+    # A received deck whose file is not on this machine stays in `drive` (so it is
+    # never pruned) but is not processed here; the laptop owns it.
+    resolved = [r for r in resolved if not r[0].get("missing")]
     todo = resolved[:limit] if limit else resolved
     vc = idx = None
     if not report:

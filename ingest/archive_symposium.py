@@ -60,7 +60,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from sync_symposium import fetch_json, hosts_of, EVENT_NAME, BASE_URL, EVENT_PATH
 from sync_symposium_decks import (
     ROOT_FOLDER, GSLIDES, GDOC, DRIVE_LINK_RE, ANY_LINK_RE, POINTER_THIN_CHARS, EMAIL_RE,
-    _get, walk_folder, resolve_shortcuts,
+    _get, walk_folder, resolve_shortcuts, received_files,
 )
 
 ROOT        = Path(__file__).parent.parent
@@ -70,6 +70,7 @@ TRANS_DIR   = OUT / "transcripts"
 MANIFEST    = OUT / "archive.json"
 DECKS_STATE = ROOT / "data" / "symposium_decks_state.json"
 WEB_DECKS   = ROOT / "config" / "symposium_web_decks.json"
+RECEIVED    = ROOT / "config" / "symposium_received_decks.json"
 YT_DIR      = ROOT / "sources" / "youtube"
 TIMED_DIR   = YT_DIR / "captions_timed"
 SERIES      = "symposium-2026"
@@ -205,6 +206,11 @@ def to_pdf(f: dict) -> tuple[bytes, str]:
     """(pdf bytes, how) for one Drive file — or (zip bytes, "bundle") for a
     bundle with no deck in it."""
     fid, mime, name = f["id"], f.get("mime", ""), f["name"].lower()
+    if f.get("local_path"):                 # received directly, not via the Drive
+        blob = Path(f["local_path"]).read_bytes()
+        if blob[:4] == b"%PDF":
+            return blob, "as received"
+        return convert(blob, Path(name).suffix), f"converted from {Path(name).suffix}"
     if mime == GSLIDES:
         return _get(f"https://docs.google.com/presentation/d/{fid}/export/pdf"), "slides export"
     if mime == GDOC:
@@ -247,6 +253,9 @@ def follow_pdf_pointer(pdf: bytes) -> tuple[str, str] | None:
     return ("web", m.group(0).rstrip(".,);"), "") if m else None
 
 
+SPLIT_EMAIL_RE = re.compile(r"([A-Za-z0-9._%+-]+@)\s*\n\s*([A-Za-z0-9.-]+\.[A-Za-z]{2,})")
+
+
 def redact_emails(pdf: bytes) -> tuple[bytes, int, int, bool]:
     """(pdf, pages, emails redacted, has text layer). Raises if any survive."""
     import pymupdf
@@ -256,16 +265,30 @@ def redact_emails(pdf: bytes) -> tuple[bytes, int, int, bool]:
         text = page.get_text()
         chars += len(text.strip())
         hits = set(EMAIL_RE.findall(text))
+        # An address wrapped across lines ("nfett@" / "tellor.io") is invisible to
+        # EMAIL_RE and to search_for; redact its two halves separately.
+        split = set(SPLIT_EMAIL_RE.findall(text))
         for addr in hits:
             for rect in page.search_for(addr):
                 page.add_redact_annot(rect, fill=(1, 1, 1))
                 found += 1
+        # search_for can match only part of such a glyph run, and in a LibreOffice
+        # export the glyphs can overrun their word box (Fett's contact slide kept
+        # "tt@"), so each half goes by its word box widened to either side.
+        halves = {part for pair in split for part in pair}
+        for w in page.get_text("words"):
+            if w[4] in halves:
+                pad = (w[2] - w[0]) * 0.6
+                page.add_redact_annot(pymupdf.Rect(w[0] - pad, w[1], w[2] + pad, w[3]), fill=(1, 1, 1))
+                found += 1
+        hits |= split
         if hits:
             page.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE)
     pages = len(doc)
     out = doc.tobytes(garbage=3, deflate=True)
     doc.close()
-    left = EMAIL_RE.findall(pdf_text(out))
+    after = pdf_text(out)
+    left = EMAIL_RE.findall(after) + SPLIT_EMAIL_RE.findall(after)
     if left:
         raise RuntimeError(f"{len(left)} email address(es) survived redaction")
     return out, pages, found, chars >= 40 * max(pages, 1)
@@ -405,6 +428,10 @@ def build(protocolized: Path, dry_run=False, force=False):
     # never reach its state with a slug; also_slugs files serve two talks.
     decks = load(DECKS_STATE, {}).get("files", {})
     drive = {f["id"]: f for f in resolve_shortcuts(walk_folder(ROOT_FOLDER))}
+    received = load(RECEIVED, {}).get("decks", {})
+    for f in received_files():
+        if not f["missing"]:
+            drive[f["id"]] = f
     report = {"built": 0, "reused": 0, "failed": [], "visual_check": [], "redacted": 0}
     if not dry_run:
         SLIDES_DIR.mkdir(parents=True, exist_ok=True)
@@ -435,7 +462,15 @@ def build(protocolized: Path, dry_run=False, force=False):
             continue
         f = drive.get(fid)
         if not f:
-            report["failed"].append((st.get("name"), "no longer in the Drive folder"))
+            # Gone from the Drive after it was published. Keep the published copy
+            # rather than silently unpublishing it; whether to withdraw it is a
+            # human call (session 61: Kaliya Young's Protocol Weave deck).
+            prev = old_slides.get(fid)
+            if prev and (SLIDES_DIR / prev.get("file", "")).exists() and prev.get("talk") == talk:
+                resources[resource_for(talk)]["slides"].append(prev)
+                report["failed"].append((st.get("name"), "gone from the Drive — published copy KEPT; withdraw by hand if intended"))
+            else:
+                report["failed"].append((st.get("name"), "no longer in the Drive folder"))
             continue
         t = prog.get(talk)
         if not t:
@@ -450,6 +485,9 @@ def build(protocolized: Path, dry_run=False, force=False):
             "source_url": f"https://drive.google.com/file/d/{fid}/view", "file": f"{stem}.pdf",
             "format": "pdf", "mtime": f.get("mtime"),
         }
+        if fid in received:
+            entry.update({"title": received[fid].get("title") or entry["title"], "source_url": None,
+                          "received": received[fid].get("received")})
         if (prev and not force and prev.get("mtime") == f.get("mtime")
                 and (prev.get("external_url") or (SLIDES_DIR / prev["file"]).exists())):
             resources[slug]["slides"].append(prev)

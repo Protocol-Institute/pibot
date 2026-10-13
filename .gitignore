@@ -20,3 +20,4 @@ dist/
 node_modules/
 monitoring.html
 sources/symposium/slides/
+sources/symposium/received/

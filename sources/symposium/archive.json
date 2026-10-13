@@ -126,7 +126,7 @@
     },
     "artisanal-bots-with-protocolized-rag": {
       "slug": "artisanal-bots-with-protocolized-rag",
-      "new": true,
+      "new": false,
       "kind": "slides",
       "title": "Artisanal Bots with Protocolized RAG",
       "video_id": null,
@@ -233,11 +233,11 @@
           "source_url": "https://blygger.org/talks/2026-09-24-blygger/",
           "file": "blygger-ai-intertwingled-diachronic-synchronic-social-publis-web.pdf",
           "format": "pdf",
-          "mtime": 1791651866736,
+          "mtime": 1791921227805,
           "pages": 30,
           "bytes": 1762214,
           "how": "web deck export",
-          "sha256": "0029864b5e536386",
+          "sha256": "ce6104b2e49bc263",
           "emails_redacted": 0,
           "needs_visual_check": false
         }
@@ -676,7 +676,25 @@
           "end": null
         }
       ],
-      "slides": [],
+      "slides": [
+        {
+          "file_id": "rcv_beiko_essay",
+          "talk": "marking-to-reality",
+          "drive_name": "ethereum-microcosm-illustrated.pdf",
+          "title": "Ethereum: A Microcosm for Protocol Studies (illustrated essay)",
+          "source_url": null,
+          "file": "ethereum-microcosm-illustrated-rcv_be.pdf",
+          "format": "pdf",
+          "mtime": 1791830488000,
+          "received": "2026-10-13",
+          "pages": 15,
+          "bytes": 1494442,
+          "how": "as received",
+          "sha256": "fb3dcc69adf4d5e3",
+          "emails_redacted": 0,
+          "needs_visual_check": false
+        }
+      ],
       "transcript": "transcripts/KuCaxZ9-mw4.json"
     },
     "governance-axioms": {
@@ -985,7 +1003,25 @@
           "end": null
         }
       ],
-      "slides": [],
+      "slides": [
+        {
+          "file_id": "rcv_fett_slides",
+          "talk": "talk-nicholas-the-inevitable-capture-of-prot",
+          "drive_name": "NewNatureSlides_Fett.pptx",
+          "title": "Markets and the Journey to Neutrality",
+          "source_url": null,
+          "file": "newnatureslides-fett-rcv_fe.pdf",
+          "format": "pdf",
+          "mtime": 1791921855548,
+          "received": "2026-10-13",
+          "pages": 33,
+          "bytes": 5664136,
+          "how": "converted from .pptx",
+          "sha256": "83ebca88b77345f2",
+          "emails_redacted": 3,
+          "needs_visual_check": true
+        }
+      ],
       "transcript": "transcripts/XNWfz4vZl8Y.json"
     },
     "oil-uni-and-tv-post-soviet-infrastructures-shaping-protocols-for-web": {
@@ -1164,7 +1200,24 @@
           "end": null
         }
       ],
-      "slides": [],
+      "slides": [
+        {
+          "file_id": "1j6yMGGNzcTdHjJsfZhZhU1kMavlvJryHUfIeKAEMLww",
+          "talk": "envisioning-alternative-futures-for-delivery-work-toward-a-decentralized-network",
+          "drive_name": "Copy of OpenCourier-Protocol Symposium-Talk ",
+          "title": "Copy of OpenCourier-Protocol Symposium-Talk",
+          "source_url": "https://drive.google.com/file/d/1j6yMGGNzcTdHjJsfZhZhU1kMavlvJryHUfIeKAEMLww/view",
+          "file": "copy-of-opencourier-protocol-symposium-talk-1j6yMG.pdf",
+          "format": "pdf",
+          "mtime": 1791749298891,
+          "pages": 27,
+          "bytes": 2536362,
+          "how": "slides export",
+          "sha256": "8796f36b69b24447",
+          "emails_redacted": 1,
+          "needs_visual_check": false
+        }
+      ],
       "transcript": "transcripts/nrjNIqlkC_o.json"
     },
     "opening-talk-2026-protocol-symposium": {
@@ -1376,7 +1429,25 @@
           "end": null
         }
       ],
-      "slides": [],
+      "slides": [
+        {
+          "file_id": "rcv_peake_slides",
+          "talk": "talk-robert-protocols-for-co-cognition",
+          "drive_name": "peake-symposium26.pdf",
+          "title": "Protocols for Co-Cognition",
+          "source_url": null,
+          "file": "peake-symposium26-rcv_pe.pdf",
+          "format": "pdf",
+          "mtime": 1791921855531,
+          "received": "2026-10-13",
+          "pages": 34,
+          "bytes": 2324347,
+          "how": "as received",
+          "sha256": "d17d6bd5f2716234",
+          "emails_redacted": 0,
+          "needs_visual_check": false
+        }
+      ],
       "transcript": "transcripts/xI83khLXArU.json"
     },
     "psychological-safety-i-ii": {

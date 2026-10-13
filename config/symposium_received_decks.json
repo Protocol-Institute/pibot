@@ -1,0 +1,31 @@
+{
+  "_about": [
+    "Symposium decks sent to VGR directly rather than uploaded to the Drive folder (session 61).",
+    "Keyed by a stable id (rcv_ + a short name) that stands in for a Drive file id in the deck",
+    "state, the vector ids and the archive manifest. The files live in sources/symposium/received/,",
+    "which is gitignored (originals can carry contact slides), so they exist on the laptop only:",
+    "the VM's weekly deck sync skips an entry whose file it cannot see, and never prunes it.",
+    "sync_symposium_decks.py embeds them like Drive files; archive_symposium.py builds their PDFs.",
+    "If a speaker later puts the same deck on the Drive, delete the entry here so it is not doubled."
+  ],
+  "decks": {
+    "rcv_beiko_essay": {
+      "talk": "marking-to-reality",
+      "file": "sources/symposium/received/ethereum-microcosm-illustrated.pdf",
+      "title": "Ethereum: A Microcosm for Protocol Studies (illustrated essay)",
+      "received": "2026-10-13"
+    },
+    "rcv_fett_slides": {
+      "talk": "talk-nicholas-the-inevitable-capture-of-prot",
+      "file": "sources/symposium/received/NewNatureSlides_Fett.pptx",
+      "title": "Markets and the Journey to Neutrality",
+      "received": "2026-10-13"
+    },
+    "rcv_peake_slides": {
+      "talk": "talk-robert-protocols-for-co-cognition",
+      "file": "sources/symposium/received/peake-symposium26.pdf",
+      "title": "Protocols for Co-Cognition",
+      "received": "2026-10-13"
+    }
+  }
+}
