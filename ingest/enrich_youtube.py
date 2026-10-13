@@ -15,6 +15,7 @@ Usage:
 
 import argparse
 import json
+import re
 import os
 import sys
 import time
@@ -74,6 +75,13 @@ def known_people() -> list[str]:
         return []
 
 
+STRAY_TAG_RE = re.compile(r"\s*</?(?:summary|br)\s*/?>\s*", re.I)
+
+
+def strip_stray_tags(text: str) -> str:
+    return STRAY_TAG_RE.sub(" ", text).strip()
+
+
 def enrich_video(client: anthropic.Anthropic, video_id: str, meta: dict, captions_excerpt: str) -> dict:
     series = meta.get("series", "")
     title = meta.get("title", "")
@@ -117,7 +125,13 @@ Duration: {meta.get('duration_sec', 0) // 60} minutes
         text = text.split("```")[1]
         if text.startswith("json"):
             text = text[4:]
-    return json.loads(text, strict=False)   # summaries can carry raw newlines/tabs
+    result = json.loads(text, strict=False)   # summaries can carry raw newlines/tabs
+    # The model occasionally leaks markup into prose ("</summary>", "</br>"),
+    # which then lands in resource-page descriptions (session 61).
+    for k, v in result.items():
+        if isinstance(v, str):
+            result[k] = strip_stray_tags(v)
+    return result
 
 
 def main():
