@@ -279,6 +279,46 @@
           "html": "Counting which items had slides, a recording, both or neither surfaced three talks whose speakers did not show. They come off the programme. Two other cases are now recorded as permanent: one talk was not recorded at the speaker's request, and the workshops were not recorded. The rest are recordings not uploaded yet, and the plan lists the commands that carry each one through when it arrives."
         }
       ]
+    },
+    {
+      "id": 61,
+      "sort_key": 61.0,
+      "label": "Session 61",
+      "title": "A Retrospective, and the Last Decks",
+      "date": "2026-10-13",
+      "time_pt": "10:24 - 21:32",
+      "tracks": [
+        "corpus-ingestion",
+        "operations"
+      ],
+      "costs_usd": {},
+      "vector_counts": {
+        "total": 36687,
+        "symposium": 1026
+      },
+      "deployed": false,
+      "items": [
+        {
+          "title": "A retrospective of the symposium",
+          "html": "A draft editorial retrospective of Protocol Symposium 2026 now sits in <code>editorial/symposium-2026-retrospective.md</code>, as the core of a newsletter issue. It was written from the archive built in session 60: the 49 resource-page summaries, the 40 transcripts, and the opening and closing sessions, whose framing it follows. It runs through eight themes, among them Stevenson's test (a system is new nature when there is nobody to appeal to), protocols as engineered arguments, the outside matching the inside, and memory and continuity. Every one of the 49 archive pages is linked inline. Talks with no recording yet are marked as stubs to fill in when their videos arrive."
+        },
+        {
+          "title": "Decks that never reached the Drive",
+          "html": "Three speakers sent decks directly instead of uploading them to the symposium Drive folder. A new input, <code>config/symposium_received_decks.json</code>, lets both the deck sync and the archive builder treat such files like Drive files: matched to a talk, embedded in the <code>symposium</code> namespace, built into a redacted PDF and published. The files stay on the laptop. The VM's weekly deck sync lists them but skips them, so it never prunes them. Tim Beiko's illustrated essay, Nicholas Fett's slides and Robert Peake's slides came in this way, and Yuhan Liu's OpenCourier deck arrived on the Drive and needed an override to find its talk. That added 44 chunks."
+        },
+        {
+          "title": "An email address split across two lines",
+          "html": "Fett's contact slide carried an address in a hidden text layer, broken across two lines, which the redactor's pattern could not see. It now catches split addresses and removes each half by its word box, widened because LibreOffice's export let the glyphs overrun the box. That slide was checked by eye, and every published slide PDF was rescanned. None holds an address."
+        },
+        {
+          "title": "A deck that disappeared",
+          "html": "One published deck has left the Drive since the archive was built. The builder used to drop such a deck from its page without saying so. It now keeps the published copy and warns, because withdrawing a speaker's material is a decision for a person, not a side effect of a folder listing."
+        },
+        {
+          "title": "Stray tags in descriptions",
+          "html": "Six recording summaries carried markup the model had leaked into the prose (<code>&lt;/summary&gt;</code>, <code>&lt;/br&gt;</code>), and it showed up in resource-page descriptions on protocolized.io. The YouTube enrichment now strips these tags, and the existing data was cleaned."
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,18 @@
 # PIBot — Status Log (internal name: c3po)
 
+## 2026-10-13 10:24 PT – 21:32 PT — Symposium retrospective draft; received decks; split-email redaction (session 61)
+
+- **Startup:** vectors 36,603; Substack 0 new; no intro issues; cost $1.33/7d, $36.92 all-time (VM). Laptop was 89 behind + 4 held session-60 commits; protocolized-website #9 and website #20 still open.
+- **Retrospective:** `editorial/symposium-2026-retrospective.md` (pushed `86ea1fc`), editorial draft for the newsletter: 8 themes, framed from the opening/closing sessions; all 49 protocolized.io archive pages linked inline; `STUB` markers for talks without recordings. To check: "Gramsci gap" contest name (transcript says "Grahamsky"); quotes are from auto-captions.
+- **Push and the hold:** VGR said push it all; the VM was about to pull the held `enriched_meta` change. A revert to keep the hold was blocked by the auto-mode classifier; VGR merged #9 (19:58Z) first. Cycle 127's YouTube resource sync then only filled frontmatter on Closing Session and Open Mic (`f8ae40c`), with no duplicate pages and no conflict.
+- **Decks:** new `config/symposium_received_decks.json` + gitignored `sources/symposium/received/` for decks sent directly (Beiko essay, Fett, Peake). Deck sync and archive builder read it; on the VM a missing file is listed but skipped, never pruned. OpenCourier (Drive) override added. +44 chunks, `symposium` **1,026**, total **36,686**. 5 PDFs to R2, verified 200. protocolized-website **PR #10** (4 pages gain slides); website PR #20 branch updated (`32a44cc`, slide counts).
+- **Redaction fix:** Fett's hidden contact text had an address split across lines (`nfett@` / `tellor.io`) that EMAIL_RE missed. `redact_emails` now catches split addresses, redacting by widened word box (glyphs overran the box and "tt@" survived). Checked the slide by eye; rescanned all 50 PDFs, none with addresses.
+- **Drive removal:** Kaliya Young's `The_Protocol_Weave.pdf` left the Drive after publication. The builder now keeps a published copy with a warning instead of silently dropping it.
+- **Enrichment tags:** 6 YouTube summaries had leaked `</summary>`/`</br>` (visible in protocolized.io descriptions). `enrich_youtube.py` strips them; data cleaned (`82bb878`). The VM's next resource sync rewrites the frontmatter.
+- `sync-symposium-archive.py` needs an **absolute** `C3PO_ROOT` (wrangler rejects the relative path).
+
+**Open:** (1) VGR merges protocolized-website #10; website #20 + migration 057 to remote D1. (2) Kaliya Young's Protocol Weave deck: withdraw or keep (kept for now). (3) Fournier's deck: not on the Drive yet. (4) Remaining recordings expected on YouTube within hours: next session run `sync_symposium_videos.py` → `archive_symposium.py --website ../website` → protocolized `sync-symposium-archive.py`, then fill the retrospective's stubs. (5) Session-60 items 3 and 5 unchanged; open TODOs from session 58 unchanged.
+
 ## 2026-10-11 11:05 PT – 12:15 PT — Symposium archive: protocolized.io canonical, c3po owns the pipe (session 60)
 
 VGR: the canonical copy of each Symposium 2026 talk is its **protocolized.io resource page** (transcript, slides, papers, video link); protocol-institute.org embeds the video and links there; c3po owns ingesting archival material and the publishing pipe to both sites.

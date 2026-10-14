@@ -96,19 +96,19 @@ Host: `https://c3po-1os2tli.svc.aped-4627-b74a.pinecone.io` (PI org account, mig
 
 | Namespace | Vectors | Notes |
 |-----------|---------|-------|
-| `discord_links` | 14,114 | Community-shared URLs, scored by Haiku |
-| `sig` | 9,205 | SIG Discord messages/summaries + .org meeting pages (`sig_meeting_page`) + audio summaries (`audio_meeting_summary`, `audio_meeting_section`); 8 SIGs: SIGFPT, MRG, SIGPfB, ProtFiSIG, SIGPSY, DRG, PRG (Personhood Research Group — audio only, no Discord channel), Intelligence Media (Discord only, no meetings yet; `sig_display` is the full name — session 57) |
-| `discord` | 6,006 | General + forum channels; starred msgs weighted 1.0×, unstarred 0.70× |
+| `discord_links` | 14,164 | Community-shared URLs, scored by Haiku |
+| `sig` | 9,259 | SIG Discord messages/summaries + .org meeting pages (`sig_meeting_page`) + audio summaries (`audio_meeting_summary`, `audio_meeting_section`); 8 SIGs: SIGFPT, MRG, SIGPfB, ProtFiSIG, SIGPSY, DRG, PRG (Personhood Research Group — audio only, no Discord channel), Intelligence Media (Discord only, no meetings yet; `sig_display` is the full name — session 57) |
+| `discord` | 6,012 | General + forum channels; starred msgs weighted 1.0×, unstarred 0.70× |
 | `videos` | 3,127 | YouTube talks (97 videos; whole-transcript Sonnet enrichment, full chunk text — session 56) |
 | `substack` | 1,287 | Protocolized magazine |
 | `pdfs` | 765 | 85 papers/essays (`sources/pdfs/enriched_meta.json`) |
 | `definitions` | 560 | PI lexicon (914 terms, triage a/b/c); metadata carries `definition` + `text` since session 57 (was term-only, so hits had empty excerpts) |
 | `bibliography` | 278 | External works cited by PI corpus |
 | `discord_guide` | 80 | Scoped per [`plans/discord-guide-scope.md`](plans/discord-guide-scope.md): excludes transient/admin channels (MOD, Server Link Feed, introductions/bugs/announcements); archived-read-only channels embed once then freeze; SIG channels include cadence + next_event_time |
-| `meta` | 62 | Self-knowledge: 1 vector/devlog session (61 sessions) + 1 first-person self-history (`devlog__self_history`, from `config/self_history.md`; half-numbered entries 8.5 and 27.5 anchor as `#session-8-5` / `#session-27-5`); queried at 3 results max alongside all other namespaces |
-| `transcripts` | 62 | Bot conversation self-memory: web + Discord Q&A |
-| `symposium` | 982 | Protocol Symposium 2026: programme (`symposium_overview`, `symposium_block`, `symposium_session`, `symposium_workshop`), slide decks and speaker papers (`symposium_slides`, 52 Drive files all matched; 4 stubs), and recordings (`symposium_recording` + timestamped `symposium_transcript`, all 40 — laptop-only; re-run `ingest/sync_symposium_videos.py` after new uploads). Queries that name the event are answered from this namespace alone; see [`plans/symposium-ingest.md`](plans/symposium-ingest.md) |
-| **Total** | **36,528** | |
+| `meta` | 64 | Self-knowledge: 1 vector/devlog session (61 sessions) + 1 first-person self-history (`devlog__self_history`, from `config/self_history.md`; half-numbered entries 8.5 and 27.5 anchor as `#session-8-5` / `#session-27-5`); queried at 3 results max alongside all other namespaces |
+| `transcripts` | 65 | Bot conversation self-memory: web + Discord Q&A |
+| `symposium` | 1,026 | Protocol Symposium 2026: programme (`symposium_overview`, `symposium_block`, `symposium_session`, `symposium_workshop`), slide decks and speaker papers (`symposium_slides`, 52 Drive files all matched + 3 decks received directly via `config/symposium_received_decks.json`; 4 stubs), and recordings (`symposium_recording` + timestamped `symposium_transcript`, all 40 — laptop-only; re-run `ingest/sync_symposium_videos.py` after new uploads). Queries that name the event are answered from this namespace alone; see [`plans/symposium-ingest.md`](plans/symposium-ingest.md) |
+| **Total** | **36,687** | |
 
 Every dated vector also carries **`ts_unix`** (int, Unix seconds) and deterministic ones **`event_id`** (list), added session 58 for time-range and event filters; new vectors get both at upsert (`ingest/event_tags.py`). Not on `videos`, `discord_links`, `definitions`, `bibliography`, `discord_guide`. See `plans/event-awareness.md`.
 
@@ -133,9 +133,9 @@ Every dated vector also carries **`ts_unix`** (int, Unix seconds) and determinis
 | `ingest/sync_events.py` | Event registry: Community + Institute iCal feeds + `events.json` -> `data/events_registry.json` and Worker KV `events:registry` (the known-events digest). Aliases/series in `config/event_aliases.json`. No Pinecone writes | `data/events_state.json` |
 | `ingest/sync_devlog.py` | Devlog sessions → `meta` namespace | `data/devlog_state.json` |
 | `ingest/sync_symposium.py` | Protocol Symposium 2026 programme → `symposium` namespace | `data/symposium_state.json` |
-| `ingest/sync_symposium_decks.py` | Symposium slide decks from the public Drive folder → `symposium` namespace (self-throttles to weekly under `--daemon`) | `data/symposium_decks_state.json` |
+| `ingest/sync_symposium_decks.py` | Symposium slide decks from the public Drive folder, plus decks sent directly (`config/symposium_received_decks.json`, files in gitignored `sources/symposium/received/`, laptop-only, never pruned on the VM) → `symposium` namespace (self-throttles to weekly under `--daemon`) | `data/symposium_decks_state.json` |
 | `ingest/sync_symposium_videos.py` | Symposium recordings (YouTube playlist) → `symposium` namespace + resource library. **Laptop only** — YouTube 429s the VM; re-run after new uploads | `data/symposium_videos_state.json` |
-| `ingest/archive_symposium.py` | **Symposium archive (session 60).** Decks → email-redacted PDFs (Drive files + web decks in `config/symposium_web_decks.json`), transcripts → paragraphs, manifest of protocolized.io resource pages; `--website ../website` writes the .org link data. protocolized.io is canonical: its `scripts/sync-symposium-archive.py` uploads to R2 and writes the pages. **Laptop only** (LibreOffice, Chrome/Playwright, caption cache) | `sources/symposium/archive.json` |
+| `ingest/archive_symposium.py` | **Symposium archive (session 60).** Decks → email-redacted PDFs (Drive files + web decks in `config/symposium_web_decks.json`), transcripts → paragraphs, manifest of protocolized.io resource pages; `--website ../website` writes the .org link data. protocolized.io is canonical: its `scripts/sync-symposium-archive.py` uploads to R2 and writes the pages (run it with an **absolute** `C3PO_ROOT`; wrangler rejects a relative one). **Laptop only** (LibreOffice, Chrome/Playwright, caption cache) | `sources/symposium/archive.json` |
 | `ingest/generate_devlog_page.py` | Render devlog → D1 slug `c3po-devlog` | `data/devlog_page_state.json` |
 
 All run automatically via `bin/daemon.py` (c3po_listener), except `sync_symposium_videos.py` and `archive_symposium.py` (laptop-only). Run manually with `--dry-run` to preview.
