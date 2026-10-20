@@ -2180,5 +2180,126 @@
       "track": "General"
     },
     "date": "2026-09-25"
+  },
+  "bCjlrKQ0IUw": {
+    "video_id": "bCjlrKQ0IUw",
+    "title": "Special Session - Amber Case - Attention as Natural Law",
+    "duration_sec": 3305,
+    "upload_date": "NA",
+    "url": "https://www.youtube.com/watch?v=bCjlrKQ0IUw",
+    "playlist_ids": [
+      "PLEt1tjJkFjsQ"
+    ],
+    "series": "symposium-2026",
+    "has_captions": true,
+    "youtube_title": "Special Session - Amber Case - Attention as Natural Law",
+    "programme": {
+      "slug": "talk-amber-attention-as-natural-law",
+      "title": "Attention as Natural Law",
+      "speakers": [
+        "Amber Case"
+      ],
+      "abstract": "Attention as Natural Law: Certification as a Protocol for Human Perceptual Limits\n\nIn 1995, Mark Weiser proposed that technology should be designed around the natural structure of human attention: the center, which demands conscious focus, and the periphery, which informs without interrupting. They were describing a constraint, not a preference. Human cognitive architecture has limits that do not negotiate with product roadmaps.\n\nCalm Technology Institute's certification framework takes that constraint seriously as a protocol design problem. It provides an 81-point framework, organized across six categories -- Attention, Periphery, Durability, Light, Sound, and Materials -- in an attempt to codify human perceptual limits as evaluable criteria, and then build a governed process for determining whether a product complies with them. In Venkatesh Rao's terms, this is an attempt to treat human attention as New Nature: a regime of reality that certified products must conform to, as reliably as they must conform to the laws of physics.\n\nThis talk examines what that attempt looks like in practice. Three problems emerge that any protocol operating in a phenomenological domain must eventually solve.\n\nThe first is the formalization problem: how do you write a criterion for something like \"works at the periphery of awareness\" that a trained evaluator can apply consistently across a physical alarm clock, a digital interface, and a hotel room? The CTI framework's approach involves operationalizing each principle into observable product behaviors, then distinguishing between criteria that can be verified empirically and those that require calibrated human judgment.\n\nThe second is the legitimacy problem. Certification protocols require authority to function. ISO has statutory relationships with national standards bodies. The FDA has enforcement power. CTI has neither. The talk examines the mechanisms through which a small independent body can accumulate protocol legitimacy without ",
+      "scheduled_date": "2026-09-24",
+      "track": "SIGPfB (Protocols for Business)"
+    },
+    "date": "2026-09-24"
+  },
+  "orQVxjgo-rs": {
+    "video_id": "orQVxjgo-rs",
+    "title": "Special Session - Venkatesh Rao - Artisanal Bots with Protocolized RAG",
+    "duration_sec": 3243,
+    "upload_date": "NA",
+    "url": "https://www.youtube.com/watch?v=orQVxjgo-rs",
+    "playlist_ids": [
+      "PLEt1tjJkFjsQ"
+    ],
+    "series": "symposium-2026",
+    "has_captions": true,
+    "youtube_title": "Special Session - Venkatesh Rao - Artisanal Bots with Protocolized RAG",
+    "programme": {
+      "slug": "talk-venkatesh-building-archival-selves",
+      "title": "Artisanal Bots with Protocolized RAG",
+      "speakers": [
+        "Venkatesh Rao"
+      ],
+      "abstract": "In this talk, I will share techniques and lessons learned from my experiences building multiple RAG bots based on personal and institutional archival material. I will cover 3 bots: vgr_zirp (my personal archival bot), c3po (PI oracle bot) and Humboldt (artificial researcher). I will share general principles of using RAG (Retrieval Augmented Generation) in a protocolized way to make such bots.",
+      "scheduled_date": "2026-09-24",
+      "track": "MRG (Memory Research Group)"
+    },
+    "date": "2026-09-24"
+  },
+  "nLyoELj8d3k": {
+    "video_id": "nLyoELj8d3k",
+    "title": "Special Session - Neilson - Reality and Realism in Generation",
+    "duration_sec": 1604,
+    "upload_date": "NA",
+    "url": "https://www.youtube.com/watch?v=nLyoELj8d3k",
+    "playlist_ids": [
+      "PLEt1tjJkFjsQ"
+    ],
+    "series": "symposium-2026",
+    "has_captions": true,
+    "youtube_title": "Special Session - Neilson - Reality and Realism in Generation",
+    "programme": {
+      "slug": "my-mind-is-a-markdown-file",
+      "title": "Photo Realism",
+      "speakers": [
+        "Neilson Koerner-Safrata"
+      ],
+      "abstract": "Technical demos of doing telepathy with each other's camera rolls, how to create 3D environments from a single image, and the history of photorealism. Based on the recent technological events, this talk pulls apart reality, realism, and generation in order to understand the “fake” and the “real”, how generation will play a part both in deeply understanding reality while unintentionally destroying what is left of the era of photo realism–our shared cinematic narrative of reality.",
+      "scheduled_date": "2026-09-25",
+      "track": "MRG (Memory Research Group)"
+    },
+    "date": "2026-09-25"
+  },
+  "U0lCa2LqKwQ": {
+    "video_id": "U0lCa2LqKwQ",
+    "title": "Special Session - Ruthvik - Continuity Infrastructure",
+    "duration_sec": 1600,
+    "upload_date": "NA",
+    "url": "https://www.youtube.com/watch?v=U0lCa2LqKwQ",
+    "playlist_ids": [
+      "PLEt1tjJkFjsQ"
+    ],
+    "series": "symposium-2026",
+    "has_captions": false,
+    "youtube_title": "Special Session - Ruthvik - Continuity Infrastructure",
+    "programme": {
+      "slug": "tools-for-recollection-and-understanding",
+      "title": "Continuity Infrastructure",
+      "speakers": [
+        "Ruthvik Peddawandla"
+      ],
+      "abstract": "Continuity is related to memory, but it is something else: a substantial relationship between the past and present of some thing, greater than its persistence or its identity. A rite can persist in texts long after anyone performs it. It is continued only when it is taken up again and its significance to the present is renewed. Continuity in this sense is never simply given. It has to be instituted, against a natural drift towards fragmentation.\n\nThis is most explicit where there has been a temporal break: in the revival of a language, a culture or a national identity, where a present must deliberately take up a past as its own. Look at such cases a second time and what comes into view is the infrastructure that makes this institution possible. There are rituals, epics, canons, commentaries and schools, and there are the practices of return and take-up that these external forms afford. In the vocabulary of the Institute's research groups, this is the equipment through which living memory is enacted.\n\nThe talk then visits the personal scale. The parts of the world that draw our attention, and with which we seek a richer and deeper relationship, are continued or left to fragment in the same way. Establishing continuity here is the means by which we develop our particular orientation to the world. Persons once had infrastructure for this: the commonplace book, the notebook kept for rereading, the daily examination. These were socially taught practices. They have since been privatised, and they were never made native to a digital environment that encourages fragmentation. What remains is primitive: to-do lists, playlists, read-it-later queues. Those who sustain their inquiries do so by force, while cultures have had millennia of such infrastructure and AI agents are acquiring sophisticated versions within a few years.\n\nThese are the considerations behind Pond, an incomplete attempt at personal continuity infrastructure. It consists of a record, a working surface and a m",
+      "scheduled_date": "2026-09-25",
+      "track": "MRG (Memory Research Group)"
+    },
+    "date": "2026-09-25"
+  },
+  "0TA4gSm6olo": {
+    "video_id": "0TA4gSm6olo",
+    "title": "Special Session - Yatu & Norm - A Solar-Relative Time Protocol",
+    "duration_sec": 1657,
+    "upload_date": "NA",
+    "url": "https://www.youtube.com/watch?v=0TA4gSm6olo",
+    "playlist_ids": [
+      "PLEt1tjJkFjsQ"
+    ],
+    "series": "symposium-2026",
+    "has_captions": false,
+    "youtube_title": "Special Session - Yatu & Norm - A Solar-Relative Time Protocol",
+    "programme": {
+      "slug": "talk-paragonday-solar-based-time-and-the-archi",
+      "title": "A Solar-Relative Time Protocol",
+      "speakers": [
+        "Paragonday Systems (Norm O'Hagan & Yatú Espinosa)",
+        "Benji Shankwitz"
+      ],
+      "abstract": "Paragonday began with a question: what would timekeeping look like if it were designed around our lived experience of time, rather than coordination alone? Its emerging protocol, Horizon Time, acts as a translation layer between standardized clock time and the observable rhythms of the day, expressing where you are relative to sunrise and sunset through a vocabulary of phases: tilset, pastrise, tilrise, and pastset.\n\nThis talk traces the origins of Paragonday and the questions that have shaped the protocol as it has developed. We’ll introduce the design choices behind the system, the tensions those choices surface, and the broader goals of building a framework for time that remains interoperable with existing infrastructure while restoring some of the environmental context that industrialized time abstracts away.\n\nWe’ll also offer a primer on living in Paragonday time: how to read it, how to orient yourself within a sun cycle, and the experiments, tools, and practices that have emerged as we work to make the system more accessible. Along the way, we’ll look at Paragonday not simply as an alternative clock, but as a translation layer between standardization and lived experience.\n\nParagonday is still finding its shape as a protocol, an institution, and a practice of public timekeeping. Rather than presenting a finished system, this talk opens up the questions we are using to build it: what should a time protocol preserve, what can it afford to abstract away, and what changes when the time we share begins with where we are in the world?",
+      "scheduled_date": "2026-09-25",
+      "track": "MRG (Memory Research Group)"
+    },
+    "date": "2026-09-25"
   }
 }
