@@ -1,5 +1,7 @@
 # Plan: Magazine Lexicon Pass — Fiction and Nonfiction
 
+> **State 2026-10-19 (session 62):** **BACKLOG.** Not run: the 914-term lexicon came from PDFs only (`extract_lexicon.py`). Revive deliberately. Index: [`README.md`](README.md).
+
 **Status:** Ready to execute  
 **Priority:** P2 (after full-corpus PDF pass completes)  
 **Estimated cost:** ~$0.70 Haiku (one-time)

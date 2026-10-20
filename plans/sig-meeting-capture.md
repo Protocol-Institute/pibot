@@ -1,5 +1,7 @@
 # SIG Meeting Capture Protocol
 
+> **State 2026-10-19 (session 62):** **BACKLOG.** Still waiting on a discussion with Research Group hosts. Partly overtaken by the #meeting-notes audio ingest (`meeting-notes-ingest.md`). Index: [`README.md`](README.md).
+
 **Status:** Design approved — pending discussion with SIG hosts before implementation  
 **Drafted:** 2026-06-17  
 **Applies to:** All PI SIGs (SIGFPT as reference implementation)

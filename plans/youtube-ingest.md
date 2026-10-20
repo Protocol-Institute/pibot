@@ -1,5 +1,7 @@
 # Plan: YouTube Transcript Ingest
 
+> **State 2026-10-19 (session 62):** **DONE.** `videos` namespace live (97 talks, 3,127 vectors; whole-transcript Sonnet enrichment since session 56). Symposium recordings go to `symposium` instead (`symposium-ingest.md`). Index: [`README.md`](README.md).
+
 **Status:** In progress  
 **Namespace:** `videos`  
 **Scripts:** `ingest/fetch_youtube_meta.py`, `ingest/enrich_youtube.py`, `ingest/ingest_youtube.py`

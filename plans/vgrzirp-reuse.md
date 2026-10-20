@@ -1,5 +1,7 @@
 # Plan: vgr_zirp Reuse and Adaptation for C3PO
 
+> **State 2026-10-19 (session 62):** **PARTLY ADOPTED / REFERENCE.** In use: tier weighting, corpus map, lexicon injection, MCP, search, strike tracking. Not adopted: title-anchored embeddings, D1 transcripts and query log, transcript encryption. Index: [`README.md`](README.md).
+
 **Status:** Draft  
 **Reference:** `/Users/Venkat/Dropbox/Code/Publishing/ribbonfarm_site/`  
 **Based on:** Deep code + devlog audit, sessions 1–51

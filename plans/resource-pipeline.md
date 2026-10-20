@@ -1,5 +1,7 @@
 # Resource Pipeline — c3po as Enrichment Source
 
+> **State 2026-10-19 (session 62):** **DONE.** YouTube and PDF enrichment both reach protocolized-website (daemon steps `sync_youtube_resources`, `sync_pdf_resources`); Symposium recordings use `archive_symposium.py`. The "PDFs pending" status below is historical. Index: [`README.md`](README.md).
+
 **Status:** Direction set; partially implemented (YouTube complete, PDFs pending).  
 **Companion plan:** [`website-interface.md`](website-interface.md) — covers the SIG/meeting content flow; the same JSON-only boundary principle applies here.
 

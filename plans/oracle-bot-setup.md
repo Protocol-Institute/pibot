@@ -1,5 +1,7 @@
 # C3PO Oracle Bot — Deployment Setup
 
+> **State 2026-10-19 (session 62):** **DONE.** The Discord Interactions oracle (`POST /interactions` + `c3po-oracle` queue) is deployed; the gateway bot runs on the VM. Kept as the setup record. Index: [`README.md`](README.md).
+
 *Written: 2026-05-26 · Status: pending execution*
 
 Code is complete. This document is the step-by-step execution guide for the next session.

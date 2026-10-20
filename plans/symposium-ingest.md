@@ -1,5 +1,7 @@
 # Protocol Symposium 2026 — Ingest Plan
 
+> **State 2026-10-19 (session 62):** **DONE (maintenance only).** Phases A (programme), B (decks) and C (recordings) are built, and the archive lives on protocolized.io (`archive_symposium.py`). Remaining work is late uploads and deck withdrawals, tracked in `status.md`. The "nothing implemented" line below is from session 54. Index: [`README.md`](README.md).
+
 **Status:** Design approved in outline (session 54, 2026-09-16); nothing implemented.
 Phase A is the pre-event blocker. Phase B (slide decks) is **planned only — do not run until VGR says so.**
 

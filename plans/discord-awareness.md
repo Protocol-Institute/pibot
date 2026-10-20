@@ -1,5 +1,7 @@
 # C3PO Discord Awareness — Architecture & Roadmap
 
+> **State 2026-10-19 (session 62):** **DONE.** Phases 1-4 complete; Phase 4 ("where should I post?" nav queries via `discord_guide`) shipped session 26. The status table below is corrected. Index: [`README.md`](README.md).
+
 > Created: 2026-05-29 (session 25)
 
 C3PO currently has a static, hardcoded, incomplete picture of the Protocol Institute Discord. This plan describes a richer, dynamic, embedded Discord awareness system that lets c3po act as a genuine Discord guide — for new member introductions, navigation questions, and future community features.
@@ -157,6 +159,6 @@ This can be wired into the existing mention-based RAG path — c3po can answer D
 | Phase 2: Pinecone embed | ✅ Complete — `discord_guide` namespace; Haiku auto-describes each channel; re-embeds on content_hash change |
 | Phase 3: Intro handler rework | ✅ Complete — RAG-driven channel recs + corpus resources; next_event_time shown in reply |
 | Phase 3.5: Scheduled events sync | ✅ Complete — `ingest/sync_discord_events.py`; cadence + next_event_time in registry + Pinecone |
-| Phase 4: General navigation | ⬜ Not started — discord_guide namespace ready; needs "where should I post?" routing in bot |
+| Phase 4: General navigation | ✅ Complete (session 26) — nav-intent queries in `bin/c3po_bot.py` query `discord_guide` |
 
 **Immediate next step:** Phase 4 — handle direct navigation questions ("where should I post about X?", "what SIGs exist?") by querying discord_guide directly from the bot's mention handler.

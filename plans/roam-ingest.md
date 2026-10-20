@@ -1,5 +1,7 @@
 # Roam Graph Ingest Plan — SIGFPT
 
+> **State 2026-10-19 (session 62):** **BACKLOG.** Not built; the export is still in `c3po_inbox/`. `sig-meeting-capture.md` argues against Roam as a source. Index: [`README.md`](README.md).
+
 **Source:** `c3po_inbox/ProtocolTheory-2026-06-17-14-32-07.json`  
 **Graph:** Protocol Institute / SIGFPT working graph  
 **Inspected:** 2026-06-17  

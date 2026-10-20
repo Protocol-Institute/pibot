@@ -1,5 +1,7 @@
 # C3PO ↔ Website Interface Plan
 
+> **State 2026-10-19 (session 62):** **APPROVED, NOT STARTED.** `generate_sig_pages.py` and `update_sig_pages.py` still write HTML into the website. Paths are now `research-groups/` (session 59). Index: [`README.md`](README.md).
+
 **Status:** Design approved; not yet implemented.  
 **Problem this solves:** c3po currently generates full HTML pages for SIG archives, including nav and footer. When the website's nav changes, c3po's generator clobbers it on the next run — as happened repeatedly with the DRG page.
 

@@ -7,7 +7,7 @@ RAG research assistant for the Protocol Institute corpus. Renamed **PIBot** on 2
 
 > ## ⚠️ SECURITY INCIDENT — exposure removed, two steps still open
 >
-> **[`Code/incidents/2026-09-09-c3po-vm-github-token-scope.md`](../../incidents/2026-09-09-c3po-vm-github-token-scope.md)** —
+> **[`Code/devops/incidents/2026-09-09-c3po-vm-github-token-scope.md`](../../devops/incidents/2026-09-09-c3po-vm-github-token-scope.md)** —
 > High. `c3po-vm.exe.xyz` held a GitHub token authenticated as the account owner with
 > **admin + push on every repo the account could reach** (personal repos included),
 > readable by `exedev`, the user both services run as. Found 2026-09-09 from the Humboldt
@@ -25,7 +25,7 @@ RAG research assistant for the Protocol Institute corpus. Renamed **PIBot** on 2
 > be the laptop's own `gh` CLI login (`gho_`), not a classic PAT: its plaintext copy was
 > removed from `../.env.keys` (session 57); dropping its `delete_repo` scope is tracked in `Code/devops/status.md`.
 >
-> **Before touching credentials anywhere:** `Code/security-policy.md` Rule 8. Three places
+> **Before touching credentials anywhere:** `Code/devops/security-policy.md` Rule 8. Three places
 > claimed to hold "the" GitHub token here and all three held different values.
 
 
@@ -49,6 +49,8 @@ When a request touches both layers — e.g. "mirror Substack images" — the rig
 If a request seems to belong in a front-end project, flag it and suggest the correct folder before starting work. Don't implement front-end features here unless they are purely API surface (e.g. a new Worker endpoint that the front-end calls).
 
 ## Architecture
+
+**→ Plan index: [`plans/README.md`](plans/README.md)** — every plan by real state (active / approved / backlog / done). Open work itself is the *Open items* list at the top of `status.md`.
 
 **→ See [`plans/bot-ecology.md`](plans/bot-ecology.md)** for the full pubsub-swarm architecture, bot node inventory, and roadmap (Phases A–E).
 
@@ -98,9 +100,9 @@ Host: `https://c3po-1os2tli.svc.aped-4627-b74a.pinecone.io` (PI org account, mig
 
 | Namespace | Vectors | Notes |
 |-----------|---------|-------|
-| `discord_links` | 14,164 | Community-shared URLs, scored by Haiku |
-| `sig` | 9,259 | SIG Discord messages/summaries + .org meeting pages (`sig_meeting_page`) + audio summaries (`audio_meeting_summary`, `audio_meeting_section`); 8 SIGs: SIGFPT, MRG, SIGPfB, ProtFiSIG, SIGPSY, DRG, PRG (Personhood Research Group — audio only, no Discord channel), Intelligence Media (Discord only, no meetings yet; `sig_display` is the full name — session 57) |
-| `discord` | 6,012 | General + forum channels; starred msgs weighted 1.0×, unstarred 0.70× |
+| `discord_links` | 14,347 | Community-shared URLs, scored by Haiku |
+| `sig` | 9,430 | SIG Discord messages/summaries + .org meeting pages (`sig_meeting_page`) + audio summaries (`audio_meeting_summary`, `audio_meeting_section`); 8 SIGs: SIGFPT, MRG, SIGPfB, ProtFiSIG, SIGPSY, DRG, PRG (Personhood Research Group — audio only, no Discord channel), Intelligence Media (Discord only, no meetings yet; `sig_display` is the full name — session 57) |
+| `discord` | 6,023 | General + forum channels; starred msgs weighted 1.0×, unstarred 0.70× |
 | `videos` | 3,127 | YouTube talks (97 videos; whole-transcript Sonnet enrichment, full chunk text — session 56) |
 | `substack` | 1,287 | Protocolized magazine |
 | `pdfs` | 765 | 85 papers/essays (`sources/pdfs/enriched_meta.json`) |
@@ -108,9 +110,9 @@ Host: `https://c3po-1os2tli.svc.aped-4627-b74a.pinecone.io` (PI org account, mig
 | `bibliography` | 278 | External works cited by PI corpus |
 | `discord_guide` | 80 | Scoped per [`plans/discord-guide-scope.md`](plans/discord-guide-scope.md): excludes transient/admin channels (MOD, Server Link Feed, introductions/bugs/announcements); archived-read-only channels embed once then freeze; SIG channels include cadence + next_event_time |
 | `meta` | 64 | Self-knowledge: 1 vector/devlog session (61 sessions) + 1 first-person self-history (`devlog__self_history`, from `config/self_history.md`; half-numbered entries 8.5 and 27.5 anchor as `#session-8-5` / `#session-27-5`); queried at 3 results max alongside all other namespaces |
-| `transcripts` | 65 | Bot conversation self-memory: web + Discord Q&A |
-| `symposium` | 1,026 | Protocol Symposium 2026: programme (`symposium_overview`, `symposium_block`, `symposium_session`, `symposium_workshop`), slide decks and speaker papers (`symposium_slides`, 52 Drive files all matched + 3 decks received directly via `config/symposium_received_decks.json`; 4 stubs), and recordings (`symposium_recording` + timestamped `symposium_transcript`, all 40 — laptop-only; re-run `ingest/sync_symposium_videos.py` after new uploads). Queries that name the event are answered from this namespace alone; see [`plans/symposium-ingest.md`](plans/symposium-ingest.md) |
-| **Total** | **36,687** | |
+| `transcripts` | 71 | Bot conversation self-memory: web + Discord Q&A |
+| `symposium` | 1,100 | Protocol Symposium 2026: programme (`symposium_overview`, `symposium_block`, `symposium_session`, `symposium_workshop`), slide decks and speaker papers (`symposium_slides`, 52 Drive files all matched + 3 decks received directly via `config/symposium_received_decks.json`; 4 stubs), and recordings (`symposium_recording` + timestamped `symposium_transcript`, 43 of 45 uploads; 2 await captions — laptop-only; re-run `ingest/sync_symposium_videos.py` after new uploads). Queries that name the event are answered from this namespace alone; see [`plans/symposium-ingest.md`](plans/symposium-ingest.md) |
+| **Total** | **37,132** | Counted 2026-10-19 (session 62) |
 
 Every dated vector also carries **`ts_unix`** (int, Unix seconds) and deterministic ones **`event_id`** (list), added session 58 for time-range and event filters; new vectors get both at upsert (`ingest/event_tags.py`). Not on `videos`, `discord_links`, `definitions`, `bibliography`, `discord_guide`. See `plans/event-awareness.md`.
 
@@ -120,7 +122,7 @@ Every dated vector also carries **`ts_unix`** (int, Unix seconds) and determinis
 |--------|-------------|-----------|
 | `ingest/sync_substack.py` | Protocolized Substack posts | `data/substack_state.json` |
 | `ingest/sync_discord.py` | General Discord channels | `data/discord_state.json` |
-| `ingest/sync_sig.py` | SIG channels (6 groups) | `data/sig_state.json` |
+| `ingest/sync_sig.py` | Research Group (SIG) channels (8 groups) | `data/sig_state.json` |
 | `ingest/sync_sig_pages.py` | SIG meeting pages from .org (`/research-groups/` since 2026-10-10; ids keyed on the old `/sigs/` URL) | `data/sig_pages_state.json` |
 | `ingest/fetch_discord_links.py` | Fetch pending shared URLs | `data/discord_links_registry.json` |
 | `ingest/enrich_discord_links.py` | Score/prune links with Haiku | same |
@@ -212,6 +214,6 @@ where *Overrides* gives the reason. (Reconciled with v1.1 in session 62, 2026-10
 
 ## Anthropic API key (changed 2026-10-07)
 
-c3po (being renamed pibot) now has its own key: `ANTHROPIC_KEY_PIBOT` in `protocol-institute/.env.keys` — service account `pibot`, Developer role, scoped to the PI workspace. `c3po/.env` already carries it as `ANTHROPIC_API_KEY`. **Rotated 2026-10-07:** the c3po API Worker secret (verified with a live `/query`), `c3po-vm.exe.xyz:/home/exedev/c3po/.env` (daemon + bot restarted; the `.env.bak-2026-10-07` backup holding the old key is gone, checked session 60), and the GitHub Actions secret `ANTHROPIC_API_KEY` (exercised daily by `sync-substack` since, green). Spend is attributable per key in the Console; `data/cost_log.jsonl` remains the local record. Plan: `Code/anthropic-key-plan.md`. Do not copy the old shared key into new files.
+c3po (PIBot since 2026-10-07) has its own key: `ANTHROPIC_KEY_PIBOT` in `protocol-institute/.env.keys` — service account `pibot`, Developer role, scoped to the PI workspace. `c3po/.env` already carries it as `ANTHROPIC_API_KEY`. **Rotated 2026-10-07:** the c3po API Worker secret (verified with a live `/query`), `c3po-vm.exe.xyz:/home/exedev/c3po/.env` (daemon + bot restarted; the `.env.bak-2026-10-07` backup holding the old key is gone, checked session 60), and the GitHub Actions secret `ANTHROPIC_API_KEY` (exercised daily by `sync-substack` since, green). Spend is attributable per key in the Console; `data/cost_log.jsonl` remains the local record. Plan: `Code/devops/anthropic-key-plan.md`. Do not copy the old shared key into new files.
 
-**Follow-ups:** (1)–(2) closed session 60 — `sync-substack` has been green daily on the rotated secret, and the VM's `.env.bak-2026-10-07` is gone. Still open: (3) c3po is being renamed pibot — when it is, rename the Worker secret/registry rows but keep key name `pibot`; (4) `data/cost_log.jsonl` records only input/output tokens, not cache read/write — add `cache_creation_input_tokens`/`cache_read_input_tokens` if prompt caching is extended to ingest (see `Code/anthropic-key-plan.md` §4).
+**Follow-ups:** all closed or moved (session 62). (1)-(2) closed session 60; (3) the rename is done and the key kept its `pibot` name (registry wording in `../admin/keys.md` is admin's); (4) cache-token logging in `data/cost_log.jsonl` is in `status.md` *Open items* (small/carried).

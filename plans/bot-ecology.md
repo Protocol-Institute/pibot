@@ -1,5 +1,7 @@
 # C3PO Bot Ecology — Architecture & Roadmap
 
+> **State 2026-10-19 (session 62):** **PARTLY DONE / BACKLOG.** Phases A-C done. Phase D partly: `config/bot_registry.json` and the monitoring page exist. Phase E (swarm) is future. The node table below predates the 2026-08-01 move to the VM: launchd plists are now systemd units on `c3po-vm.exe.xyz`. Index: [`README.md`](README.md).
+
 > Last updated: 2026-05-28 (session 24)
 
 C3PO is evolving from a single RAG endpoint into a multi-node system — a small swarm of listening, ingesting, and conversing agents that share a corpus, coordinate through a spool pattern, and collectively build institutional memory. This document describes the architecture and the roadmap for getting there.

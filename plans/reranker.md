@@ -1,5 +1,7 @@
 # Reranker — plan (draft for VGR review)
 
+> **State 2026-10-19 (session 62):** **ACTIVE.** Phases 0-2 shipped; **Phase 3** (calibration from the real query log) waits on ~100-150 real questions. Index: [`README.md`](README.md).
+
 Source: [issue #10](https://github.com/Protocol-Institute/c3po/issues/10) (filed by Allethrin, 2026-10-05,
 after the Discord thread on rerankers). Plan drafted session 57.
 

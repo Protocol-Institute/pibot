@@ -1,5 +1,7 @@
 # Event and Time Awareness — Plan
 
+> **State 2026-10-19 (session 62):** **ACTIVE.** Phases A, B, C, E and F shipped in session 58; **Phase D** (`event_id` for Discord, Substack, PDFs) is the open part. The "draft, nothing built" line below is from session 56. Index: [`README.md`](README.md).
+
 **Status:** draft for VGR review (session 56, 2026-10-02). Nothing built. Session 58 (2026-10-09) added
 §5, *live-event context*, and Phase F, after the symposium became a historical event.
 **`bin/probe_event_scope.py` shipped 2026-10-09**: 25 saved cases (A-F) pass against the live worker; `--with-now`

@@ -1,5 +1,36 @@
 # PIBot — Status Log (internal name: c3po)
 
+## Open items (current — consolidated 2026-10-19, session 62)
+
+The single list of open work. Older entries' **Open** / **Open TODOs** lists are history and are
+superseded by this one; update this section, not those. Code-wide items (keys, PATs, `gh` scopes,
+ritual baselining, other bots' playbook adoption) live in `Code/devops/status.md`. Plan states:
+`plans/README.md`.
+
+**Research Groups**
+1. **MRG host reviews `data/rg_archives/mrg.json`** (VGR sending it). Then: all groups (`export_rg_archive.py --all-groups`), check vector coverage and backfill gaps; password-protected download on the Worker (new secret per security-policy Rules 1-2); weekly refresh in the daemon; decide Dropbox-ignore on `data/rg_archives/`. Plan: `plans/research-group-highlights.md`.
+2. **SIG → Research Groups wording sweep** (user-visible only; plumbing keeps `sig`): Worker persona/UI/status pages/both MCP tool descriptions (~60 strings, incl. `worker.js` corpus-map line still pointing at `/sigs/`), page-generator names, bot copy, new meeting-summary headers. VGR: rename the Discord category; decide on the SIG-bearing acronyms (SIGFPT, SIGPfB, SIGPSY, ProtFiSIG). Same Worker deploy can fix the How It Works link to the old `Protocol-Institute/c3po` repo name.
+
+**Symposium archive**
+3. VGR: merge website **#20** and apply migration **057** to remote D1. (protocolized-website #10 merged 2026-10-20; held YouTube metadata pushed `1cef9d12`.)
+4. Ruthvik (*Continuity Infrastructure*) and Yatu & Norm (*A Solar-Relative Time Protocol*) recordings await YouTube captions: re-run `sync_symposium_videos.py` → `archive_symposium.py --website ../website` → protocolized `sync-symposium-archive.py` (Ruthvik's recording takes over the `continuity-infrastructure` slides page), then revise their retrospective stubs.
+5. VGR: withdraw or keep 4 decks gone from the Drive (William George; Kaliya Young *Protocol Weave* and *Architecting the Group Brain*; yakrobot, Anuraj/Rafa). Published copies are kept until then.
+6. Fournier's deck still not received (his recording page has no slides). *Making Monsters* has no slides on .org: the combined Nitkey/Benny deck attaches to one talk only (`also_slugs` not kept in the deck state). Deck labels are filename-derived ("Slides AyseD").
+7. Retrospective (`editorial/symposium-2026-retrospective.md`): 10 STUB markers left; check the "Gramsci gap" contest name (captions say "Grahamsky"); quotes are from auto-captions.
+
+**Retrieval and answer path**
+8. **Reranker Phase 3:** pull the query log periodically (`bin/pull_query_log.py --stats`); at ~100-150 real questions run the analysis in `plans/reranker.md`.
+9. **Event awareness Phase D:** `event_id` for Discord channels, Substack, PDFs (Sonnet pass + review queue, never guess); then exclusive event scopes can filter across namespaces.
+
+**Infrastructure and security (c3po-specific)**
+10. **VM hardening phases 2-3** (`plans/vm-credential-hardening.md`): run daemon and bot as non-sudo service users so the bot cannot read the GitHub token; then standing assertions.
+11. **Website interface refactor** (`plans/website-interface.md`, approved): c3po writes JSON only; `generate_sig_pages.py`/`update_sig_pages.py` still write HTML.
+
+**Small / carried**
+12. `pdfs` chunk text is capped at 1,000 chars in metadata (`ingest_pdfs.py`); 6 symposium overview/workshop chunks lack `ts_unix` (could take the event start date); bare-year Substack dates in sources (display only); `onboard_channel.py` still names `claude-sonnet-4-6` (move only with a measurement); `data/cost_log.jsonl` lacks cache read/write tokens (matters only if prompt caching reaches ingest).
+
+---
+
 ## 2026-10-19 20:40 PT – (in progress) — Research Group channel archives: MRG first (session 62)
 
 - **Startup:** vectors 37,074 (+388); Substack 0 new; no intro issues; cost $3.08/7d, $40.00 all-time (VM). Laptop fast-forwarded 241 daemon commits. 5 new Symposium recordings on the playlist (45 vs 40 tracked). website PR #21 (auto RG pages) open, green.
@@ -10,23 +41,12 @@
 
 - **Symposium recordings:** 5 new on the playlist. 3 embedded (Amber Case, Neilson *Photo Realism*, Rao *Artisanal Bots*; +58, `symposium` **1,100**, total ~37,132); 4 already-in recordings re-embedded in place (ids unchanged, no duplicates). Ruthvik (*Continuity Infrastructure*) and Yatu & Norm (*Solar-Relative Time*) have no YouTube captions yet: WAIT.
 - **Archive fix:** the 3 new recordings belonged to talks with slides-only protocolized.io pages; the builder would have added a second page per talk. `archive_symposium.py` now lets a late recording take over its talk's slides-only page (same URL) and skips un-enriched recordings (no page until captions); protocolized `sync-symposium-archive.py` upgrades such a page's frontmatter in place (`type: talk`, `url`, `thumbnail`). Pushed to the open PRs: protocolized-website **#10** (`9e1fe8d`, retitled), website **#20** (`edb796a`, transcript flags). Web-printed decks (Blygger, Some Candidate Laws) re-upload on every run because reprints differ byte-wise; harmless.
+- **Cleanup:** `plans/README.md` indexes all 24 plans by real state (6 active, 1 approved-not-started, 6 backlog, 11 done); stale plans got a dated state banner (files not moved: other repos and the devlog link them). Open work consolidated into *Open items* at the top of this file; Code-wide items left to devops. protocolized-website #10 merged 02:35Z; held YouTube metadata pushed (`1cef9d12`).
 - **Held:** `sources/youtube/enriched_meta.json` + `video_meta.json` stay **uncommitted on the laptop until #10 merges** (pushing them triggers the VM's YouTube resource sync, which would add its own pages for these 3 videos on protocolized `main`).
 - **Retrospective:** 3 slides-only stubs revised against the recordings (Case, Koerner-Safrata, Rao); 10 STUB markers remain.
 - **Decks gone from the Drive (kept, VGR to decide):** William George, Kaliya Young x2 (*Protocol Weave*, *Architecting the Group Brain*), yakrobot (Anuraj/Rafa). Only *Protocol Weave* was known before.
 
-**Open TODOs (Research Group archives):**
-1. **MRG host reviews `data/rg_archives/mrg.json`** (VGR sending it) — wait for feedback on format, selection bar, meeting threads, fields before extending.
-2. Then run for all groups (`--all-groups`); check each group's vector coverage and backfill any gap.
-3. Password-protected download on the Worker for RG hosts (index + per-group JSON); new shared secret per security-policy Rule 1/2 (generate, save, register before deploy).
-4. Weekly refresh: add `export_rg_archive.py --all-groups --daemon` (self-throttles to 7 days) to `bin/daemon.py` once (3) exists, with an upload step.
-5. Decide Dropbox-ignore on `data/rg_archives/` (gitignored, but Dropbox syncs it; content matches public search).
-6. **Rename SIG -> Research Groups** in user-visible wording (Worker persona/UI/MCP descriptions, page-generator names, bot copy, new meeting-summary headers); plumbing stays. VGR: rename the Discord category; decide on the SIG-bearing acronyms. Details in the plan, section 3.
-7. Later, optional: curated highlights (Sonnet scoring) + API/MCP listing, plan section 2.
-
-**Open TODOs (Symposium):**
-1. VGR merges protocolized-website #10 → then commit + push c3po's held `sources/youtube/*.json`. Then website #20 + migration 057 to remote D1.
-2. Ruthvik and Yatu & Norm captions: re-run `sync_symposium_videos.py` → `archive_symposium.py --website ../website` → protocolized `sync-symposium-archive.py` (Ruthvik's recording should take over the `continuity-infrastructure` slides page); then revise their retrospective stubs.
-3. Withdraw-or-keep for the 4 decks gone from the Drive.
+**Open:** consolidated into *Open items* at the top of this file (session 62 cleanup).
 
 ## 2026-10-13 10:24 PT – 21:32 PT — Symposium retrospective draft; received decks; split-email redaction (session 61)
 

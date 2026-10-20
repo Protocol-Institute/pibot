@@ -1,5 +1,7 @@
 # Discord Guide — Embedding Scope Policy
 
+> **State 2026-10-19 (session 62):** **DONE.** The scope policy is implemented as `should_embed()` in `ingest/sync_discord_channels.py` (archived-read-only channels embed once, then freeze). Index: [`README.md`](README.md).
+
 > Created: 2026-08-04 (session 47), follow-up to `discord-awareness.md` Phase 2.
 
 ## Why this doc exists

@@ -1,5 +1,7 @@
 # Plan: Meeting Notes Ingest Pipeline
 
+> **State 2026-10-19 (session 62):** **DONE.** `ingest/sync_meeting_notes.py` runs in the daemon (`audio_meeting_summary`/`audio_meeting_section` in `sig`). The "PLANNED" status below is historical. Index: [`README.md`](README.md).
+
 > Status: PLANNED — 2026-07-08
 
 ## Background

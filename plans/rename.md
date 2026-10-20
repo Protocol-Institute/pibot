@@ -1,5 +1,7 @@
 # Rename plan: c3po → `<NEW>` (draft for VGR review)
 
+> **State 2026-10-19 (session 62):** **DONE.** Executed session 58 (2026-10-07 to 10-09): the name is **PIBot** / `pibot`. What was renamed vs kept is in `CLAUDE.md` and `status.md` session 58. The next rename (SIGs → Research Groups) follows the same tiers: `research-group-highlights.md` §3. Index: [`README.md`](README.md).
+
 Queue item #10 from session 56. VGR supplies the name later; this plan is written so that it
 can run as soon as the name exists. `<NEW>` is the display name (e.g. "Foo") and `<new>` the
 slug (e.g. `foo`). Inventory taken session 57 (2026-10-05).

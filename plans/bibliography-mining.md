@@ -1,5 +1,7 @@
 # Plan: PDF Bibliography Mining
 
+> **State 2026-10-19 (session 62):** **DONE.** `bibliography` namespace live (278 vectors). The "Planned" status below is historical. Index: [`README.md`](README.md).
+
 **Status:** Planned (start after YouTube ingest complete)  
 **Namespace:** `bibliography`  
 **Scripts:** `ingest/mine_bibliography.py`, `ingest/fetch_refs.py`, `ingest/ingest_bibliography.py`

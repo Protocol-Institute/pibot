@@ -1,5 +1,7 @@
 # Plan: Exhibit Extraction — Figures, Tables, Lists, Section Summaries
 
+> **State 2026-10-19 (session 62):** **BACKLOG.** Not built; no exhibit chunk types exist in `pdfs`. Revive deliberately. Index: [`README.md`](README.md).
+
 **Status:** Revised (2026-05-20)
 **Priority:** High
 **Trigger:** "10 dimensions of sufficiency" failure — query returned partial enumerated list cut at chunk boundary; bot refused to fabricate missing items but couldn't enumerate a canonical framework from its own corpus. Revised to cover the full space of structured exhibit artifacts: figures, tables, lists, and section summaries.
