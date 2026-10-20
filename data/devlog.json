@@ -319,6 +319,50 @@
           "html": "Six recording summaries carried markup the model had leaked into the prose (<code>&lt;/summary&gt;</code>, <code>&lt;/br&gt;</code>), and it showed up in resource-page descriptions on protocolized.io. The YouTube enrichment now strips these tags, and the existing data was cleaned."
         }
       ]
+    },
+    {
+      "id": 62,
+      "sort_key": 62.0,
+      "label": "Session 62",
+      "title": "Channel Archives, a VM Checkup, and Three Late Recordings",
+      "date": "2026-10-19",
+      "time_pt": "18:40 - 20:27",
+      "tracks": [
+        "corpus-ingestion",
+        "operations"
+      ],
+      "costs_usd": {},
+      "vector_counts": {
+        "total": 37132,
+        "symposium": 1100
+      },
+      "deployed": false,
+      "items": [
+        {
+          "title": "What the bot can and cannot say about a channel",
+          "html": "The ingest collects far more from the Research Group channels than meeting threads: about 6,500 posts, replies and discussion threads across eight groups sit in the <code>sig</code> namespace. But nothing curates them, and the bot can only return semantic matches to a question. It cannot list what a channel said last month. Group hosts asked for the material itself, so the first step is a file rather than a feature."
+        },
+        {
+          "title": "A channel archive for each Research Group",
+          "html": "A new exporter, <code>ingest/export_rg_archive.py</code>, reads a group's whole history straight from Discord and writes one JSON file of its significant posts: text, timestamp, author, URLs, reactions, thread, reply link and a Discord deep link for each. It uses the same bar as the ingest, keeps every message in discussion threads, and lists meeting threads without including them, since those have their own archive. It follows the public search results' privacy rules: usernames only, no numeric user ids, and mentions rewritten. The Memory Research Group came first: 632 of 819 messages, 586 KB, from June 2025 to now. All but eight were already in the index, and those eight are attachments with no text. The file is with the group's host for review before the other groups follow."
+        },
+        {
+          "title": "SIGs become Research Groups",
+          "html": "Special Interest Groups are now called Research Groups. As with the PIBot rename, only the wording people see will change; the <code>sig</code> namespace and its plumbing keep their names. The sweep through the bot's persona, pages and tool descriptions is queued."
+        },
+        {
+          "title": "A checkup for the VM",
+          "html": "Session startup never looked at the VM itself. A new read-only script, <code>bin/vm_health.sh</code>, now does, and says nothing when all is well. It reports services that are down, daemon or bot code newer than the running process, a dirty or diverged checkout, failed daemon steps, website changes not explained by an open pull request, a full disk, and GitHub tokens near expiry. The project's session ritual was rewritten to the Code-wide base version at the same time."
+        },
+        {
+          "title": "Three late recordings take over their slides pages",
+          "html": "Five more Symposium recordings appeared on the playlist. Three had captions and went in: Amber Case on attention as natural law, Neilson Koerner-Safrata on photorealism, and the artisanal-bots talk. All three belonged to talks that already had slides-only pages, and the archive builder would have given each talk a second page. A late recording now takes over its talk's existing page, at the same address, and a recording without captions gets no page until it has them. A last wrinkle surfaced after the merge: these uploads were titled \"Special Session - Speaker - Title\", a form the title cleaner did not know, so the pages briefly carried the raw titles. The cleaner now knows it."
+        },
+        {
+          "title": "Cleaning up the plans",
+          "html": "Of 24 planning documents, 18 had status lines that no longer matched the code. Two said \"nothing built\" about systems that shipped weeks ago. Each now carries a dated state line, a new <code>plans/README.md</code> sorts them into active, approved, backlog and done, and the open work scattered across eight session entries became one list at the top of <code>status.md</code>."
+        }
+      ]
     }
   ]
 }

@@ -26,12 +26,15 @@ ritual baselining, other bots' playbook adoption) live in `Code/devops/status.md
 10. **VM hardening phases 2-3** (`plans/vm-credential-hardening.md`): run daemon and bot as non-sudo service users so the bot cannot read the GitHub token; then standing assertions.
 11. **Website interface refactor** (`plans/website-interface.md`, approved): c3po writes JSON only; `generate_sig_pages.py`/`update_sig_pages.py` still write HTML.
 
+**Verify next session**
+13. The VM's YouTube sync should have retitled the three late-recording pages on protocolized.io (*Attention as Natural Law*, *Artisanal Bots with Protocolized RAG*, *Reality and Realism in Generation*) after pulling `a5bc7c19`. Check `git log origin/main` in protocolized-website for an "Auto: resource enrichment sync" commit touching them, and the live pages. If not, read the daemon journal for `sync_youtube_resources`.
+
 **Small / carried**
 12. `pdfs` chunk text is capped at 1,000 chars in metadata (`ingest_pdfs.py`); 6 symposium overview/workshop chunks lack `ts_unix` (could take the event start date); bare-year Substack dates in sources (display only); `onboard_channel.py` still names `claude-sonnet-4-6` (move only with a measurement); `data/cost_log.jsonl` lacks cache read/write tokens (matters only if prompt caching reaches ingest).
 
 ---
 
-## 2026-10-19 20:40 PT – (in progress) — Research Group channel archives: MRG first (session 62)
+## 2026-10-19 18:40 PT – 20:27 PT — Research Group archives (MRG); VM health check + ritual v1.1; late Symposium recordings; planning cleanup (session 62)
 
 - **Startup:** vectors 37,074 (+388); Substack 0 new; no intro issues; cost $3.08/7d, $40.00 all-time (VM). Laptop fast-forwarded 241 daemon commits. 5 new Symposium recordings on the playlist (45 vs 40 tracked). website PR #21 (auto RG pages) open, green.
 - **Finding:** the ingest collects Research Group posts (~6,500 non-meeting vectors across 8 groups) but never curates them; the web bot can only return semantic hits, not list a channel's posts. Plan: `plans/research-group-highlights.md`.
