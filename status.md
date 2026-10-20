@@ -1,5 +1,20 @@
 # PIBot — Status Log (internal name: c3po)
 
+## 2026-10-19 20:40 PT – (in progress) — Research Group channel archives: MRG first (session 62)
+
+- **Startup:** vectors 37,074 (+388); Substack 0 new; no intro issues; cost $3.08/7d, $40.00 all-time (VM). Laptop fast-forwarded 241 daemon commits. 5 new Symposium recordings on the playlist (45 vs 40 tracked). website PR #21 (auto RG pages) open, green.
+- **Finding:** the ingest collects Research Group posts (~6,500 non-meeting vectors across 8 groups) but never curates them; the web bot can only return semantic hits, not list a channel's posts. Plan: `plans/research-group-highlights.md`.
+- **Built:** `ingest/export_rg_archive.py` — per-group JSON archive of significant posts, fetched from Discord over full history (same bar as `sync_sig.py`; discussion threads in full; meeting threads listed, not included; no user ids, mentions rewritten, attachment URLs dropped). Output gitignored at `data/rg_archives/` (`<slug>.json`, yearly volumes over 10 MB, `index.json`). **MRG:** 632 of 819 messages kept (77%), 586 KB, 2025-06-12 to 2026-10-19. Vector coverage 624/632; the 8 missing are 7 attachment-only posts + 1 short link reply, so no backfill needed.
+
+**Open TODOs (Research Group archives):**
+1. **MRG host reviews `data/rg_archives/mrg.json`** (VGR sending it) — wait for feedback on format, selection bar, meeting threads, fields before extending.
+2. Then run for all groups (`--all-groups`); check each group's vector coverage and backfill any gap.
+3. Password-protected download on the Worker for RG hosts (index + per-group JSON); new shared secret per security-policy Rule 1/2 (generate, save, register before deploy).
+4. Weekly refresh: add `export_rg_archive.py --all-groups --daemon` (self-throttles to 7 days) to `bin/daemon.py` once (3) exists, with an upload step.
+5. Decide Dropbox-ignore on `data/rg_archives/` (gitignored, but Dropbox syncs it; content matches public search).
+6. **Rename SIG -> Research Groups** in user-visible wording (Worker persona/UI/MCP descriptions, page-generator names, bot copy, new meeting-summary headers); plumbing stays. VGR: rename the Discord category; decide on the SIG-bearing acronyms. Details in the plan, section 3.
+7. Later, optional: curated highlights (Sonnet scoring) + API/MCP listing, plan section 2.
+
 ## 2026-10-13 10:24 PT – 21:32 PT — Symposium retrospective draft; received decks; split-email redaction (session 61)
 
 - **Startup:** vectors 36,603; Substack 0 new; no intro issues; cost $1.33/7d, $36.92 all-time (VM). Laptop was 89 behind + 4 held session-60 commits; protocolized-website #9 and website #20 still open.

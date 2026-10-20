@@ -29,6 +29,8 @@ RAG research assistant for the Protocol Institute corpus. Renamed **PIBot** on 2
 > claimed to hold "the" GitHub token here and all three held different values.
 
 
+> **Naming (2026-10-19):** SIGs are now **Research Groups** (RG). Use that in anything people see; the `sig` plumbing (namespace, `chunk_type` `sig_*`, `sig_display`, `sync_sig.py`) keeps its name. User-visible sweep is an open TODO in `status.md` (session 62).
+
 ## Project scope and factorization
 
 **C3PO is the AI backend.** Work here covers: Pinecone ingest pipelines, embedding, RAG query logic, the Cloudflare Worker API (`pibot.protocolized.io`), the Discord bot, and the ingest daemon.
@@ -137,8 +139,9 @@ Every dated vector also carries **`ts_unix`** (int, Unix seconds) and determinis
 | `ingest/sync_symposium_videos.py` | Symposium recordings (YouTube playlist) → `symposium` namespace + resource library. **Laptop only** — YouTube 429s the VM; re-run after new uploads | `data/symposium_videos_state.json` |
 | `ingest/archive_symposium.py` | **Symposium archive (session 60).** Decks → email-redacted PDFs (Drive files + web decks in `config/symposium_web_decks.json`), transcripts → paragraphs, manifest of protocolized.io resource pages; `--website ../website` writes the .org link data. protocolized.io is canonical: its `scripts/sync-symposium-archive.py` uploads to R2 and writes the pages (run it with an **absolute** `C3PO_ROOT`; wrangler rejects a relative one). **Laptop only** (LibreOffice, Chrome/Playwright, caption cache) | `sources/symposium/archive.json` |
 | `ingest/generate_devlog_page.py` | Render devlog → D1 slug `c3po-devlog` | `data/devlog_page_state.json` |
+| `ingest/export_rg_archive.py` | **Research Group channel archives (session 62).** Per-group JSON of significant posts over full Discord history (same bar as `sync_sig.py`; discussion threads in full; meeting threads listed only; no user ids). `--group mrg` / `--all-groups`; `--daemon` self-throttles to weekly. Output gitignored. **Not in the daemon yet**; shared with RG hosts by hand until the password-protected download exists. Plan: `plans/research-group-highlights.md` | `data/rg_archives/` (`<slug>.json`, `index.json`, `state.json`) |
 
-All run automatically via `bin/daemon.py` (c3po_listener), except `sync_symposium_videos.py` and `archive_symposium.py` (laptop-only). Run manually with `--dry-run` to preview.
+All run automatically via `bin/daemon.py` (c3po_listener), except `sync_symposium_videos.py` and `archive_symposium.py` (laptop-only) and `export_rg_archive.py` (manual for now). Run manually with `--dry-run` to preview.
 
 After editing `data/devlog.json`, run `python3 ingest/sync_devlog.py` then `python3 ingest/generate_devlog_page.py` to republish.
 
