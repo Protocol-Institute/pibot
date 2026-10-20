@@ -6,6 +6,8 @@
 - **Finding:** the ingest collects Research Group posts (~6,500 non-meeting vectors across 8 groups) but never curates them; the web bot can only return semantic hits, not list a channel's posts. Plan: `plans/research-group-highlights.md`.
 - **Built:** `ingest/export_rg_archive.py` — per-group JSON archive of significant posts, fetched from Discord over full history (same bar as `sync_sig.py`; discussion threads in full; meeting threads listed, not included; no user ids, mentions rewritten, attachment URLs dropped). Output gitignored at `data/rg_archives/` (`<slug>.json`, yearly volumes over 10 MB, `index.json`). **MRG:** 632 of 819 messages kept (77%), 586 KB, 2025-06-12 to 2026-10-19. Vector coverage 624/632; the 8 missing are 7 attachment-only posts + 1 short link reply, so no backfill needed.
 
+- **Ritual:** CLAUDE.md's start/end checklists replaced by a v1.1 *Session rituals* config (S3 fast-forward, S5a-g, W2 per change type, W5a-d, carry-overs). New `bin/vm_health.sh` (S5a): read-only VM check, silent when clean; first run `VM OK` (website dirt = auto-PR #21). Cross-project item in `devops/status.md` marked done for c3po.
+
 **Open TODOs (Research Group archives):**
 1. **MRG host reviews `data/rg_archives/mrg.json`** (VGR sending it) — wait for feedback on format, selection bar, meeting threads, fields before extending.
 2. Then run for all groups (`--all-groups`); check each group's vector coverage and backfill any gap.

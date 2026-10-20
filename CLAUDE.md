@@ -154,61 +154,61 @@ page, `DEVLOG.md` and the `meta` namespace all see one continuous record and
 The published page is written to D1 as one INSERT plus `body = body || '...'` appends, so
 D1's 100KB per-statement limit no longer caps it.
 
-## At Session Start
+## Session rituals
 
-> **Base ritual:** [`Code/devops/rituals.md`](../../devops/rituals.md) (v1.0) is canonical: startup S1–S7, wrap-up W0–W7. The steps below are this project's **local mods** — they run in addition to the base, and the stricter step wins. Check this section against the base when you next edit it; `Code/devops/rituals-survey.md` lists the common gaps (`date`, security sweep W3, cross-project items S4, a wrap-up report keyed to step IDs).
+**Base:** [`Code/devops/rituals.md`](../../devops/rituals.md) — default ritual, v1.1. Startup is S1–S7, wrap-up is W0–W7;
+the IDs are reserved. Everything below is this project's **local config**: it adds steps, and changes or drops a default step only
+where *Overrides* gives the reason. (Reconciled with v1.1 in session 62, 2026-10-19; the old "At Session Start" /
+"After Each Session" lists are folded in here.)
 
-1. Read `status.md` — open questions, blockers, previous session end state.
-2. Check Pinecone vector counts:
-   ```bash
-   source .venv/bin/activate
-   python3 -c "
-   import os; from dotenv import load_dotenv; load_dotenv()
-   from pinecone import Pinecone
-   pc = Pinecone(api_key=os.environ['PINECONE_API_KEY'])
-   idx = pc.Index(host=os.environ['PINECONE_C3PO_HOST'])
-   stats = idx.describe_index_stats()
-   for ns, info in stats.namespaces.items():
-       print(f'{ns}: {info.vector_count:,} vectors')
-   print(f'Total: {stats.total_vector_count:,}')
-   "
-   ```
-3. Run Substack dry-run: `python3 ingest/sync_substack.py --dry-run`
-4. Review intro quality issues since last session:
-   ```bash
-   source .venv/bin/activate
-   python3 bin/review_intro_quality.py
-   ```
-   Present any unreviewed issues to the user and discuss fixes before starting other work.
-   After reviewing, run `python3 bin/review_intro_quality.py --mark-reviewed` to clear them.
-5. Check Anthropic API cost since last session. **Run this on the VM, not the laptop** — `data/cost_log.jsonl` is
-   gitignored, so the laptop copy froze on 2026-08-01 when the daemon moved to `c3po-vm.exe.xyz` and reports $0:
-   ```bash
-   ssh c3po-vm.exe.xyz "cd ~/c3po && source .venv/bin/activate && python3 bin/cost_report.py"
-   ```
-   Report last-7-days spend and all-time total.
-6. Summarize: vector counts vs. last session, pending Substack posts, open TODOs from `status.md`, intro quality findings, and API spend.
-
----
-
-## After Each Session
-
-**Documentation (always — do not skip):**
-1. `status.md` — dated log entry with PT start–end times and one-line summary.
-2. `CLAUDE.md` — update Pinecone vector counts table if index was modified.
-3. `data/devlog.json` — append session entry. Public build log; use existing entries as style guide.
-
-**Keys/env (if changed):**
-4. New env vars: update `.env.template`; add to `../.env.keys`; add row to `../admin/keys.md`.
-
-**Repo:**
-5. `git add` relevant files (never `.env`); `git commit`; `git push`.
-
-**Memory:**
-6. Update Claude memory — anything non-obvious about decisions or workflow. Don't duplicate CLAUDE.md.
-
-**Checklist report (always last):**
-7. Print checklist with ✅/⚠️/n/a per item and one sentence on each.
+**Ritual config**
+- **Log:** `status.md` (dated entry with PT start–end and a one-line title, non-skippable). Devlog: `data/devlog.json`
+  (public build log; append one entry per session, use existing entries as the style guide).
+- **Repo state (S3, local addition):** the laptop routinely lags the daemon by hundreds of `[daemon]` commits.
+  After `git fetch`, report unpushed laptop commits, then `git pull --ff-only`.
+- **Startup extras (S5)** — run all, report only what is wrong or changed, then summarise in S7 (vectors vs last session,
+  pending Substack posts, intro findings, spend, VM state):
+  - **S5a VM health:** `bin/vm_health.sh` — prints `VM OK` or one `!!` line per problem: services down, daemon/bot
+    code newer than the running process (needs a restart), `~/c3po` dirty/unpushed/diverged, failed daemon steps or
+    push/PR errors in 24 h, `~/website` dirt not explained by the open auto-PR, disk > 80 %, VM PATs within 30 days of
+    expiry. Read-only. Fix anything it flags before other VM work.
+  - **S5b Vector counts:**
+    ```bash
+    source .venv/bin/activate
+    python3 -c "
+    import os; from dotenv import load_dotenv; load_dotenv('.env')
+    from pinecone import Pinecone
+    idx = Pinecone(api_key=os.environ['PINECONE_API_KEY']).Index(host=os.environ['PINECONE_C3PO_HOST'])
+    s = idx.describe_index_stats()
+    for ns, info in sorted(s.namespaces.items(), key=lambda x: -x[1].vector_count): print(f'{ns}: {info.vector_count:,}')
+    print(f'Total: {s.total_vector_count:,}')"
+    ```
+  - **S5c Substack:** `python3 ingest/sync_substack.py --dry-run`.
+  - **S5d Intro quality:** `python3 bin/review_intro_quality.py`. Present unreviewed issues to Venkat and discuss fixes
+    before other work; afterwards `python3 bin/review_intro_quality.py --mark-reviewed`.
+  - **S5e API cost — on the VM**, not the laptop (`data/cost_log.jsonl` is gitignored; the laptop copy froze 2026-08-01):
+    `ssh c3po-vm.exe.xyz "cd ~/c3po && source .venv/bin/activate && python3 bin/cost_report.py"`. Report 7-day and all-time.
+  - **S5f Open PRs** that wait on this project: `gh pr list --repo Protocol-Institute/website` and
+    `--repo Protocol-Institute/protocolized-website` (auto SIG-page PRs, archive PRs).
+  - **S5g New Symposium recordings:** `python3 ingest/sync_symposium_videos.py --dry-run` (laptop only); compare the
+    resolved count with `data/symposium_videos_state.json`. Drop this step once the playlist is final.
+- **Verification (W2):** Worker changes → `wrangler deploy` output plus a live `POST /query` (or `GET /health`) on
+  `pibot.protocolized.io`; retrieval changes → `bin/probe_rerank.py` (and `bin/probe_event_scope.py` for time/event
+  logic); ingest changes → the script's `--dry-run`, then vector counts before/after; daemon/bot code → restart the unit
+  and read its journal for one clean cycle; website output → look at the rendered page.
+- **Wrap-up extras (after W5):**
+  - **W5a Vector table:** update the Pinecone table in this file if the index changed.
+  - **W5b Devlog:** append the session to `data/devlog.json`. The daemon publishes it (`sync_devlog.py` →
+    `meta`, `generate_devlog_page.py` → D1) on its next cycle; run both by hand only if it should be live now.
+  - **W5c Keys/env (if changed):** new env vars go in `.env.template`, `../.env.keys` and a row in `../admin/keys.md`
+    (PI keys never go in `Code/.env.keys`).
+  - **W5d VM pickup:** script changes reach the VM on the next daemon self-pull; `bin/daemon.py` or `bin/c3po_bot.py`
+    changes need `sudo systemctl restart c3po-daemon` / `c3po-bot` (S5a flags a missed restart).
+- **Deploy policy:** only if Venkat says so. Worker deploys are laptop-initiated from `api/` (command under
+  *Cloudflare Worker*). protocolized-website changes always go through a PR.
+- **Carry-overs (S6):**
+  - VGR: rotate the VM's two scoped GitHub PATs at their 2026-12-08 expiry (S5a starts warning 30 days out).
+  - VGR: `gh auth refresh -h github.com --remove-scopes delete_repo` on the laptop.
 
 ## Anthropic API key (changed 2026-10-07)
 
