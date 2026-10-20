@@ -23,7 +23,7 @@ RAG research assistant for the Protocol Institute corpus. Renamed **PIBot** on 2
 > non-sudo service users; (2) the two scoped PATs above were exposed in session 53's
 > transcript — rotate at their 2026-12-08 expiry (VGR, session 57). `GH_PAT` turned out to
 > be the laptop's own `gh` CLI login (`gho_`), not a classic PAT: its plaintext copy was
-> removed from `../.env.keys` (session 57); dropping its `delete_repo` scope is VGR's to run.
+> removed from `../.env.keys` (session 57); dropping its `delete_repo` scope is tracked in `Code/devops/status.md`.
 >
 > **Before touching credentials anywhere:** `Code/security-policy.md` Rule 8. Three places
 > claimed to hold "the" GitHub token here and all three held different values.
@@ -206,9 +206,9 @@ where *Overrides* gives the reason. (Reconciled with v1.1 in session 62, 2026-10
     changes need `sudo systemctl restart c3po-daemon` / `c3po-bot` (S5a flags a missed restart).
 - **Deploy policy:** only if Venkat says so. Worker deploys are laptop-initiated from `api/` (command under
   *Cloudflare Worker*). protocolized-website changes always go through a PR.
-- **Carry-overs (S6):**
-  - VGR: rotate the VM's two scoped GitHub PATs at their 2026-12-08 expiry (S5a starts warning 30 days out).
-  - VGR: `gh auth refresh -h github.com --remove-scopes delete_repo` on the laptop.
+- **Carry-overs (S6):** none. Code-wide credential and policy items (key rotation, PAT expiry, `gh` login scopes,
+  ritual reconciliation) live in `Code/devops/status.md` and reach this project only through S4. Record them here only
+  when they are specific to c3po; S5a still flags the VM's own PAT expiry because it is c3po's VM.
 
 ## Anthropic API key (changed 2026-10-07)
 
