@@ -73,7 +73,9 @@ CHUNK_CHARS = 2300      # matches the shared chunker's target, so slides and tal
 # ── Titles ────────────────────────────────────────────────────────────────────
 # Uploads are titled "NN - Speaker(s) - Title"; two have a stray separator
 # ("17  Jose Leal…", "22  -Jesse Katz…"), and the opening talk has no number.
-TITLE_RE = re.compile(r"^\s*(\d+)\s*-?\s*(.+?)\s+[-–]\s+(.+)$")
+# "36 - Nicholas Fett - Markets and ..." and, for the late uploads (session 62),
+# "Special Session - Amber Case - Attention as Natural Law".
+TITLE_RE = re.compile(r"^\s*(\d+|Special Session)\s*-?\s*(.+?)\s+[-–]\s+(.+)$", re.I)
 
 
 def split_title(raw: str) -> tuple[str, str, str]:
@@ -245,6 +247,16 @@ def run(dry_run=False, fetch=True, force=False):
         run_step([PY, "ingest/enrich_youtube.py", "--video", vid, "--force"])
     run_step([PY, "ingest/enrich_youtube.py", "--series", SERIES])
     enriched = load(ENRICHED, {})
+    # enrich_youtube copies the title once, at first enrichment. The resource
+    # library (sync-youtube-resources.py on the VM) publishes enriched["title"],
+    # so keep it equal to the cleaned title even when the cleaning improves later
+    # (session 62: "Special Session - Speaker - Title" uploads).
+    retitled = [vid for vid in vids if vid in enriched and enriched[vid].get("title") != meta[vid]["title"]]
+    for vid in retitled:
+        print(f"  RETITLE {enriched[vid].get('title', '')[:50]!r} -> {meta[vid]['title'][:50]!r}")
+        enriched[vid]["title"] = meta[vid]["title"]
+    if retitled:
+        save(ENRICHED, enriched)
 
     # ── Embed ──
     state = load(STATE_PATH, {"videos": {}})

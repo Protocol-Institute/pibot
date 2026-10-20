@@ -39,7 +39,11 @@ errs=$(echo "$log" | grep -E "push failed|PR flow failed|still dirty|crashed|abo
 [ -n "$errs" ] && p "daemon errors (24h): $(echo "$errs" | tr '\n' ';')"
 last=$(echo "$log" | grep "Sync cycle .* complete" | tail -1)
 if [ -z "$last" ]; then p "no completed daemon cycle in the last 24h"
-else echo "$last" | grep -qE "complete — ([0-9]+)/\1 steps OK" || p "last cycle not clean: $(echo "$last" | sed -E 's/.*(Sync cycle)/\1/')"; fi
+else
+  # "N/M steps OK": conditional steps (e.g. the gated resource syncs) can make N exceed M; only N < M is a failure.
+  okn=$(echo "$last" | sed -nE 's/.*complete — ([0-9]+)\/([0-9]+) steps OK.*/\1 \2/p')
+  [ -n "$okn" ] && [ "${okn% *}" -ge "${okn#* }" ] || p "last cycle not clean: $(echo "$last" | sed -E 's/.*(Sync cycle)/\1/')"
+fi
 bot=$(sudo journalctl -u c3po-bot --since "24 hours ago" --no-pager 2>/dev/null | grep -ciE "traceback|exception")
 [ "$bot" -gt 0 ] && p "c3po-bot: $bot traceback/exception line(s) in 24h"
 if cd ~/website 2>/dev/null; then

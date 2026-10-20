@@ -4476,7 +4476,7 @@
   },
   "bCjlrKQ0IUw": {
     "video_id": "bCjlrKQ0IUw",
-    "title": "Special Session - Amber Case - Attention as Natural Law",
+    "title": "Attention as Natural Law",
     "duration_sec": 3305,
     "upload_date": "NA",
     "url": "https://www.youtube.com/watch?v=bCjlrKQ0IUw",
@@ -4517,7 +4517,7 @@
   },
   "orQVxjgo-rs": {
     "video_id": "orQVxjgo-rs",
-    "title": "Special Session - Venkatesh Rao - Artisanal Bots with Protocolized RAG",
+    "title": "Artisanal Bots with Protocolized RAG",
     "duration_sec": 3243,
     "upload_date": "NA",
     "url": "https://www.youtube.com/watch?v=orQVxjgo-rs",
@@ -4558,7 +4558,7 @@
   },
   "nLyoELj8d3k": {
     "video_id": "nLyoELj8d3k",
-    "title": "Special Session - Neilson - Reality and Realism in Generation",
+    "title": "Reality and Realism in Generation",
     "duration_sec": 1604,
     "upload_date": "NA",
     "url": "https://www.youtube.com/watch?v=nLyoELj8d3k",
@@ -4579,21 +4579,21 @@
       "track": "MRG (Memory Research Group)"
     },
     "date": "2026-09-25",
-    "summary": "Neilson Koerner-Safrata (World Labs) argues that photorealistic image and video generation is becoming 'a protocol for knowing' — that creating a convincing fake image is inseparable from a model's deeper computational understanding of physical reality, not merely an escape from it. He traces this from Muybridge's chronophotography and Ed Catmull's early 3D hand animation through AlexNet to his own 'image-to-world' toolkit that decomposes a single photo into a physics-enabled 3D scene, framing the current moment as an inversion where 'realism' (trained on photos/video) now acts back on 'reality' itself.",
+    "summary": "Neilson Koerner-Safrata (introduced as Nelson Bershad, working at World Labs) argues that photorealistic image and video generation functions as 'a protocol for knowing'—that creating a photoreal image or 3D world from a single photo demonstrates a form of knowledge about reality, inverting the historical arrow from reality-to-realism into realism acting back on reality. He traces this through his own tools (image-to-3D-world generation with physics and sound, camera-roll 'telepathy' search) and historical precedents like Muybridge's chronophotography, Duchamp's response to it, Ed Catmull's hand animation, and AlexNet, concluding that the same technology deepening our computational grasp of reality is simultaneously destroying the shared trust in photorealism as a stable representation of the real.",
     "categories": [
       "protocol-theory",
       "technology-ai",
-      "research-report"
+      "protocol-watching"
     ],
     "speakers": [
       "Neilson Koerner-Safrata"
     ],
     "key_concepts": [
-      "photorealism as a protocol for knowing",
-      "reality vs. realism distinction",
-      "inverse rendering / image-to-world generation",
-      "world models",
-      "scripted space / cinematic narrative of reality"
+      "generation as a protocol for knowing",
+      "reality vs. realism vs. photorealism",
+      "inverse rendering / world models",
+      "photoreal image as compressed world state",
+      "history of photorealism (Muybridge, chronophotography, AlexNet)"
     ]
   }
 }
