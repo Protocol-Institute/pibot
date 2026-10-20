@@ -127,16 +127,16 @@
     "artisanal-bots-with-protocolized-rag": {
       "slug": "artisanal-bots-with-protocolized-rag",
       "new": false,
-      "kind": "slides",
-      "title": "Artisanal Bots with Protocolized RAG",
-      "video_id": null,
-      "video_url": null,
-      "duration_sec": null,
+      "kind": "recording",
+      "title": "Special Session - Venkatesh Rao - Artisanal Bots with Protocolized RAG",
+      "video_id": "orQVxjgo-rs",
+      "video_url": "https://www.youtube.com/watch?v=orQVxjgo-rs",
+      "duration_sec": 3243,
       "date": "2026-09-24",
       "speakers": [
         "Venkatesh Rao"
       ],
-      "description": "In this talk, I will share techniques and lessons learned from my experiences building multiple RAG bots based on personal and institutional archival material. I will cover 3 bots: vgr_zirp (my personal archival bot), c3po (PI oracle bot) and Humboldt (artificial researcher). I will share general principles of using RAG (Retrieval Augmented Generation) in a protocolized way to make such bots.",
+      "description": "Venkatesh Rao presents techniques for building 'artisanal bots' — RAG systems that embody a personality rather than just a knowledge base — demonstrated through three examples: vgr_zirp (his personal archival bot built from Ribbon Farm and Contraptions writing), C3PO (the Protocol Institute's institutional helper bot), and Humboldt (an artificial researcher persona). He details protocol patterns like modeling ignorance and refusals to prevent 'leak-through' (where Claude's general knowledge bleeds through in the persona's voice), weighting sources, true-naming personas, and designing guardrails against misuse of sensitive material like his 'Gervais Principle' writing.",
       "talks": [
         {
           "talk": "talk-venkatesh-building-archival-selves",
@@ -162,21 +162,21 @@
           "needs_visual_check": false
         }
       ],
-      "transcript": null
+      "transcript": "transcripts/orQVxjgo-rs.json"
     },
     "attention-as-natural-law": {
       "slug": "attention-as-natural-law",
       "new": false,
-      "kind": "slides",
-      "title": "Attention as Natural Law",
-      "video_id": null,
-      "video_url": null,
-      "duration_sec": null,
+      "kind": "recording",
+      "title": "Special Session - Amber Case - Attention as Natural Law",
+      "video_id": "bCjlrKQ0IUw",
+      "video_url": "https://www.youtube.com/watch?v=bCjlrKQ0IUw",
+      "duration_sec": 3305,
       "date": "2026-09-24",
       "speakers": [
         "Amber Case"
       ],
-      "description": "Attention as Natural Law: Certification as a Protocol for Human Perceptual Limits\n\nIn 1995, Mark Weiser proposed that technology should be designed around the natural structure of human attention: the center, which demands conscious focus, and the periphery, which informs without interrupting. They were describing a constraint, not a preference. Human cognitive architecture has limits that do not negotiate with product roadmaps.\n\nCalm Technology Institute's certification framework takes that constraint seriously as a protocol design problem. It provides an 81-point framework, organized across six categories -- Attention, Periphery, Durability, Light, Sound, and Materials -- in an attempt to codify human perceptual limits as evaluable criteria, and then build a governed process for determining whether a product complies with them. In Venkatesh Rao's terms, this is an attempt to treat human attention as New Nature: a regime of reality that certified products must conform to, as reliably as they must conform to the laws of physics.\n\nThis talk examines what that attempt looks like in practice. Three problems emerge that any protocol operating in a phenomenological domain must eventually solve.\n\nThe first is the formalization problem: how do you write a criterion for something like \"works at the periphery of awareness\" that a trained evaluator can apply consistently across a physical alarm clock, a digital interface, and a hotel room? The CTI framework's approach involves operationalizing each principle into observable product behaviors, then distinguishing between criteria that can be verified empirically and those that require calibrated human judgment.\n\nThe second is the legitimacy problem. Certification protocols require authority to function. ISO has statutory relationships with national standards bodies. The FDA has enforcement power. CTI has neither. The talk examines the mechanisms through which a small independent body can accumulate protocol legitimacy without institutional scale: published criteria, evaluator training and handbooks, a public certification record, and consortium membership that gives industry partners a stake in the protocol's integrity.\n\nThe third is the maintenance problem. Human perceptual limits are stable, but the technology landscape is not. A protocol written for physical consumer electronics requires revision when it is applied to spatial computing, ambient AI interfaces, or built environments. The talk addresses what it means to maintain a living protocol across rapidly diverging product categories, and what revision processes preserve protocol integrity rather than eroding it.\n\nCTI has now certified products across consumer electronics, productivity tools, and hospitality environments. That record makes it possible to evaluate not only how the framework was designed, but how it has held under real conditions.\n\nA magazine-style companion piece suitable for Protocolized will be available at time of presentation.",
+      "description": "Amber Case presents the Calm Technology Institute's 81-point certification framework, arguing that human attention operates like a law of nature—distinguishing prefrontal-cortex-demanding 'center' attention from pass-through 'peripheral' attention—and that products (from car buttons to AI interfaces) should be designed and governed accordingly. She traces the framework's lineage to Mark Weiser's 1995 calm technology principles and discusses the legitimacy problem of building certification authority without statutory power, comparing CTI to Underwriter Laboratories and the Good Housekeeping Seal. The session closes with audience discussion, including Venkatesh Rao connecting the talk to Kairos/Chronos time and AI's 'staircase' temporality.",
       "talks": [
         {
           "talk": "talk-amber-attention-as-natural-law",
@@ -202,7 +202,7 @@
           "needs_visual_check": false
         }
       ],
-      "transcript": null
+      "transcript": "transcripts/bCjlrKQ0IUw.json"
     },
     "blygger-ai-native-decentralized-mutable-publishing": {
       "slug": "blygger-ai-native-decentralized-mutable-publishing",
@@ -233,11 +233,11 @@
           "source_url": "https://blygger.org/talks/2026-09-24-blygger/",
           "file": "blygger-ai-intertwingled-diachronic-synchronic-social-publis-web.pdf",
           "format": "pdf",
-          "mtime": 1791921227805,
+          "mtime": 1792289114301,
           "pages": 30,
           "bytes": 1762214,
           "how": "web deck export",
-          "sha256": "ce6104b2e49bc263",
+          "sha256": "d285d0c808444191",
           "emails_redacted": 0,
           "needs_visual_check": false
         }
@@ -1276,16 +1276,16 @@
     "photo-realism": {
       "slug": "photo-realism",
       "new": false,
-      "kind": "slides",
-      "title": "Photo Realism",
-      "video_id": null,
-      "video_url": null,
-      "duration_sec": null,
+      "kind": "recording",
+      "title": "Special Session - Neilson - Reality and Realism in Generation",
+      "video_id": "nLyoELj8d3k",
+      "video_url": "https://www.youtube.com/watch?v=nLyoELj8d3k",
+      "duration_sec": 1604,
       "date": "2026-09-25",
       "speakers": [
         "Neilson Koerner-Safrata"
       ],
-      "description": "Technical demos of doing telepathy with each other's camera rolls, how to create 3D environments from a single image, and the history of photorealism. Based on the recent technological events, this talk pulls apart reality, realism, and generation in order to understand the “fake” and the “real”, how generation will play a part both in deeply understanding reality while unintentionally destroying what is left of the era of photo realism–our shared cinematic narrative of reality.",
+      "description": "Neilson Koerner-Safrata (World Labs) argues that photorealistic image and video generation is becoming 'a protocol for knowing' — that creating a convincing fake image is inseparable from a model's deeper computational understanding of physical reality, not merely an escape from it. He traces this from Muybridge's chronophotography and Ed Catmull's early 3D hand animation through AlexNet to his own 'image-to-world' toolkit that decomposes a single photo into a physics-enabled 3D scene, framing the current moment as an inversion where 'realism' (trained on photos/video) now acts back on 'reality' itself.",
       "talks": [
         {
           "talk": "my-mind-is-a-markdown-file",
@@ -1311,7 +1311,7 @@
           "needs_visual_check": false
         }
       ],
-      "transcript": null
+      "transcript": "transcripts/nLyoELj8d3k.json"
     },
     "proliferation-of-intelligence-business-and-hyper-learning-machines": {
       "slug": "proliferation-of-intelligence-business-and-hyper-learning-machines",
@@ -1600,11 +1600,11 @@
           "source_url": "https://humboldt.protocol-institute.org/talks/2026-09-23-new-nature/",
           "file": "some-candidate-laws-of-new-nature-web.pdf",
           "format": "pdf",
-          "mtime": 1791672547966,
+          "mtime": 1792276758975,
           "pages": 16,
           "bytes": 560664,
           "how": "web deck export",
-          "sha256": "2405e5bb2114f47e",
+          "sha256": "2ddf45fc554d5d30",
           "emails_redacted": 0,
           "needs_visual_check": false
         }

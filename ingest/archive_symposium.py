@@ -402,15 +402,31 @@ def build(protocolized: Path, dry_run=False, force=False):
 
     resources: dict[str, dict] = {}
     talk_res: dict[str, str] = {}
+    # A talk that had slides but no recording got a slides-only page. When its
+    # recording turns up later, the recording takes over that page (same URL,
+    # already public and linked) instead of getting a second page (session 62).
+    old_res = old.get("resources", {})
+    slides_page = {t: s for t, s in old.get("talk_resource", {}).items()
+                   if old_res.get(s, {}).get("kind") == "slides" and s in io_slugs
+                   and s not in res_by_vid.values()}
     for vid, v in sorted(vids.items(), key=lambda kv: kv[1].get("title", "")):
         slug = res_by_vid.get(vid)
         new = slug is None
-        if new:
-            slug = slugify(v["title"])
-            if slug in io_slugs:
-                slug = slug[:76] + "-yt"
-        e = enriched.get(vid, {})
         talks = sorted(parts.get(vid, []), key=lambda p: p["start"] or 0)
+        if new and not enriched.get(vid):
+            # No captions/enrichment yet (the ingest WAITs on these too): a page
+            # now would have no speakers, summary or transcript. Next run picks it up.
+            print(f"  WAIT  {v.get('title', vid)[:60]:<60} no captions/enrichment yet — no page")
+            continue
+        if new:
+            adopt = next((slides_page[p["talk"]] for p in talks if p["talk"] in slides_page), None)
+            if adopt:
+                slug, new = adopt, False
+            else:
+                slug = slugify(v["title"])
+                if slug in io_slugs:
+                    slug = slug[:76] + "-yt"
+        e = enriched.get(vid, {})
         resources[slug] = {
             "slug": slug, "new": new, "kind": "recording",
             "title": v["title"], "video_id": vid,
