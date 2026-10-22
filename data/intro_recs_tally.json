@@ -849,6 +849,36 @@
       "count": 1,
       "last_seen": "2026-10-14",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=K6tmMjKkU_Y": {
+      "title": "Protocoling HCI: Hardening Interaction into Infrastructure",
+      "url": "https://www.youtube.com/watch?v=K6tmMjKkU_Y",
+      "source": "symposium",
+      "author": "Botao Amber Hu",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-10-22",
+      "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=K6tmMjKkU_Y&t=0s": {
+      "title": "Protocoling HCI: Hardening Interaction into Infrastructure",
+      "url": "https://www.youtube.com/watch?v=K6tmMjKkU_Y&t=0s",
+      "source": "symposium",
+      "author": "Botao Amber Hu",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-10-22",
+      "is_fallback": false
+    },
+    "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-83": {
+      "title": "Interior Computing",
+      "url": "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-83",
+      "source": "symposium",
+      "author": "Kei Kreutler",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-10-22",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -940,8 +970,8 @@
       "name": "🎪intelligence-media",
       "display": "#🎪intelligence-media",
       "sig_display": "",
-      "count": 3,
-      "last_seen": "2026-10-09"
+      "count": 4,
+      "last_seen": "2026-10-22"
     },
     "1506119475517325424": {
       "name": "new-nature",
