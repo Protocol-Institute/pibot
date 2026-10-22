@@ -606,8 +606,8 @@
       "source": "substack",
       "author": "Ralph Witherell",
       "label": "FICTION",
-      "count": 1,
-      "last_seen": "2026-09-16",
+      "count": 2,
+      "last_seen": "2026-10-22",
       "is_fallback": false
     },
     "https://protocol-institute.org/events/protocol-symposium-2026/program/workshops/beyond-the-artwork-designing-protocols-as-art/": {
@@ -879,6 +879,26 @@
       "count": 1,
       "last_seen": "2026-10-22",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=7XnKFnAqg6I": {
+      "title": "The Point of Inflection in Time",
+      "url": "https://www.youtube.com/watch?v=7XnKFnAqg6I",
+      "source": "symposium",
+      "author": "Jim Fournier",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-10-22",
+      "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=7XnKFnAqg6I&t=232s": {
+      "title": "The Point of Inflection in Time",
+      "url": "https://www.youtube.com/watch?v=7XnKFnAqg6I&t=232s",
+      "source": "symposium",
+      "author": "Jim Fournier",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-10-22",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -979,6 +999,13 @@
       "sig_display": "",
       "count": 1,
       "last_seen": "2026-10-14"
+    },
+    "1540438598212386826": {
+      "name": "protocol-art",
+      "display": "#protocol-art",
+      "sig_display": "",
+      "count": 1,
+      "last_seen": "2026-10-22"
     }
   }
 }
