@@ -96,8 +96,8 @@
       "source": "substack",
       "author": "Timber Stinson-Schroff",
       "label": "ESSAY",
-      "count": 18,
-      "last_seen": "2026-10-06",
+      "count": 19,
+      "last_seen": "2026-10-27",
       "is_fallback": false
     },
     "https://files.protocolized.io/FERNANDEZ-Flow-speculative-brochure.pdf": {
@@ -899,6 +899,26 @@
       "count": 1,
       "last_seen": "2026-10-22",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=tUTz0RYrP-M": {
+      "title": "Virtues for a Protocol Society",
+      "url": "https://www.youtube.com/watch?v=tUTz0RYrP-M",
+      "source": "symposium",
+      "author": "Nathan Schneider",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-10-27",
+      "is_fallback": false
+    },
+    "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-98": {
+      "title": "Ethereum: A Microcosm for Protocol Studies",
+      "url": "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-98",
+      "source": "symposium",
+      "author": "Tim Beiko",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-10-27",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -920,8 +940,8 @@
       "name": "🔍-protocol-watch",
       "display": "#🔍-protocol-watch",
       "sig_display": "",
-      "count": 2,
-      "last_seen": "2026-09-22"
+      "count": 3,
+      "last_seen": "2026-10-27"
     },
     "1106572787042238504": {
       "name": "👾-protocol-fiction",
