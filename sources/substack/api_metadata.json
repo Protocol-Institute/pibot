@@ -1,5 +1,31 @@
 [
   {
+    "id": 222274688,
+    "slug": "announcing-pibowrimo-2026",
+    "title": "Announcing PiBoWriMo 2026",
+    "subtitle": "You should write a protocol-themed book this November. Yes YOU.",
+    "post_date": "2026-10-27T03:08:23.122Z",
+    "updated_at": "2026-10-27T03:11:44.376Z",
+    "type": "newsletter",
+    "wordcount": 795,
+    "section_id": 333103,
+    "section_name": "Obliquities",
+    "postTags": [],
+    "publishedBylines": [
+      {
+        "id": 2264734,
+        "name": "Venkatesh Rao",
+        "handle": "contraptions",
+        "bio": "Delving. Writing the Contraptions newsletter. Contributor to Protocolized Previously: ribbonfarm.com More: venkateshrao.com"
+      }
+    ],
+    "reaction_count": 5,
+    "restacks": 1,
+    "comment_count": 0,
+    "previous_post_slug": "methods-madness-monsters-and-magic",
+    "next_post_slug": null
+  },
+  {
     "id": 219445135,
     "slug": "monster-speculation",
     "title": "Monster Speculation",
@@ -25,7 +51,7 @@
         "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
       }
     ],
-    "reaction_count": 6,
+    "reaction_count": 8,
     "restacks": 5,
     "comment_count": 0,
     "previous_post_slug": "jamverse-live",
@@ -63,7 +89,7 @@
         "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
       }
     ],
-    "reaction_count": 2,
+    "reaction_count": 3,
     "restacks": 1,
     "comment_count": 0,
     "previous_post_slug": "the-dismantling",
@@ -147,7 +173,7 @@
     "restacks": 4,
     "comment_count": 0,
     "previous_post_slug": "how-the-protocol-institute-is-adopting",
-    "next_post_slug": null
+    "next_post_slug": "announcing-pibowrimo-2026"
   },
   {
     "id": 216045781,
@@ -491,7 +517,7 @@
         "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
       }
     ],
-    "reaction_count": 45,
+    "reaction_count": 46,
     "restacks": 10,
     "comment_count": 15,
     "previous_post_slug": "challenges-trivial-grand-and-whitehead",
@@ -854,7 +880,7 @@
     "title": "Maintaining Everything That Matters",
     "subtitle": "Matthew McDowell-Sweet and Mike Travers discuss Stewart Brand’s recently-published book ‘Maintenance: Of Everything’  ",
     "post_date": "2026-06-03T19:41:16.454Z",
-    "updated_at": "2026-10-14T00:40:58.429Z",
+    "updated_at": "2026-10-27T05:36:42.817Z",
     "type": "newsletter",
     "wordcount": 3445,
     "section_id": 333110,
@@ -1062,7 +1088,7 @@
         "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
       }
     ],
-    "reaction_count": 47,
+    "reaction_count": 48,
     "restacks": 13,
     "comment_count": 5,
     "previous_post_slug": "introducing-the-protocol-institute",
@@ -1409,7 +1435,7 @@
     ],
     "reaction_count": 6,
     "restacks": 1,
-    "comment_count": 1,
+    "comment_count": 2,
     "previous_post_slug": "last-mile-optimism",
     "next_post_slug": "the-flesh-perfected-is-the-flesh"
   },
@@ -1936,8 +1962,8 @@
         "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
       }
     ],
-    "reaction_count": 27,
-    "restacks": 8,
+    "reaction_count": 28,
+    "restacks": 9,
     "comment_count": 4,
     "previous_post_slug": "the-color-of-safety",
     "next_post_slug": "theorizing-protocolization-ii-atomic"
@@ -3464,7 +3490,7 @@
         "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
       }
     ],
-    "reaction_count": 8,
+    "reaction_count": 9,
     "restacks": 3,
     "comment_count": 0,
     "previous_post_slug": "in-every-lifetime",
@@ -4145,7 +4171,7 @@
         "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
       }
     ],
-    "reaction_count": 52,
+    "reaction_count": 53,
     "restacks": 19,
     "comment_count": 3,
     "previous_post_slug": "3-protocols-for-articulating-civilizational",
@@ -7516,7 +7542,7 @@
         "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
       }
     ],
-    "reaction_count": 96,
+    "reaction_count": 97,
     "restacks": 34,
     "comment_count": 6,
     "previous_post_slug": null,
