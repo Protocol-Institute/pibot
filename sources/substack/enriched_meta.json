@@ -1740,5 +1740,20 @@
     "all_authors": [
       "Venkatesh Rao"
     ]
+  },
+  "protocols-for-business-2026-review": {
+    "summary": "As AI agents increasingly operate autonomously in business contexts without waiting for human approvals, organizations must rely on inherited legal and procedural frameworks—from agency law to audit trails—to maintain coherence rather than assuming either business-as-usual or complete organizational rupture. The piece argues that AI's integration represents a radical transformation that builds upon, rather than breaks from, centuries of established practices around delegation, authority, and accountability.",
+    "categories": [
+      "protocol-theory",
+      "governance",
+      "technology-ai",
+      "research-report"
+    ],
+    "primary_author": "Sachin",
+    "all_authors": [
+      "rafa",
+      "Sachin Benny",
+      "Matthew McDowell-Sweet"
+    ]
   }
 }

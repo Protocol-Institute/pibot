@@ -1,5 +1,55 @@
 [
   {
+    "id": 222780688,
+    "slug": "protocols-for-business-2026-review",
+    "title": "Protocols for Business 2026 Review: The Year of the Agent",
+    "subtitle": "Plus: 2027 Kick-Off, and how Product Management is about to be protocolized",
+    "post_date": "2026-10-30T13:51:07.839Z",
+    "updated_at": "2026-10-30T13:52:57.967Z",
+    "type": "newsletter",
+    "wordcount": 1992,
+    "section_id": 333110,
+    "section_name": "Articles",
+    "postTags": [
+      {
+        "id": "25400645-d8a7-44f0-bf8a-f9a187bcf9a3",
+        "name": "SIGBIZ",
+        "slug": "sigbiz"
+      }
+    ],
+    "publishedBylines": [
+      {
+        "id": 2227765,
+        "name": "rafa",
+        "handle": "rafathebuilder",
+        "bio": "CEO, NPC Inc. <> rafael.fyi"
+      },
+      {
+        "id": 933715,
+        "name": "Sachin",
+        "handle": "summerlightning",
+        "bio": "Infrastructure ethnography, Editor at Monstrous Times "
+      },
+      {
+        "id": 3503832,
+        "name": "Matthew McDowell-Sweet",
+        "handle": "mmsweet",
+        "bio": "in motion - building subset.network | hq: msweet.net"
+      },
+      {
+        "id": 309790256,
+        "name": "Protocolized",
+        "handle": "protocolizedmagazine",
+        "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
+      }
+    ],
+    "reaction_count": 0,
+    "restacks": 0,
+    "comment_count": 0,
+    "previous_post_slug": "haikus-to-fly-by",
+    "next_post_slug": null
+  },
+  {
     "id": 222274688,
     "slug": "announcing-pibowrimo-2026",
     "title": "Announcing PiBoWriMo 2026",
@@ -19,8 +69,8 @@
         "bio": "Delving. Writing the Contraptions newsletter. Contributor to Protocolized Previously: ribbonfarm.com More: venkateshrao.com"
       }
     ],
-    "reaction_count": 5,
-    "restacks": 1,
+    "reaction_count": 8,
+    "restacks": 2,
     "comment_count": 0,
     "previous_post_slug": "methods-madness-monsters-and-magic",
     "next_post_slug": null
@@ -125,7 +175,7 @@
     "restacks": 2,
     "comment_count": 1,
     "previous_post_slug": "securing-stigmergic-systems",
-    "next_post_slug": null
+    "next_post_slug": "protocols-for-business-2026-review"
   },
   {
     "id": 216647747,
@@ -347,9 +397,9 @@
     "title": "Carousel Feeding in the Asteroid Midden // Livelock",
     "subtitle": "For Egrol, the protagonist of Spencer Nitkey’s Thanatosis, a mind-expanding encounter with workers who have agency",
     "post_date": "2026-08-17T17:55:35.859Z",
-    "updated_at": "2026-08-17T18:00:12.353Z",
+    "updated_at": "2026-10-29T19:10:08.470Z",
     "type": "newsletter",
-    "wordcount": 3741,
+    "wordcount": 290,
     "section_id": 333105,
     "section_name": "Fictions",
     "postTags": [
@@ -567,9 +617,9 @@
     "title": "Thanatosis on the Central Mast // Liveness Check ",
     "subtitle": "We enter an intractable new world conjured by Spencer Nitkey and find a protagonist in search of perspective",
     "post_date": "2026-07-13T18:00:23.831Z",
-    "updated_at": "2026-07-13T18:05:46.146Z",
+    "updated_at": "2026-10-29T19:10:32.624Z",
     "type": "newsletter",
-    "wordcount": 3978,
+    "wordcount": 206,
     "section_id": 333105,
     "section_name": "Fictions",
     "postTags": [],
@@ -1471,7 +1521,7 @@
         "bio": "Protocolized is a new digital magazine that publishes sci-fi, articles, and thought-provoking essays about the world's (mostly) invisible infrastructure."
       }
     ],
-    "reaction_count": 15,
+    "reaction_count": 16,
     "restacks": 6,
     "comment_count": 3,
     "previous_post_slug": "theorizing-protocolization-ii-atomic",
