@@ -106,8 +106,8 @@
       "source": "pdf",
       "author": "Rafael Fernández",
       "label": "PAPER",
-      "count": 3,
-      "last_seen": "2026-09-25",
+      "count": 4,
+      "last_seen": "2026-10-30",
       "is_fallback": false
     },
     "summer of protocols": {
@@ -246,8 +246,8 @@
       "source": "pdf",
       "author": "Kei Kreutler",
       "label": "PAPER",
-      "count": 2,
-      "last_seen": "2026-09-17",
+      "count": 3,
+      "last_seen": "2026-10-30",
       "is_fallback": false
     },
     "https://protocolized.summerofprotocols.com/p/memory-research-group-six-months": {
@@ -706,8 +706,8 @@
       "source": "symposium",
       "author": "Rafael Fernández",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 2,
-      "last_seen": "2026-09-24",
+      "count": 3,
+      "last_seen": "2026-10-30",
       "is_fallback": false
     },
     "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-73": {
@@ -919,6 +919,16 @@
       "count": 1,
       "last_seen": "2026-10-27",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=xI83khLXArU": {
+      "title": "Protocols for Co-Cognition: The New Nature of Collaboration in the AI Era",
+      "url": "https://www.youtube.com/watch?v=xI83khLXArU",
+      "source": "youtube",
+      "author": "Robert Peake",
+      "label": "VIDEO",
+      "count": 1,
+      "last_seen": "2026-10-30",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1010,8 +1020,8 @@
       "name": "🎪intelligence-media",
       "display": "#🎪intelligence-media",
       "sig_display": "",
-      "count": 4,
-      "last_seen": "2026-10-22"
+      "count": 5,
+      "last_seen": "2026-10-30"
     },
     "1506119475517325424": {
       "name": "new-nature",
