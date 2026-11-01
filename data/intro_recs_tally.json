@@ -296,8 +296,8 @@
       "source": "substack",
       "author": "Matthew McDowell-Sweet",
       "label": "ESSAY",
-      "count": 5,
-      "last_seen": "2026-10-19",
+      "count": 6,
+      "last_seen": "2026-11-01",
       "is_fallback": false
     },
     "https://www.youtube.com/watch?v=BPsgkqgTWos": {
@@ -866,8 +866,8 @@
       "source": "symposium",
       "author": "Botao Amber Hu",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 1,
-      "last_seen": "2026-10-22",
+      "count": 2,
+      "last_seen": "2026-11-01",
       "is_fallback": false
     },
     "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-83": {
@@ -928,6 +928,16 @@
       "label": "VIDEO",
       "count": 1,
       "last_seen": "2026-10-30",
+      "is_fallback": false
+    },
+    "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-20": {
+      "title": "Protocoling HCI: Hardening Interaction into Infrastructure",
+      "url": "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-20",
+      "source": "symposium",
+      "author": "Botao Amber Hu",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-11-01",
       "is_fallback": false
     }
   },
@@ -1020,8 +1030,8 @@
       "name": "🎪intelligence-media",
       "display": "#🎪intelligence-media",
       "sig_display": "",
-      "count": 5,
-      "last_seen": "2026-10-30"
+      "count": 6,
+      "last_seen": "2026-11-01"
     },
     "1506119475517325424": {
       "name": "new-nature",
