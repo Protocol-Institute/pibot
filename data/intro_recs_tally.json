@@ -86,8 +86,8 @@
       "source": "substack",
       "author": "Kei Kreutler",
       "label": "ESSAY",
-      "count": 18,
-      "last_seen": "2026-10-07",
+      "count": 19,
+      "last_seen": "2026-11-02",
       "is_fallback": false
     },
     "https://protocolized.summerofprotocols.com/p/introducing-the-protocol-institute": {
@@ -106,8 +106,8 @@
       "source": "pdf",
       "author": "Rafael Fernández",
       "label": "PAPER",
-      "count": 4,
-      "last_seen": "2026-10-30",
+      "count": 5,
+      "last_seen": "2026-11-02",
       "is_fallback": false
     },
     "summer of protocols": {
@@ -726,8 +726,8 @@
       "source": "symposium",
       "author": "Amber Case",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 1,
-      "last_seen": "2026-09-24",
+      "count": 2,
+      "last_seen": "2026-11-02",
       "is_fallback": false
     },
     "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-2": {
@@ -939,6 +939,16 @@
       "count": 1,
       "last_seen": "2026-11-01",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=VW3jTSFZ5z0": {
+      "title": "Designing Digital Worlds Communities, Protocols, AI, and Power - Andrés Monroy Hernández",
+      "url": "https://www.youtube.com/watch?v=VW3jTSFZ5z0",
+      "source": "youtube",
+      "author": "Andrés Monroy-Hernández",
+      "label": "VIDEO",
+      "count": 1,
+      "last_seen": "2026-11-02",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -995,8 +1005,8 @@
       "name": "🤔-idle-protocol-musings",
       "display": "#🤔-idle-protocol-musings",
       "sig_display": "",
-      "count": 3,
-      "last_seen": "2026-10-19"
+      "count": 4,
+      "last_seen": "2026-11-02"
     },
     "1379992696114122832": {
       "name": "🕸️-memory-research-group",
