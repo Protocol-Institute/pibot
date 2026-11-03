@@ -316,8 +316,8 @@
       "source": "pdf",
       "author": "Drew Austin",
       "label": "PAPER",
-      "count": 1,
-      "last_seen": "2026-07-15",
+      "count": 2,
+      "last_seen": "2026-11-03",
       "is_fallback": false
     },
     "https://protocolized.summerofprotocols.com/p/noise-ordinance": {
@@ -949,6 +949,36 @@
       "count": 1,
       "last_seen": "2026-11-02",
       "is_fallback": false
+    },
+    "archive.org/details/in.ernet.dli.2015.49974": {
+      "title": "Technics and Civilization",
+      "url": "archive.org/details/in.ernet.dli.2015.49974",
+      "source": "bibliography",
+      "author": "L. Mumford",
+      "label": "REFERENCE",
+      "count": 1,
+      "last_seen": "2026-11-03",
+      "is_fallback": false
+    },
+    "https://protocolized.summerofprotocols.com/p/the-character-of-public-transit-systems": {
+      "title": "The Character of Public Transit Systems",
+      "url": "https://protocolized.summerofprotocols.com/p/the-character-of-public-transit-systems",
+      "source": "substack",
+      "author": "Strata",
+      "label": "ESSAY",
+      "count": 1,
+      "last_seen": "2026-11-03",
+      "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=GtHp7DVt3jQ": {
+      "title": "Protocol Town Hall Salon with Angela Walch | The Protocol System Experience",
+      "url": "https://www.youtube.com/watch?v=GtHp7DVt3jQ",
+      "source": "youtube",
+      "author": "Angela Walch",
+      "label": "VIDEO",
+      "count": 1,
+      "last_seen": "2026-11-03",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1056,6 +1086,13 @@
       "sig_display": "",
       "count": 1,
       "last_seen": "2026-10-22"
+    },
+    "1475653240837111808": {
+      "name": "📓-protocol-nonfiction",
+      "display": "#📓-protocol-nonfiction",
+      "sig_display": "",
+      "count": 1,
+      "last_seen": "2026-11-03"
     }
   }
 }
