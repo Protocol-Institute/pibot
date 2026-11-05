@@ -836,8 +836,8 @@
       "source": "symposium",
       "author": "Aneesh Sathe",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 3,
-      "last_seen": "2026-11-04",
+      "count": 4,
+      "last_seen": "2026-11-05",
       "is_fallback": false
     },
     "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-25": {
@@ -989,6 +989,16 @@
       "count": 1,
       "last_seen": "2026-11-04",
       "is_fallback": false
+    },
+    "https://protocolized.io/resources/protocol-reader-2025": {
+      "title": "Protocol Reader 2025",
+      "url": "https://protocolized.io/resources/protocol-reader-2025",
+      "source": "pdf",
+      "author": "Summer of Protocols",
+      "label": "READER",
+      "count": 1,
+      "last_seen": "2026-11-05",
+      "is_fallback": true
     }
   },
   "channels": {
@@ -1031,8 +1041,8 @@
       "name": "🚜-protocols-for-business",
       "display": "#🚜-protocols-for-business",
       "sig_display": "SIGPfB",
-      "count": 27,
-      "last_seen": "2026-10-09"
+      "count": 28,
+      "last_seen": "2026-11-05"
     },
     "1508175637020676259": {
       "name": "🦾-distributed-robotics",
