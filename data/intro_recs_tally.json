@@ -666,8 +666,8 @@
       "source": "symposium",
       "author": "Nathan Schneider",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 5,
-      "last_seen": "2026-10-09",
+      "count": 6,
+      "last_seen": "2026-11-07",
       "is_fallback": false
     },
     "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-86": {
@@ -999,6 +999,16 @@
       "count": 1,
       "last_seen": "2026-11-05",
       "is_fallback": true
+    },
+    "https://www.youtube.com/watch?v=EuuTlDAQEr0": {
+      "title": "Protocol Art II - Primavera De Filippi & Felix Beer",
+      "url": "https://www.youtube.com/watch?v=EuuTlDAQEr0",
+      "source": "youtube",
+      "author": "Primavera De Filippi",
+      "label": "VIDEO",
+      "count": 1,
+      "last_seen": "2026-11-07",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1104,8 +1114,8 @@
       "name": "protocol-art",
       "display": "#protocol-art",
       "sig_display": "",
-      "count": 1,
-      "last_seen": "2026-10-22"
+      "count": 2,
+      "last_seen": "2026-11-07"
     },
     "1475653240837111808": {
       "name": "📓-protocol-nonfiction",
