@@ -616,8 +616,8 @@
       "source": "symposium",
       "author": "Primavera De Filippi",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 3,
-      "last_seen": "2026-09-25",
+      "count": 4,
+      "last_seen": "2026-11-08",
       "is_fallback": false
     },
     "https://protocolized.summerofprotocols.com/p/the-ductus-of-protocol-fiction": {
@@ -1039,6 +1039,26 @@
       "count": 1,
       "last_seen": "2026-11-08",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=qIhMQBaJ3ug": {
+      "title": "Protocol Art I - Primavera De Filippi & Felix Beer",
+      "url": "https://www.youtube.com/watch?v=qIhMQBaJ3ug",
+      "source": "youtube",
+      "author": "Primavera De Filippi",
+      "label": "TALK",
+      "count": 1,
+      "last_seen": "2026-11-08",
+      "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=K6tmMjKkU_Y&t=980s": {
+      "title": "Protocoling HCI: Hardening Interaction into Infrastructure",
+      "url": "https://www.youtube.com/watch?v=K6tmMjKkU_Y&t=980s",
+      "source": "symposium",
+      "author": "Botao Amber Hu",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-11-08",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1144,8 +1164,8 @@
       "name": "protocol-art",
       "display": "#protocol-art",
       "sig_display": "",
-      "count": 2,
-      "last_seen": "2026-11-07"
+      "count": 3,
+      "last_seen": "2026-11-08"
     },
     "1475653240837111808": {
       "name": "📓-protocol-nonfiction",
