@@ -206,8 +206,8 @@
       "source": "substack",
       "author": "rafa",
       "label": "FICTION",
-      "count": 1,
-      "last_seen": "2026-06-16",
+      "count": 2,
+      "last_seen": "2026-11-08",
       "is_fallback": false
     },
     "https://www.youtube.com/watch?v=KYTfwgZAvQ8": {
@@ -1009,6 +1009,36 @@
       "count": 1,
       "last_seen": "2026-11-07",
       "is_fallback": false
+    },
+    "https://discord.com/channels/1082444651946049567/1106572787042238504/1133439796358946906": {
+      "title": "ProtFiSIG — #protocol-fiction",
+      "url": "https://discord.com/channels/1082444651946049567/1106572787042238504/1133439796358946906",
+      "source": "sig",
+      "author": "ntnsndr",
+      "label": "ProtFiSIG",
+      "count": 1,
+      "last_seen": "2026-11-08",
+      "is_fallback": false
+    },
+    "https://protocolized.summerofprotocols.com/p/the-last-archive": {
+      "title": "The Last Archive",
+      "url": "https://protocolized.summerofprotocols.com/p/the-last-archive",
+      "source": "substack",
+      "author": "Sachin Benny",
+      "label": "FICTION",
+      "count": 1,
+      "last_seen": "2026-11-08",
+      "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=ZVYlO6xsEa4": {
+      "title": "Protocols of Storytelling - Qiufan Stanley Chen",
+      "url": "https://www.youtube.com/watch?v=ZVYlO6xsEa4",
+      "source": "youtube",
+      "author": "Qiufan Stanley Chen",
+      "label": "VIDEO",
+      "count": 1,
+      "last_seen": "2026-11-08",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1123,6 +1153,13 @@
       "sig_display": "",
       "count": 1,
       "last_seen": "2026-11-03"
+    },
+    "1549069700875428011": {
+      "name": "workshop-book-📖-🏭",
+      "display": "#workshop-book-📖-🏭",
+      "sig_display": "",
+      "count": 1,
+      "last_seen": "2026-11-08"
     }
   }
 }
