@@ -1086,6 +1086,26 @@
       "source": "youtube",
       "author": "Qiufan Chen",
       "label": "VIDEO",
+      "count": 2,
+      "last_seen": "2026-11-12",
+      "is_fallback": false
+    },
+    "https://protocol-institute.org/research-groups/protfisig/2026-02-12-narrative-rapidity-in-protocol-fiction": {
+      "title": "ProtFiSIG - Narrative Rapidity in Protocol Fiction",
+      "url": "https://protocol-institute.org/research-groups/protfisig/2026-02-12-narrative-rapidity-in-protocol-fiction",
+      "source": "sig",
+      "author": "suspencer_nit",
+      "label": "ProtFiSIG",
+      "count": 1,
+      "last_seen": "2026-11-12",
+      "is_fallback": false
+    },
+    "https://protocol-institute.org/events/protocol-symposium-2026/program/workshops/protocolize-your-book-running-real-manuscripts-through-a-book-production-factory/": {
+      "title": "Protocolize Your Book: Run your manuscript through a book production factory",
+      "url": "https://protocol-institute.org/events/protocol-symposium-2026/program/workshops/protocolize-your-book-running-real-manuscripts-through-a-book-production-factory/",
+      "source": "symposium",
+      "author": "Jenna Dixon",
+      "label": "PROTOCOL SYMPOSIUM 2026",
       "count": 1,
       "last_seen": "2026-11-12",
       "is_fallback": false
@@ -1208,8 +1228,8 @@
       "name": "workshop-book-📖-🏭",
       "display": "#workshop-book-📖-🏭",
       "sig_display": "",
-      "count": 1,
-      "last_seen": "2026-11-08"
+      "count": 2,
+      "last_seen": "2026-11-12"
     }
   }
 }
