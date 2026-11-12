@@ -686,8 +686,8 @@
       "source": "symposium",
       "author": "Jose Leal",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 2,
-      "last_seen": "2026-10-09",
+      "count": 3,
+      "last_seen": "2026-11-12",
       "is_fallback": false
     },
     "https://protocolized.summerofprotocols.com/p/a-government-guide-to-open-protocols": {
@@ -936,8 +936,8 @@
       "source": "symposium",
       "author": "Botao Amber Hu",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 1,
-      "last_seen": "2026-11-01",
+      "count": 2,
+      "last_seen": "2026-11-12",
       "is_fallback": false
     },
     "https://www.youtube.com/watch?v=VW3jTSFZ5z0": {
@@ -1046,8 +1046,8 @@
       "source": "youtube",
       "author": "Primavera De Filippi",
       "label": "TALK",
-      "count": 1,
-      "last_seen": "2026-11-08",
+      "count": 2,
+      "last_seen": "2026-11-12",
       "is_fallback": false
     },
     "https://www.youtube.com/watch?v=K6tmMjKkU_Y&t=980s": {
@@ -1058,6 +1058,16 @@
       "label": "PROTOCOL SYMPOSIUM 2026",
       "count": 1,
       "last_seen": "2026-11-08",
+      "is_fallback": false
+    },
+    "https://protocol-institute.org/research-groups/mrg/2026-10-08-sig-mrg-2026-10-08": {
+      "title": "SIG-MRG 2026-10-08",
+      "url": "https://protocol-institute.org/research-groups/mrg/2026-10-08-sig-mrg-2026-10-08",
+      "source": "sig",
+      "author": "Kei 🗝",
+      "label": "MRG",
+      "count": 1,
+      "last_seen": "2026-11-12",
       "is_fallback": false
     }
   },
@@ -1101,8 +1111,8 @@
       "name": "🚜-protocols-for-business",
       "display": "#🚜-protocols-for-business",
       "sig_display": "SIGPfB",
-      "count": 28,
-      "last_seen": "2026-11-05"
+      "count": 29,
+      "last_seen": "2026-11-12"
     },
     "1508175637020676259": {
       "name": "🦾-distributed-robotics",
