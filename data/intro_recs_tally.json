@@ -1069,6 +1069,26 @@
       "count": 1,
       "last_seen": "2026-11-12",
       "is_fallback": false
+    },
+    "https://medium.com/paradigm-research/decentralized-science-desci-web3-mediated-future-of-science-2547f9a88c40": {
+      "title": "Decentralized Science (DeSci): Web3-Mediated Future of Science",
+      "url": "https://medium.com/paradigm-research/decentralized-science-desci-web3-mediated-future-of-science-2547f9a88c40",
+      "source": "bibliography",
+      "author": "Sasha Shilina",
+      "label": "REFERENCE",
+      "count": 1,
+      "last_seen": "2026-11-12",
+      "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=QZwciILmsx8": {
+      "title": "Centaur Fiction with Qiufan Chen & Amita Shukla",
+      "url": "https://www.youtube.com/watch?v=QZwciILmsx8",
+      "source": "youtube",
+      "author": "Qiufan Chen",
+      "label": "VIDEO",
+      "count": 1,
+      "last_seen": "2026-11-12",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1181,8 +1201,8 @@
       "name": "📓-protocol-nonfiction",
       "display": "#📓-protocol-nonfiction",
       "sig_display": "",
-      "count": 1,
-      "last_seen": "2026-11-03"
+      "count": 2,
+      "last_seen": "2026-11-12"
     },
     "1549069700875428011": {
       "name": "workshop-book-📖-🏭",
