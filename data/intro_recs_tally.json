@@ -96,8 +96,8 @@
       "source": "substack",
       "author": "Timber Stinson-Schroff",
       "label": "ESSAY",
-      "count": 19,
-      "last_seen": "2026-10-27",
+      "count": 20,
+      "last_seen": "2026-11-14",
       "is_fallback": false
     },
     "https://files.protocolized.io/FERNANDEZ-Flow-speculative-brochure.pdf": {
@@ -1109,6 +1109,26 @@
       "count": 1,
       "last_seen": "2026-11-12",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=K6tmMjKkU_Y&t=1646s": {
+      "title": "Protocoling HCI: Hardening Interaction into Infrastructure",
+      "url": "https://www.youtube.com/watch?v=K6tmMjKkU_Y&t=1646s",
+      "source": "symposium",
+      "author": "Botao Amber Hu",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-11-14",
+      "is_fallback": false
+    },
+    "https://discord.com/channels/1082444651946049567/1327337414175490160/1403818666688118876": {
+      "title": "SIGFPT — #formal-protocol-theory",
+      "url": "https://discord.com/channels/1082444651946049567/1327337414175490160/1403818666688118876",
+      "source": "sig",
+      "author": "ediblebadger",
+      "label": "SIGFPT",
+      "count": 1,
+      "last_seen": "2026-11-14",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1230,6 +1250,13 @@
       "sig_display": "",
       "count": 2,
       "last_seen": "2026-11-12"
+    },
+    "1082461579150381116": {
+      "name": "☀️-general",
+      "display": "#☀️-general",
+      "sig_display": "",
+      "count": 1,
+      "last_seen": "2026-11-14"
     }
   }
 }
