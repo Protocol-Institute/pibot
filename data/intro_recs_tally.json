@@ -1129,6 +1129,36 @@
       "count": 1,
       "last_seen": "2026-11-14",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=FdKZDdSVWU0&t=1130s": {
+      "title": "The Nature of Trust: Weaving Identity, Relationship, and Place",
+      "url": "https://www.youtube.com/watch?v=FdKZDdSVWU0&t=1130s",
+      "source": "symposium",
+      "author": "Kaliya Young",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-11-16",
+      "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=bhKNESGEjG8&t=1059s": {
+      "title": "The Role of Identity in Decentralized Dispute Resolution Protocols",
+      "url": "https://www.youtube.com/watch?v=bhKNESGEjG8&t=1059s",
+      "source": "symposium",
+      "author": "William George",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-11-16",
+      "is_fallback": false
+    },
+    "https://protocolized.summerofprotocols.com/p/protocols-for-business-2026-review": {
+      "title": "Protocols for Business 2026 Review: The Year of the Agent",
+      "url": "https://protocolized.summerofprotocols.com/p/protocols-for-business-2026-review",
+      "source": "substack",
+      "author": "Sachin",
+      "label": "ESSAY",
+      "count": 1,
+      "last_seen": "2026-11-16",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1171,8 +1201,8 @@
       "name": "🚜-protocols-for-business",
       "display": "#🚜-protocols-for-business",
       "sig_display": "SIGPfB",
-      "count": 29,
-      "last_seen": "2026-11-12"
+      "count": 30,
+      "last_seen": "2026-11-16"
     },
     "1508175637020676259": {
       "name": "🦾-distributed-robotics",
