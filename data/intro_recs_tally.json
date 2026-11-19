@@ -766,8 +766,8 @@
       "source": "substack",
       "author": "Timber Stinson-Schroff",
       "label": "ESSAY",
-      "count": 1,
-      "last_seen": "2026-09-30",
+      "count": 2,
+      "last_seen": "2026-11-19",
       "is_fallback": false
     },
     "mitpress.mit.edu/9780262633673/an-engine-not-a-camera/": {
@@ -1189,6 +1189,26 @@
       "count": 1,
       "last_seen": "2026-11-17",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=7XnKFnAqg6I&t=1386s": {
+      "title": "The Point of Inflection in Time",
+      "url": "https://www.youtube.com/watch?v=7XnKFnAqg6I&t=1386s",
+      "source": "symposium",
+      "author": "Jim Fournier",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-11-19",
+      "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=7XnKFnAqg6I&t=1536s": {
+      "title": "The Point of Inflection in Time",
+      "url": "https://www.youtube.com/watch?v=7XnKFnAqg6I&t=1536s",
+      "source": "symposium",
+      "author": "Jim Fournier",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-11-19",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1294,8 +1314,8 @@
       "name": "protocol-art",
       "display": "#protocol-art",
       "sig_display": "",
-      "count": 3,
-      "last_seen": "2026-11-08"
+      "count": 4,
+      "last_seen": "2026-11-19"
     },
     "1475653240837111808": {
       "name": "📓-protocol-nonfiction",
