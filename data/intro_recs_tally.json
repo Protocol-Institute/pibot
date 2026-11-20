@@ -86,8 +86,8 @@
       "source": "substack",
       "author": "Kei Kreutler",
       "label": "ESSAY",
-      "count": 19,
-      "last_seen": "2026-11-02",
+      "count": 20,
+      "last_seen": "2026-11-20",
       "is_fallback": false
     },
     "https://protocolized.summerofprotocols.com/p/introducing-the-protocol-institute": {
@@ -216,8 +216,8 @@
       "source": "youtube",
       "author": "Kia",
       "label": "TALK",
-      "count": 1,
-      "last_seen": "2026-06-17",
+      "count": 2,
+      "last_seen": "2026-11-20",
       "is_fallback": false
     },
     "https://files.protocolized.io/The-Fundamentals-of-Protocol-Systems-Angela-Walch.pdf": {
@@ -1209,6 +1209,16 @@
       "count": 1,
       "last_seen": "2026-11-19",
       "is_fallback": false
+    },
+    "https://discord.com/channels/1082444651946049567/1084135714830164100/1088169794185994240": {
+      "title": "#🤔-idle-protocol-musings",
+      "url": "https://discord.com/channels/1082444651946049567/1084135714830164100/1088169794185994240",
+      "source": "discord",
+      "author": "astrum3018",
+      "label": "DISCORD",
+      "count": 1,
+      "last_seen": "2026-11-20",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1328,8 +1338,8 @@
       "name": "workshop-book-📖-🏭",
       "display": "#workshop-book-📖-🏭",
       "sig_display": "",
-      "count": 2,
-      "last_seen": "2026-11-12"
+      "count": 3,
+      "last_seen": "2026-11-20"
     },
     "1082461579150381116": {
       "name": "☀️-general",
