@@ -716,8 +716,8 @@
       "source": "symposium",
       "author": "Sean Stevenson",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 2,
-      "last_seen": "2026-10-14",
+      "count": 3,
+      "last_seen": "2026-11-20",
       "is_fallback": false
     },
     "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-3": {
@@ -1219,6 +1219,36 @@
       "count": 1,
       "last_seen": "2026-11-20",
       "is_fallback": false
+    },
+    "https://protocol-institute.org/research-groups/protfisig/2026-03-26-compressed-epics-protocol-fiction-and-temporal-narrativ": {
+      "title": "Compressed Epics: Protocol Fiction and Temporal Narrative",
+      "url": "https://protocol-institute.org/research-groups/protfisig/2026-03-26-compressed-epics-protocol-fiction-and-temporal-narrativ",
+      "source": "sig",
+      "author": "sachbenny",
+      "label": "ProtFiSIG",
+      "count": 1,
+      "last_seen": "2026-11-20",
+      "is_fallback": false
+    },
+    "https://discord.com/channels/1082444651946049567/1333851496416153702/1468291201298993366": {
+      "title": "SIGPfB — #protocols-for-business",
+      "url": "https://discord.com/channels/1082444651946049567/1333851496416153702/1468291201298993366",
+      "source": "sig",
+      "author": "sachbenny",
+      "label": "SIGPfB",
+      "count": 1,
+      "last_seen": "2026-11-20",
+      "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=-8JJARAI6ak": {
+      "title": "Guest Talk with Matt Webb | Fiction, Desire, and Belief",
+      "url": "https://www.youtube.com/watch?v=-8JJARAI6ak",
+      "source": "youtube",
+      "author": "Matt Webb",
+      "label": "VIDEO",
+      "count": 1,
+      "last_seen": "2026-11-20",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1347,6 +1377,13 @@
       "sig_display": "",
       "count": 1,
       "last_seen": "2026-11-14"
+    },
+    "1410351738518503495": {
+      "name": "story-pitches",
+      "display": "#story-pitches",
+      "sig_display": "",
+      "count": 1,
+      "last_seen": "2026-11-20"
     }
   }
 }
