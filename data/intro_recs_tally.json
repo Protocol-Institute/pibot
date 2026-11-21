@@ -946,8 +946,8 @@
       "source": "youtube",
       "author": "Andrés Monroy-Hernández",
       "label": "VIDEO",
-      "count": 1,
-      "last_seen": "2026-11-02",
+      "count": 2,
+      "last_seen": "2026-11-21",
       "is_fallback": false
     },
     "archive.org/details/in.ernet.dli.2015.49974": {
@@ -1176,8 +1176,8 @@
       "source": "bibliography",
       "author": "Compcon",
       "label": "REFERENCE",
-      "count": 1,
-      "last_seen": "2026-11-17",
+      "count": 2,
+      "last_seen": "2026-11-21",
       "is_fallback": false
     },
     "https://www.youtube.com/watch?v=RQZGImdwpYQ": {
@@ -1248,6 +1248,16 @@
       "label": "VIDEO",
       "count": 1,
       "last_seen": "2026-11-20",
+      "is_fallback": false
+    },
+    "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-87": {
+      "title": "Group Brains: Minds Made of People",
+      "url": "https://protocol-institute.org/events/protocol-symposium-2026/talks#p-87",
+      "source": "symposium",
+      "author": "Kaliya Young",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-11-21",
       "is_fallback": false
     }
   },
@@ -1340,8 +1350,8 @@
       "name": "🎪intelligence-media",
       "display": "#🎪intelligence-media",
       "sig_display": "",
-      "count": 6,
-      "last_seen": "2026-11-01"
+      "count": 7,
+      "last_seen": "2026-11-21"
     },
     "1506119475517325424": {
       "name": "new-nature",
