@@ -236,8 +236,8 @@
       "source": "substack",
       "author": "Jason Collins",
       "label": "ESSAY",
-      "count": 1,
-      "last_seen": "2026-06-17",
+      "count": 2,
+      "last_seen": "2026-11-23",
       "is_fallback": false
     },
     "https://files.protocolized.io/Artificial-Memory-and-Orienting-Infinity-Kei-Kreutler.pdf": {
@@ -946,8 +946,8 @@
       "source": "youtube",
       "author": "Andrés Monroy-Hernández",
       "label": "VIDEO",
-      "count": 2,
-      "last_seen": "2026-11-21",
+      "count": 3,
+      "last_seen": "2026-11-23",
       "is_fallback": false
     },
     "archive.org/details/in.ernet.dli.2015.49974": {
@@ -1259,6 +1259,16 @@
       "count": 1,
       "last_seen": "2026-11-21",
       "is_fallback": false
+    },
+    "https://www.youtube.com/watch?v=KTGfPKpG7R8&t=417s": {
+      "title": "Chores as Complex Coordination",
+      "url": "https://www.youtube.com/watch?v=KTGfPKpG7R8&t=417s",
+      "source": "symposium",
+      "author": "Daniel Kronovet",
+      "label": "PROTOCOL SYMPOSIUM 2026",
+      "count": 1,
+      "last_seen": "2026-11-23",
+      "is_fallback": false
     }
   },
   "channels": {
@@ -1301,8 +1311,8 @@
       "name": "🚜-protocols-for-business",
       "display": "#🚜-protocols-for-business",
       "sig_display": "SIGPfB",
-      "count": 31,
-      "last_seen": "2026-11-17"
+      "count": 32,
+      "last_seen": "2026-11-23"
     },
     "1508175637020676259": {
       "name": "🦾-distributed-robotics",
