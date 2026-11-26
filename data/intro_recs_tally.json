@@ -946,8 +946,8 @@
       "source": "youtube",
       "author": "Andrés Monroy-Hernández",
       "label": "VIDEO",
-      "count": 3,
-      "last_seen": "2026-11-23",
+      "count": 4,
+      "last_seen": "2026-11-26",
       "is_fallback": false
     },
     "archive.org/details/in.ernet.dli.2015.49974": {
@@ -1256,8 +1256,8 @@
       "source": "symposium",
       "author": "Kaliya Young",
       "label": "PROTOCOL SYMPOSIUM 2026",
-      "count": 1,
-      "last_seen": "2026-11-21",
+      "count": 2,
+      "last_seen": "2026-11-26",
       "is_fallback": false
     },
     "https://www.youtube.com/watch?v=KTGfPKpG7R8&t=417s": {
@@ -1268,6 +1268,16 @@
       "label": "PROTOCOL SYMPOSIUM 2026",
       "count": 1,
       "last_seen": "2026-11-23",
+      "is_fallback": false
+    },
+    "https://protocol-institute.org/research-groups/sigpfb/2026-09-07-community-scale-ai-protocols-infrastructure-and-local-s": {
+      "title": "Community Scale AI: Protocols, Infrastructure, and Local Stewardship",
+      "url": "https://protocol-institute.org/research-groups/sigpfb/2026-09-07-community-scale-ai-protocols-infrastructure-and-local-s",
+      "source": "sig",
+      "author": "rafa_0x",
+      "label": "SIGPfB",
+      "count": 1,
+      "last_seen": "2026-11-26",
       "is_fallback": false
     }
   },
@@ -1353,8 +1363,8 @@
       "name": "🫆-personhood-research-group",
       "display": "#🫆-personhood-research-group",
       "sig_display": "",
-      "count": 9,
-      "last_seen": "2026-09-25"
+      "count": 10,
+      "last_seen": "2026-11-26"
     },
     "1553833347732611222": {
       "name": "🎪intelligence-media",
